@@ -1,0 +1,7 @@
+produktion/*/out/*.mp4
+produktion/*/out/*.wav
+produktion/*/out/*.m4a
+produktion/*/out/clips/
+produktion/*/out/stimmproben/
+produktion/*/out/frames/*.svg
+__pycache__/

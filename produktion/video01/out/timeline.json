@@ -1,0 +1,206 @@
+[
+ [
+  "s01_hook",
+  0.0,
+  7.155999999999999,
+  "Das ist Otto."
+ ],
+ [
+  "s02_bad",
+  7.155999999999999,
+  10.056,
+  "Stattdessen putzt Otto das Bad."
+ ],
+ [
+  "s03_socken",
+  10.056,
+  13.02,
+  "Sortiert seine Socken nach Farbe."
+ ],
+ [
+  "s04_pinguine",
+  13.02,
+  16.336000000000002,
+  "Und liest zwei Stunden lang über Pinguine."
+ ],
+ [
+  "s05_faul",
+  16.336000000000002,
+  20.004000000000005,
+  "Jetzt würden die meisten sagen: Otto ist faul."
+ ],
+ [
+  "s06_nicht_faul",
+  20.004000000000005,
+  23.400000000000006,
+  "Aber faule Menschen sortieren keine Socken."
+ ],
+ [
+  "s07_versprechen",
+  23.400000000000006,
+  41.44400000000002,
+  "Was mit Otto los ist, und vermutlich auch mit dir, ist etwas völlig anderes."
+ ],
+ [
+  "s08_kap1",
+  41.44400000000002,
+  43.64400000000002,
+  ""
+ ],
+ [
+  "s09_zahlen",
+  43.64400000000002,
+  62.42000000000002,
+  "Fangen wir mit einer Zahl an."
+ ],
+ [
+  "s10_zitat",
+  62.42000000000002,
+  77.73599999999999,
+  "Der Psychologe Tim Pychyl forscht seit Jahrzehnten zu genau diesem Thema."
+ ],
+ [
+  "s11_wolke",
+  77.73599999999999,
+  92.57999999999996,
+  "Heißt übersetzt: Otto vermeidet nicht die Steuererklärung."
+ ],
+ [
+  "s12_flucht",
+  92.57999999999996,
+  104.27199999999993,
+  "Und das Bad putzen? Das fühlt sich gut an. Man sieht sofort ein Ergebnis."
+ ],
+ [
+  "s13_kap2",
+  104.27199999999993,
+  112.07599999999992,
+  "Und jetzt wird's spannend."
+ ],
+ [
+  "s14_gehirn",
+  112.07599999999992,
+  130.8879999999999,
+  "In deinem Gehirn sitzt die Amygdala, quasi deine Alarmanlage."
+ ],
+ [
+  "s15_bochum",
+  130.8879999999999,
+  153.7799999999999,
+  "Forscher der Ruhr-Universität Bochum haben 2018 etwas Spannendes entdeckt."
+ ],
+ [
+  "s16_knopf",
+  153.7799999999999,
+  161.47199999999987,
+  "Und dann kommt noch dazu: Dein Gehirn liebt Belohnungen, und zwar jetzt."
+ ],
+ [
+  "s17_waage",
+  161.47199999999987,
+  169.73999999999987,
+  "Die Steuererklärung belohnt dich irgendwann im Juli, mit einem Bescheid vom Finanzamt."
+ ],
+ [
+  "s18_kap3",
+  169.73999999999987,
+  176.67999999999986,
+  "Aber der seltsamste Grund kommt erst noch."
+ ],
+ [
+  "s19_morgenotto",
+  176.67999999999986,
+  179.97999999999988,
+  "Darf ich vorstellen: Morgen-Otto."
+ ],
+ [
+  "s20_scans",
+  179.97999999999988,
+  196.40799999999987,
+  "Der Psychologe Hal Hershfield hat Menschen im Hirnscanner gebeten, an sich selbst zu denken, an sich selbst in zehn Jahren und an fremde Personen."
+ ],
+ [
+  "s21_uebergabe",
+  196.40799999999987,
+  206.25199999999987,
+  "Und genau das macht Otto jeden Tag."
+ ],
+ [
+  "s22_kette",
+  206.25199999999987,
+  216.79999999999984,
+  "Das Problem: Morgen-Otto hat genau dieselben Gefühle. Dieselbe Alarmanlage. Dasselbe Handy."
+ ],
+ [
+  "s23_kap4",
+  216.79999999999984,
+  219.42799999999986,
+  "Jetzt passiert etwas Fieses."
+ ],
+ [
+  "s24_kreis",
+  219.42799999999986,
+  244.0599999999998,
+  "Wenn Otto aufschiebt, geht es ihm kurz besser. Erleichterung."
+ ],
+ [
+  "s25_fertigmachen",
+  244.0599999999998,
+  259.0559999999998,
+  "Merkst du was?"
+ ],
+ [
+  "s26_kap5",
+  259.0559999999998,
+  262.47999999999985,
+  "Also. Was hilft wirklich?"
+ ],
+ [
+  "s27_vergeben",
+  262.47999999999985,
+  288.2319999999999,
+  "Werkzeug Nummer eins: Vergib dir selbst."
+ ],
+ [
+  "s28_benennen",
+  288.2319999999999,
+  303.824,
+  "Werkzeug Nummer zwei: Benenne das Gefühl."
+ ],
+ [
+  "s29_schritt",
+  303.824,
+  318.28400000000016,
+  "Werkzeug Nummer drei: der lächerlich kleine erste Schritt."
+ ],
+ [
+  "s30_timer",
+  318.28400000000016,
+  334.9960000000003,
+  "Werkzeug Nummer vier: der Zehn-Minuten-Deal."
+ ],
+ [
+  "s31_jetzt",
+  334.9960000000003,
+  345.7160000000004,
+  "Otto ist nicht faul. Du auch nicht."
+ ],
+ [
+  "s32_spaeter",
+  345.7160000000004,
+  348.1160000000004,
+  ""
+ ],
+ [
+  "s33_deadline",
+  348.1160000000004,
+  355.6000000000005,
+  "Aber warum Otto dann kurz vor der Deadline plötzlich zu einem Genie wird?"
+ ],
+ [
+  "s34_endcard",
+  355.6000000000005,
+  365.6000000000005,
+  ""
+ ]
+]
