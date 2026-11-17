@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1600 1100" width="1600" height="1100" font-family="'DejaVu Sans', Arial, sans-serif">
+  <defs>
+    <!-- Kopf ohne Gesicht: Ohren, Gesicht, Haare -->
+    <g id="head" stroke="#1E1E1E" stroke-width="6" stroke-linejoin="round">
+      <ellipse cx="-106" cy="12" rx="18" ry="26" fill="#F2C6A4"/>
+      <ellipse cx="106" cy="12" rx="18" ry="26" fill="#F2C6A4"/>
+      <ellipse cx="0" cy="0" rx="105" ry="115" fill="#F6D2B3"/>
+      <path fill="#5B3A29" d="M-108,0 C-122,-85 -70,-138 0,-132 C72,-138 122,-85 108,0
+               C98,-38 84,-55 62,-60 L52,-34 L38,-64 C14,-56 -6,-58 -24,-66 L-36,-38 L-50,-66
+               C-76,-60 -96,-38 -108,0 Z"/>
+      <path fill="#5B3A29" d="M-28,-128 L-20,-168 L2,-130 Z"/>
+      <path fill="#5B3A29" d="M8,-131 L44,-160 L36,-122 Z"/>
+      <path fill="#5B3A29" d="M-62,-112 L-88,-138 L-44,-124 Z"/>
+    </g>
+    <!-- Tasse "SPÄTER" -->
+    <g id="mug" stroke="#1E1E1E" stroke-width="6" stroke-linejoin="round">
+      <path d="M-2,8 C-30,8 -30,48 -2,48" fill="none" stroke-width="10"/>
+      <rect x="0" y="0" width="70" height="78" rx="8" fill="#FFFFFF"/>
+      <text x="35" y="46" text-anchor="middle" font-size="14" font-weight="bold" fill="#FF7A1A" stroke="none">SPÄTER</text>
+      <path d="M20,-10 q-8,-12 0,-22 q8,-10 0,-22" fill="none" stroke="#9AA0A6" stroke-width="4" stroke-linecap="round"/>
+      <path d="M45,-10 q-8,-12 0,-22 q8,-10 0,-22" fill="none" stroke="#9AA0A6" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <rect width="1600" height="1100" fill="#FFF8EE"/>
+
+  <!-- Titel -->
+  <text x="60" y="80" font-size="54" font-weight="bold" fill="#1E1E1E">OTTO</text>
+  <text x="240" y="80" font-size="28" fill="#555">„Otto Normal" · Charakter-Prototyp v0.1</text>
+  <text x="60" y="118" font-size="20" fill="#777">Der Antiheld, der alles auf morgen schiebt. Stil: 2D flat, dicke Outlines, eine Signature-Farbe.</text>
+
+  <!-- ===== HAUPTFIGUR ===== -->
+  <g transform="translate(360,380)" stroke="#1E1E1E" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Beine -->
+    <path d="M-45,330 L-52,470" stroke="#1E1E1E" stroke-width="60" fill="none"/>
+    <path d="M45,330 L52,470" stroke="#1E1E1E" stroke-width="60" fill="none"/>
+    <path d="M-45,330 L-52,470" stroke="#6B7280" stroke-width="48" fill="none"/>
+    <path d="M45,330 L52,470" stroke="#6B7280" stroke-width="48" fill="none"/>
+    <!-- Schuhe -->
+    <g stroke-width="6" fill="#FFFFFF">
+      <path d="M-100,500 Q-100,462 -60,462 Q-28,462 -22,500 Z"/>
+      <path d="M100,500 Q100,462 60,462 Q28,462 22,500 Z"/>
+    </g>
+    <path d="M-100,494 L-22,494 M22,494 L100,494" stroke="#FF7A1A" stroke-width="5"/>
+    <!-- linker Arm (hängt) -->
+    <path d="M-86,170 Q-132,235 -124,318" stroke="#1E1E1E" stroke-width="54" fill="none"/>
+    <path d="M-86,170 Q-132,235 -124,318" stroke="#FF7A1A" stroke-width="42" fill="none"/>
+    <circle cx="-124" cy="336" r="21" fill="#F6D2B3" stroke-width="6"/>
+    <!-- Kapuze hinten -->
+    <path d="M-92,100 Q0,160 92,100 Q112,150 78,168 L-78,168 Q-112,150 -92,100 Z" fill="#D9600F" stroke-width="6"/>
+    <!-- Hals -->
+    <rect x="-22" y="100" width="44" height="50" fill="#F6D2B3" stroke-width="6"/>
+    <!-- Torso -->
+    <path d="M-96,152 Q0,132 96,152 L110,330 Q0,348 -110,330 Z" fill="#FF7A1A" stroke-width="6"/>
+    <rect x="-112" y="318" width="224" height="26" rx="10" fill="#D9600F" stroke-width="6"/>
+    <!-- Kragen + Kordeln -->
+    <path d="M-52,142 Q0,200 52,142" fill="none" stroke-width="6"/>
+    <path d="M-18,178 L-24,238 M18,178 L24,232" fill="none" stroke-width="5"/>
+    <circle cx="-24" cy="244" r="6" fill="#FFFFFF" stroke-width="4"/>
+    <circle cx="24" cy="238" r="6" fill="#FFFFFF" stroke-width="4"/>
+    <!-- Bauchtasche -->
+    <path d="M-62,256 L62,256 L78,318 L-78,318 Z" fill="#F08A3E" stroke-width="6"/>
+    <!-- rechter Arm (angewinkelt, hält Tasse) -->
+    <path d="M86,170 Q140,230 126,272 Q100,300 30,244" stroke="#1E1E1E" stroke-width="54" fill="none"/>
+    <path d="M86,170 Q140,230 126,272 Q100,300 30,244" stroke="#FF7A1A" stroke-width="42" fill="none"/>
+    <use xlink:href="#mug" transform="translate(48,190)"/>
+    <circle cx="24" cy="234" r="20" fill="#F6D2B3" stroke-width="6"/>
+    <!-- Kopf -->
+    <use xlink:href="#head"/>
+    <!-- Gesicht: müde-normal -->
+    <g stroke-width="6">
+      <ellipse cx="-38" cy="8" rx="22" ry="24" fill="#FFFFFF"/>
+      <ellipse cx="38" cy="8" rx="22" ry="24" fill="#FFFFFF"/>
+      <circle cx="-34" cy="14" r="9" fill="#1E1E1E" stroke="none"/>
+      <circle cx="42" cy="14" r="9" fill="#1E1E1E" stroke="none"/>
+      <path d="M-61,9 A22,24 0 0 1 -15,9 Z" fill="#F6D2B3"/>
+      <path d="M15,9 A22,24 0 0 1 61,9 Z" fill="#F6D2B3"/>
+      <path d="M-56,40 Q-38,50 -20,40 M20,40 Q38,50 56,40" fill="none" stroke="#B48A8A" stroke-width="4"/>
+      <path d="M-62,-30 L-16,-24 M16,-26 L62,-36" fill="none"/>
+      <path d="M2,22 Q12,42 -4,46" fill="none" stroke-width="5"/>
+      <path d="M-26,72 Q4,82 32,62" fill="none"/>
+      <path d="M-50,60 l-6,4 M-40,66 l-4,5 M50,58 l6,4" stroke="#C9A58C" stroke-width="3"/>
+    </g>
+  </g>
+  <text x="360" y="930" text-anchor="middle" font-size="22" font-weight="bold" fill="#1E1E1E">Standard-Pose</text>
+  <text x="360" y="958" text-anchor="middle" font-size="18" fill="#777">Hoodie · Augenringe · Tasse „SPÄTER" (Running Gag)</text>
+
+  <!-- Trennlinie -->
+  <line x1="680" y1="170" x2="680" y2="960" stroke="#E2D6C4" stroke-width="3" stroke-dasharray="10 10"/>
+
+  <text x="740" y="200" font-size="26" font-weight="bold" fill="#1E1E1E">Pflicht-Gesichter</text>
+
+  <!-- ===== 1 Müde-Normal ===== -->
+  <g transform="translate(900,390) scale(0.8)" stroke="#1E1E1E" stroke-linejoin="round" stroke-linecap="round">
+    <use xlink:href="#head"/>
+    <g stroke-width="6">
+      <ellipse cx="-38" cy="8" rx="22" ry="24" fill="#FFFFFF"/>
+      <ellipse cx="38" cy="8" rx="22" ry="24" fill="#FFFFFF"/>
+      <circle cx="-34" cy="14" r="9" fill="#1E1E1E" stroke="none"/>
+      <circle cx="42" cy="14" r="9" fill="#1E1E1E" stroke="none"/>
+      <path d="M-61,9 A22,24 0 0 1 -15,9 Z" fill="#F6D2B3"/>
+      <path d="M15,9 A22,24 0 0 1 61,9 Z" fill="#F6D2B3"/>
+      <path d="M-56,40 Q-38,50 -20,40 M20,40 Q38,50 56,40" fill="none" stroke="#B48A8A" stroke-width="4"/>
+      <path d="M-62,-30 L-16,-24 M16,-26 L62,-36" fill="none"/>
+      <path d="M2,22 Q12,42 -4,46" fill="none" stroke-width="5"/>
+      <path d="M-26,72 Q4,82 32,62" fill="none"/>
+    </g>
+  </g>
+  <text x="900" y="560" text-anchor="middle" font-size="20" font-weight="bold" fill="#1E1E1E">1 · Müde-Normal</text>
+  <text x="900" y="586" text-anchor="middle" font-size="16" fill="#777">Intro, Standard</text>
+
+  <!-- ===== 2 Schock ===== -->
+  <g transform="translate(1300,390) scale(0.8)" stroke="#1E1E1E" stroke-linejoin="round" stroke-linecap="round">
+    <use xlink:href="#head"/>
+    <g stroke-width="6">
+      <ellipse cx="-38" cy="4" rx="27" ry="32" fill="#FFFFFF"/>
+      <ellipse cx="38" cy="4" rx="27" ry="32" fill="#FFFFFF"/>
+      <circle cx="-38" cy="6" r="6" fill="#1E1E1E" stroke="none"/>
+      <circle cx="38" cy="6" r="6" fill="#1E1E1E" stroke="none"/>
+      <path d="M-64,-34 Q-40,-54 -14,-38 M14,-38 Q40,-54 64,-34" fill="none"/>
+      <path d="M2,26 Q12,44 -4,48" fill="none" stroke-width="5"/>
+      <ellipse cx="0" cy="78" rx="18" ry="24" fill="#6B2A2A"/>
+    </g>
+    <g stroke="#FF7A1A" stroke-width="7">
+      <path d="M-150,-90 L-128,-70 M-165,-40 L-135,-36 M150,-90 L128,-70 M165,-40 L135,-36"/>
+    </g>
+  </g>
+  <text x="1300" y="560" text-anchor="middle" font-size="20" font-weight="bold" fill="#1E1E1E">2 · Schock</text>
+  <text x="1300" y="586" text-anchor="middle" font-size="16" fill="#777">Hook &amp; Thumbnail</text>
+
+  <!-- ===== 3 Aha ===== -->
+  <g transform="translate(900,780) scale(0.8)" stroke="#1E1E1E" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Glühbirne -->
+    <g stroke-width="6" transform="translate(30,110)">
+      <path d="M110,-200 a34,34 0 1 1 30,0 l0,26 l-30,0 Z" fill="#FFD43B"/>
+      <rect x="108" y="-176" width="34" height="16" rx="4" fill="#9AA0A6"/>
+      <path d="M90,-250 l-14,-12 M125,-262 l0,-18 M160,-250 l14,-12" stroke="#FFB300"/>
+    </g>
+    <use xlink:href="#head"/>
+    <g stroke-width="6">
+      <ellipse cx="-38" cy="6" rx="23" ry="26" fill="#FFFFFF"/>
+      <ellipse cx="38" cy="6" rx="23" ry="26" fill="#FFFFFF"/>
+      <circle cx="-36" cy="6" r="12" fill="#1E1E1E" stroke="none"/>
+      <circle cx="40" cy="6" r="12" fill="#1E1E1E" stroke="none"/>
+      <circle cx="-31" cy="1" r="4" fill="#FFFFFF" stroke="none"/>
+      <circle cx="45" cy="1" r="4" fill="#FFFFFF" stroke="none"/>
+      <path d="M-62,-38 Q-40,-50 -16,-38 M16,-38 Q40,-50 62,-38" fill="none"/>
+      <path d="M2,24 Q12,42 -4,46" fill="none" stroke-width="5"/>
+      <path d="M-44,58 Q0,112 44,58 Z" fill="#6B2A2A"/>
+      <path d="M-20,82 Q0,96 20,82 Q0,74 -20,82 Z" fill="#E36A6A" stroke-width="3"/>
+    </g>
+  </g>
+  <text x="900" y="950" text-anchor="middle" font-size="20" font-weight="bold" fill="#1E1E1E">3 · Aha!</text>
+  <text x="900" y="976" text-anchor="middle" font-size="16" fill="#777">Payoff, Lösung</text>
+
+  <!-- ===== 4 Ausrede ===== -->
+  <g transform="translate(1300,780) scale(0.8)" stroke="#1E1E1E" stroke-linejoin="round" stroke-linecap="round">
+    <use xlink:href="#head"/>
+    <g stroke-width="6">
+      <ellipse cx="-38" cy="8" rx="22" ry="24" fill="#FFFFFF"/>
+      <ellipse cx="38" cy="8" rx="22" ry="24" fill="#FFFFFF"/>
+      <circle cx="-24" cy="10" r="9" fill="#1E1E1E" stroke="none"/>
+      <circle cx="52" cy="10" r="9" fill="#1E1E1E" stroke="none"/>
+      <path d="M-62,-26 L-16,-34 M16,-34 L62,-26" fill="none"/>
+      <path d="M2,22 Q12,42 -4,46" fill="none" stroke-width="5"/>
+      <path d="M-30,72 q10,-10 20,0 t20,0 t20,0" fill="none"/>
+      <!-- Schweißtropfen -->
+      <path d="M-78,-58 q-14,22 0,30 q14,-8 0,-30 Z" fill="#7CC4FF" stroke-width="4"/>
+      <path d="M78,-50 q-10,16 0,22 q10,-6 0,-22 Z" fill="#7CC4FF" stroke-width="4"/>
+    </g>
+    <!-- Sprechblase -->
+    <g transform="translate(110,-170)">
+      <path d="M0,0 h170 a18,18 0 0 1 18,18 v44 a18,18 0 0 1 -18,18 h-120 l-30,26 l6,-26 h-26 a18,18 0 0 1 -18,-18 v-44 a18,18 0 0 1 18,-18 Z" fill="#FFFFFF" stroke-width="5"/>
+      <text x="85" y="50" text-anchor="middle" font-size="26" font-weight="bold" fill="#1E1E1E" stroke="none">Morgen!</text>
+    </g>
+  </g>
+  <text x="1300" y="950" text-anchor="middle" font-size="20" font-weight="bold" fill="#1E1E1E">4 · Ausrede</text>
+  <text x="1300" y="976" text-anchor="middle" font-size="16" fill="#777">Das Problem</text>
+
+  <!-- ===== Farbpalette ===== -->
+  <g transform="translate(60,1020)" font-size="15" fill="#555">
+    <text x="0" y="28" font-weight="bold" fill="#1E1E1E" font-size="18">Palette:</text>
+    <rect x="100" y="6" width="34" height="34" rx="6" fill="#FF7A1A" stroke="#1E1E1E" stroke-width="3"/><text x="142" y="29">Hoodie #FF7A1A</text>
+    <rect x="300" y="6" width="34" height="34" rx="6" fill="#F6D2B3" stroke="#1E1E1E" stroke-width="3"/><text x="342" y="29">Haut #F6D2B3</text>
+    <rect x="490" y="6" width="34" height="34" rx="6" fill="#5B3A29" stroke="#1E1E1E" stroke-width="3"/><text x="532" y="29">Haare #5B3A29</text>
+    <rect x="690" y="6" width="34" height="34" rx="6" fill="#6B7280" stroke="#1E1E1E" stroke-width="3"/><text x="732" y="29">Hose #6B7280</text>
+    <rect x="880" y="6" width="34" height="34" rx="6" fill="#1E1E1E"/><text x="922" y="29">Outline #1E1E1E</text>
+    <rect x="1080" y="6" width="34" height="34" rx="6" fill="#FFF8EE" stroke="#1E1E1E" stroke-width="3"/><text x="1122" y="29">Hintergrund #FFF8EE</text>
+  </g>
+</svg>
