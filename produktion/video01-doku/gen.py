@@ -295,11 +295,12 @@ groups, cur = [], []
 for i, w in enumerate(WORDS):
     cur.append(w)
     nxt = WORDS[i + 1] if i + 1 < len(WORDS) else None
-    if len(cur) >= 6 or re.search(r"[.!?:]$", w["text"]) or not nxt or nxt["start"] - w["end"] >= 0.25:
+    if len(cur) >= 7 or re.search(r"[.!?:,]$", w["text"]) or not nxt or (nxt["start"] - w["end"] >= 0.25 and len(cur) >= 3):
         groups.append(cur); cur = []
 ch, cj = [], []
+starts = [max(g[0]["start"] - 0.05, 0.12) for g in groups] + [END]
 for gi, g in enumerate(groups):
-    a, b = max(g[0]["start"] - 0.05, 0.12), min(g[-1]["end"] + 0.25, END)
+    a, b = starts[gi], min(g[-1]["end"] + 0.25, END, starts[gi + 1] - 0.02)
     ch.append(f'<div id="k{gi}" class="clip cap" data-start="{a:.3f}" data-duration="{b - a:.3f}">{" ".join(w["text"] for w in g)}</div>')
     cj.append(f'tl.fromTo("#k{gi}", {{opacity:0}}, {{opacity:1, duration:0.15}}, {a:.3f}); tl.to("#k{gi}", {{opacity:0, duration:0.12}}, {b - 0.12:.3f});')
 open(f"{HERE}/compositions/captions.html", "w", encoding="utf-8").write(f"""<template>

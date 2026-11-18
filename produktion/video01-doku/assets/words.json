@@ -1,467 +1,467 @@
 [
 {
 "text": "Das",
-"start": 3.02,
-"end": 3.58
+"start": 3.4,
+"end": 3.62
 },
 {
 "text": "ist",
-"start": 3.58,
-"end": 3.8
+"start": 3.62,
+"end": 4.18
 },
 {
 "text": "Otto.",
-"start": 3.8,
-"end": 4.02
+"start": 4.18,
+"end": 4.56
 },
 {
 "text": "Otto",
-"start": 4.68,
-"end": 5.06
+"start": 5.26,
+"end": 5.62
 },
 {
 "text": "hat",
-"start": 5.06,
-"end": 5.28
+"start": 5.62,
+"end": 5.84
 },
 {
 "text": "heute",
-"start": 5.28,
-"end": 5.5
+"start": 5.84,
+"end": 6.06
 },
 {
 "text": "genau",
-"start": 5.5,
-"end": 5.82
+"start": 6.06,
+"end": 6.46
 },
 {
 "text": "eine",
-"start": 5.82,
-"end": 5.98
+"start": 6.46,
+"end": 6.96
 },
 {
 "text": "Aufgabe.",
-"start": 5.98,
-"end": 6.34
+"start": 6.96,
+"end": 7.44
 },
 {
 "text": "Und",
-"start": 7.02,
-"end": 7.22
+"start": 7.44,
+"end": 8.38
 },
 {
 "text": "Otto",
-"start": 7.22,
-"end": 7.56
+"start": 8.38,
+"end": 8.66
 },
 {
 "text": "wird",
-"start": 7.56,
-"end": 7.72
+"start": 8.66,
+"end": 8.84
 },
 {
 "text": "sie",
-"start": 7.72,
-"end": 7.84
+"start": 8.84,
+"end": 9.0
 },
 {
 "text": "nicht",
-"start": 7.84,
-"end": 8.0
+"start": 9.0,
+"end": 9.18
 },
 {
 "text": "machen.",
-"start": 8.0,
-"end": 8.28
+"start": 9.18,
+"end": 9.48
 },
 {
 "text": "Stattdessen",
-"start": 12.16,
-"end": 12.72
+"start": 13.389,
+"end": 13.96
 },
 {
 "text": "putzt",
-"start": 12.72,
-"end": 13.06
+"start": 13.96,
+"end": 14.48
 },
 {
 "text": "Otto",
-"start": 13.06,
-"end": 13.32
+"start": 14.48,
+"end": 14.96
 },
 {
 "text": "das",
-"start": 13.32,
-"end": 13.56
+"start": 14.96,
+"end": 15.2
 },
 {
 "text": "Bad.",
-"start": 13.56,
-"end": 13.78
-},
-{
-"text": "Sortiert",
-"start": 14.46,
-"end": 14.98
-},
-{
-"text": "seine",
-"start": 14.98,
-"end": 15.24
-},
-{
-"text": "Socken",
-"start": 15.24,
+"start": 15.2,
 "end": 15.5
 },
 {
+"text": "Sortiert",
+"start": 16.38,
+"end": 16.74
+},
+{
+"text": "seine",
+"start": 16.74,
+"end": 16.96
+},
+{
+"text": "Socken",
+"start": 16.96,
+"end": 17.36
+},
+{
 "text": "nach",
-"start": 15.5,
-"end": 15.7
-},
-{
-"text": "Farbe.",
-"start": 15.7,
-"end": 16.06
-},
-{
-"text": "Und",
-"start": 16.6,
-"end": 16.88
-},
-{
-"text": "liest",
-"start": 16.88,
-"end": 17.14
-},
-{
-"text": "zwei",
-"start": 17.14,
-"end": 17.42
-},
-{
-"text": "Stunden",
-"start": 17.42,
+"start": 17.36,
 "end": 17.68
 },
 {
-"text": "lang",
+"text": "Farbe.",
 "start": 17.68,
-"end": 17.96
-},
-{
-"text": "über",
-"start": 17.96,
-"end": 18.24
-},
-{
-"text": "Pinguine.",
-"start": 18.553,
-"end": 18.868
-},
-{
-"text": "Jetzt",
-"start": 18.76,
-"end": 19.6
-},
-{
-"text": "würden",
-"start": 19.724,
-"end": 20.029
-},
-{
-"text": "die",
-"start": 19.88,
-"end": 20.02
-},
-{
-"text": "meisten",
-"start": 20.02,
-"end": 20.28
-},
-{
-"text": "sagen:",
-"start": 20.28,
-"end": 20.72
-},
-{
-"text": "Otto",
-"start": 21.1,
-"end": 21.26
-},
-{
-"text": "ist",
-"start": 21.26,
-"end": 21.5
-},
-{
-"text": "faul.",
-"start": 21.5,
-"end": 21.82
-},
-{
-"text": "Aber",
-"start": 22.36,
-"end": 22.62
-},
-{
-"text": "faule",
-"start": 22.62,
-"end": 23.0
-},
-{
-"text": "Menschen",
-"start": 23.0,
-"end": 23.3
-},
-{
-"text": "sortieren",
-"start": 23.3,
-"end": 23.92
-},
-{
-"text": "keine",
-"start": 23.92,
-"end": 24.2
-},
-{
-"text": "Socken.",
-"start": 24.2,
-"end": 24.56
-},
-{
-"text": "Was",
-"start": 25.14,
-"end": 25.32
-},
-{
-"text": "mit",
-"start": 25.32,
-"end": 25.52
-},
-{
-"text": "Otto",
-"start": 25.52,
-"end": 25.68
-},
-{
-"text": "los",
-"start": 25.68,
-"end": 25.96
-},
-{
-"text": "ist,",
-"start": 25.96,
-"end": 26.38
-},
-{
-"text": "und",
-"start": 26.64,
-"end": 26.74
-},
-{
-"text": "vermutlich",
-"start": 26.74,
-"end": 27.2
-},
-{
-"text": "auch",
-"start": 27.2,
-"end": 27.5
-},
-{
-"text": "mit",
-"start": 27.5,
-"end": 27.78
-},
-{
-"text": "dir,",
-"start": 27.78,
-"end": 28.02
-},
-{
-"text": "ist",
-"start": 28.34,
-"end": 28.48
-},
-{
-"text": "etwas",
-"start": 28.48,
-"end": 28.68
-},
-{
-"text": "völlig",
-"start": 28.68,
-"end": 28.94
-},
-{
-"text": "anderes.",
-"start": 28.94,
-"end": 29.28
+"end": 18.2
 },
 {
 "text": "Und",
-"start": 30.0,
-"end": 30.18
+"start": 18.2,
+"end": 19.2
 },
 {
-"text": "wenn",
-"start": 30.18,
-"end": 30.36
+"text": "liest",
+"start": 19.2,
+"end": 19.58
 },
 {
-"text": "du",
-"start": 30.36,
-"end": 30.44
+"text": "zwei",
+"start": 19.58,
+"end": 19.98
 },
 {
-"text": "es",
-"start": 30.44,
-"end": 30.56
+"text": "Stunden",
+"start": 19.98,
+"end": 20.4
 },
 {
-"text": "einmal",
-"start": 30.56,
-"end": 30.72
+"text": "lang",
+"start": 20.4,
+"end": 20.84
 },
 {
-"text": "verstanden",
-"start": 30.72,
-"end": 31.2
+"text": "über",
+"start": 20.84,
+"end": 21.78
 },
 {
-"text": "hast,",
-"start": 31.2,
-"end": 31.56
+"text": "Pinguine.",
+"start": 21.78,
+"end": 22.6
 },
 {
-"text": "schiebst",
-"start": 31.98,
-"end": 32.18
+"text": "Jetzt",
+"start": 23.199,
+"end": 23.52
 },
 {
-"text": "du",
-"start": 32.18,
-"end": 32.36
+"text": "würden",
+"start": 23.52,
+"end": 23.9
 },
 {
-"text": "deutlich",
-"start": 32.36,
-"end": 32.58
+"text": "die",
+"start": 23.9,
+"end": 24.04
 },
 {
-"text": "weniger",
-"start": 32.58,
-"end": 32.88
+"text": "meisten",
+"start": 24.04,
+"end": 24.34
 },
 {
-"text": "auf.",
-"start": 32.88,
-"end": 33.24
+"text": "sagen:",
+"start": 24.34,
+"end": 24.84
 },
 {
-"text": "Am",
-"start": 33.82,
-"end": 33.98
-},
-{
-"text": "Ende",
-"start": 33.98,
-"end": 34.28
-},
-{
-"text": "zeige",
-"start": 34.28,
-"end": 34.78
-},
-{
-"text": "ich",
-"start": 34.78,
-"end": 34.96
-},
-{
-"text": "dir",
-"start": 34.96,
-"end": 35.06
-},
-{
-"text": "einen",
-"start": 35.06,
-"end": 35.26
-},
-{
-"text": "Trick,",
-"start": 35.26,
-"end": 35.46
-},
-{
-"text": "der",
-"start": 35.8,
-"end": 35.9
-},
-{
-"text": "so",
-"start": 35.9,
-"end": 36.04
-},
-{
-"text": "simpel",
-"start": 36.256,
-"end": 36.527
-},
-{
-"text": "ist,",
-"start": 36.3,
-"end": 36.62
-},
-{
-"text": "dass",
-"start": 36.9,
-"end": 36.98
-},
-{
-"text": "er",
-"start": 36.98,
-"end": 37.08
-},
-{
-"text": "fast",
-"start": 37.08,
-"end": 37.28
-},
-{
-"text": "peinlich",
-"start": 37.28,
-"end": 37.78
-},
-{
-"text": "ist.",
-"start": 37.78,
-"end": 38.08
-},
-{
-"text": "Aber",
-"start": 38.62,
-"end": 38.82
-},
-{
-"text": "er",
-"start": 38.82,
-"end": 39.06
+"text": "Otto",
+"start": 25.54,
+"end": 25.86
 },
 {
 "text": "ist",
-"start": 39.06,
-"end": 39.28
+"start": 25.86,
+"end": 26.12
+},
+{
+"text": "faul.",
+"start": 26.12,
+"end": 26.54
+},
+{
+"text": "Aber",
+"start": 27.2,
+"end": 27.58
+},
+{
+"text": "faule",
+"start": 27.58,
+"end": 27.94
+},
+{
+"text": "Menschen",
+"start": 27.94,
+"end": 28.3
+},
+{
+"text": "sortieren",
+"start": 28.3,
+"end": 29.42
+},
+{
+"text": "keine",
+"start": 29.42,
+"end": 29.82
+},
+{
+"text": "Socken.",
+"start": 29.82,
+"end": 30.22
+},
+{
+"text": "Was",
+"start": 30.815,
+"end": 31.06
+},
+{
+"text": "mit",
+"start": 31.06,
+"end": 31.34
+},
+{
+"text": "Otto",
+"start": 31.34,
+"end": 31.66
+},
+{
+"text": "los",
+"start": 31.66,
+"end": 32.08
+},
+{
+"text": "ist,",
+"start": 32.08,
+"end": 32.38
+},
+{
+"text": "und",
+"start": 32.38,
+"end": 33.06
+},
+{
+"text": "vermutlich",
+"start": 33.06,
+"end": 33.52
+},
+{
+"text": "auch",
+"start": 33.52,
+"end": 33.76
+},
+{
+"text": "mit",
+"start": 33.76,
+"end": 33.94
+},
+{
+"text": "dir,",
+"start": 33.94,
+"end": 34.18
+},
+{
+"text": "ist",
+"start": 35.0,
+"end": 35.36
+},
+{
+"text": "etwas",
+"start": 35.36,
+"end": 35.72
+},
+{
+"text": "völlig",
+"start": 35.72,
+"end": 36.24
+},
+{
+"text": "anderes.",
+"start": 36.24,
+"end": 36.78
+},
+{
+"text": "Und",
+"start": 37.84,
+"end": 38.26
+},
+{
+"text": "wenn",
+"start": 38.26,
+"end": 38.48
+},
+{
+"text": "du",
+"start": 38.48,
+"end": 38.64
+},
+{
+"text": "es",
+"start": 38.64,
+"end": 38.8
+},
+{
+"text": "einmal",
+"start": 38.8,
+"end": 39.0
+},
+{
+"text": "verstanden",
+"start": 39.0,
+"end": 39.68
+},
+{
+"text": "hast,",
+"start": 39.68,
+"end": 40.1
+},
+{
+"text": "schiebst",
+"start": 40.9,
+"end": 41.06
+},
+{
+"text": "du",
+"start": 41.06,
+"end": 41.34
+},
+{
+"text": "deutlich",
+"start": 41.34,
+"end": 41.7
+},
+{
+"text": "weniger",
+"start": 41.7,
+"end": 42.3
+},
+{
+"text": "auf.",
+"start": 42.3,
+"end": 42.78
+},
+{
+"text": "Am",
+"start": 43.94,
+"end": 44.08
+},
+{
+"text": "Ende",
+"start": 44.08,
+"end": 44.36
+},
+{
+"text": "zeige",
+"start": 44.36,
+"end": 44.8
+},
+{
+"text": "ich",
+"start": 44.8,
+"end": 44.98
+},
+{
+"text": "dir",
+"start": 44.98,
+"end": 45.06
+},
+{
+"text": "einen",
+"start": 45.06,
+"end": 45.28
+},
+{
+"text": "Trick,",
+"start": 45.28,
+"end": 45.6
+},
+{
+"text": "der",
+"start": 46.38,
+"end": 46.62
+},
+{
+"text": "so",
+"start": 46.62,
+"end": 46.98
+},
+{
+"text": "simpel",
+"start": 46.98,
+"end": 47.52
+},
+{
+"text": "ist,",
+"start": 47.52,
+"end": 47.8
+},
+{
+"text": "dass",
+"start": 48.02,
+"end": 48.18
+},
+{
+"text": "er",
+"start": 48.18,
+"end": 48.34
+},
+{
+"text": "fast",
+"start": 48.34,
+"end": 48.58
+},
+{
+"text": "peinlich",
+"start": 48.58,
+"end": 49.16
+},
+{
+"text": "ist.",
+"start": 49.16,
+"end": 49.5
+},
+{
+"text": "Aber",
+"start": 50.4,
+"end": 50.76
+},
+{
+"text": "er",
+"start": 50.76,
+"end": 50.96
+},
+{
+"text": "ist",
+"start": 50.96,
+"end": 51.28
 },
 {
 "text": "wissenschaftlich",
-"start": 39.818,
-"end": 40.207
+"start": 51.28,
+"end": 52.3
 },
 {
 "text": "getestet.",
-"start": 39.88,
-"end": 40.54
+"start": 52.3,
+"end": 53.06
 }
 ]
