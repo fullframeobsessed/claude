@@ -1,0 +1,52 @@
+[
+ {
+  "id": "open",
+  "start": 0.0,
+  "end": 3.4
+ },
+ {
+  "id": "s01_hook",
+  "start": 3.4,
+  "end": 8.951
+ },
+ {
+  "id": "title",
+  "start": 8.951,
+  "end": 12.151
+ },
+ {
+  "id": "s02_bad",
+  "start": 12.151,
+  "end": 14.477
+ },
+ {
+  "id": "s03_socken",
+  "start": 14.477,
+  "end": 16.663
+ },
+ {
+  "id": "s04_pinguine",
+  "start": 16.663,
+  "end": 19.418
+ },
+ {
+  "id": "s05_faul",
+  "start": 19.418,
+  "end": 22.413
+ },
+ {
+  "id": "s06_nicht_faul",
+  "start": 22.413,
+  "end": 25.188
+ },
+ {
+  "id": "s07_versprechen",
+  "start": 25.188,
+  "end": 41.146
+ },
+ {
+  "id": "chapter",
+  "start": 41.146,
+  "end": 44.346
+ }
+]

@@ -9,3 +9,6 @@ produktion/video01-hf/renders/
 produktion/video01-hf/.hyperframes/
 produktion/video01-hf/assets/voice.wav
 produktion/video01-hf/node_modules/
+produktion/video01-doku/renders/
+produktion/video01-doku/.hyperframes/
+produktion/video01-doku/assets/*.wav

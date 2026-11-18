@@ -1,0 +1,93 @@
+<template>
+  <style>
+  #root { position:absolute; inset:0; overflow:hidden; background:#0B0C0E; color:#FFF; font-family:'Inter', sans-serif; }
+  #root .actor, #root .light, #root .lay, #root .t { position:absolute; }
+  #root .lay { inset:0; }
+  #root .t { white-space:nowrap; }
+  #root .stamp { font-family:'Inter'; font-weight:700; font-size:30px; letter-spacing:.3em; color:#D9D4C7; }
+  #root .cond { font-family:'Oswald', sans-serif; font-weight:700; text-transform:uppercase; }
+  #root .floor { position:absolute; border-radius:50%; background:radial-gradient(ellipse, rgba(255,240,215,.16) 0%, transparent 70%); }
+</style>
+  <div id="root" data-composition-id="d3" data-width="1920" data-height="1080">
+
+    <div id="d3-cam" class="lay">
+      <div id="d3-la" class="light" style="left:240px;top:-260px;width:1520px;height:1520px;opacity:1.0;background:radial-gradient(circle, rgba(120,180,220,.30) 0%, transparent 70%);"></div>
+      <div id="d3-lb" class="light" style="left:240px;top:-260px;width:1520px;height:1520px;opacity:0;background:radial-gradient(circle, rgba(240,180,90,.30) 0%, transparent 70%);"></div>
+      <div id="d3-lc" class="light" style="left:240px;top:-260px;width:1520px;height:1520px;opacity:0;background:radial-gradient(circle, rgba(90,140,255,.22) 0%, transparent 70%);"></div>
+      <div class="floor" style="left:400px;top:820px;width:480px;height:70px;"></div>
+      <div id="d3-otto" class="actor" style="left:340px;top:150px;width:600px;height:760px" ><svg viewBox="-300 -200 600 760" width="600" height="760" overflow="visible"><path d="M-45,330 L-52,470" stroke="#1E1E1E" stroke-width="60" fill="none" stroke-linecap="round"/><path d="M-45,330 L-52,470" stroke="#6B7280" stroke-width="48" fill="none" stroke-linecap="round"/><path d="M45,330 L52,470" stroke="#1E1E1E" stroke-width="60" fill="none" stroke-linecap="round"/><path d="M45,330 L52,470" stroke="#6B7280" stroke-width="48" fill="none" stroke-linecap="round"/><g stroke="#1E1E1E" stroke-width="6" fill="#FFF"><path d="M-100,500 Q-100,462 -60,462 Q-28,462 -22,500 Z"/><path d="M100,500 Q100,462 60,462 Q28,462 22,500 Z"/></g><path d="M-100,494 L-22,494 M22,494 L100,494" stroke="#FF7A1A" stroke-width="5"/><path d="M-86,170 Q-132,235 -124,318" stroke="#1E1E1E" stroke-width="54" fill="none" stroke-linecap="round"/><path d="M-86,170 Q-132,235 -124,318" stroke="#FF7A1A" stroke-width="42" fill="none" stroke-linecap="round"/><circle cx="-124" cy="336" r="21" fill="#F6D2B3" stroke="#1E1E1E" stroke-width="6"/><g stroke="#1E1E1E" stroke-width="6">
+      <path d="M-92,100 Q0,160 92,100 Q112,150 78,168 L-78,168 Q-112,150 -92,100 Z" fill="#D9600F"/>
+      <rect x="-22" y="100" width="44" height="50" fill="#F6D2B3"/>
+      <path d="M-96,152 Q0,132 96,152 L110,330 Q0,348 -110,330 Z" fill="#FF7A1A"/>
+      <rect x="-112" y="318" width="224" height="26" rx="10" fill="#D9600F"/>
+      <path d="M-52,142 Q0,200 52,142" fill="none"/>
+      <path d="M-18,178 L-24,238 M18,178 L24,232" fill="none" stroke-width="5"/>
+      <circle cx="-24" cy="244" r="6" fill="#FFF" stroke-width="4"/><circle cx="24" cy="238" r="6" fill="#FFF" stroke-width="4"/>
+      <path d="M-62,256 L62,256 L78,318 L-78,318 Z" fill="#F08A3E"/></g><g id="d3o-arm"><path d="M86,170 Q132,235 124,318" stroke="#1E1E1E" stroke-width="54" fill="none" stroke-linecap="round"/><path d="M86,170 Q132,235 124,318" stroke="#FF7A1A" stroke-width="42" fill="none" stroke-linecap="round"/><circle cx="124" cy="336" r="21" fill="#F6D2B3" stroke="#1E1E1E" stroke-width="6"/></g><g id="d3o-head"><g stroke="#1E1E1E" stroke-width="6" stroke-linejoin="round">
+      <ellipse cx="-106" cy="12" rx="18" ry="26" fill="#F2C6A4"/>
+      <ellipse cx="106" cy="12" rx="18" ry="26" fill="#F2C6A4"/>
+      <ellipse cx="0" cy="0" rx="105" ry="115" fill="#F6D2B3"/>
+      <path fill="#5B3A29" d="M-108,0 C-122,-85 -70,-138 0,-132 C72,-138 122,-85 108,0 C98,-38 84,-55 62,-60 L52,-34 L38,-64 C14,-56 -6,-58 -24,-66 L-36,-38 L-50,-66 C-76,-60 -96,-38 -108,0 Z"/>
+      <path fill="#5B3A29" d="M-28,-128 L-20,-168 L2,-130 Z"/>
+      <path fill="#5B3A29" d="M8,-131 L44,-160 L36,-122 Z"/>
+      <path fill="#5B3A29" d="M-62,-112 L-88,-138 L-44,-124 Z"/></g><g id="d3o-face-happy" opacity="1"><g stroke="#1E1E1E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><path d="M-60,14 Q-38,-12 -16,14 M16,14 Q38,-12 60,14" fill="none" stroke-width="7"/><path d="M-62,-34 Q-40,-46 -16,-36 M16,-36 Q40,-46 62,-34" fill="none"/><path d="M2,22 Q12,42 -4,46" fill="none" stroke-width="5"/><path d="M-40,60 Q0,104 40,60 Z" fill="#6B2A2A"/><ellipse cx="-62" cy="46" rx="14" ry="8" fill="#F4A9A0" stroke="none"/><ellipse cx="62" cy="46" rx="14" ry="8" fill="#F4A9A0" stroke="none"/></g></g><g id="d3o-face-aha" opacity="0"><g stroke="#1E1E1E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="-38" cy="6" rx="23" ry="26" fill="#FFF"/><ellipse cx="38" cy="6" rx="23" ry="26" fill="#FFF"/><circle cx="-36" cy="6" r="12" fill="#1E1E1E" stroke="none"/><circle cx="40" cy="6" r="12" fill="#1E1E1E" stroke="none"/><circle cx="-31" cy="1" r="4" fill="#FFF" stroke="none"/><circle cx="45" cy="1" r="4" fill="#FFF" stroke="none"/><path d="M-62,-38 Q-40,-50 -16,-38 M16,-38 Q40,-50 62,-38" fill="none"/><path d="M2,22 Q12,42 -4,46" fill="none" stroke-width="5"/><path d="M-44,58 Q0,112 44,58 Z" fill="#6B2A2A"/><path d="M-20,82 Q0,96 20,82 Q0,74 -20,82 Z" fill="#E36A6A" stroke-width="3"/></g></g><g id="d3o-face-tired" opacity="0"><g stroke="#1E1E1E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="-38" cy="8" rx="22" ry="24" fill="#FFF"/><ellipse cx="38" cy="8" rx="22" ry="24" fill="#FFF"/><circle cx="-34" cy="14" r="9" fill="#1E1E1E" stroke="none"/><circle cx="42" cy="14" r="9" fill="#1E1E1E" stroke="none"/><path d="M-61,9 A22,24 0 0 1 -15,9 Z" fill="#F6D2B3"/><path d="M15,9 A22,24 0 0 1 61,9 Z" fill="#F6D2B3"/><path d="M-56,40 Q-38,50 -20,40 M20,40 Q38,50 56,40" fill="none" stroke="#B48A8A" stroke-width="4"/><path d="M-62,-30 L-16,-24 M16,-26 L62,-36" fill="none"/><path d="M2,22 Q12,42 -4,46" fill="none" stroke-width="5"/><path d="M-26,72 Q4,82 32,62" fill="none"/></g></g></g></svg></div>
+      <div id="d3-glow" class="light" style="left:380px;top:70px;width:520px;height:520px;opacity:0;background:radial-gradient(circle, rgba(140,190,255,.35) 0%, transparent 70%);"></div>
+      <div id="d3-spray" class="actor" style="left:1020px;top:360px;width:200px;height:260px" ><svg viewBox="-80 -110 200 260" width="200" height="260" overflow="visible"><g transform="translate(0,0) scale(1.5)" stroke="#1E1E1E" stroke-width="6" stroke-linejoin="round">
+      <rect x="-30" y="0" width="60" height="110" rx="12" fill="#7CC4FF"/>
+      <path d="M-18,0 L-18,-30 L40,-30 L40,-14 L18,-14 L18,0 Z" fill="#FFF"/>
+      <path d="M60,-40 l30,-10 M60,-22 l36,0 M60,-4 l30,10" stroke="#7CC4FF" stroke-width="6" stroke-linecap="round"/></g></svg></div>
+      <div id="d3-sp0" class="actor" style="left:1200px;top:330px;width:120px;height:120px" ><svg viewBox="-60 -60 120 120" width="120" height="120" overflow="visible"><path transform="translate(0,0) scale(1.1)" d="M0,-40 Q6,-6 40,0 Q6,6 0,40 Q-6,6 -40,0 Q-6,-6 0,-40 Z" fill="#E8D9A8" stroke="#1E1E1E" stroke-width="4" stroke-linejoin="round"/></svg></div><div id="d3-sp1" class="actor" style="left:1420px;top:520px;width:120px;height:120px" ><svg viewBox="-60 -60 120 120" width="120" height="120" overflow="visible"><path transform="translate(0,0) scale(0.8)" d="M0,-40 Q6,-6 40,0 Q6,6 0,40 Q-6,6 -40,0 Q-6,-6 0,-40 Z" fill="#E8D9A8" stroke="#1E1E1E" stroke-width="4" stroke-linejoin="round"/></svg></div><div id="d3-sp2" class="actor" style="left:1120px;top:620px;width:120px;height:120px" ><svg viewBox="-60 -60 120 120" width="120" height="120" overflow="visible"><path transform="translate(0,0) scale(0.9)" d="M0,-40 Q6,-6 40,0 Q6,6 0,40 Q-6,6 -40,0 Q-6,-6 0,-40 Z" fill="#E8D9A8" stroke="#1E1E1E" stroke-width="4" stroke-linejoin="round"/></svg></div><div id="d3-k0" class="actor" style="left:1030px;top:520px;width:150px;height:200px" ><svg viewBox="-60 -90 150 200" width="150" height="200" overflow="visible"><g transform="translate(0,0) rotate(0) scale(0.85)" stroke="#1E1E1E" stroke-width="6" stroke-linejoin="round"><path d="M-22,-80 L22,-80 L22,10 Q22,40 52,40 Q72,40 72,58 Q72,80 44,80 L0,80 Q-22,80 -22,50 Z" fill="#C94A43"/><path d="M-22,-62 L22,-62" stroke-width="5"/></g></svg></div><div id="d3-k1" class="actor" style="left:1152px;top:520px;width:150px;height:200px" ><svg viewBox="-60 -90 150 200" width="150" height="200" overflow="visible"><g transform="translate(0,0) rotate(0) scale(0.85)" stroke="#1E1E1E" stroke-width="6" stroke-linejoin="round"><path d="M-22,-80 L22,-80 L22,10 Q22,40 52,40 Q72,40 72,58 Q72,80 44,80 L0,80 Q-22,80 -22,50 Z" fill="#C9932F"/><path d="M-22,-62 L22,-62" stroke-width="5"/></g></svg></div><div id="d3-k2" class="actor" style="left:1274px;top:520px;width:150px;height:200px" ><svg viewBox="-60 -90 150 200" width="150" height="200" overflow="visible"><g transform="translate(0,0) rotate(0) scale(0.85)" stroke="#1E1E1E" stroke-width="6" stroke-linejoin="round"><path d="M-22,-80 L22,-80 L22,10 Q22,40 52,40 Q72,40 72,58 Q72,80 44,80 L0,80 Q-22,80 -22,50 Z" fill="#C9B94A"/><path d="M-22,-62 L22,-62" stroke-width="5"/></g></svg></div><div id="d3-k3" class="actor" style="left:1396px;top:520px;width:150px;height:200px" ><svg viewBox="-60 -90 150 200" width="150" height="200" overflow="visible"><g transform="translate(0,0) rotate(0) scale(0.85)" stroke="#1E1E1E" stroke-width="6" stroke-linejoin="round"><path d="M-22,-80 L22,-80 L22,10 Q22,40 52,40 Q72,40 72,58 Q72,80 44,80 L0,80 Q-22,80 -22,50 Z" fill="#4E9E5E"/><path d="M-22,-62 L22,-62" stroke-width="5"/></g></svg></div><div id="d3-k4" class="actor" style="left:1518px;top:520px;width:150px;height:200px" ><svg viewBox="-60 -90 150 200" width="150" height="200" overflow="visible"><g transform="translate(0,0) rotate(0) scale(0.85)" stroke="#1E1E1E" stroke-width="6" stroke-linejoin="round"><path d="M-22,-80 L22,-80 L22,10 Q22,40 52,40 Q72,40 72,58 Q72,80 44,80 L0,80 Q-22,80 -22,50 Z" fill="#3F7FB5"/><path d="M-22,-62 L22,-62" stroke-width="5"/></g></svg></div><div id="d3-k5" class="actor" style="left:1640px;top:520px;width:150px;height:200px" ><svg viewBox="-60 -90 150 200" width="150" height="200" overflow="visible"><g transform="translate(0,0) rotate(0) scale(0.85)" stroke="#1E1E1E" stroke-width="6" stroke-linejoin="round"><path d="M-22,-80 L22,-80 L22,10 Q22,40 52,40 Q72,40 72,58 Q72,80 44,80 L0,80 Q-22,80 -22,50 Z" fill="#7D58A0"/><path d="M-22,-62 L22,-62" stroke-width="5"/></g></svg></div>
+      <div id="d3-phone" class="actor" style="left:1000px;top:300px;width:560px;height:440px;background:#1B2230;border:3px solid #3C4A63;border-radius:28px;box-shadow:0 0 120px rgba(90,140,255,.35);">
+        <div style="padding:24px 32px;font-size:34px;font-weight:700;color:#DCE6FF;border-bottom:2px solid #3C4A63;">Pinguine – Wikipedia</div></div>
+      <div id="d3-p0" class="actor" style="left:1100px;top:470px;width:160px;height:200px" ><svg viewBox="-80 -100 160 200" width="160" height="200" overflow="visible"><g transform="translate(0,0) scale(1.5)" stroke="#1E1E1E" stroke-width="5" stroke-linejoin="round">
+      <ellipse cx="0" cy="0" rx="34" ry="46" fill="#2B2B2B"/><ellipse cx="0" cy="10" rx="22" ry="32" fill="#FFF"/>
+      <circle cx="-9" cy="-22" r="4" fill="#FFF" stroke="none"/><circle cx="9" cy="-22" r="4" fill="#FFF" stroke="none"/>
+      <path d="M-8,-12 L8,-12 L0,-2 Z" fill="#FFB300" stroke-width="3"/>
+      <path d="M-18,46 l-10,6 h20 Z M18,46 l10,6 h-20 Z" fill="#FFB300" stroke-width="3"/></g></svg></div><div id="d3-p1" class="actor" style="left:1280px;top:500px;width:160px;height:200px" ><svg viewBox="-80 -100 160 200" width="160" height="200" overflow="visible"><g transform="translate(0,0) scale(1.15)" stroke="#1E1E1E" stroke-width="5" stroke-linejoin="round">
+      <ellipse cx="0" cy="0" rx="34" ry="46" fill="#2B2B2B"/><ellipse cx="0" cy="10" rx="22" ry="32" fill="#FFF"/>
+      <circle cx="-9" cy="-22" r="4" fill="#FFF" stroke="none"/><circle cx="9" cy="-22" r="4" fill="#FFF" stroke="none"/>
+      <path d="M-8,-12 L8,-12 L0,-2 Z" fill="#FFB300" stroke-width="3"/>
+      <path d="M-18,46 l-10,6 h20 Z M18,46 l10,6 h-20 Z" fill="#FFB300" stroke-width="3"/></g></svg></div><div id="d3-p2" class="actor" style="left:1420px;top:525px;width:160px;height:200px" ><svg viewBox="-80 -100 160 200" width="160" height="200" overflow="visible"><g transform="translate(0,0) scale(0.9)" stroke="#1E1E1E" stroke-width="5" stroke-linejoin="round">
+      <ellipse cx="0" cy="0" rx="34" ry="46" fill="#2B2B2B"/><ellipse cx="0" cy="10" rx="22" ry="32" fill="#FFF"/>
+      <circle cx="-9" cy="-22" r="4" fill="#FFF" stroke="none"/><circle cx="9" cy="-22" r="4" fill="#FFF" stroke="none"/>
+      <path d="M-8,-12 L8,-12 L0,-2 Z" fill="#FFB300" stroke-width="3"/>
+      <path d="M-18,46 l-10,6 h20 Z M18,46 l10,6 h-20 Z" fill="#FFB300" stroke-width="3"/></g></svg></div>
+    </div>
+    <div id="d3-sa" class="t stamp" style="left:130px;top:178px;"><span id="d3-sa-0" style="opacity:0">1</span><span id="d3-sa-1" style="opacity:0">1</span><span id="d3-sa-2" style="opacity:0">:</span><span id="d3-sa-3" style="opacity:0">3</span><span id="d3-sa-4" style="opacity:0">0</span><span id="d3-sa-5" style="opacity:0">&nbsp;</span><span id="d3-sa-6" style="opacity:0">U</span><span id="d3-sa-7" style="opacity:0">H</span><span id="d3-sa-8" style="opacity:0">R</span></div><div id="d3-sb" class="t stamp" style="left:130px;top:178px;"><span id="d3-sb-0" style="opacity:0">1</span><span id="d3-sb-1" style="opacity:0">4</span><span id="d3-sb-2" style="opacity:0">:</span><span id="d3-sb-3" style="opacity:0">0</span><span id="d3-sb-4" style="opacity:0">0</span><span id="d3-sb-5" style="opacity:0">&nbsp;</span><span id="d3-sb-6" style="opacity:0">U</span><span id="d3-sb-7" style="opacity:0">H</span><span id="d3-sb-8" style="opacity:0">R</span></div><div id="d3-sc" class="t stamp" style="left:130px;top:178px;"><span id="d3-sc-0" style="opacity:0">1</span><span id="d3-sc-1" style="opacity:0">7</span><span id="d3-sc-2" style="opacity:0">:</span><span id="d3-sc-3" style="opacity:0">3</span><span id="d3-sc-4" style="opacity:0">0</span><span id="d3-sc-5" style="opacity:0">&nbsp;</span><span id="d3-sc-6" style="opacity:0">U</span><span id="d3-sc-7" style="opacity:0">H</span><span id="d3-sc-8" style="opacity:0">R</span></div>
+  </div>
+  <script>
+  const T = {"sock": 2.309, "pingu": 4.729, "end": 7.267};
+
+  const tl = gsap.timeline({ paused: true });
+  const face = (p, from, to, t) => {
+    tl.set(`#${p}-face-${from}`, { opacity: 0 }, t);
+    tl.set(`#${p}-face-${to}`, { opacity: 1 }, t);
+    tl.fromTo(`#${p}-head`, { scaleY: 0.94, transformOrigin: "50% 100%" }, { scaleY: 1, duration: 0.4, ease: "power2.out", immediateRender: false }, t);
+  };
+  const type = (sel, n, t, gap = 0.045) => { for (let i = 0; i < n; i++) tl.fromTo(`${sel}-${i}`, { opacity: 0 }, { opacity: 1, duration: 0.01 }, t + i * gap); };
+  const fadeIn = (sel, t, d = 0.6, extra = {}) => tl.fromTo(sel, { opacity: 0, ...extra.from }, { opacity: 1, duration: d, ease: "power2.out", ...extra.to }, t);
+  const fadeOut = (sel, t, d = 0.4) => tl.to(sel, { opacity: 0, duration: d, ease: "power2.in" }, t);
+
+
+  tl.fromTo("#d3-cam", { scale: 1 }, { scale: 1.06, duration: T.end, ease: "none", transformOrigin: "800px 540px" }, 0);
+  type("#d3-sa", 9, 0.1); fadeOut("#d3-sa", T.sock - 0.4, 0.3);
+  fadeIn("#d3-spray", 0.15, 0.6, { from: { y: 30 }, to: { y: 0 } });
+  [0, 1, 2].forEach(i => fadeIn(`#d3-sp${i}`, 0.6 + i * 0.25, 0.5, { from: { scale: 0.6 }, to: { scale: 1 } }));
+  fadeOut(["#d3-spray", "#d3-sp0", "#d3-sp1", "#d3-sp2"], T.sock - 0.4, 0.4);
+  tl.to("#d3-la", { opacity: 0, duration: 0.6, ease: "power2.inOut" }, T.sock - 0.4);
+  tl.to("#d3-lb", { opacity: 1, duration: 0.6, ease: "power2.inOut" }, T.sock - 0.4);
+  face("d3o", "happy", "aha", T.sock);
+  type("#d3-sb", 9, T.sock); fadeOut("#d3-sb", T.pingu - 0.4, 0.3);
+  [0, 1, 2, 3, 4, 5].forEach(i => tl.fromTo(`#d3-k${i}`, { opacity: 0, y: -40 }, { opacity: 1, y: 0, duration: 0.45, ease: "power3.out" }, T.sock + 0.1 + i * 0.12));
+  fadeOut([0, 1, 2, 3, 4, 5].map(i => `#d3-k${i}`), T.pingu - 0.4, 0.4);
+  tl.to("#d3-lb", { opacity: 0, duration: 0.6, ease: "power2.inOut" }, T.pingu - 0.4);
+  tl.to(["#d3-lc", "#d3-glow"], { opacity: 1, duration: 0.6, ease: "power2.inOut" }, T.pingu - 0.4);
+  face("d3o", "aha", "tired", T.pingu + 0.2);
+  type("#d3-sc", 9, T.pingu);
+  fadeIn("#d3-phone", T.pingu, 0.7, { from: { y: 40 }, to: { y: 0 } });
+  [0, 1, 2].forEach(i => fadeIn(`#d3-p${i}`, T.pingu + 0.5 + i * 0.2, 0.5));
+  fadeOut("#d3-cam", T.end - 0.35, 0.35); fadeOut("#d3-sc", T.end - 0.35, 0.35);
+
+  window.__timelines["d3"] = tl;
+  </script>
+</template>
