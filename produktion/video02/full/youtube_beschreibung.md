@@ -1,13 +1,25 @@
 # YouTube-Upload Video 02
 
-## Titel
-Warum du kurz vor der Deadline plötzlich ein Genie bist
+## Titel (Empfehlung)
+**Warum du kurz vor der Deadline plötzlich ein Genie bist**
 
-## Beschreibung
+Alternativen für den A/B-Test:
+1. „Ich arbeite unter Druck besser“ – stimmt das wirklich?
+2. Der Deadline-Trick: Warum du erst in letzter Minute funktionierst
+3. Warum du erst um 23:58 Uhr produktiv wirst (Psychologie)
+
+## Beschreibung (komplett kopieren)
 ```
-Drei Wochen Zeit – und trotzdem passiert alles in den letzten drei Stunden? Du bist nicht allein.
+Drei Wochen Zeit – und trotzdem passiert alles in den letzten drei Stunden? Warum du kurz vor der Deadline plötzlich ein Genie bist und warum „Ich arbeite unter Druck besser“ eine Illusion ist.
 
-Otto hatte für seine Präsentation drei Wochen Zeit. Gemacht hat er sie in der letzten Nacht – und sie ist richtig gut geworden. Ist Otto ein Genie, das einfach Druck braucht? In dieser Folge schauen wir uns an, was kurz vor einer Deadline in deinem Kopf passiert, warum das „Ich arbeite unter Druck besser“-Gefühl eine Illusion ist – und mit welchen 4 Deadline-Hacks du den Turbo nutzt, ohne bis Freitagnacht zu warten.
+Otto hatte für seine Präsentation drei Wochen Zeit. Gemacht hat er sie in der letzten Nacht – und sie ist richtig gut geworden. Ist Otto ein heimliches Genie, das einfach Druck braucht? Oder spielt ihm sein Gehirn einen Streich?
+
+In dieser Folge erfährst du:
+→ was das Parkinsonsche Gesetz mit deiner Last-Minute-Arbeit zu tun hat
+→ was in deinem Gehirn passiert, wenn die Deadline näher rückt (Amygdala, Stresshormone, Tunnelblick)
+→ warum Leistung unter Druck erst steigt – und dann kippt
+→ was eine Langzeitstudie über Aufschieber, Stress und Noten herausgefunden hat
+→ 4 Deadline-Hacks, mit denen du den Turbo nutzt, ohne bis Freitagnacht zu warten
 
 📌 KAPITEL
 0:00 Freitag, 23:58
@@ -17,13 +29,18 @@ Otto hatte für seine Präsentation drei Wochen Zeit. Gemacht hat er sie in der 
 2:45 Kapitel 4: Der Deadline-Hack
 4:01 Auflösung
 
-🧰 DIE 4 DEADLINE-HACKS
-1. Zwischen-Deadlines setzen
-2. Die Deadline öffentlich machen
-3. Der Mini-Countdown (25 Minuten)
-4. Der Wenn-dann-Plan
+🧰 DIE 4 DEADLINE-HACKS ZUM MITNEHMEN
+1. Zwischen-Deadlines: Teil die Aufgabe in Stücke, jedes bekommt ein eigenes Datum.
+2. Mach sie öffentlich: Sag jemandem, bis wann du fertig bist.
+3. Mini-Countdown: 25-Minuten-Timer stellen und so tun, als wäre es Freitag, 23:35.
+4. Wenn-dann-Plan: „Wenn es Dienstag 18 Uhr ist, dann öffne ich die Datei.“
 
-💬 Und? Was war deine Antwort am Anfang – A, B oder C? Schreib's in die Kommentare!
+💬 Und? Was war deine Antwort am Anfang – A (früh), B (pünktlich) oder C (in letzter Minute)? Schreib's in die Kommentare!
+
+▶ Teil 1 verpasst? Warum du alles aufschiebst (und es NICHTS mit Faulheit zu tun hat):
+[LINK ZU VIDEO 1]
+
+🔔 Otto Normalpsyche – Alltagspsychologie, die sich anfühlt wie dein eigener Kopf. Jede Woche eine neue Folge. Abonnieren, wenn du dich in Otto wiedererkennst.
 
 📚 QUELLEN
 – Parkinson, C. N. (1955). Parkinson's Law. The Economist, 19. November 1955.
@@ -32,20 +49,20 @@ Otto hatte für seine Präsentation drei Wochen Zeit. Gemacht hat er sie in der 
 – Ariely, D. & Wertenbroch, K. (2002). Procrastination, deadlines, and performance: Self-control by precommitment. Psychological Science, 13(3), 219–224.
 – Gollwitzer, P. M. (1999). Implementation intentions: Strong effects of simple plans. American Psychologist, 54(7), 493–503.
 
-▶ Teil 1: Warum du alles aufschiebst (und es NICHTS mit Faulheit zu tun hat)
+Hinweis: Dieses Video dient der Unterhaltung und Bildung und ersetzt keine psychologische oder ärztliche Beratung. Erzählstimme KI-generiert. Diagramme zu Studien sind vereinfacht bzw. illustrativ.
 
-🔔 Neue Folge jede Woche – abonnieren, wenn du dich in Otto wiedererkennst.
-
-Hinweis: Dieses Video dient der Unterhaltung und Bildung und ersetzt keine psychologische oder ärztliche Beratung. Erzählstimme: KI-generiert. Diagramme zu Studien sind vereinfacht bzw. illustrativ.
-
-#Psychologie #Deadline #Prokrastination
+#Psychologie #Prokrastination #Deadline
 ```
 
-## Tags
-Deadline, Prokrastination, Aufschieben, unter Druck arbeiten, Parkinsons Gesetz, Yerkes-Dodson, Produktivität, Psychologie, Alltagspsychologie, Motivation, Zeitmanagement, Wenn-dann-Plan, Erklärvideo, Otto Normalpsyche
+## Tags / Keywords (ins Feld „Tags“ kopieren, < 500 Zeichen)
+```
+deadline, unter druck arbeiten, prokrastination, aufschieben, last minute, aufschieberitis, parkinsonsches gesetz, yerkes dodson, produktivität, zeitmanagement, motivation, konzentration, psychologie, alltagspsychologie, wenn dann plan, stress und leistung, lernen kurz vor der prüfung, studium tipps, otto normalpsyche, erklärvideo psychologie
+```
 
 ## Einstellungen
-- Speziell für Kinder: **Nein** · Kategorie **Bildung** · Sprache **Deutsch**
-- Untertitel: `untertitel_video02.srt` (bei der Fassung ohne Untertitel)
-- Endbildschirm: letzte 8 Sekunden (Abonnieren + Video 01 oder nächste Folge)
-- Angepinnter Kommentar: „Umfrage-Zeit 🗳️ A: früh, B: pünktlich oder C: in letzter Minute – was ist es bei dir? Otto ist ein klarer C.“
+- Speziell für Kinder: **Nein** · Kategorie **Bildung** · Videosprache **Deutsch**
+- Untertitel: `untertitel_video02.srt` hochladen (bei der Fassung ohne Untertitel)
+- Endbildschirm (letzte 8 s): Abonnieren-Element + Video 1 als „Video“-Element
+- Karte (i-Info) bei ca. 1:23 („Alarmanlage aus der letzten Folge“) → Video 1
+- Angepinnter Kommentar:
+  „Umfrage-Zeit 🗳️ A: früh · B: pünktlich · C: in letzter Minute – was ist es bei dir? Otto ist ein klarer C. 😅“
