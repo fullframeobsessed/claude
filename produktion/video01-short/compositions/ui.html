@@ -1,0 +1,41 @@
+<template>
+  <style>
+  #root { position:absolute; inset:0; font-family:'Inter', sans-serif; color:#FFF; }
+  #root .t { position:absolute; left:48px;width:840px; text-align:center; }
+  #root .cond { font-family:'Oswald', sans-serif; font-weight:700; text-transform:uppercase; line-height:1; }
+  </style>
+  <div id="root" data-composition-id="ui" data-width="1080" data-height="1920">
+    <div id="ui-k" class="t" style="top:300px;font-size:30px;font-weight:800;letter-spacing:.4em;color:#E8C27A;">OTTO NORMALPSYCHE</div>
+    <div id="ui-t" class="t cond" style="top:345px;font-size:82px;">WARUM DU<br>ALLES AUFSCHIEBST</div>
+    <div style="position:absolute;left:0;right:0;top:536px;height:2px;background:rgba(255,255,255,.25);"></div>
+    <div style="position:absolute;left:0;right:0;top:1130px;height:2px;background:rgba(255,255,255,.25);"></div>
+    <div id="end" style="position:absolute;inset:0;background:#0B0C0E;opacity:0;">
+      <div style="position:absolute;left:258px;top:290px;"><svg viewBox="-150 -180 300 300" width="420" height="400"><g stroke="#1E1E1E" stroke-width="6" stroke-linejoin="round">
+      <ellipse cx="-106" cy="12" rx="18" ry="26" fill="#F2C6A4"/>
+      <ellipse cx="106" cy="12" rx="18" ry="26" fill="#F2C6A4"/>
+      <ellipse cx="0" cy="0" rx="105" ry="115" fill="#F6D2B3"/>
+      <path fill="#5B3A29" d="M-108,0 C-122,-85 -70,-138 0,-132 C72,-138 122,-85 108,0 C98,-38 84,-55 62,-60 L52,-34 L38,-64 C14,-56 -6,-58 -24,-66 L-36,-38 L-50,-66 C-76,-60 -96,-38 -108,0 Z"/>
+      <path fill="#5B3A29" d="M-28,-128 L-20,-168 L2,-130 Z"/>
+      <path fill="#5B3A29" d="M8,-131 L44,-160 L36,-122 Z"/>
+      <path fill="#5B3A29" d="M-62,-112 L-88,-138 L-44,-124 Z"/></g><g stroke="#1E1E1E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="-38" cy="8" rx="22" ry="24" fill="#FFF"/><ellipse cx="38" cy="8" rx="22" ry="24" fill="#FFF"/><circle cx="-30" cy="14" r="9" fill="#1E1E1E" stroke="none"/><circle cx="46" cy="14" r="9" fill="#1E1E1E" stroke="none"/><path d="M-61,9 A22,24 0 0 1 -15,9 Z" fill="#F6D2B3"/><path d="M15,9 A22,24 0 0 1 61,9 Z" fill="#F6D2B3"/><path d="M-56,40 Q-38,50 -20,40 M20,40 Q38,50 56,40" fill="none" stroke="#B48A8A" stroke-width="4"/><path d="M-62,-26 L-16,-24 M16,-32 L62,-44" fill="none"/><path d="M2,22 Q12,42 -4,46" fill="none" stroke-width="5"/><path d="M-20,70 Q10,76 36,56" fill="none"/></g></svg></div>
+      <div id="end-q" class="t cond" style="top:700px;font-size:104px;">UND DER<br><span style="color:#E8C27A">TRICK?</span></div>
+      <div id="end-a" class="t" style="top:935px;font-size:36px;font-weight:800;letter-spacing:.08em;">DIE GANZE FOLGE</div>
+      <div id="end-b" class="t" style="top:985px;font-size:36px;font-weight:800;letter-spacing:.08em;">JETZT AUF DEM KANAL</div>
+      <div id="end-arrow" class="t cond" style="top:1035px;font-size:96px;color:#E8C27A;">↓</div>
+      <div id="end-h" class="t" style="top:1160px;font-size:40px;font-weight:700;color:#8C8F96;">@ottonormalpsyche</div>
+    </div>
+    <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%, transparent 50%, rgba(0,0,0,.6) 100%);"></div>
+    <div style="position:absolute;inset:0;background-image:url(&quot;data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E&quot;);background-size:256px 256px;opacity:.10;mix-blend-mode:overlay;"></div>
+  </div>
+  <script>
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo("#ui-t", { opacity: 0, scale: 1.08 }, { opacity: 1, scale: 1, duration: 0.35, ease: "power3.out" }, 0);
+  tl.fromTo("#ui-k", { opacity: 0 }, { opacity: 1, duration: 0.3 }, 0.1);
+  tl.to("#end", { opacity: 1, duration: 0.3, ease: "power2.inOut" }, 38.6);
+  tl.fromTo("#end-q", { opacity: 0, scale: 1.1 }, { opacity: 1, scale: 1, duration: 0.35, ease: "power3.out" }, 38.85);
+  tl.fromTo(["#end-a", "#end-b"], { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.35, stagger: 0.15 }, 39.300000000000004);
+  tl.fromTo("#end-arrow", { opacity: 0, y: -30 }, { opacity: 1, y: 0, duration: 0.4, ease: "back.out(2)" }, 39.7);
+  tl.fromTo("#end-h", { opacity: 0 }, { opacity: 1, duration: 0.4 }, 39.9);
+  window.__timelines["ui"] = tl;
+  </script>
+</template>
