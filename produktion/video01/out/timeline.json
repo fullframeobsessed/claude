@@ -2,205 +2,205 @@
  [
   "s01_hook",
   0.0,
-  7.155999999999999,
+  6.63,
   "Das ist Otto."
  ],
  [
   "s02_bad",
-  7.155999999999999,
-  10.056,
+  6.63,
+  9.41,
   "Stattdessen putzt Otto das Bad."
  ],
  [
   "s03_socken",
-  10.056,
-  13.02,
+  9.41,
+  11.97,
   "Sortiert seine Socken nach Farbe."
  ],
  [
   "s04_pinguine",
-  13.02,
-  16.336000000000002,
+  11.97,
+  15.32,
   "Und liest zwei Stunden lang über Pinguine."
  ],
  [
   "s05_faul",
-  16.336000000000002,
-  20.004000000000005,
+  15.32,
+  18.720000000000002,
   "Jetzt würden die meisten sagen: Otto ist faul."
  ],
  [
   "s06_nicht_faul",
-  20.004000000000005,
-  23.400000000000006,
+  18.720000000000002,
+  22.180000000000003,
   "Aber faule Menschen sortieren keine Socken."
  ],
  [
   "s07_versprechen",
-  23.400000000000006,
-  41.44400000000002,
+  22.180000000000003,
+  40.41000000000001,
   "Was mit Otto los ist, und vermutlich auch mit dir, ist etwas völlig anderes."
  ],
  [
   "s08_kap1",
-  41.44400000000002,
-  43.64400000000002,
+  40.41000000000001,
+  42.610000000000014,
   ""
  ],
  [
   "s09_zahlen",
-  43.64400000000002,
-  62.42000000000002,
+  42.610000000000014,
+  62.63800000000001,
   "Fangen wir mit einer Zahl an."
  ],
  [
   "s10_zitat",
-  62.42000000000002,
-  77.73599999999999,
+  62.63800000000001,
+  78.29800000000002,
   "Der Psychologe Tim Pychyl forscht seit Jahrzehnten zu genau diesem Thema."
  ],
  [
   "s11_wolke",
-  77.73599999999999,
-  92.57999999999996,
+  78.29800000000002,
+  93.48400000000001,
   "Heißt übersetzt: Otto vermeidet nicht die Steuererklärung."
  ],
  [
   "s12_flucht",
-  92.57999999999996,
-  104.27199999999993,
+  93.48400000000001,
+  104.53999999999999,
   "Und das Bad putzen? Das fühlt sich gut an. Man sieht sofort ein Ergebnis."
  ],
  [
   "s13_kap2",
-  104.27199999999993,
-  112.07599999999992,
+  104.53999999999999,
+  112.36,
   "Und jetzt wird's spannend."
  ],
  [
   "s14_gehirn",
-  112.07599999999992,
-  130.8879999999999,
+  112.36,
+  131.19,
   "In deinem Gehirn sitzt die Amygdala, quasi deine Alarmanlage."
  ],
  [
   "s15_bochum",
-  130.8879999999999,
-  153.7799999999999,
+  131.19,
+  155.11000000000004,
   "Forscher der Ruhr-Universität Bochum haben 2018 etwas Spannendes entdeckt."
  ],
  [
   "s16_knopf",
-  153.7799999999999,
-  161.47199999999987,
+  155.11000000000004,
+  162.69000000000005,
   "Und dann kommt noch dazu: Dein Gehirn liebt Belohnungen, und zwar jetzt."
  ],
  [
   "s17_waage",
-  161.47199999999987,
-  169.73999999999987,
+  162.69000000000005,
+  170.85000000000005,
   "Die Steuererklärung belohnt dich irgendwann im Juli, mit einem Bescheid vom Finanzamt."
  ],
  [
   "s18_kap3",
-  169.73999999999987,
-  176.67999999999986,
+  170.85000000000005,
+  177.82000000000005,
   "Aber der seltsamste Grund kommt erst noch."
  ],
  [
   "s19_morgenotto",
-  176.67999999999986,
-  179.97999999999988,
+  177.82000000000005,
+  180.62000000000003,
   "Darf ich vorstellen: Morgen-Otto."
  ],
  [
   "s20_scans",
-  179.97999999999988,
-  196.40799999999987,
+  180.62000000000003,
+  198.20000000000005,
   "Der Psychologe Hal Hershfield hat Menschen im Hirnscanner gebeten, an sich selbst zu denken, an sich selbst in zehn Jahren und an fremde Personen."
  ],
  [
   "s21_uebergabe",
-  196.40799999999987,
-  206.25199999999987,
+  198.20000000000005,
+  207.16000000000008,
   "Und genau das macht Otto jeden Tag."
  ],
  [
   "s22_kette",
-  206.25199999999987,
-  216.79999999999984,
+  207.16000000000008,
+  217.5360000000001,
   "Das Problem: Morgen-Otto hat genau dieselben Gefühle. Dieselbe Alarmanlage. Dasselbe Handy."
  ],
  [
   "s23_kap4",
-  216.79999999999984,
-  219.42799999999986,
+  217.5360000000001,
+  219.92600000000007,
   "Jetzt passiert etwas Fieses."
  ],
  [
   "s24_kreis",
-  219.42799999999986,
-  244.0599999999998,
+  219.92600000000007,
+  243.54000000000013,
   "Wenn Otto aufschiebt, geht es ihm kurz besser. Erleichterung."
  ],
  [
   "s25_fertigmachen",
-  244.0599999999998,
-  259.0559999999998,
+  243.54000000000013,
+  258.0400000000002,
   "Merkst du was?"
  ],
  [
   "s26_kap5",
-  259.0559999999998,
-  262.47999999999985,
+  258.0400000000002,
+  260.7880000000002,
   "Also. Was hilft wirklich?"
  ],
  [
   "s27_vergeben",
-  262.47999999999985,
-  288.2319999999999,
+  260.7880000000002,
+  286.40600000000023,
   "Werkzeug Nummer eins: Vergib dir selbst."
  ],
  [
   "s28_benennen",
-  288.2319999999999,
-  303.824,
+  286.40600000000023,
+  301.0800000000003,
   "Werkzeug Nummer zwei: Benenne das Gefühl."
  ],
  [
   "s29_schritt",
-  303.824,
-  318.28400000000016,
+  301.0800000000003,
+  315.5760000000004,
   "Werkzeug Nummer drei: der lächerlich kleine erste Schritt."
  ],
  [
   "s30_timer",
-  318.28400000000016,
-  334.9960000000003,
+  315.5760000000004,
+  331.16400000000044,
   "Werkzeug Nummer vier: der Zehn-Minuten-Deal."
  ],
  [
   "s31_jetzt",
-  334.9960000000003,
-  345.7160000000004,
+  331.16400000000044,
+  341.07200000000046,
   "Otto ist nicht faul. Du auch nicht."
  ],
  [
   "s32_spaeter",
-  345.7160000000004,
-  348.1160000000004,
+  341.07200000000046,
+  343.47200000000043,
   ""
  ],
  [
   "s33_deadline",
-  348.1160000000004,
-  355.6000000000005,
+  343.47200000000043,
+  350.96200000000044,
   "Aber warum Otto dann kurz vor der Deadline plötzlich zu einem Genie wird?"
  ],
  [
   "s34_endcard",
-  355.6000000000005,
-  365.6000000000005,
+  350.96200000000044,
+  360.96200000000044,
   ""
  ]
 ]

@@ -1,0 +1,781 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Otto,DejaVu Sans,54,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,-1,0,0,0,100,100,0,0,3,10,0,2,80,80,60,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.18,0:00:00.51,Otto,,0,0,0,,{\c&H1A7AFF&}Das{\c&HFFFFFF&} ist Otto.
+Dialogue: 0,0:00:00.51,0:00:00.83,Otto,,0,0,0,,Das {\c&H1A7AFF&}ist{\c&HFFFFFF&} Otto.
+Dialogue: 0,0:00:00.83,0:00:01.29,Otto,,0,0,0,,Das ist {\c&H1A7AFF&}Otto.{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.65,0:00:02.02,Otto,,0,0,0,,{\c&H1A7AFF&}Otto{\c&HFFFFFF&} hat heute genau eine Aufgabe.
+Dialogue: 0,0:00:02.02,0:00:02.33,Otto,,0,0,0,,Otto {\c&H1A7AFF&}hat{\c&HFFFFFF&} heute genau eine Aufgabe.
+Dialogue: 0,0:00:02.33,0:00:02.77,Otto,,0,0,0,,Otto hat {\c&H1A7AFF&}heute{\c&HFFFFFF&} genau eine Aufgabe.
+Dialogue: 0,0:00:02.77,0:00:03.20,Otto,,0,0,0,,Otto hat heute {\c&H1A7AFF&}genau{\c&HFFFFFF&} eine Aufgabe.
+Dialogue: 0,0:00:03.20,0:00:03.57,Otto,,0,0,0,,Otto hat heute genau {\c&H1A7AFF&}eine{\c&HFFFFFF&} Aufgabe.
+Dialogue: 0,0:00:03.57,0:00:04.19,Otto,,0,0,0,,Otto hat heute genau eine {\c&H1A7AFF&}Aufgabe.{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.55,0:00:04.77,Otto,,0,0,0,,{\c&H1A7AFF&}Und{\c&HFFFFFF&} Otto wird sie nicht machen.
+Dialogue: 0,0:00:04.77,0:00:05.03,Otto,,0,0,0,,Und {\c&H1A7AFF&}Otto{\c&HFFFFFF&} wird sie nicht machen.
+Dialogue: 0,0:00:05.03,0:00:05.29,Otto,,0,0,0,,Und Otto {\c&H1A7AFF&}wird{\c&HFFFFFF&} sie nicht machen.
+Dialogue: 0,0:00:05.29,0:00:05.51,Otto,,0,0,0,,Und Otto wird {\c&H1A7AFF&}sie{\c&HFFFFFF&} nicht machen.
+Dialogue: 0,0:00:05.51,0:00:05.82,Otto,,0,0,0,,Und Otto wird sie {\c&H1A7AFF&}nicht{\c&HFFFFFF&} machen.
+Dialogue: 0,0:00:05.82,0:00:06.21,Otto,,0,0,0,,Und Otto wird sie nicht {\c&H1A7AFF&}machen.{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.81,0:00:07.58,Otto,,0,0,0,,{\c&H1A7AFF&}Stattdessen{\c&HFFFFFF&} putzt Otto das Bad.
+Dialogue: 0,0:00:07.58,0:00:07.99,Otto,,0,0,0,,Stattdessen {\c&H1A7AFF&}putzt{\c&HFFFFFF&} Otto das Bad.
+Dialogue: 0,0:00:07.99,0:00:08.34,Otto,,0,0,0,,Stattdessen putzt {\c&H1A7AFF&}Otto{\c&HFFFFFF&} das Bad.
+Dialogue: 0,0:00:08.34,0:00:08.64,Otto,,0,0,0,,Stattdessen putzt Otto {\c&H1A7AFF&}das{\c&HFFFFFF&} Bad.
+Dialogue: 0,0:00:08.64,0:00:08.99,Otto,,0,0,0,,Stattdessen putzt Otto das {\c&H1A7AFF&}Bad.{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.59,0:00:10.09,Otto,,0,0,0,,{\c&H1A7AFF&}Sortiert{\c&HFFFFFF&} seine Socken nach Farbe.
+Dialogue: 0,0:00:10.09,0:00:10.44,Otto,,0,0,0,,Sortiert {\c&H1A7AFF&}seine{\c&HFFFFFF&} Socken nach Farbe.
+Dialogue: 0,0:00:10.44,0:00:10.85,Otto,,0,0,0,,Sortiert seine {\c&H1A7AFF&}Socken{\c&HFFFFFF&} nach Farbe.
+Dialogue: 0,0:00:10.85,0:00:11.15,Otto,,0,0,0,,Sortiert seine Socken {\c&H1A7AFF&}nach{\c&HFFFFFF&} Farbe.
+Dialogue: 0,0:00:11.15,0:00:11.55,Otto,,0,0,0,,Sortiert seine Socken nach {\c&H1A7AFF&}Farbe.{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.15,0:00:12.42,Otto,,0,0,0,,{\c&H1A7AFF&}Und{\c&HFFFFFF&} liest zwei Stunden lang über Pinguine.
+Dialogue: 0,0:00:12.42,0:00:12.81,Otto,,0,0,0,,Und {\c&H1A7AFF&}liest{\c&HFFFFFF&} zwei Stunden lang über Pinguine.
+Dialogue: 0,0:00:12.81,0:00:13.14,Otto,,0,0,0,,Und liest {\c&H1A7AFF&}zwei{\c&HFFFFFF&} Stunden lang über Pinguine.
+Dialogue: 0,0:00:13.14,0:00:13.64,Otto,,0,0,0,,Und liest zwei {\c&H1A7AFF&}Stunden{\c&HFFFFFF&} lang über Pinguine.
+Dialogue: 0,0:00:13.64,0:00:13.96,Otto,,0,0,0,,Und liest zwei Stunden {\c&H1A7AFF&}lang{\c&HFFFFFF&} über Pinguine.
+Dialogue: 0,0:00:13.96,0:00:14.30,Otto,,0,0,0,,Und liest zwei Stunden lang {\c&H1A7AFF&}über{\c&HFFFFFF&} Pinguine.
+Dialogue: 0,0:00:14.30,0:00:14.90,Otto,,0,0,0,,Und liest zwei Stunden lang über {\c&H1A7AFF&}Pinguine.{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.50,0:00:15.86,Otto,,0,0,0,,{\c&H1A7AFF&}Jetzt{\c&HFFFFFF&} würden die meisten\Nsagen: Otto ist faul.
+Dialogue: 0,0:00:15.86,0:00:16.26,Otto,,0,0,0,,Jetzt {\c&H1A7AFF&}würden{\c&HFFFFFF&} die meisten\Nsagen: Otto ist faul.
+Dialogue: 0,0:00:16.26,0:00:16.52,Otto,,0,0,0,,Jetzt würden {\c&H1A7AFF&}die{\c&HFFFFFF&} meisten\Nsagen: Otto ist faul.
+Dialogue: 0,0:00:16.52,0:00:16.98,Otto,,0,0,0,,Jetzt würden die {\c&H1A7AFF&}meisten{\c&HFFFFFF&}\Nsagen: Otto ist faul.
+Dialogue: 0,0:00:16.98,0:00:17.38,Otto,,0,0,0,,Jetzt würden die meisten\N{\c&H1A7AFF&}sagen:{\c&HFFFFFF&} Otto ist faul.
+Dialogue: 0,0:00:17.38,0:00:17.69,Otto,,0,0,0,,Jetzt würden die meisten\Nsagen: {\c&H1A7AFF&}Otto{\c&HFFFFFF&} ist faul.
+Dialogue: 0,0:00:17.69,0:00:17.94,Otto,,0,0,0,,Jetzt würden die meisten\Nsagen: Otto {\c&H1A7AFF&}ist{\c&HFFFFFF&} faul.
+Dialogue: 0,0:00:17.94,0:00:18.30,Otto,,0,0,0,,Jetzt würden die meisten\Nsagen: Otto ist {\c&H1A7AFF&}faul.{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.90,0:00:19.24,Otto,,0,0,0,,{\c&H1A7AFF&}Aber{\c&HFFFFFF&} faule Menschen\Nsortieren keine Socken.
+Dialogue: 0,0:00:19.24,0:00:19.64,Otto,,0,0,0,,Aber {\c&H1A7AFF&}faule{\c&HFFFFFF&} Menschen\Nsortieren keine Socken.
+Dialogue: 0,0:00:19.64,0:00:20.22,Otto,,0,0,0,,Aber faule {\c&H1A7AFF&}Menschen{\c&HFFFFFF&}\Nsortieren keine Socken.
+Dialogue: 0,0:00:20.22,0:00:20.84,Otto,,0,0,0,,Aber faule Menschen\N{\c&H1A7AFF&}sortieren{\c&HFFFFFF&} keine Socken.
+Dialogue: 0,0:00:20.84,0:00:21.25,Otto,,0,0,0,,Aber faule Menschen\Nsortieren {\c&H1A7AFF&}keine{\c&HFFFFFF&} Socken.
+Dialogue: 0,0:00:21.25,0:00:21.76,Otto,,0,0,0,,Aber faule Menschen\Nsortieren keine {\c&H1A7AFF&}Socken.{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.36,0:00:22.66,Otto,,0,0,0,,{\c&H1A7AFF&}Was{\c&HFFFFFF&} mit Otto los ist, und vermutlich\Nauch mit dir, ist etwas völlig anderes.
+Dialogue: 0,0:00:22.66,0:00:22.95,Otto,,0,0,0,,Was {\c&H1A7AFF&}mit{\c&HFFFFFF&} Otto los ist, und vermutlich\Nauch mit dir, ist etwas völlig anderes.
+Dialogue: 0,0:00:22.95,0:00:23.31,Otto,,0,0,0,,Was mit {\c&H1A7AFF&}Otto{\c&HFFFFFF&} los ist, und vermutlich\Nauch mit dir, ist etwas völlig anderes.
+Dialogue: 0,0:00:23.31,0:00:23.61,Otto,,0,0,0,,Was mit Otto {\c&H1A7AFF&}los{\c&HFFFFFF&} ist, und vermutlich\Nauch mit dir, ist etwas völlig anderes.
+Dialogue: 0,0:00:23.61,0:00:23.97,Otto,,0,0,0,,Was mit Otto los {\c&H1A7AFF&}ist,{\c&HFFFFFF&} und vermutlich\Nauch mit dir, ist etwas völlig anderes.
+Dialogue: 0,0:00:23.97,0:00:24.26,Otto,,0,0,0,,Was mit Otto los ist, {\c&H1A7AFF&}und{\c&HFFFFFF&} vermutlich\Nauch mit dir, ist etwas völlig anderes.
+Dialogue: 0,0:00:24.26,0:00:24.98,Otto,,0,0,0,,Was mit Otto los ist, und {\c&H1A7AFF&}vermutlich{\c&HFFFFFF&}\Nauch mit dir, ist etwas völlig anderes.
+Dialogue: 0,0:00:24.98,0:00:25.33,Otto,,0,0,0,,Was mit Otto los ist, und vermutlich\N{\c&H1A7AFF&}auch{\c&HFFFFFF&} mit dir, ist etwas völlig anderes.
+Dialogue: 0,0:00:25.33,0:00:25.63,Otto,,0,0,0,,Was mit Otto los ist, und vermutlich\Nauch {\c&H1A7AFF&}mit{\c&HFFFFFF&} dir, ist etwas völlig anderes.
+Dialogue: 0,0:00:25.63,0:00:25.99,Otto,,0,0,0,,Was mit Otto los ist, und vermutlich\Nauch mit {\c&H1A7AFF&}dir,{\c&HFFFFFF&} ist etwas völlig anderes.
+Dialogue: 0,0:00:25.99,0:00:26.28,Otto,,0,0,0,,Was mit Otto los ist, und vermutlich\Nauch mit dir, {\c&H1A7AFF&}ist{\c&HFFFFFF&} etwas völlig anderes.
+Dialogue: 0,0:00:26.28,0:00:26.70,Otto,,0,0,0,,Was mit Otto los ist, und vermutlich\Nauch mit dir, ist {\c&H1A7AFF&}etwas{\c&HFFFFFF&} völlig anderes.
+Dialogue: 0,0:00:26.70,0:00:27.18,Otto,,0,0,0,,Was mit Otto los ist, und vermutlich\Nauch mit dir, ist etwas {\c&H1A7AFF&}völlig{\c&HFFFFFF&} anderes.
+Dialogue: 0,0:00:27.18,0:00:27.77,Otto,,0,0,0,,Was mit Otto los ist, und vermutlich\Nauch mit dir, ist etwas völlig {\c&H1A7AFF&}anderes.{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.13,0:00:28.36,Otto,,0,0,0,,{\c&H1A7AFF&}Und{\c&HFFFFFF&} wenn du es einmal verstanden hast,\Nschiebst du deutlich weniger auf.
+Dialogue: 0,0:00:28.36,0:00:28.63,Otto,,0,0,0,,Und {\c&H1A7AFF&}wenn{\c&HFFFFFF&} du es einmal verstanden hast,\Nschiebst du deutlich weniger auf.
+Dialogue: 0,0:00:28.63,0:00:28.81,Otto,,0,0,0,,Und wenn {\c&H1A7AFF&}du{\c&HFFFFFF&} es einmal verstanden hast,\Nschiebst du deutlich weniger auf.
+Dialogue: 0,0:00:28.81,0:00:28.99,Otto,,0,0,0,,Und wenn du {\c&H1A7AFF&}es{\c&HFFFFFF&} einmal verstanden hast,\Nschiebst du deutlich weniger auf.
+Dialogue: 0,0:00:28.99,0:00:29.35,Otto,,0,0,0,,Und wenn du es {\c&H1A7AFF&}einmal{\c&HFFFFFF&} verstanden hast,\Nschiebst du deutlich weniger auf.
+Dialogue: 0,0:00:29.35,0:00:29.89,Otto,,0,0,0,,Und wenn du es einmal {\c&H1A7AFF&}verstanden{\c&HFFFFFF&} hast,\Nschiebst du deutlich weniger auf.
+Dialogue: 0,0:00:29.89,0:00:30.21,Otto,,0,0,0,,Und wenn du es einmal verstanden {\c&H1A7AFF&}hast,{\c&HFFFFFF&}\Nschiebst du deutlich weniger auf.
+Dialogue: 0,0:00:30.21,0:00:30.66,Otto,,0,0,0,,Und wenn du es einmal verstanden hast,\N{\c&H1A7AFF&}schiebst{\c&HFFFFFF&} du deutlich weniger auf.
+Dialogue: 0,0:00:30.66,0:00:30.84,Otto,,0,0,0,,Und wenn du es einmal verstanden hast,\Nschiebst {\c&H1A7AFF&}du{\c&HFFFFFF&} deutlich weniger auf.
+Dialogue: 0,0:00:30.84,0:00:31.29,Otto,,0,0,0,,Und wenn du es einmal verstanden hast,\Nschiebst du {\c&H1A7AFF&}deutlich{\c&HFFFFFF&} weniger auf.
+Dialogue: 0,0:00:31.29,0:00:31.70,Otto,,0,0,0,,Und wenn du es einmal verstanden hast,\Nschiebst du deutlich {\c&H1A7AFF&}weniger{\c&HFFFFFF&} auf.
+Dialogue: 0,0:00:31.70,0:00:31.97,Otto,,0,0,0,,Und wenn du es einmal verstanden hast,\Nschiebst du deutlich weniger {\c&H1A7AFF&}auf.{\c&HFFFFFF&}
+Dialogue: 0,0:00:32.33,0:00:32.53,Otto,,0,0,0,,{\c&H1A7AFF&}Am{\c&HFFFFFF&} Ende zeige ich dir einen Trick, der\Nso simpel ist, dass er fast peinlich ist.
+Dialogue: 0,0:00:32.53,0:00:32.83,Otto,,0,0,0,,Am {\c&H1A7AFF&}Ende{\c&HFFFFFF&} zeige ich dir einen Trick, der\Nso simpel ist, dass er fast peinlich ist.
+Dialogue: 0,0:00:32.83,0:00:33.17,Otto,,0,0,0,,Am Ende {\c&H1A7AFF&}zeige{\c&HFFFFFF&} ich dir einen Trick, der\Nso simpel ist, dass er fast peinlich ist.
+Dialogue: 0,0:00:33.17,0:00:33.42,Otto,,0,0,0,,Am Ende zeige {\c&H1A7AFF&}ich{\c&HFFFFFF&} dir einen Trick, der\Nso simpel ist, dass er fast peinlich ist.
+Dialogue: 0,0:00:33.42,0:00:33.67,Otto,,0,0,0,,Am Ende zeige ich {\c&H1A7AFF&}dir{\c&HFFFFFF&} einen Trick, der\Nso simpel ist, dass er fast peinlich ist.
+Dialogue: 0,0:00:33.67,0:00:34.02,Otto,,0,0,0,,Am Ende zeige ich dir {\c&H1A7AFF&}einen{\c&HFFFFFF&} Trick, der\Nso simpel ist, dass er fast peinlich ist.
+Dialogue: 0,0:00:34.02,0:00:34.41,Otto,,0,0,0,,Am Ende zeige ich dir einen {\c&H1A7AFF&}Trick,{\c&HFFFFFF&} der\Nso simpel ist, dass er fast peinlich ist.
+Dialogue: 0,0:00:34.41,0:00:34.66,Otto,,0,0,0,,Am Ende zeige ich dir einen Trick, {\c&H1A7AFF&}der{\c&HFFFFFF&}\Nso simpel ist, dass er fast peinlich ist.
+Dialogue: 0,0:00:34.66,0:00:34.86,Otto,,0,0,0,,Am Ende zeige ich dir einen Trick, der\N{\c&H1A7AFF&}so{\c&HFFFFFF&} simpel ist, dass er fast peinlich ist.
+Dialogue: 0,0:00:34.86,0:00:35.26,Otto,,0,0,0,,Am Ende zeige ich dir einen Trick, der\Nso {\c&H1A7AFF&}simpel{\c&HFFFFFF&} ist, dass er fast peinlich ist.
+Dialogue: 0,0:00:35.26,0:00:35.55,Otto,,0,0,0,,Am Ende zeige ich dir einen Trick, der\Nso simpel {\c&H1A7AFF&}ist,{\c&HFFFFFF&} dass er fast peinlich ist.
+Dialogue: 0,0:00:35.55,0:00:35.85,Otto,,0,0,0,,Am Ende zeige ich dir einen Trick, der\Nso simpel ist, {\c&H1A7AFF&}dass{\c&HFFFFFF&} er fast peinlich ist.
+Dialogue: 0,0:00:35.85,0:00:36.05,Otto,,0,0,0,,Am Ende zeige ich dir einen Trick, der\Nso simpel ist, dass {\c&H1A7AFF&}er{\c&HFFFFFF&} fast peinlich ist.
+Dialogue: 0,0:00:36.05,0:00:36.35,Otto,,0,0,0,,Am Ende zeige ich dir einen Trick, der\Nso simpel ist, dass er {\c&H1A7AFF&}fast{\c&HFFFFFF&} peinlich ist.
+Dialogue: 0,0:00:36.35,0:00:36.84,Otto,,0,0,0,,Am Ende zeige ich dir einen Trick, der\Nso simpel ist, dass er fast {\c&H1A7AFF&}peinlich{\c&HFFFFFF&} ist.
+Dialogue: 0,0:00:36.84,0:00:37.14,Otto,,0,0,0,,Am Ende zeige ich dir einen Trick, der\Nso simpel ist, dass er fast peinlich {\c&H1A7AFF&}ist.{\c&HFFFFFF&}
+Dialogue: 0,0:00:37.50,0:00:37.84,Otto,,0,0,0,,{\c&H1A7AFF&}Aber{\c&HFFFFFF&} er ist wissenschaftlich getestet.
+Dialogue: 0,0:00:37.84,0:00:38.07,Otto,,0,0,0,,Aber {\c&H1A7AFF&}er{\c&HFFFFFF&} ist wissenschaftlich getestet.
+Dialogue: 0,0:00:38.07,0:00:38.35,Otto,,0,0,0,,Aber er {\c&H1A7AFF&}ist{\c&HFFFFFF&} wissenschaftlich getestet.
+Dialogue: 0,0:00:38.35,0:00:39.37,Otto,,0,0,0,,Aber er ist {\c&H1A7AFF&}wissenschaftlich{\c&HFFFFFF&} getestet.
+Dialogue: 0,0:00:39.37,0:00:39.99,Otto,,0,0,0,,Aber er ist wissenschaftlich {\c&H1A7AFF&}getestet.{\c&HFFFFFF&}
+Dialogue: 0,0:00:42.79,0:00:43.15,Otto,,0,0,0,,{\c&H1A7AFF&}Fangen{\c&HFFFFFF&} wir mit einer Zahl an.
+Dialogue: 0,0:00:43.15,0:00:43.37,Otto,,0,0,0,,Fangen {\c&H1A7AFF&}wir{\c&HFFFFFF&} mit einer Zahl an.
+Dialogue: 0,0:00:43.37,0:00:43.59,Otto,,0,0,0,,Fangen wir {\c&H1A7AFF&}mit{\c&HFFFFFF&} einer Zahl an.
+Dialogue: 0,0:00:43.59,0:00:43.90,Otto,,0,0,0,,Fangen wir mit {\c&H1A7AFF&}einer{\c&HFFFFFF&} Zahl an.
+Dialogue: 0,0:00:43.90,0:00:44.17,Otto,,0,0,0,,Fangen wir mit einer {\c&H1A7AFF&}Zahl{\c&HFFFFFF&} an.
+Dialogue: 0,0:00:44.17,0:00:44.39,Otto,,0,0,0,,Fangen wir mit einer Zahl {\c&H1A7AFF&}an.{\c&HFFFFFF&}
+Dialogue: 0,0:00:44.75,0:00:45.15,Otto,,0,0,0,,{\c&H1A7AFF&}Laut{\c&HFFFFFF&} einer großen Übersichtsarbeit\Ndes Psychologen Piers Steel
+Dialogue: 0,0:00:45.15,0:00:45.61,Otto,,0,0,0,,Laut {\c&H1A7AFF&}einer{\c&HFFFFFF&} großen Übersichtsarbeit\Ndes Psychologen Piers Steel
+Dialogue: 0,0:00:45.61,0:00:46.14,Otto,,0,0,0,,Laut einer {\c&H1A7AFF&}großen{\c&HFFFFFF&} Übersichtsarbeit\Ndes Psychologen Piers Steel
+Dialogue: 0,0:00:46.14,0:00:47.34,Otto,,0,0,0,,Laut einer großen {\c&H1A7AFF&}Übersichtsarbeit{\c&HFFFFFF&}\Ndes Psychologen Piers Steel
+Dialogue: 0,0:00:47.34,0:00:47.67,Otto,,0,0,0,,Laut einer großen Übersichtsarbeit\N{\c&H1A7AFF&}des{\c&HFFFFFF&} Psychologen Piers Steel
+Dialogue: 0,0:00:47.67,0:00:48.53,Otto,,0,0,0,,Laut einer großen Übersichtsarbeit\Ndes {\c&H1A7AFF&}Psychologen{\c&HFFFFFF&} Piers Steel
+Dialogue: 0,0:00:48.53,0:00:48.99,Otto,,0,0,0,,Laut einer großen Übersichtsarbeit\Ndes Psychologen {\c&H1A7AFF&}Piers{\c&HFFFFFF&} Steel
+Dialogue: 0,0:00:48.99,0:00:49.46,Otto,,0,0,0,,Laut einer großen Übersichtsarbeit\Ndes Psychologen Piers {\c&H1A7AFF&}Steel{\c&HFFFFFF&}
+Dialogue: 0,0:00:49.46,0:00:50.11,Otto,,0,0,0,,{\c&H1A7AFF&}schieben{\c&HFFFFFF&} bis zu 95 Prozent der\NStudierenden regelmäßig Dinge auf.
+Dialogue: 0,0:00:50.11,0:00:50.43,Otto,,0,0,0,,schieben {\c&H1A7AFF&}bis{\c&HFFFFFF&} zu 95 Prozent der\NStudierenden regelmäßig Dinge auf.
+Dialogue: 0,0:00:50.43,0:00:50.69,Otto,,0,0,0,,schieben bis {\c&H1A7AFF&}zu{\c&HFFFFFF&} 95 Prozent der\NStudierenden regelmäßig Dinge auf.
+Dialogue: 0,0:00:50.69,0:00:50.95,Otto,,0,0,0,,schieben bis zu {\c&H1A7AFF&}95{\c&HFFFFFF&} Prozent der\NStudierenden regelmäßig Dinge auf.
+Dialogue: 0,0:00:50.95,0:00:51.53,Otto,,0,0,0,,schieben bis zu 95 {\c&H1A7AFF&}Prozent{\c&HFFFFFF&} der\NStudierenden regelmäßig Dinge auf.
+Dialogue: 0,0:00:51.53,0:00:51.86,Otto,,0,0,0,,schieben bis zu 95 Prozent {\c&H1A7AFF&}der{\c&HFFFFFF&}\NStudierenden regelmäßig Dinge auf.
+Dialogue: 0,0:00:51.86,0:00:52.77,Otto,,0,0,0,,schieben bis zu 95 Prozent der\N{\c&H1A7AFF&}Studierenden{\c&HFFFFFF&} regelmäßig Dinge auf.
+Dialogue: 0,0:00:52.77,0:00:53.55,Otto,,0,0,0,,schieben bis zu 95 Prozent der\NStudierenden {\c&H1A7AFF&}regelmäßig{\c&HFFFFFF&} Dinge auf.
+Dialogue: 0,0:00:53.55,0:00:54.00,Otto,,0,0,0,,schieben bis zu 95 Prozent der\NStudierenden regelmäßig {\c&H1A7AFF&}Dinge{\c&HFFFFFF&} auf.
+Dialogue: 0,0:00:54.00,0:00:54.39,Otto,,0,0,0,,schieben bis zu 95 Prozent der\NStudierenden regelmäßig Dinge {\c&H1A7AFF&}auf.{\c&HFFFFFF&}
+Dialogue: 0,0:00:54.75,0:00:55.03,Otto,,0,0,0,,{\c&H1A7AFF&}Und{\c&HFFFFFF&} etwa jeder fünfte\NErwachsene tut es chronisch.
+Dialogue: 0,0:00:55.03,0:00:55.36,Otto,,0,0,0,,Und {\c&H1A7AFF&}etwa{\c&HFFFFFF&} jeder fünfte\NErwachsene tut es chronisch.
+Dialogue: 0,0:00:55.36,0:00:55.75,Otto,,0,0,0,,Und etwa {\c&H1A7AFF&}jeder{\c&HFFFFFF&} fünfte\NErwachsene tut es chronisch.
+Dialogue: 0,0:00:55.75,0:00:56.20,Otto,,0,0,0,,Und etwa jeder {\c&H1A7AFF&}fünfte{\c&HFFFFFF&}\NErwachsene tut es chronisch.
+Dialogue: 0,0:00:56.20,0:00:56.86,Otto,,0,0,0,,Und etwa jeder fünfte\N{\c&H1A7AFF&}Erwachsene{\c&HFFFFFF&} tut es chronisch.
+Dialogue: 0,0:00:56.86,0:00:57.14,Otto,,0,0,0,,Und etwa jeder fünfte\NErwachsene {\c&H1A7AFF&}tut{\c&HFFFFFF&} es chronisch.
+Dialogue: 0,0:00:57.14,0:00:57.36,Otto,,0,0,0,,Und etwa jeder fünfte\NErwachsene tut {\c&H1A7AFF&}es{\c&HFFFFFF&} chronisch.
+Dialogue: 0,0:00:57.36,0:00:58.03,Otto,,0,0,0,,Und etwa jeder fünfte\NErwachsene tut es {\c&H1A7AFF&}chronisch.{\c&HFFFFFF&}
+Dialogue: 0,0:00:58.39,0:00:58.65,Otto,,0,0,0,,{\c&H1A7AFF&}Das{\c&HFFFFFF&} sind nicht alles Faulpelze.
+Dialogue: 0,0:00:58.65,0:00:58.96,Otto,,0,0,0,,Das {\c&H1A7AFF&}sind{\c&HFFFFFF&} nicht alles Faulpelze.
+Dialogue: 0,0:00:58.96,0:00:59.32,Otto,,0,0,0,,Das sind {\c&H1A7AFF&}nicht{\c&HFFFFFF&} alles Faulpelze.
+Dialogue: 0,0:00:59.32,0:00:59.68,Otto,,0,0,0,,Das sind nicht {\c&H1A7AFF&}alles{\c&HFFFFFF&} Faulpelze.
+Dialogue: 0,0:00:59.68,0:01:00.30,Otto,,0,0,0,,Das sind nicht alles {\c&H1A7AFF&}Faulpelze.{\c&HFFFFFF&}
+Dialogue: 0,0:01:00.53,0:01:00.79,Otto,,0,0,0,,{\c&H1A7AFF&}Das{\c&HFFFFFF&} ist einfach menschlich.
+Dialogue: 0,0:01:00.79,0:01:01.06,Otto,,0,0,0,,Das {\c&H1A7AFF&}ist{\c&HFFFFFF&} einfach menschlich.
+Dialogue: 0,0:01:01.06,0:01:01.53,Otto,,0,0,0,,Das ist {\c&H1A7AFF&}einfach{\c&HFFFFFF&} menschlich.
+Dialogue: 0,0:01:01.53,0:01:02.22,Otto,,0,0,0,,Das ist einfach {\c&H1A7AFF&}menschlich.{\c&HFFFFFF&}
+Dialogue: 0,0:01:02.82,0:01:03.09,Otto,,0,0,0,,{\c&H1A7AFF&}Der{\c&HFFFFFF&} Psychologe Tim Pychyl forscht seit\NJahrzehnten zu genau diesem Thema.
+Dialogue: 0,0:01:03.09,0:01:03.74,Otto,,0,0,0,,Der {\c&H1A7AFF&}Psychologe{\c&HFFFFFF&} Tim Pychyl forscht seit\NJahrzehnten zu genau diesem Thema.
+Dialogue: 0,0:01:03.74,0:01:04.01,Otto,,0,0,0,,Der Psychologe {\c&H1A7AFF&}Tim{\c&HFFFFFF&} Pychyl forscht seit\NJahrzehnten zu genau diesem Thema.
+Dialogue: 0,0:01:04.01,0:01:04.45,Otto,,0,0,0,,Der Psychologe Tim {\c&H1A7AFF&}Pychyl{\c&HFFFFFF&} forscht seit\NJahrzehnten zu genau diesem Thema.
+Dialogue: 0,0:01:04.45,0:01:04.94,Otto,,0,0,0,,Der Psychologe Tim Pychyl {\c&H1A7AFF&}forscht{\c&HFFFFFF&} seit\NJahrzehnten zu genau diesem Thema.
+Dialogue: 0,0:01:04.94,0:01:05.26,Otto,,0,0,0,,Der Psychologe Tim Pychyl forscht {\c&H1A7AFF&}seit{\c&HFFFFFF&}\NJahrzehnten zu genau diesem Thema.
+Dialogue: 0,0:01:05.26,0:01:05.97,Otto,,0,0,0,,Der Psychologe Tim Pychyl forscht seit\N{\c&H1A7AFF&}Jahrzehnten{\c&HFFFFFF&} zu genau diesem Thema.
+Dialogue: 0,0:01:05.97,0:01:06.19,Otto,,0,0,0,,Der Psychologe Tim Pychyl forscht seit\NJahrzehnten {\c&H1A7AFF&}zu{\c&HFFFFFF&} genau diesem Thema.
+Dialogue: 0,0:01:06.19,0:01:06.57,Otto,,0,0,0,,Der Psychologe Tim Pychyl forscht seit\NJahrzehnten zu {\c&H1A7AFF&}genau{\c&HFFFFFF&} diesem Thema.
+Dialogue: 0,0:01:06.57,0:01:07.00,Otto,,0,0,0,,Der Psychologe Tim Pychyl forscht seit\NJahrzehnten zu genau {\c&H1A7AFF&}diesem{\c&HFFFFFF&} Thema.
+Dialogue: 0,0:01:07.00,0:01:07.44,Otto,,0,0,0,,Der Psychologe Tim Pychyl forscht seit\NJahrzehnten zu genau diesem {\c&H1A7AFF&}Thema.{\c&HFFFFFF&}
+Dialogue: 0,0:01:07.80,0:01:08.36,Otto,,0,0,0,,{\c&H1A7AFF&}Gemeinsam{\c&HFFFFFF&} mit Fuschia Sirois hat\Ner es auf einen Satz gebracht:
+Dialogue: 0,0:01:08.36,0:01:08.62,Otto,,0,0,0,,Gemeinsam {\c&H1A7AFF&}mit{\c&HFFFFFF&} Fuschia Sirois hat\Ner es auf einen Satz gebracht:
+Dialogue: 0,0:01:08.62,0:01:09.08,Otto,,0,0,0,,Gemeinsam mit {\c&H1A7AFF&}Fuschia{\c&HFFFFFF&} Sirois hat\Ner es auf einen Satz gebracht:
+Dialogue: 0,0:01:09.08,0:01:09.49,Otto,,0,0,0,,Gemeinsam mit Fuschia {\c&H1A7AFF&}Sirois{\c&HFFFFFF&} hat\Ner es auf einen Satz gebracht:
+Dialogue: 0,0:01:09.49,0:01:09.75,Otto,,0,0,0,,Gemeinsam mit Fuschia Sirois {\c&H1A7AFF&}hat{\c&HFFFFFF&}\Ner es auf einen Satz gebracht:
+Dialogue: 0,0:01:09.75,0:01:09.95,Otto,,0,0,0,,Gemeinsam mit Fuschia Sirois hat\N{\c&H1A7AFF&}er{\c&HFFFFFF&} es auf einen Satz gebracht:
+Dialogue: 0,0:01:09.95,0:01:10.16,Otto,,0,0,0,,Gemeinsam mit Fuschia Sirois hat\Ner {\c&H1A7AFF&}es{\c&HFFFFFF&} auf einen Satz gebracht:
+Dialogue: 0,0:01:10.16,0:01:10.42,Otto,,0,0,0,,Gemeinsam mit Fuschia Sirois hat\Ner es {\c&H1A7AFF&}auf{\c&HFFFFFF&} einen Satz gebracht:
+Dialogue: 0,0:01:10.42,0:01:10.78,Otto,,0,0,0,,Gemeinsam mit Fuschia Sirois hat\Ner es auf {\c&H1A7AFF&}einen{\c&HFFFFFF&} Satz gebracht:
+Dialogue: 0,0:01:10.78,0:01:11.08,Otto,,0,0,0,,Gemeinsam mit Fuschia Sirois hat\Ner es auf einen {\c&H1A7AFF&}Satz{\c&HFFFFFF&} gebracht:
+Dialogue: 0,0:01:11.08,0:01:11.65,Otto,,0,0,0,,Gemeinsam mit Fuschia Sirois hat\Ner es auf einen Satz {\c&H1A7AFF&}gebracht:{\c&HFFFFFF&}
+Dialogue: 0,0:01:12.01,0:01:12.86,Otto,,0,0,0,,{\c&H1A7AFF&}Aufschieben{\c&HFFFFFF&} ist kein Problem des\NZeitmanagements, sondern der Gefühlsregulation.
+Dialogue: 0,0:01:12.86,0:01:13.18,Otto,,0,0,0,,Aufschieben {\c&H1A7AFF&}ist{\c&HFFFFFF&} kein Problem des\NZeitmanagements, sondern der Gefühlsregulation.
+Dialogue: 0,0:01:13.18,0:01:13.57,Otto,,0,0,0,,Aufschieben ist {\c&H1A7AFF&}kein{\c&HFFFFFF&} Problem des\NZeitmanagements, sondern der Gefühlsregulation.
+Dialogue: 0,0:01:13.57,0:01:14.16,Otto,,0,0,0,,Aufschieben ist kein {\c&H1A7AFF&}Problem{\c&HFFFFFF&} des\NZeitmanagements, sondern der Gefühlsregulation.
+Dialogue: 0,0:01:14.16,0:01:14.49,Otto,,0,0,0,,Aufschieben ist kein Problem {\c&H1A7AFF&}des{\c&HFFFFFF&}\NZeitmanagements, sondern der Gefühlsregulation.
+Dialogue: 0,0:01:14.49,0:01:15.66,Otto,,0,0,0,,Aufschieben ist kein Problem des\N{\c&H1A7AFF&}Zeitmanagements,{\c&HFFFFFF&} sondern der Gefühlsregulation.
+Dialogue: 0,0:01:15.66,0:01:16.25,Otto,,0,0,0,,Aufschieben ist kein Problem des\NZeitmanagements, {\c&H1A7AFF&}sondern{\c&HFFFFFF&} der Gefühlsregulation.
+Dialogue: 0,0:01:16.25,0:01:16.57,Otto,,0,0,0,,Aufschieben ist kein Problem des\NZeitmanagements, sondern {\c&H1A7AFF&}der{\c&HFFFFFF&} Gefühlsregulation.
+Dialogue: 0,0:01:16.57,0:01:17.88,Otto,,0,0,0,,Aufschieben ist kein Problem des\NZeitmanagements, sondern der {\c&H1A7AFF&}Gefühlsregulation.{\c&HFFFFFF&}
+Dialogue: 0,0:01:18.48,0:01:18.91,Otto,,0,0,0,,{\c&H1A7AFF&}Heißt{\c&HFFFFFF&} übersetzt: Otto vermeidet\Nnicht die Steuererklärung.
+Dialogue: 0,0:01:18.91,0:01:19.64,Otto,,0,0,0,,Heißt {\c&H1A7AFF&}übersetzt:{\c&HFFFFFF&} Otto vermeidet\Nnicht die Steuererklärung.
+Dialogue: 0,0:01:19.64,0:01:20.00,Otto,,0,0,0,,Heißt übersetzt: {\c&H1A7AFF&}Otto{\c&HFFFFFF&} vermeidet\Nnicht die Steuererklärung.
+Dialogue: 0,0:01:20.00,0:01:20.68,Otto,,0,0,0,,Heißt übersetzt: Otto {\c&H1A7AFF&}vermeidet{\c&HFFFFFF&}\Nnicht die Steuererklärung.
+Dialogue: 0,0:01:20.68,0:01:21.10,Otto,,0,0,0,,Heißt übersetzt: Otto vermeidet\N{\c&H1A7AFF&}nicht{\c&HFFFFFF&} die Steuererklärung.
+Dialogue: 0,0:01:21.10,0:01:21.41,Otto,,0,0,0,,Heißt übersetzt: Otto vermeidet\Nnicht {\c&H1A7AFF&}die{\c&HFFFFFF&} Steuererklärung.
+Dialogue: 0,0:01:21.41,0:01:22.51,Otto,,0,0,0,,Heißt übersetzt: Otto vermeidet\Nnicht die {\c&H1A7AFF&}Steuererklärung.{\c&HFFFFFF&}
+Dialogue: 0,0:01:22.87,0:01:23.26,Otto,,0,0,0,,{\c&H1A7AFF&}Otto{\c&HFFFFFF&} vermeidet das Gefühl, das die\NSteuererklärung in ihm auslöst.
+Dialogue: 0,0:01:23.26,0:01:23.99,Otto,,0,0,0,,Otto {\c&H1A7AFF&}vermeidet{\c&HFFFFFF&} das Gefühl, das die\NSteuererklärung in ihm auslöst.
+Dialogue: 0,0:01:23.99,0:01:24.32,Otto,,0,0,0,,Otto vermeidet {\c&H1A7AFF&}das{\c&HFFFFFF&} Gefühl, das die\NSteuererklärung in ihm auslöst.
+Dialogue: 0,0:01:24.32,0:01:24.92,Otto,,0,0,0,,Otto vermeidet das {\c&H1A7AFF&}Gefühl,{\c&HFFFFFF&} das die\NSteuererklärung in ihm auslöst.
+Dialogue: 0,0:01:24.92,0:01:25.25,Otto,,0,0,0,,Otto vermeidet das Gefühl, {\c&H1A7AFF&}das{\c&HFFFFFF&} die\NSteuererklärung in ihm auslöst.
+Dialogue: 0,0:01:25.25,0:01:25.58,Otto,,0,0,0,,Otto vermeidet das Gefühl, das {\c&H1A7AFF&}die{\c&HFFFFFF&}\NSteuererklärung in ihm auslöst.
+Dialogue: 0,0:01:25.58,0:01:26.70,Otto,,0,0,0,,Otto vermeidet das Gefühl, das die\N{\c&H1A7AFF&}Steuererklärung{\c&HFFFFFF&} in ihm auslöst.
+Dialogue: 0,0:01:26.70,0:01:26.97,Otto,,0,0,0,,Otto vermeidet das Gefühl, das die\NSteuererklärung {\c&H1A7AFF&}in{\c&HFFFFFF&} ihm auslöst.
+Dialogue: 0,0:01:26.97,0:01:27.30,Otto,,0,0,0,,Otto vermeidet das Gefühl, das die\NSteuererklärung in {\c&H1A7AFF&}ihm{\c&HFFFFFF&} auslöst.
+Dialogue: 0,0:01:27.30,0:01:27.96,Otto,,0,0,0,,Otto vermeidet das Gefühl, das die\NSteuererklärung in ihm {\c&H1A7AFF&}auslöst.{\c&HFFFFFF&}
+Dialogue: 0,0:01:28.32,0:01:29.21,Otto,,0,0,0,,{\c&H1A7AFF&}Langeweile.{\c&HFFFFFF&}
+Dialogue: 0,0:01:29.44,0:01:30.68,Otto,,0,0,0,,{\c&H1A7AFF&}Überforderung.{\c&HFFFFFF&}
+Dialogue: 0,0:01:30.90,0:01:31.17,Otto,,0,0,0,,{\c&H1A7AFF&}Die{\c&HFFFFFF&} Angst, etwas falsch zu machen.
+Dialogue: 0,0:01:31.17,0:01:31.59,Otto,,0,0,0,,Die {\c&H1A7AFF&}Angst,{\c&HFFFFFF&} etwas falsch zu machen.
+Dialogue: 0,0:01:31.59,0:01:31.96,Otto,,0,0,0,,Die Angst, {\c&H1A7AFF&}etwas{\c&HFFFFFF&} falsch zu machen.
+Dialogue: 0,0:01:31.96,0:01:32.38,Otto,,0,0,0,,Die Angst, etwas {\c&H1A7AFF&}falsch{\c&HFFFFFF&} zu machen.
+Dialogue: 0,0:01:32.38,0:01:32.59,Otto,,0,0,0,,Die Angst, etwas falsch {\c&H1A7AFF&}zu{\c&HFFFFFF&} machen.
+Dialogue: 0,0:01:32.59,0:01:33.06,Otto,,0,0,0,,Die Angst, etwas falsch zu {\c&H1A7AFF&}machen.{\c&HFFFFFF&}
+Dialogue: 0,0:01:33.66,0:01:33.97,Otto,,0,0,0,,{\c&H1A7AFF&}Und{\c&HFFFFFF&} das Bad putzen?
+Dialogue: 0,0:01:33.97,0:01:34.27,Otto,,0,0,0,,Und {\c&H1A7AFF&}das{\c&HFFFFFF&} Bad putzen?
+Dialogue: 0,0:01:34.27,0:01:34.58,Otto,,0,0,0,,Und das {\c&H1A7AFF&}Bad{\c&HFFFFFF&} putzen?
+Dialogue: 0,0:01:34.58,0:01:35.12,Otto,,0,0,0,,Und das Bad {\c&H1A7AFF&}putzen?{\c&HFFFFFF&}
+Dialogue: 0,0:01:35.35,0:01:35.58,Otto,,0,0,0,,{\c&H1A7AFF&}Das{\c&HFFFFFF&} fühlt sich gut an.
+Dialogue: 0,0:01:35.58,0:01:35.91,Otto,,0,0,0,,Das {\c&H1A7AFF&}fühlt{\c&HFFFFFF&} sich gut an.
+Dialogue: 0,0:01:35.91,0:01:36.19,Otto,,0,0,0,,Das fühlt {\c&H1A7AFF&}sich{\c&HFFFFFF&} gut an.
+Dialogue: 0,0:01:36.19,0:01:36.42,Otto,,0,0,0,,Das fühlt sich {\c&H1A7AFF&}gut{\c&HFFFFFF&} an.
+Dialogue: 0,0:01:36.42,0:01:36.65,Otto,,0,0,0,,Das fühlt sich gut {\c&H1A7AFF&}an.{\c&HFFFFFF&}
+Dialogue: 0,0:01:36.88,0:01:37.15,Otto,,0,0,0,,{\c&H1A7AFF&}Man{\c&HFFFFFF&} sieht sofort ein Ergebnis.
+Dialogue: 0,0:01:37.15,0:01:37.52,Otto,,0,0,0,,Man {\c&H1A7AFF&}sieht{\c&HFFFFFF&} sofort ein Ergebnis.
+Dialogue: 0,0:01:37.52,0:01:37.95,Otto,,0,0,0,,Man sieht {\c&H1A7AFF&}sofort{\c&HFFFFFF&} ein Ergebnis.
+Dialogue: 0,0:01:37.95,0:01:38.21,Otto,,0,0,0,,Man sieht sofort {\c&H1A7AFF&}ein{\c&HFFFFFF&} Ergebnis.
+Dialogue: 0,0:01:38.21,0:01:38.80,Otto,,0,0,0,,Man sieht sofort ein {\c&H1A7AFF&}Ergebnis.{\c&HFFFFFF&}
+Dialogue: 0,0:01:39.16,0:01:39.45,Otto,,0,0,0,,{\c&H1A7AFF&}Otto{\c&HFFFFFF&} flüchtet also nicht vor der Arbeit.
+Dialogue: 0,0:01:39.45,0:01:39.94,Otto,,0,0,0,,Otto {\c&H1A7AFF&}flüchtet{\c&HFFFFFF&} also nicht vor der Arbeit.
+Dialogue: 0,0:01:39.94,0:01:40.23,Otto,,0,0,0,,Otto flüchtet {\c&H1A7AFF&}also{\c&HFFFFFF&} nicht vor der Arbeit.
+Dialogue: 0,0:01:40.23,0:01:40.57,Otto,,0,0,0,,Otto flüchtet also {\c&H1A7AFF&}nicht{\c&HFFFFFF&} vor der Arbeit.
+Dialogue: 0,0:01:40.57,0:01:40.81,Otto,,0,0,0,,Otto flüchtet also nicht {\c&H1A7AFF&}vor{\c&HFFFFFF&} der Arbeit.
+Dialogue: 0,0:01:40.81,0:01:41.05,Otto,,0,0,0,,Otto flüchtet also nicht vor {\c&H1A7AFF&}der{\c&HFFFFFF&} Arbeit.
+Dialogue: 0,0:01:41.05,0:01:41.49,Otto,,0,0,0,,Otto flüchtet also nicht vor der {\c&H1A7AFF&}Arbeit.{\c&HFFFFFF&}
+Dialogue: 0,0:01:41.85,0:01:42.13,Otto,,0,0,0,,{\c&H1A7AFF&}Otto{\c&HFFFFFF&} flüchtet vor einem schlechten Gefühl.
+Dialogue: 0,0:01:42.13,0:01:42.59,Otto,,0,0,0,,Otto {\c&H1A7AFF&}flüchtet{\c&HFFFFFF&} vor einem schlechten Gefühl.
+Dialogue: 0,0:01:42.59,0:01:42.82,Otto,,0,0,0,,Otto flüchtet {\c&H1A7AFF&}vor{\c&HFFFFFF&} einem schlechten Gefühl.
+Dialogue: 0,0:01:42.82,0:01:43.15,Otto,,0,0,0,,Otto flüchtet vor {\c&H1A7AFF&}einem{\c&HFFFFFF&} schlechten Gefühl.
+Dialogue: 0,0:01:43.15,0:01:43.70,Otto,,0,0,0,,Otto flüchtet vor einem {\c&H1A7AFF&}schlechten{\c&HFFFFFF&} Gefühl.
+Dialogue: 0,0:01:43.70,0:01:44.12,Otto,,0,0,0,,Otto flüchtet vor einem schlechten {\c&H1A7AFF&}Gefühl.{\c&HFFFFFF&}
+Dialogue: 0,0:01:44.72,0:01:44.94,Otto,,0,0,0,,{\c&H1A7AFF&}Und{\c&HFFFFFF&} jetzt wird's spannend.
+Dialogue: 0,0:01:44.94,0:01:45.25,Otto,,0,0,0,,Und {\c&H1A7AFF&}jetzt{\c&HFFFFFF&} wird's spannend.
+Dialogue: 0,0:01:45.25,0:01:45.60,Otto,,0,0,0,,Und jetzt {\c&H1A7AFF&}wird's{\c&HFFFFFF&} spannend.
+Dialogue: 0,0:01:45.60,0:01:46.09,Otto,,0,0,0,,Und jetzt wird's {\c&H1A7AFF&}spannend.{\c&HFFFFFF&}
+Dialogue: 0,0:01:46.45,0:01:46.76,Otto,,0,0,0,,{\c&H1A7AFF&}Denn{\c&HFFFFFF&} in Ottos Kopf läuft\Nin diesem Moment ein Kampf,
+Dialogue: 0,0:01:46.76,0:01:46.96,Otto,,0,0,0,,Denn {\c&H1A7AFF&}in{\c&HFFFFFF&} Ottos Kopf läuft\Nin diesem Moment ein Kampf,
+Dialogue: 0,0:01:46.96,0:01:47.32,Otto,,0,0,0,,Denn in {\c&H1A7AFF&}Ottos{\c&HFFFFFF&} Kopf läuft\Nin diesem Moment ein Kampf,
+Dialogue: 0,0:01:47.32,0:01:47.62,Otto,,0,0,0,,Denn in Ottos {\c&H1A7AFF&}Kopf{\c&HFFFFFF&} läuft\Nin diesem Moment ein Kampf,
+Dialogue: 0,0:01:47.62,0:01:47.98,Otto,,0,0,0,,Denn in Ottos Kopf {\c&H1A7AFF&}läuft{\c&HFFFFFF&}\Nin diesem Moment ein Kampf,
+Dialogue: 0,0:01:47.98,0:01:48.18,Otto,,0,0,0,,Denn in Ottos Kopf läuft\N{\c&H1A7AFF&}in{\c&HFFFFFF&} diesem Moment ein Kampf,
+Dialogue: 0,0:01:48.18,0:01:48.59,Otto,,0,0,0,,Denn in Ottos Kopf läuft\Nin {\c&H1A7AFF&}diesem{\c&HFFFFFF&} Moment ein Kampf,
+Dialogue: 0,0:01:48.59,0:01:49.00,Otto,,0,0,0,,Denn in Ottos Kopf läuft\Nin diesem {\c&H1A7AFF&}Moment{\c&HFFFFFF&} ein Kampf,
+Dialogue: 0,0:01:49.00,0:01:49.25,Otto,,0,0,0,,Denn in Ottos Kopf läuft\Nin diesem Moment {\c&H1A7AFF&}ein{\c&HFFFFFF&} Kampf,
+Dialogue: 0,0:01:49.25,0:01:49.66,Otto,,0,0,0,,Denn in Ottos Kopf läuft\Nin diesem Moment ein {\c&H1A7AFF&}Kampf,{\c&HFFFFFF&}
+Dialogue: 0,0:01:49.66,0:01:49.92,Otto,,0,0,0,,{\c&H1A7AFF&}den{\c&HFFFFFF&} er praktisch nicht gewinnen kann.
+Dialogue: 0,0:01:49.92,0:01:50.12,Otto,,0,0,0,,den {\c&H1A7AFF&}er{\c&HFFFFFF&} praktisch nicht gewinnen kann.
+Dialogue: 0,0:01:50.12,0:01:50.70,Otto,,0,0,0,,den er {\c&H1A7AFF&}praktisch{\c&HFFFFFF&} nicht gewinnen kann.
+Dialogue: 0,0:01:50.70,0:01:51.06,Otto,,0,0,0,,den er praktisch {\c&H1A7AFF&}nicht{\c&HFFFFFF&} gewinnen kann.
+Dialogue: 0,0:01:51.06,0:01:51.58,Otto,,0,0,0,,den er praktisch nicht {\c&H1A7AFF&}gewinnen{\c&HFFFFFF&} kann.
+Dialogue: 0,0:01:51.58,0:01:51.94,Otto,,0,0,0,,den er praktisch nicht gewinnen {\c&H1A7AFF&}kann.{\c&HFFFFFF&}
+Dialogue: 0,0:01:52.54,0:01:52.78,Otto,,0,0,0,,{\c&H1A7AFF&}In{\c&HFFFFFF&} deinem Gehirn sitzt die\NAmygdala, quasi deine Alarmanlage.
+Dialogue: 0,0:01:52.78,0:01:53.25,Otto,,0,0,0,,In {\c&H1A7AFF&}deinem{\c&HFFFFFF&} Gehirn sitzt die\NAmygdala, quasi deine Alarmanlage.
+Dialogue: 0,0:01:53.25,0:01:53.72,Otto,,0,0,0,,In deinem {\c&H1A7AFF&}Gehirn{\c&HFFFFFF&} sitzt die\NAmygdala, quasi deine Alarmanlage.
+Dialogue: 0,0:01:53.72,0:01:54.14,Otto,,0,0,0,,In deinem Gehirn {\c&H1A7AFF&}sitzt{\c&HFFFFFF&} die\NAmygdala, quasi deine Alarmanlage.
+Dialogue: 0,0:01:54.14,0:01:54.43,Otto,,0,0,0,,In deinem Gehirn sitzt {\c&H1A7AFF&}die{\c&HFFFFFF&}\NAmygdala, quasi deine Alarmanlage.
+Dialogue: 0,0:01:54.43,0:01:55.08,Otto,,0,0,0,,In deinem Gehirn sitzt die\N{\c&H1A7AFF&}Amygdala,{\c&HFFFFFF&} quasi deine Alarmanlage.
+Dialogue: 0,0:01:55.08,0:01:55.50,Otto,,0,0,0,,In deinem Gehirn sitzt die\NAmygdala, {\c&H1A7AFF&}quasi{\c&HFFFFFF&} deine Alarmanlage.
+Dialogue: 0,0:01:55.50,0:01:55.91,Otto,,0,0,0,,In deinem Gehirn sitzt die\NAmygdala, quasi {\c&H1A7AFF&}deine{\c&HFFFFFF&} Alarmanlage.
+Dialogue: 0,0:01:55.91,0:01:56.74,Otto,,0,0,0,,In deinem Gehirn sitzt die\NAmygdala, quasi deine {\c&H1A7AFF&}Alarmanlage.{\c&HFFFFFF&}
+Dialogue: 0,0:01:57.10,0:01:57.38,Otto,,0,0,0,,{\c&H1A7AFF&}Sie{\c&HFFFFFF&} reagiert blitzschnell auf alles,
+Dialogue: 0,0:01:57.38,0:01:57.93,Otto,,0,0,0,,Sie {\c&H1A7AFF&}reagiert{\c&HFFFFFF&} blitzschnell auf alles,
+Dialogue: 0,0:01:57.93,0:01:58.71,Otto,,0,0,0,,Sie reagiert {\c&H1A7AFF&}blitzschnell{\c&HFFFFFF&} auf alles,
+Dialogue: 0,0:01:58.71,0:01:58.99,Otto,,0,0,0,,Sie reagiert blitzschnell {\c&H1A7AFF&}auf{\c&HFFFFFF&} alles,
+Dialogue: 0,0:01:58.99,0:01:59.43,Otto,,0,0,0,,Sie reagiert blitzschnell auf {\c&H1A7AFF&}alles,{\c&HFFFFFF&}
+Dialogue: 0,0:01:59.43,0:01:59.71,Otto,,0,0,0,,{\c&H1A7AFF&}was{\c&HFFFFFF&} sich unangenehm\Noder bedrohlich anfühlt.
+Dialogue: 0,0:01:59.71,0:02:00.05,Otto,,0,0,0,,was {\c&H1A7AFF&}sich{\c&HFFFFFF&} unangenehm\Noder bedrohlich anfühlt.
+Dialogue: 0,0:02:00.05,0:02:00.72,Otto,,0,0,0,,was sich {\c&H1A7AFF&}unangenehm{\c&HFFFFFF&}\Noder bedrohlich anfühlt.
+Dialogue: 0,0:02:00.72,0:02:01.05,Otto,,0,0,0,,was sich unangenehm\N{\c&H1A7AFF&}oder{\c&HFFFFFF&} bedrohlich anfühlt.
+Dialogue: 0,0:02:01.05,0:02:01.72,Otto,,0,0,0,,was sich unangenehm\Noder {\c&H1A7AFF&}bedrohlich{\c&HFFFFFF&} anfühlt.
+Dialogue: 0,0:02:01.72,0:02:02.28,Otto,,0,0,0,,was sich unangenehm\Noder bedrohlich {\c&H1A7AFF&}anfühlt.{\c&HFFFFFF&}
+Dialogue: 0,0:02:02.64,0:02:02.92,Otto,,0,0,0,,{\c&H1A7AFF&}Und{\c&HFFFFFF&} dann gibt es den\Npräfrontalen Kortex, den Planer.
+Dialogue: 0,0:02:02.92,0:02:03.26,Otto,,0,0,0,,Und {\c&H1A7AFF&}dann{\c&HFFFFFF&} gibt es den\Npräfrontalen Kortex, den Planer.
+Dialogue: 0,0:02:03.26,0:02:03.60,Otto,,0,0,0,,Und dann {\c&H1A7AFF&}gibt{\c&HFFFFFF&} es den\Npräfrontalen Kortex, den Planer.
+Dialogue: 0,0:02:03.60,0:02:03.82,Otto,,0,0,0,,Und dann gibt {\c&H1A7AFF&}es{\c&HFFFFFF&} den\Npräfrontalen Kortex, den Planer.
+Dialogue: 0,0:02:03.82,0:02:04.11,Otto,,0,0,0,,Und dann gibt es {\c&H1A7AFF&}den{\c&HFFFFFF&}\Npräfrontalen Kortex, den Planer.
+Dialogue: 0,0:02:04.11,0:02:04.89,Otto,,0,0,0,,Und dann gibt es den\N{\c&H1A7AFF&}präfrontalen{\c&HFFFFFF&} Kortex, den Planer.
+Dialogue: 0,0:02:04.89,0:02:05.40,Otto,,0,0,0,,Und dann gibt es den\Npräfrontalen {\c&H1A7AFF&}Kortex,{\c&HFFFFFF&} den Planer.
+Dialogue: 0,0:02:05.40,0:02:05.68,Otto,,0,0,0,,Und dann gibt es den\Npräfrontalen Kortex, {\c&H1A7AFF&}den{\c&HFFFFFF&} Planer.
+Dialogue: 0,0:02:05.68,0:02:06.19,Otto,,0,0,0,,Und dann gibt es den\Npräfrontalen Kortex, den {\c&H1A7AFF&}Planer.{\c&HFFFFFF&}
+Dialogue: 0,0:02:06.55,0:02:06.83,Otto,,0,0,0,,{\c&H1A7AFF&}Der{\c&HFFFFFF&} weiß, dass die Steuererklärung\Nbis Freitag fertig sein muss.
+Dialogue: 0,0:02:06.83,0:02:07.23,Otto,,0,0,0,,Der {\c&H1A7AFF&}weiß,{\c&HFFFFFF&} dass die Steuererklärung\Nbis Freitag fertig sein muss.
+Dialogue: 0,0:02:07.23,0:02:07.56,Otto,,0,0,0,,Der weiß, {\c&H1A7AFF&}dass{\c&HFFFFFF&} die Steuererklärung\Nbis Freitag fertig sein muss.
+Dialogue: 0,0:02:07.56,0:02:07.84,Otto,,0,0,0,,Der weiß, dass {\c&H1A7AFF&}die{\c&HFFFFFF&} Steuererklärung\Nbis Freitag fertig sein muss.
+Dialogue: 0,0:02:07.84,0:02:08.80,Otto,,0,0,0,,Der weiß, dass die {\c&H1A7AFF&}Steuererklärung{\c&HFFFFFF&}\Nbis Freitag fertig sein muss.
+Dialogue: 0,0:02:08.80,0:02:09.08,Otto,,0,0,0,,Der weiß, dass die Steuererklärung\N{\c&H1A7AFF&}bis{\c&HFFFFFF&} Freitag fertig sein muss.
+Dialogue: 0,0:02:09.08,0:02:09.59,Otto,,0,0,0,,Der weiß, dass die Steuererklärung\Nbis {\c&H1A7AFF&}Freitag{\c&HFFFFFF&} fertig sein muss.
+Dialogue: 0,0:02:09.59,0:02:10.04,Otto,,0,0,0,,Der weiß, dass die Steuererklärung\Nbis Freitag {\c&H1A7AFF&}fertig{\c&HFFFFFF&} sein muss.
+Dialogue: 0,0:02:10.04,0:02:10.38,Otto,,0,0,0,,Der weiß, dass die Steuererklärung\Nbis Freitag fertig {\c&H1A7AFF&}sein{\c&HFFFFFF&} muss.
+Dialogue: 0,0:02:10.38,0:02:10.77,Otto,,0,0,0,,Der weiß, dass die Steuererklärung\Nbis Freitag fertig sein {\c&H1A7AFF&}muss.{\c&HFFFFFF&}
+Dialogue: 0,0:02:11.37,0:02:12.05,Otto,,0,0,0,,{\c&H1A7AFF&}Forscher{\c&HFFFFFF&} der Ruhr-Universität Bochum\Nhaben 2018 etwas Spannendes entdeckt.
+Dialogue: 0,0:02:12.05,0:02:12.39,Otto,,0,0,0,,Forscher {\c&H1A7AFF&}der{\c&HFFFFFF&} Ruhr-Universität Bochum\Nhaben 2018 etwas Spannendes entdeckt.
+Dialogue: 0,0:02:12.39,0:02:13.61,Otto,,0,0,0,,Forscher der {\c&H1A7AFF&}Ruhr-Universität{\c&HFFFFFF&} Bochum\Nhaben 2018 etwas Spannendes entdeckt.
+Dialogue: 0,0:02:13.61,0:02:14.16,Otto,,0,0,0,,Forscher der Ruhr-Universität {\c&H1A7AFF&}Bochum{\c&HFFFFFF&}\Nhaben 2018 etwas Spannendes entdeckt.
+Dialogue: 0,0:02:14.16,0:02:14.63,Otto,,0,0,0,,Forscher der Ruhr-Universität Bochum\N{\c&H1A7AFF&}haben{\c&HFFFFFF&} 2018 etwas Spannendes entdeckt.
+Dialogue: 0,0:02:14.63,0:02:15.04,Otto,,0,0,0,,Forscher der Ruhr-Universität Bochum\Nhaben {\c&H1A7AFF&}2018{\c&HFFFFFF&} etwas Spannendes entdeckt.
+Dialogue: 0,0:02:15.04,0:02:15.52,Otto,,0,0,0,,Forscher der Ruhr-Universität Bochum\Nhaben 2018 {\c&H1A7AFF&}etwas{\c&HFFFFFF&} Spannendes entdeckt.
+Dialogue: 0,0:02:15.52,0:02:16.33,Otto,,0,0,0,,Forscher der Ruhr-Universität Bochum\Nhaben 2018 etwas {\c&H1A7AFF&}Spannendes{\c&HFFFFFF&} entdeckt.
+Dialogue: 0,0:02:16.33,0:02:17.08,Otto,,0,0,0,,Forscher der Ruhr-Universität Bochum\Nhaben 2018 etwas Spannendes {\c&H1A7AFF&}entdeckt.{\c&HFFFFFF&}
+Dialogue: 0,0:02:17.44,0:02:17.75,Otto,,0,0,0,,{\c&H1A7AFF&}Bei{\c&HFFFFFF&} Menschen, die eher dazu neigen,
+Dialogue: 0,0:02:17.75,0:02:18.43,Otto,,0,0,0,,Bei {\c&H1A7AFF&}Menschen,{\c&HFFFFFF&} die eher dazu neigen,
+Dialogue: 0,0:02:18.43,0:02:18.73,Otto,,0,0,0,,Bei Menschen, {\c&H1A7AFF&}die{\c&HFFFFFF&} eher dazu neigen,
+Dialogue: 0,0:02:18.73,0:02:19.10,Otto,,0,0,0,,Bei Menschen, die {\c&H1A7AFF&}eher{\c&HFFFFFF&} dazu neigen,
+Dialogue: 0,0:02:19.10,0:02:19.47,Otto,,0,0,0,,Bei Menschen, die eher {\c&H1A7AFF&}dazu{\c&HFFFFFF&} neigen,
+Dialogue: 0,0:02:19.47,0:02:20.03,Otto,,0,0,0,,Bei Menschen, die eher dazu {\c&H1A7AFF&}neigen,{\c&HFFFFFF&}
+Dialogue: 0,0:02:20.03,0:02:20.47,Otto,,0,0,0,,{\c&H1A7AFF&}Dinge{\c&HFFFFFF&} aufzuschieben,\Nwar die Amygdala größer.
+Dialogue: 0,0:02:20.47,0:02:21.50,Otto,,0,0,0,,Dinge {\c&H1A7AFF&}aufzuschieben,{\c&HFFFFFF&}\Nwar die Amygdala größer.
+Dialogue: 0,0:02:21.50,0:02:21.82,Otto,,0,0,0,,Dinge aufzuschieben,\N{\c&H1A7AFF&}war{\c&HFFFFFF&} die Amygdala größer.
+Dialogue: 0,0:02:21.82,0:02:22.14,Otto,,0,0,0,,Dinge aufzuschieben,\Nwar {\c&H1A7AFF&}die{\c&HFFFFFF&} Amygdala größer.
+Dialogue: 0,0:02:22.14,0:02:22.77,Otto,,0,0,0,,Dinge aufzuschieben,\Nwar die {\c&H1A7AFF&}Amygdala{\c&HFFFFFF&} größer.
+Dialogue: 0,0:02:22.77,0:02:23.35,Otto,,0,0,0,,Dinge aufzuschieben,\Nwar die Amygdala {\c&H1A7AFF&}größer.{\c&HFFFFFF&}
+Dialogue: 0,0:02:23.71,0:02:23.96,Otto,,0,0,0,,{\c&H1A7AFF&}Und{\c&HFFFFFF&} die Verbindung zwischen\NAlarmanlage und Planer war schwächer.
+Dialogue: 0,0:02:23.96,0:02:24.21,Otto,,0,0,0,,Und {\c&H1A7AFF&}die{\c&HFFFFFF&} Verbindung zwischen\NAlarmanlage und Planer war schwächer.
+Dialogue: 0,0:02:24.21,0:02:24.82,Otto,,0,0,0,,Und die {\c&H1A7AFF&}Verbindung{\c&HFFFFFF&} zwischen\NAlarmanlage und Planer war schwächer.
+Dialogue: 0,0:02:24.82,0:02:25.32,Otto,,0,0,0,,Und die Verbindung {\c&H1A7AFF&}zwischen{\c&HFFFFFF&}\NAlarmanlage und Planer war schwächer.
+Dialogue: 0,0:02:25.32,0:02:25.97,Otto,,0,0,0,,Und die Verbindung zwischen\N{\c&H1A7AFF&}Alarmanlage{\c&HFFFFFF&} und Planer war schwächer.
+Dialogue: 0,0:02:25.97,0:02:26.22,Otto,,0,0,0,,Und die Verbindung zwischen\NAlarmanlage {\c&H1A7AFF&}und{\c&HFFFFFF&} Planer war schwächer.
+Dialogue: 0,0:02:26.22,0:02:26.63,Otto,,0,0,0,,Und die Verbindung zwischen\NAlarmanlage und {\c&H1A7AFF&}Planer{\c&HFFFFFF&} war schwächer.
+Dialogue: 0,0:02:26.63,0:02:26.88,Otto,,0,0,0,,Und die Verbindung zwischen\NAlarmanlage und Planer {\c&H1A7AFF&}war{\c&HFFFFFF&} schwächer.
+Dialogue: 0,0:02:26.88,0:02:27.48,Otto,,0,0,0,,Und die Verbindung zwischen\NAlarmanlage und Planer war {\c&H1A7AFF&}schwächer.{\c&HFFFFFF&}
+Dialogue: 0,0:02:27.84,0:02:28.10,Otto,,0,0,0,,{\c&H1A7AFF&}Das{\c&HFFFFFF&} heißt: Die Alarmanlage\Nschreit „Gefahr!“,
+Dialogue: 0,0:02:28.10,0:02:28.52,Otto,,0,0,0,,Das {\c&H1A7AFF&}heißt:{\c&HFFFFFF&} Die Alarmanlage\Nschreit „Gefahr!“,
+Dialogue: 0,0:02:28.52,0:02:28.78,Otto,,0,0,0,,Das heißt: {\c&H1A7AFF&}Die{\c&HFFFFFF&} Alarmanlage\Nschreit „Gefahr!“,
+Dialogue: 0,0:02:28.78,0:02:29.47,Otto,,0,0,0,,Das heißt: Die {\c&H1A7AFF&}Alarmanlage{\c&HFFFFFF&}\Nschreit „Gefahr!“,
+Dialogue: 0,0:02:29.47,0:02:29.94,Otto,,0,0,0,,Das heißt: Die Alarmanlage\N{\c&H1A7AFF&}schreit{\c&HFFFFFF&} „Gefahr!“,
+Dialogue: 0,0:02:29.94,0:02:30.57,Otto,,0,0,0,,Das heißt: Die Alarmanlage\Nschreit {\c&H1A7AFF&}„Gefahr!“,{\c&HFFFFFF&}
+Dialogue: 0,0:02:30.57,0:02:30.83,Otto,,0,0,0,,{\c&H1A7AFF&}und{\c&HFFFFFF&} der Planer kommt mit seinem\NKlemmbrett einfach nicht dagegen an.
+Dialogue: 0,0:02:30.83,0:02:31.08,Otto,,0,0,0,,und {\c&H1A7AFF&}der{\c&HFFFFFF&} Planer kommt mit seinem\NKlemmbrett einfach nicht dagegen an.
+Dialogue: 0,0:02:31.08,0:02:31.50,Otto,,0,0,0,,und der {\c&H1A7AFF&}Planer{\c&HFFFFFF&} kommt mit seinem\NKlemmbrett einfach nicht dagegen an.
+Dialogue: 0,0:02:31.50,0:02:31.86,Otto,,0,0,0,,und der Planer {\c&H1A7AFF&}kommt{\c&HFFFFFF&} mit seinem\NKlemmbrett einfach nicht dagegen an.
+Dialogue: 0,0:02:31.86,0:02:32.11,Otto,,0,0,0,,und der Planer kommt {\c&H1A7AFF&}mit{\c&HFFFFFF&} seinem\NKlemmbrett einfach nicht dagegen an.
+Dialogue: 0,0:02:32.11,0:02:32.53,Otto,,0,0,0,,und der Planer kommt mit {\c&H1A7AFF&}seinem{\c&HFFFFFF&}\NKlemmbrett einfach nicht dagegen an.
+Dialogue: 0,0:02:32.53,0:02:33.14,Otto,,0,0,0,,und der Planer kommt mit seinem\N{\c&H1A7AFF&}Klemmbrett{\c&HFFFFFF&} einfach nicht dagegen an.
+Dialogue: 0,0:02:33.14,0:02:33.61,Otto,,0,0,0,,und der Planer kommt mit seinem\NKlemmbrett {\c&H1A7AFF&}einfach{\c&HFFFFFF&} nicht dagegen an.
+Dialogue: 0,0:02:33.61,0:02:33.97,Otto,,0,0,0,,und der Planer kommt mit seinem\NKlemmbrett einfach {\c&H1A7AFF&}nicht{\c&HFFFFFF&} dagegen an.
+Dialogue: 0,0:02:33.97,0:02:34.43,Otto,,0,0,0,,und der Planer kommt mit seinem\NKlemmbrett einfach nicht {\c&H1A7AFF&}dagegen{\c&HFFFFFF&} an.
+Dialogue: 0,0:02:34.43,0:02:34.69,Otto,,0,0,0,,und der Planer kommt mit seinem\NKlemmbrett einfach nicht dagegen {\c&H1A7AFF&}an.{\c&HFFFFFF&}
+Dialogue: 0,0:02:35.29,0:02:35.54,Otto,,0,0,0,,{\c&H1A7AFF&}Und{\c&HFFFFFF&} dann kommt noch dazu: Dein Gehirn\Nliebt Belohnungen, und zwar jetzt.
+Dialogue: 0,0:02:35.54,0:02:35.84,Otto,,0,0,0,,Und {\c&H1A7AFF&}dann{\c&HFFFFFF&} kommt noch dazu: Dein Gehirn\Nliebt Belohnungen, und zwar jetzt.
+Dialogue: 0,0:02:35.84,0:02:36.20,Otto,,0,0,0,,Und dann {\c&H1A7AFF&}kommt{\c&HFFFFFF&} noch dazu: Dein Gehirn\Nliebt Belohnungen, und zwar jetzt.
+Dialogue: 0,0:02:36.20,0:02:36.50,Otto,,0,0,0,,Und dann kommt {\c&H1A7AFF&}noch{\c&HFFFFFF&} dazu: Dein Gehirn\Nliebt Belohnungen, und zwar jetzt.
+Dialogue: 0,0:02:36.50,0:02:36.85,Otto,,0,0,0,,Und dann kommt noch {\c&H1A7AFF&}dazu:{\c&HFFFFFF&} Dein Gehirn\Nliebt Belohnungen, und zwar jetzt.
+Dialogue: 0,0:02:36.85,0:02:37.15,Otto,,0,0,0,,Und dann kommt noch dazu: {\c&H1A7AFF&}Dein{\c&HFFFFFF&} Gehirn\Nliebt Belohnungen, und zwar jetzt.
+Dialogue: 0,0:02:37.15,0:02:37.56,Otto,,0,0,0,,Und dann kommt noch dazu: Dein {\c&H1A7AFF&}Gehirn{\c&HFFFFFF&}\Nliebt Belohnungen, und zwar jetzt.
+Dialogue: 0,0:02:37.56,0:02:37.91,Otto,,0,0,0,,Und dann kommt noch dazu: Dein Gehirn\N{\c&H1A7AFF&}liebt{\c&HFFFFFF&} Belohnungen, und zwar jetzt.
+Dialogue: 0,0:02:37.91,0:02:38.61,Otto,,0,0,0,,Und dann kommt noch dazu: Dein Gehirn\Nliebt {\c&H1A7AFF&}Belohnungen,{\c&HFFFFFF&} und zwar jetzt.
+Dialogue: 0,0:02:38.61,0:02:38.87,Otto,,0,0,0,,Und dann kommt noch dazu: Dein Gehirn\Nliebt Belohnungen, {\c&H1A7AFF&}und{\c&HFFFFFF&} zwar jetzt.
+Dialogue: 0,0:02:38.87,0:02:39.17,Otto,,0,0,0,,Und dann kommt noch dazu: Dein Gehirn\Nliebt Belohnungen, und {\c&H1A7AFF&}zwar{\c&HFFFFFF&} jetzt.
+Dialogue: 0,0:02:39.17,0:02:39.57,Otto,,0,0,0,,Und dann kommt noch dazu: Dein Gehirn\Nliebt Belohnungen, und zwar {\c&H1A7AFF&}jetzt.{\c&HFFFFFF&}
+Dialogue: 0,0:02:39.93,0:02:40.17,Otto,,0,0,0,,{\c&H1A7AFF&}Das{\c&HFFFFFF&} Handy belohnt dich in einer Sekunde.
+Dialogue: 0,0:02:40.17,0:02:40.52,Otto,,0,0,0,,Das {\c&H1A7AFF&}Handy{\c&HFFFFFF&} belohnt dich in einer Sekunde.
+Dialogue: 0,0:02:40.52,0:02:40.95,Otto,,0,0,0,,Das Handy {\c&H1A7AFF&}belohnt{\c&HFFFFFF&} dich in einer Sekunde.
+Dialogue: 0,0:02:40.95,0:02:41.25,Otto,,0,0,0,,Das Handy belohnt {\c&H1A7AFF&}dich{\c&HFFFFFF&} in einer Sekunde.
+Dialogue: 0,0:02:41.25,0:02:41.44,Otto,,0,0,0,,Das Handy belohnt dich {\c&H1A7AFF&}in{\c&HFFFFFF&} einer Sekunde.
+Dialogue: 0,0:02:41.44,0:02:41.78,Otto,,0,0,0,,Das Handy belohnt dich in {\c&H1A7AFF&}einer{\c&HFFFFFF&} Sekunde.
+Dialogue: 0,0:02:41.78,0:02:42.27,Otto,,0,0,0,,Das Handy belohnt dich in einer {\c&H1A7AFF&}Sekunde.{\c&HFFFFFF&}
+Dialogue: 0,0:02:42.87,0:02:43.15,Otto,,0,0,0,,{\c&H1A7AFF&}Die{\c&HFFFFFF&} Steuererklärung belohnt\Ndich irgendwann im Juli,
+Dialogue: 0,0:02:43.15,0:02:44.09,Otto,,0,0,0,,Die {\c&H1A7AFF&}Steuererklärung{\c&HFFFFFF&} belohnt\Ndich irgendwann im Juli,
+Dialogue: 0,0:02:44.09,0:02:44.58,Otto,,0,0,0,,Die Steuererklärung {\c&H1A7AFF&}belohnt{\c&HFFFFFF&}\Ndich irgendwann im Juli,
+Dialogue: 0,0:02:44.58,0:02:44.91,Otto,,0,0,0,,Die Steuererklärung belohnt\N{\c&H1A7AFF&}dich{\c&HFFFFFF&} irgendwann im Juli,
+Dialogue: 0,0:02:44.91,0:02:45.58,Otto,,0,0,0,,Die Steuererklärung belohnt\Ndich {\c&H1A7AFF&}irgendwann{\c&HFFFFFF&} im Juli,
+Dialogue: 0,0:02:45.58,0:02:45.80,Otto,,0,0,0,,Die Steuererklärung belohnt\Ndich irgendwann {\c&H1A7AFF&}im{\c&HFFFFFF&} Juli,
+Dialogue: 0,0:02:45.80,0:02:46.19,Otto,,0,0,0,,Die Steuererklärung belohnt\Ndich irgendwann im {\c&H1A7AFF&}Juli,{\c&HFFFFFF&}
+Dialogue: 0,0:02:46.19,0:02:46.46,Otto,,0,0,0,,{\c&H1A7AFF&}mit{\c&HFFFFFF&} einem Bescheid vom Finanzamt.
+Dialogue: 0,0:02:46.46,0:02:46.83,Otto,,0,0,0,,mit {\c&H1A7AFF&}einem{\c&HFFFFFF&} Bescheid vom Finanzamt.
+Dialogue: 0,0:02:46.83,0:02:47.37,Otto,,0,0,0,,mit einem {\c&H1A7AFF&}Bescheid{\c&HFFFFFF&} vom Finanzamt.
+Dialogue: 0,0:02:47.37,0:02:47.64,Otto,,0,0,0,,mit einem Bescheid {\c&H1A7AFF&}vom{\c&HFFFFFF&} Finanzamt.
+Dialogue: 0,0:02:47.64,0:02:48.29,Otto,,0,0,0,,mit einem Bescheid vom {\c&H1A7AFF&}Finanzamt.{\c&HFFFFFF&}
+Dialogue: 0,0:02:48.65,0:02:49.05,Otto,,0,0,0,,{\c&H1A7AFF&}Rate{\c&HFFFFFF&} mal, wer gewinnt.
+Dialogue: 0,0:02:49.05,0:02:49.44,Otto,,0,0,0,,Rate {\c&H1A7AFF&}mal,{\c&HFFFFFF&} wer gewinnt.
+Dialogue: 0,0:02:49.44,0:02:49.77,Otto,,0,0,0,,Rate mal, {\c&H1A7AFF&}wer{\c&HFFFFFF&} gewinnt.
+Dialogue: 0,0:02:49.77,0:02:50.43,Otto,,0,0,0,,Rate mal, wer {\c&H1A7AFF&}gewinnt.{\c&HFFFFFF&}
+Dialogue: 0,0:02:51.03,0:02:51.32,Otto,,0,0,0,,{\c&H1A7AFF&}Aber{\c&HFFFFFF&} der seltsamste Grund kommt erst noch.
+Dialogue: 0,0:02:51.32,0:02:51.57,Otto,,0,0,0,,Aber {\c&H1A7AFF&}der{\c&HFFFFFF&} seltsamste Grund kommt erst noch.
+Dialogue: 0,0:02:51.57,0:02:52.15,Otto,,0,0,0,,Aber der {\c&H1A7AFF&}seltsamste{\c&HFFFFFF&} Grund kommt erst noch.
+Dialogue: 0,0:02:52.15,0:02:52.49,Otto,,0,0,0,,Aber der seltsamste {\c&H1A7AFF&}Grund{\c&HFFFFFF&} kommt erst noch.
+Dialogue: 0,0:02:52.49,0:02:52.84,Otto,,0,0,0,,Aber der seltsamste Grund {\c&H1A7AFF&}kommt{\c&HFFFFFF&} erst noch.
+Dialogue: 0,0:02:52.84,0:02:53.13,Otto,,0,0,0,,Aber der seltsamste Grund kommt {\c&H1A7AFF&}erst{\c&HFFFFFF&} noch.
+Dialogue: 0,0:02:53.13,0:02:53.47,Otto,,0,0,0,,Aber der seltsamste Grund kommt erst {\c&H1A7AFF&}noch.{\c&HFFFFFF&}
+Dialogue: 0,0:02:53.83,0:02:54.15,Otto,,0,0,0,,{\c&H1A7AFF&}Denn{\c&HFFFFFF&} Otto hat einen Mitbewohner,\Nvon dem er nichts weiß.
+Dialogue: 0,0:02:54.15,0:02:54.47,Otto,,0,0,0,,Denn {\c&H1A7AFF&}Otto{\c&HFFFFFF&} hat einen Mitbewohner,\Nvon dem er nichts weiß.
+Dialogue: 0,0:02:54.47,0:02:54.74,Otto,,0,0,0,,Denn Otto {\c&H1A7AFF&}hat{\c&HFFFFFF&} einen Mitbewohner,\Nvon dem er nichts weiß.
+Dialogue: 0,0:02:54.74,0:02:55.11,Otto,,0,0,0,,Denn Otto hat {\c&H1A7AFF&}einen{\c&HFFFFFF&} Mitbewohner,\Nvon dem er nichts weiß.
+Dialogue: 0,0:02:55.11,0:02:55.85,Otto,,0,0,0,,Denn Otto hat einen {\c&H1A7AFF&}Mitbewohner,{\c&HFFFFFF&}\Nvon dem er nichts weiß.
+Dialogue: 0,0:02:55.85,0:02:56.12,Otto,,0,0,0,,Denn Otto hat einen Mitbewohner,\N{\c&H1A7AFF&}von{\c&HFFFFFF&} dem er nichts weiß.
+Dialogue: 0,0:02:56.12,0:02:56.39,Otto,,0,0,0,,Denn Otto hat einen Mitbewohner,\Nvon {\c&H1A7AFF&}dem{\c&HFFFFFF&} er nichts weiß.
+Dialogue: 0,0:02:56.39,0:02:56.60,Otto,,0,0,0,,Denn Otto hat einen Mitbewohner,\Nvon dem {\c&H1A7AFF&}er{\c&HFFFFFF&} nichts weiß.
+Dialogue: 0,0:02:56.60,0:02:57.03,Otto,,0,0,0,,Denn Otto hat einen Mitbewohner,\Nvon dem er {\c&H1A7AFF&}nichts{\c&HFFFFFF&} weiß.
+Dialogue: 0,0:02:57.03,0:02:57.40,Otto,,0,0,0,,Denn Otto hat einen Mitbewohner,\Nvon dem er nichts {\c&H1A7AFF&}weiß.{\c&HFFFFFF&}
+Dialogue: 0,0:02:58.00,0:02:58.35,Otto,,0,0,0,,{\c&H1A7AFF&}Darf{\c&HFFFFFF&} ich vorstellen: Morgen-Otto.
+Dialogue: 0,0:02:58.35,0:02:58.64,Otto,,0,0,0,,Darf {\c&H1A7AFF&}ich{\c&HFFFFFF&} vorstellen: Morgen-Otto.
+Dialogue: 0,0:02:58.64,0:02:59.39,Otto,,0,0,0,,Darf ich {\c&H1A7AFF&}vorstellen:{\c&HFFFFFF&} Morgen-Otto.
+Dialogue: 0,0:02:59.39,0:03:00.20,Otto,,0,0,0,,Darf ich vorstellen: {\c&H1A7AFF&}Morgen-Otto.{\c&HFFFFFF&}
+Dialogue: 0,0:03:00.80,0:03:01.05,Otto,,0,0,0,,{\c&H1A7AFF&}Der{\c&HFFFFFF&} Psychologe Hal Hershfield hat\NMenschen im Hirnscanner gebeten,
+Dialogue: 0,0:03:01.05,0:03:01.66,Otto,,0,0,0,,Der {\c&H1A7AFF&}Psychologe{\c&HFFFFFF&} Hal Hershfield hat\NMenschen im Hirnscanner gebeten,
+Dialogue: 0,0:03:01.66,0:03:01.91,Otto,,0,0,0,,Der Psychologe {\c&H1A7AFF&}Hal{\c&HFFFFFF&} Hershfield hat\NMenschen im Hirnscanner gebeten,
+Dialogue: 0,0:03:01.91,0:03:02.51,Otto,,0,0,0,,Der Psychologe Hal {\c&H1A7AFF&}Hershfield{\c&HFFFFFF&} hat\NMenschen im Hirnscanner gebeten,
+Dialogue: 0,0:03:02.51,0:03:02.76,Otto,,0,0,0,,Der Psychologe Hal Hershfield {\c&H1A7AFF&}hat{\c&HFFFFFF&}\NMenschen im Hirnscanner gebeten,
+Dialogue: 0,0:03:02.76,0:03:03.27,Otto,,0,0,0,,Der Psychologe Hal Hershfield hat\N{\c&H1A7AFF&}Menschen{\c&HFFFFFF&} im Hirnscanner gebeten,
+Dialogue: 0,0:03:03.27,0:03:03.47,Otto,,0,0,0,,Der Psychologe Hal Hershfield hat\NMenschen {\c&H1A7AFF&}im{\c&HFFFFFF&} Hirnscanner gebeten,
+Dialogue: 0,0:03:03.47,0:03:04.12,Otto,,0,0,0,,Der Psychologe Hal Hershfield hat\NMenschen im {\c&H1A7AFF&}Hirnscanner{\c&HFFFFFF&} gebeten,
+Dialogue: 0,0:03:04.12,0:03:04.63,Otto,,0,0,0,,Der Psychologe Hal Hershfield hat\NMenschen im Hirnscanner {\c&H1A7AFF&}gebeten,{\c&HFFFFFF&}
+Dialogue: 0,0:03:04.63,0:03:04.82,Otto,,0,0,0,,{\c&H1A7AFF&}an{\c&HFFFFFF&} sich selbst zu denken, an sich selbst\Nin zehn Jahren und an fremde Personen.
+Dialogue: 0,0:03:04.82,0:03:05.11,Otto,,0,0,0,,an {\c&H1A7AFF&}sich{\c&HFFFFFF&} selbst zu denken, an sich selbst\Nin zehn Jahren und an fremde Personen.
+Dialogue: 0,0:03:05.11,0:03:05.50,Otto,,0,0,0,,an sich {\c&H1A7AFF&}selbst{\c&HFFFFFF&} zu denken, an sich selbst\Nin zehn Jahren und an fremde Personen.
+Dialogue: 0,0:03:05.50,0:03:05.69,Otto,,0,0,0,,an sich selbst {\c&H1A7AFF&}zu{\c&HFFFFFF&} denken, an sich selbst\Nin zehn Jahren und an fremde Personen.
+Dialogue: 0,0:03:05.69,0:03:06.12,Otto,,0,0,0,,an sich selbst zu {\c&H1A7AFF&}denken,{\c&HFFFFFF&} an sich selbst\Nin zehn Jahren und an fremde Personen.
+Dialogue: 0,0:03:06.12,0:03:06.32,Otto,,0,0,0,,an sich selbst zu denken, {\c&H1A7AFF&}an{\c&HFFFFFF&} sich selbst\Nin zehn Jahren und an fremde Personen.
+Dialogue: 0,0:03:06.32,0:03:06.61,Otto,,0,0,0,,an sich selbst zu denken, an {\c&H1A7AFF&}sich{\c&HFFFFFF&} selbst\Nin zehn Jahren und an fremde Personen.
+Dialogue: 0,0:03:06.61,0:03:06.99,Otto,,0,0,0,,an sich selbst zu denken, an sich {\c&H1A7AFF&}selbst{\c&HFFFFFF&}\Nin zehn Jahren und an fremde Personen.
+Dialogue: 0,0:03:06.99,0:03:07.18,Otto,,0,0,0,,an sich selbst zu denken, an sich selbst\N{\c&H1A7AFF&}in{\c&HFFFFFF&} zehn Jahren und an fremde Personen.
+Dialogue: 0,0:03:07.18,0:03:07.47,Otto,,0,0,0,,an sich selbst zu denken, an sich selbst\Nin {\c&H1A7AFF&}zehn{\c&HFFFFFF&} Jahren und an fremde Personen.
+Dialogue: 0,0:03:07.47,0:03:07.86,Otto,,0,0,0,,an sich selbst zu denken, an sich selbst\Nin zehn {\c&H1A7AFF&}Jahren{\c&HFFFFFF&} und an fremde Personen.
+Dialogue: 0,0:03:07.86,0:03:08.10,Otto,,0,0,0,,an sich selbst zu denken, an sich selbst\Nin zehn Jahren {\c&H1A7AFF&}und{\c&HFFFFFF&} an fremde Personen.
+Dialogue: 0,0:03:08.10,0:03:08.29,Otto,,0,0,0,,an sich selbst zu denken, an sich selbst\Nin zehn Jahren und {\c&H1A7AFF&}an{\c&HFFFFFF&} fremde Personen.
+Dialogue: 0,0:03:08.29,0:03:08.68,Otto,,0,0,0,,an sich selbst zu denken, an sich selbst\Nin zehn Jahren und an {\c&H1A7AFF&}fremde{\c&HFFFFFF&} Personen.
+Dialogue: 0,0:03:08.68,0:03:09.21,Otto,,0,0,0,,an sich selbst zu denken, an sich selbst\Nin zehn Jahren und an fremde {\c&H1A7AFF&}Personen.{\c&HFFFFFF&}
+Dialogue: 0,0:03:09.57,0:03:09.83,Otto,,0,0,0,,{\c&H1A7AFF&}Das{\c&HFFFFFF&} Ergebnis: Wenn wir an\Nunser zukünftiges Ich denken,
+Dialogue: 0,0:03:09.83,0:03:10.41,Otto,,0,0,0,,Das {\c&H1A7AFF&}Ergebnis:{\c&HFFFFFF&} Wenn wir an\Nunser zukünftiges Ich denken,
+Dialogue: 0,0:03:10.41,0:03:10.72,Otto,,0,0,0,,Das Ergebnis: {\c&H1A7AFF&}Wenn{\c&HFFFFFF&} wir an\Nunser zukünftiges Ich denken,
+Dialogue: 0,0:03:10.72,0:03:10.98,Otto,,0,0,0,,Das Ergebnis: Wenn {\c&H1A7AFF&}wir{\c&HFFFFFF&} an\Nunser zukünftiges Ich denken,
+Dialogue: 0,0:03:10.98,0:03:11.19,Otto,,0,0,0,,Das Ergebnis: Wenn wir {\c&H1A7AFF&}an{\c&HFFFFFF&}\Nunser zukünftiges Ich denken,
+Dialogue: 0,0:03:11.19,0:03:11.55,Otto,,0,0,0,,Das Ergebnis: Wenn wir an\N{\c&H1A7AFF&}unser{\c&HFFFFFF&} zukünftiges Ich denken,
+Dialogue: 0,0:03:11.55,0:03:12.23,Otto,,0,0,0,,Das Ergebnis: Wenn wir an\Nunser {\c&H1A7AFF&}zukünftiges{\c&HFFFFFF&} Ich denken,
+Dialogue: 0,0:03:12.23,0:03:12.50,Otto,,0,0,0,,Das Ergebnis: Wenn wir an\Nunser zukünftiges {\c&H1A7AFF&}Ich{\c&HFFFFFF&} denken,
+Dialogue: 0,0:03:12.50,0:03:12.97,Otto,,0,0,0,,Das Ergebnis: Wenn wir an\Nunser zukünftiges Ich {\c&H1A7AFF&}denken,{\c&HFFFFFF&}
+Dialogue: 0,0:03:12.97,0:03:13.33,Otto,,0,0,0,,{\c&H1A7AFF&}sieht{\c&HFFFFFF&} die Gehirnaktivität eher so aus,\Nals würden wir an einen Fremden denken.
+Dialogue: 0,0:03:13.33,0:03:13.59,Otto,,0,0,0,,sieht {\c&H1A7AFF&}die{\c&HFFFFFF&} Gehirnaktivität eher so aus,\Nals würden wir an einen Fremden denken.
+Dialogue: 0,0:03:13.59,0:03:14.48,Otto,,0,0,0,,sieht die {\c&H1A7AFF&}Gehirnaktivität{\c&HFFFFFF&} eher so aus,\Nals würden wir an einen Fremden denken.
+Dialogue: 0,0:03:14.48,0:03:14.80,Otto,,0,0,0,,sieht die Gehirnaktivität {\c&H1A7AFF&}eher{\c&HFFFFFF&} so aus,\Nals würden wir an einen Fremden denken.
+Dialogue: 0,0:03:14.80,0:03:15.01,Otto,,0,0,0,,sieht die Gehirnaktivität eher {\c&H1A7AFF&}so{\c&HFFFFFF&} aus,\Nals würden wir an einen Fremden denken.
+Dialogue: 0,0:03:15.01,0:03:15.32,Otto,,0,0,0,,sieht die Gehirnaktivität eher so {\c&H1A7AFF&}aus,{\c&HFFFFFF&}\Nals würden wir an einen Fremden denken.
+Dialogue: 0,0:03:15.32,0:03:15.58,Otto,,0,0,0,,sieht die Gehirnaktivität eher so aus,\N{\c&H1A7AFF&}als{\c&HFFFFFF&} würden wir an einen Fremden denken.
+Dialogue: 0,0:03:15.58,0:03:16.00,Otto,,0,0,0,,sieht die Gehirnaktivität eher so aus,\Nals {\c&H1A7AFF&}würden{\c&HFFFFFF&} wir an einen Fremden denken.
+Dialogue: 0,0:03:16.00,0:03:16.26,Otto,,0,0,0,,sieht die Gehirnaktivität eher so aus,\Nals würden {\c&H1A7AFF&}wir{\c&HFFFFFF&} an einen Fremden denken.
+Dialogue: 0,0:03:16.26,0:03:16.47,Otto,,0,0,0,,sieht die Gehirnaktivität eher so aus,\Nals würden wir {\c&H1A7AFF&}an{\c&HFFFFFF&} einen Fremden denken.
+Dialogue: 0,0:03:16.47,0:03:16.84,Otto,,0,0,0,,sieht die Gehirnaktivität eher so aus,\Nals würden wir an {\c&H1A7AFF&}einen{\c&HFFFFFF&} Fremden denken.
+Dialogue: 0,0:03:16.84,0:03:17.31,Otto,,0,0,0,,sieht die Gehirnaktivität eher so aus,\Nals würden wir an einen {\c&H1A7AFF&}Fremden{\c&HFFFFFF&} denken.
+Dialogue: 0,0:03:17.31,0:03:17.78,Otto,,0,0,0,,sieht die Gehirnaktivität eher so aus,\Nals würden wir an einen Fremden {\c&H1A7AFF&}denken.{\c&HFFFFFF&}
+Dialogue: 0,0:03:18.38,0:03:18.65,Otto,,0,0,0,,{\c&H1A7AFF&}Und{\c&HFFFFFF&} genau das macht Otto jeden Tag.
+Dialogue: 0,0:03:18.65,0:03:19.03,Otto,,0,0,0,,Und {\c&H1A7AFF&}genau{\c&HFFFFFF&} das macht Otto jeden Tag.
+Dialogue: 0,0:03:19.03,0:03:19.30,Otto,,0,0,0,,Und genau {\c&H1A7AFF&}das{\c&HFFFFFF&} macht Otto jeden Tag.
+Dialogue: 0,0:03:19.30,0:03:19.68,Otto,,0,0,0,,Und genau das {\c&H1A7AFF&}macht{\c&HFFFFFF&} Otto jeden Tag.
+Dialogue: 0,0:03:19.68,0:03:20.01,Otto,,0,0,0,,Und genau das macht {\c&H1A7AFF&}Otto{\c&HFFFFFF&} jeden Tag.
+Dialogue: 0,0:03:20.01,0:03:20.38,Otto,,0,0,0,,Und genau das macht Otto {\c&H1A7AFF&}jeden{\c&HFFFFFF&} Tag.
+Dialogue: 0,0:03:20.38,0:03:20.71,Otto,,0,0,0,,Und genau das macht Otto jeden {\c&H1A7AFF&}Tag.{\c&HFFFFFF&}
+Dialogue: 0,0:03:21.07,0:03:21.26,Otto,,0,0,0,,{\c&H1A7AFF&}Er{\c&HFFFFFF&} denkt nicht: „Ich mache das morgen.“
+Dialogue: 0,0:03:21.26,0:03:21.58,Otto,,0,0,0,,Er {\c&H1A7AFF&}denkt{\c&HFFFFFF&} nicht: „Ich mache das morgen.“
+Dialogue: 0,0:03:21.58,0:03:21.95,Otto,,0,0,0,,Er denkt {\c&H1A7AFF&}nicht:{\c&HFFFFFF&} „Ich mache das morgen.“
+Dialogue: 0,0:03:21.95,0:03:22.23,Otto,,0,0,0,,Er denkt nicht: {\c&H1A7AFF&}„Ich{\c&HFFFFFF&} mache das morgen.“
+Dialogue: 0,0:03:22.23,0:03:22.55,Otto,,0,0,0,,Er denkt nicht: „Ich {\c&H1A7AFF&}mache{\c&HFFFFFF&} das morgen.“
+Dialogue: 0,0:03:22.55,0:03:22.79,Otto,,0,0,0,,Er denkt nicht: „Ich mache {\c&H1A7AFF&}das{\c&HFFFFFF&} morgen.“
+Dialogue: 0,0:03:22.79,0:03:23.25,Otto,,0,0,0,,Er denkt nicht: „Ich mache das {\c&H1A7AFF&}morgen.“{\c&HFFFFFF&}
+Dialogue: 0,0:03:23.61,0:03:23.80,Otto,,0,0,0,,{\c&H1A7AFF&}Er{\c&HFFFFFF&} denkt, ohne es zu merken:\N„Der da macht das morgen.“
+Dialogue: 0,0:03:23.80,0:03:24.17,Otto,,0,0,0,,Er {\c&H1A7AFF&}denkt,{\c&HFFFFFF&} ohne es zu merken:\N„Der da macht das morgen.“
+Dialogue: 0,0:03:24.17,0:03:24.45,Otto,,0,0,0,,Er denkt, {\c&H1A7AFF&}ohne{\c&HFFFFFF&} es zu merken:\N„Der da macht das morgen.“
+Dialogue: 0,0:03:24.45,0:03:24.64,Otto,,0,0,0,,Er denkt, ohne {\c&H1A7AFF&}es{\c&HFFFFFF&} zu merken:\N„Der da macht das morgen.“
+Dialogue: 0,0:03:24.64,0:03:24.82,Otto,,0,0,0,,Er denkt, ohne es {\c&H1A7AFF&}zu{\c&HFFFFFF&} merken:\N„Der da macht das morgen.“
+Dialogue: 0,0:03:24.82,0:03:25.25,Otto,,0,0,0,,Er denkt, ohne es zu {\c&H1A7AFF&}merken:{\c&HFFFFFF&}\N„Der da macht das morgen.“
+Dialogue: 0,0:03:25.25,0:03:25.53,Otto,,0,0,0,,Er denkt, ohne es zu merken:\N{\c&H1A7AFF&}„Der{\c&HFFFFFF&} da macht das morgen.“
+Dialogue: 0,0:03:25.53,0:03:25.71,Otto,,0,0,0,,Er denkt, ohne es zu merken:\N„Der {\c&H1A7AFF&}da{\c&HFFFFFF&} macht das morgen.“
+Dialogue: 0,0:03:25.71,0:03:26.04,Otto,,0,0,0,,Er denkt, ohne es zu merken:\N„Der da {\c&H1A7AFF&}macht{\c&HFFFFFF&} das morgen.“
+Dialogue: 0,0:03:26.04,0:03:26.27,Otto,,0,0,0,,Er denkt, ohne es zu merken:\N„Der da macht {\c&H1A7AFF&}das{\c&HFFFFFF&} morgen.“
+Dialogue: 0,0:03:26.27,0:03:26.74,Otto,,0,0,0,,Er denkt, ohne es zu merken:\N„Der da macht das {\c&H1A7AFF&}morgen.“{\c&HFFFFFF&}
+Dialogue: 0,0:03:27.34,0:03:27.63,Otto,,0,0,0,,{\c&H1A7AFF&}Das{\c&HFFFFFF&} Problem: Morgen-Otto\Nhat genau dieselben Gefühle.
+Dialogue: 0,0:03:27.63,0:03:28.20,Otto,,0,0,0,,Das {\c&H1A7AFF&}Problem:{\c&HFFFFFF&} Morgen-Otto\Nhat genau dieselben Gefühle.
+Dialogue: 0,0:03:28.20,0:03:28.94,Otto,,0,0,0,,Das Problem: {\c&H1A7AFF&}Morgen-Otto{\c&HFFFFFF&}\Nhat genau dieselben Gefühle.
+Dialogue: 0,0:03:28.94,0:03:29.22,Otto,,0,0,0,,Das Problem: Morgen-Otto\N{\c&H1A7AFF&}hat{\c&HFFFFFF&} genau dieselben Gefühle.
+Dialogue: 0,0:03:29.22,0:03:29.62,Otto,,0,0,0,,Das Problem: Morgen-Otto\Nhat {\c&H1A7AFF&}genau{\c&HFFFFFF&} dieselben Gefühle.
+Dialogue: 0,0:03:29.62,0:03:30.25,Otto,,0,0,0,,Das Problem: Morgen-Otto\Nhat genau {\c&H1A7AFF&}dieselben{\c&HFFFFFF&} Gefühle.
+Dialogue: 0,0:03:30.25,0:03:30.82,Otto,,0,0,0,,Das Problem: Morgen-Otto\Nhat genau dieselben {\c&H1A7AFF&}Gefühle.{\c&HFFFFFF&}
+Dialogue: 0,0:03:31.05,0:03:31.66,Otto,,0,0,0,,{\c&H1A7AFF&}Dieselbe{\c&HFFFFFF&} Alarmanlage.
+Dialogue: 0,0:03:31.66,0:03:32.53,Otto,,0,0,0,,Dieselbe {\c&H1A7AFF&}Alarmanlage.{\c&HFFFFFF&}
+Dialogue: 0,0:03:32.76,0:03:33.37,Otto,,0,0,0,,{\c&H1A7AFF&}Dasselbe{\c&HFFFFFF&} Handy.
+Dialogue: 0,0:03:33.37,0:03:33.87,Otto,,0,0,0,,Dasselbe {\c&H1A7AFF&}Handy.{\c&HFFFFFF&}
+Dialogue: 0,0:03:34.23,0:03:34.50,Otto,,0,0,0,,{\c&H1A7AFF&}Und{\c&HFFFFFF&} der schiebt es weiter\Nan Übermorgen-Otto.
+Dialogue: 0,0:03:34.50,0:03:34.77,Otto,,0,0,0,,Und {\c&H1A7AFF&}der{\c&HFFFFFF&} schiebt es weiter\Nan Übermorgen-Otto.
+Dialogue: 0,0:03:34.77,0:03:35.26,Otto,,0,0,0,,Und der {\c&H1A7AFF&}schiebt{\c&HFFFFFF&} es weiter\Nan Übermorgen-Otto.
+Dialogue: 0,0:03:35.26,0:03:35.48,Otto,,0,0,0,,Und der schiebt {\c&H1A7AFF&}es{\c&HFFFFFF&} weiter\Nan Übermorgen-Otto.
+Dialogue: 0,0:03:35.48,0:03:35.92,Otto,,0,0,0,,Und der schiebt es {\c&H1A7AFF&}weiter{\c&HFFFFFF&}\Nan Übermorgen-Otto.
+Dialogue: 0,0:03:35.92,0:03:36.13,Otto,,0,0,0,,Und der schiebt es weiter\N{\c&H1A7AFF&}an{\c&HFFFFFF&} Übermorgen-Otto.
+Dialogue: 0,0:03:36.13,0:03:37.12,Otto,,0,0,0,,Und der schiebt es weiter\Nan {\c&H1A7AFF&}Übermorgen-Otto.{\c&HFFFFFF&}
+Dialogue: 0,0:03:37.72,0:03:38.10,Otto,,0,0,0,,{\c&H1A7AFF&}Jetzt{\c&HFFFFFF&} passiert etwas Fieses.
+Dialogue: 0,0:03:38.10,0:03:38.64,Otto,,0,0,0,,Jetzt {\c&H1A7AFF&}passiert{\c&HFFFFFF&} etwas Fieses.
+Dialogue: 0,0:03:38.64,0:03:39.02,Otto,,0,0,0,,Jetzt passiert {\c&H1A7AFF&}etwas{\c&HFFFFFF&} Fieses.
+Dialogue: 0,0:03:39.02,0:03:39.51,Otto,,0,0,0,,Jetzt passiert etwas {\c&H1A7AFF&}Fieses.{\c&HFFFFFF&}
+Dialogue: 0,0:03:40.11,0:03:40.42,Otto,,0,0,0,,{\c&H1A7AFF&}Wenn{\c&HFFFFFF&} Otto aufschiebt,\Ngeht es ihm kurz besser.
+Dialogue: 0,0:03:40.42,0:03:40.74,Otto,,0,0,0,,Wenn {\c&H1A7AFF&}Otto{\c&HFFFFFF&} aufschiebt,\Ngeht es ihm kurz besser.
+Dialogue: 0,0:03:40.74,0:03:41.43,Otto,,0,0,0,,Wenn Otto {\c&H1A7AFF&}aufschiebt,{\c&HFFFFFF&}\Ngeht es ihm kurz besser.
+Dialogue: 0,0:03:41.43,0:03:41.75,Otto,,0,0,0,,Wenn Otto aufschiebt,\N{\c&H1A7AFF&}geht{\c&HFFFFFF&} es ihm kurz besser.
+Dialogue: 0,0:03:41.75,0:03:41.96,Otto,,0,0,0,,Wenn Otto aufschiebt,\Ngeht {\c&H1A7AFF&}es{\c&HFFFFFF&} ihm kurz besser.
+Dialogue: 0,0:03:41.96,0:03:42.23,Otto,,0,0,0,,Wenn Otto aufschiebt,\Ngeht es {\c&H1A7AFF&}ihm{\c&HFFFFFF&} kurz besser.
+Dialogue: 0,0:03:42.23,0:03:42.55,Otto,,0,0,0,,Wenn Otto aufschiebt,\Ngeht es ihm {\c&H1A7AFF&}kurz{\c&HFFFFFF&} besser.
+Dialogue: 0,0:03:42.55,0:03:43.03,Otto,,0,0,0,,Wenn Otto aufschiebt,\Ngeht es ihm kurz {\c&H1A7AFF&}besser.{\c&HFFFFFF&}
+Dialogue: 0,0:03:43.25,0:03:44.23,Otto,,0,0,0,,{\c&H1A7AFF&}Erleichterung.{\c&HFFFFFF&}
+Dialogue: 0,0:03:44.59,0:03:44.89,Otto,,0,0,0,,{\c&H1A7AFF&}Aber{\c&HFFFFFF&} ein paar Stunden später\Nkommt das schlechte Gewissen.
+Dialogue: 0,0:03:44.89,0:03:45.14,Otto,,0,0,0,,Aber {\c&H1A7AFF&}ein{\c&HFFFFFF&} paar Stunden später\Nkommt das schlechte Gewissen.
+Dialogue: 0,0:03:45.14,0:03:45.43,Otto,,0,0,0,,Aber ein {\c&H1A7AFF&}paar{\c&HFFFFFF&} Stunden später\Nkommt das schlechte Gewissen.
+Dialogue: 0,0:03:45.43,0:03:45.87,Otto,,0,0,0,,Aber ein paar {\c&H1A7AFF&}Stunden{\c&HFFFFFF&} später\Nkommt das schlechte Gewissen.
+Dialogue: 0,0:03:45.87,0:03:46.27,Otto,,0,0,0,,Aber ein paar Stunden {\c&H1A7AFF&}später{\c&HFFFFFF&}\Nkommt das schlechte Gewissen.
+Dialogue: 0,0:03:46.27,0:03:46.61,Otto,,0,0,0,,Aber ein paar Stunden später\N{\c&H1A7AFF&}kommt{\c&HFFFFFF&} das schlechte Gewissen.
+Dialogue: 0,0:03:46.61,0:03:46.86,Otto,,0,0,0,,Aber ein paar Stunden später\Nkommt {\c&H1A7AFF&}das{\c&HFFFFFF&} schlechte Gewissen.
+Dialogue: 0,0:03:46.86,0:03:47.40,Otto,,0,0,0,,Aber ein paar Stunden später\Nkommt das {\c&H1A7AFF&}schlechte{\c&HFFFFFF&} Gewissen.
+Dialogue: 0,0:03:47.40,0:03:47.94,Otto,,0,0,0,,Aber ein paar Stunden später\Nkommt das schlechte {\c&H1A7AFF&}Gewissen.{\c&HFFFFFF&}
+Dialogue: 0,0:03:48.30,0:03:48.67,Otto,,0,0,0,,{\c&H1A7AFF&}„Warum{\c&HFFFFFF&} bin ich so?
+Dialogue: 0,0:03:48.67,0:03:48.90,Otto,,0,0,0,,„Warum {\c&H1A7AFF&}bin{\c&HFFFFFF&} ich so?
+Dialogue: 0,0:03:48.90,0:03:49.13,Otto,,0,0,0,,„Warum bin {\c&H1A7AFF&}ich{\c&HFFFFFF&} so?
+Dialogue: 0,0:03:49.13,0:03:49.36,Otto,,0,0,0,,„Warum bin ich {\c&H1A7AFF&}so?{\c&HFFFFFF&}
+Dialogue: 0,0:03:49.59,0:03:49.82,Otto,,0,0,0,,{\c&H1A7AFF&}Ich{\c&HFFFFFF&} krieg nichts auf die Reihe.“
+Dialogue: 0,0:03:49.82,0:03:50.13,Otto,,0,0,0,,Ich {\c&H1A7AFF&}krieg{\c&HFFFFFF&} nichts auf die Reihe.“
+Dialogue: 0,0:03:50.13,0:03:50.49,Otto,,0,0,0,,Ich krieg {\c&H1A7AFF&}nichts{\c&HFFFFFF&} auf die Reihe.“
+Dialogue: 0,0:03:50.49,0:03:50.71,Otto,,0,0,0,,Ich krieg nichts {\c&H1A7AFF&}auf{\c&HFFFFFF&} die Reihe.“
+Dialogue: 0,0:03:50.71,0:03:50.94,Otto,,0,0,0,,Ich krieg nichts auf {\c&H1A7AFF&}die{\c&HFFFFFF&} Reihe.“
+Dialogue: 0,0:03:50.94,0:03:51.34,Otto,,0,0,0,,Ich krieg nichts auf die {\c&H1A7AFF&}Reihe.“{\c&HFFFFFF&}
+Dialogue: 0,0:03:51.70,0:03:51.96,Otto,,0,0,0,,{\c&H1A7AFF&}Und{\c&HFFFFFF&} dieses Schuldgefühl ist\Nein neues schlechtes Gefühl,
+Dialogue: 0,0:03:51.96,0:03:52.38,Otto,,0,0,0,,Und {\c&H1A7AFF&}dieses{\c&HFFFFFF&} Schuldgefühl ist\Nein neues schlechtes Gefühl,
+Dialogue: 0,0:03:52.38,0:03:53.10,Otto,,0,0,0,,Und dieses {\c&H1A7AFF&}Schuldgefühl{\c&HFFFFFF&} ist\Nein neues schlechtes Gefühl,
+Dialogue: 0,0:03:53.10,0:03:53.36,Otto,,0,0,0,,Und dieses Schuldgefühl {\c&H1A7AFF&}ist{\c&HFFFFFF&}\Nein neues schlechtes Gefühl,
+Dialogue: 0,0:03:53.36,0:03:53.62,Otto,,0,0,0,,Und dieses Schuldgefühl ist\N{\c&H1A7AFF&}ein{\c&HFFFFFF&} neues schlechtes Gefühl,
+Dialogue: 0,0:03:53.62,0:03:53.99,Otto,,0,0,0,,Und dieses Schuldgefühl ist\Nein {\c&H1A7AFF&}neues{\c&HFFFFFF&} schlechtes Gefühl,
+Dialogue: 0,0:03:53.99,0:03:54.61,Otto,,0,0,0,,Und dieses Schuldgefühl ist\Nein neues {\c&H1A7AFF&}schlechtes{\c&HFFFFFF&} Gefühl,
+Dialogue: 0,0:03:54.61,0:03:55.08,Otto,,0,0,0,,Und dieses Schuldgefühl ist\Nein neues schlechtes {\c&H1A7AFF&}Gefühl,{\c&HFFFFFF&}
+Dialogue: 0,0:03:55.08,0:03:55.32,Otto,,0,0,0,,{\c&H1A7AFF&}das{\c&HFFFFFF&} an der Aufgabe klebt.
+Dialogue: 0,0:03:55.32,0:03:55.51,Otto,,0,0,0,,das {\c&H1A7AFF&}an{\c&HFFFFFF&} der Aufgabe klebt.
+Dialogue: 0,0:03:55.51,0:03:55.76,Otto,,0,0,0,,das an {\c&H1A7AFF&}der{\c&HFFFFFF&} Aufgabe klebt.
+Dialogue: 0,0:03:55.76,0:03:56.19,Otto,,0,0,0,,das an der {\c&H1A7AFF&}Aufgabe{\c&HFFFFFF&} klebt.
+Dialogue: 0,0:03:56.19,0:03:56.58,Otto,,0,0,0,,das an der Aufgabe {\c&H1A7AFF&}klebt.{\c&HFFFFFF&}
+Dialogue: 0,0:03:56.94,0:03:57.18,Otto,,0,0,0,,{\c&H1A7AFF&}Die{\c&HFFFFFF&} Aufgabe fühlt sich also beim\Nnächsten Mal noch schlimmer an.
+Dialogue: 0,0:03:57.18,0:03:57.62,Otto,,0,0,0,,Die {\c&H1A7AFF&}Aufgabe{\c&HFFFFFF&} fühlt sich also beim\Nnächsten Mal noch schlimmer an.
+Dialogue: 0,0:03:57.62,0:03:57.96,Otto,,0,0,0,,Die Aufgabe {\c&H1A7AFF&}fühlt{\c&HFFFFFF&} sich also beim\Nnächsten Mal noch schlimmer an.
+Dialogue: 0,0:03:57.96,0:03:58.25,Otto,,0,0,0,,Die Aufgabe fühlt {\c&H1A7AFF&}sich{\c&HFFFFFF&} also beim\Nnächsten Mal noch schlimmer an.
+Dialogue: 0,0:03:58.25,0:03:58.54,Otto,,0,0,0,,Die Aufgabe fühlt sich {\c&H1A7AFF&}also{\c&HFFFFFF&} beim\Nnächsten Mal noch schlimmer an.
+Dialogue: 0,0:03:58.54,0:03:58.83,Otto,,0,0,0,,Die Aufgabe fühlt sich also {\c&H1A7AFF&}beim{\c&HFFFFFF&}\Nnächsten Mal noch schlimmer an.
+Dialogue: 0,0:03:58.83,0:03:59.31,Otto,,0,0,0,,Die Aufgabe fühlt sich also beim\N{\c&H1A7AFF&}nächsten{\c&HFFFFFF&} Mal noch schlimmer an.
+Dialogue: 0,0:03:59.31,0:03:59.56,Otto,,0,0,0,,Die Aufgabe fühlt sich also beim\Nnächsten {\c&H1A7AFF&}Mal{\c&HFFFFFF&} noch schlimmer an.
+Dialogue: 0,0:03:59.56,0:03:59.85,Otto,,0,0,0,,Die Aufgabe fühlt sich also beim\Nnächsten Mal {\c&H1A7AFF&}noch{\c&HFFFFFF&} schlimmer an.
+Dialogue: 0,0:03:59.85,0:04:00.38,Otto,,0,0,0,,Die Aufgabe fühlt sich also beim\Nnächsten Mal noch {\c&H1A7AFF&}schlimmer{\c&HFFFFFF&} an.
+Dialogue: 0,0:04:00.38,0:04:00.62,Otto,,0,0,0,,Die Aufgabe fühlt sich also beim\Nnächsten Mal noch schlimmer {\c&H1A7AFF&}an.{\c&HFFFFFF&}
+Dialogue: 0,0:04:00.85,0:04:01.15,Otto,,0,0,0,,{\c&H1A7AFF&}Also{\c&HFFFFFF&} schiebt Otto sie noch weiter auf.
+Dialogue: 0,0:04:01.15,0:04:01.59,Otto,,0,0,0,,Also {\c&H1A7AFF&}schiebt{\c&HFFFFFF&} Otto sie noch weiter auf.
+Dialogue: 0,0:04:01.59,0:04:01.89,Otto,,0,0,0,,Also schiebt {\c&H1A7AFF&}Otto{\c&HFFFFFF&} sie noch weiter auf.
+Dialogue: 0,0:04:01.89,0:04:02.13,Otto,,0,0,0,,Also schiebt Otto {\c&H1A7AFF&}sie{\c&HFFFFFF&} noch weiter auf.
+Dialogue: 0,0:04:02.13,0:04:02.43,Otto,,0,0,0,,Also schiebt Otto sie {\c&H1A7AFF&}noch{\c&HFFFFFF&} weiter auf.
+Dialogue: 0,0:04:02.43,0:04:02.82,Otto,,0,0,0,,Also schiebt Otto sie noch {\c&H1A7AFF&}weiter{\c&HFFFFFF&} auf.
+Dialogue: 0,0:04:02.82,0:04:03.12,Otto,,0,0,0,,Also schiebt Otto sie noch weiter {\c&H1A7AFF&}auf.{\c&HFFFFFF&}
+Dialogue: 0,0:04:03.72,0:04:04.09,Otto,,0,0,0,,{\c&H1A7AFF&}Merkst{\c&HFFFFFF&} du was?
+Dialogue: 0,0:04:04.09,0:04:04.28,Otto,,0,0,0,,Merkst {\c&H1A7AFF&}du{\c&HFFFFFF&} was?
+Dialogue: 0,0:04:04.28,0:04:04.56,Otto,,0,0,0,,Merkst du {\c&H1A7AFF&}was?{\c&HFFFFFF&}
+Dialogue: 0,0:04:04.92,0:04:05.24,Otto,,0,0,0,,{\c&H1A7AFF&}Das,{\c&HFFFFFF&} was wir normalerweise tun,\Num uns selbst zu motivieren,
+Dialogue: 0,0:04:05.24,0:04:05.51,Otto,,0,0,0,,Das, {\c&H1A7AFF&}was{\c&HFFFFFF&} wir normalerweise tun,\Num uns selbst zu motivieren,
+Dialogue: 0,0:04:05.51,0:04:05.78,Otto,,0,0,0,,Das, was {\c&H1A7AFF&}wir{\c&HFFFFFF&} normalerweise tun,\Num uns selbst zu motivieren,
+Dialogue: 0,0:04:05.78,0:04:06.58,Otto,,0,0,0,,Das, was wir {\c&H1A7AFF&}normalerweise{\c&HFFFFFF&} tun,\Num uns selbst zu motivieren,
+Dialogue: 0,0:04:06.58,0:04:06.90,Otto,,0,0,0,,Das, was wir normalerweise {\c&H1A7AFF&}tun,{\c&HFFFFFF&}\Num uns selbst zu motivieren,
+Dialogue: 0,0:04:06.90,0:04:07.12,Otto,,0,0,0,,Das, was wir normalerweise tun,\N{\c&H1A7AFF&}um{\c&HFFFFFF&} uns selbst zu motivieren,
+Dialogue: 0,0:04:07.12,0:04:07.38,Otto,,0,0,0,,Das, was wir normalerweise tun,\Num {\c&H1A7AFF&}uns{\c&HFFFFFF&} selbst zu motivieren,
+Dialogue: 0,0:04:07.38,0:04:07.81,Otto,,0,0,0,,Das, was wir normalerweise tun,\Num uns {\c&H1A7AFF&}selbst{\c&HFFFFFF&} zu motivieren,
+Dialogue: 0,0:04:07.81,0:04:08.03,Otto,,0,0,0,,Das, was wir normalerweise tun,\Num uns selbst {\c&H1A7AFF&}zu{\c&HFFFFFF&} motivieren,
+Dialogue: 0,0:04:08.03,0:04:08.72,Otto,,0,0,0,,Das, was wir normalerweise tun,\Num uns selbst zu {\c&H1A7AFF&}motivieren,{\c&HFFFFFF&}
+Dialogue: 0,0:04:08.72,0:04:09.05,Otto,,0,0,0,,{\c&H1A7AFF&}also{\c&HFFFFFF&} uns fertigmachen, ist genau\Ndas, was das Problem schlimmer macht.
+Dialogue: 0,0:04:09.05,0:04:09.32,Otto,,0,0,0,,also {\c&H1A7AFF&}uns{\c&HFFFFFF&} fertigmachen, ist genau\Ndas, was das Problem schlimmer macht.
+Dialogue: 0,0:04:09.32,0:04:10.13,Otto,,0,0,0,,also uns {\c&H1A7AFF&}fertigmachen,{\c&HFFFFFF&} ist genau\Ndas, was das Problem schlimmer macht.
+Dialogue: 0,0:04:10.13,0:04:10.40,Otto,,0,0,0,,also uns fertigmachen, {\c&H1A7AFF&}ist{\c&HFFFFFF&} genau\Ndas, was das Problem schlimmer macht.
+Dialogue: 0,0:04:10.40,0:04:10.78,Otto,,0,0,0,,also uns fertigmachen, ist {\c&H1A7AFF&}genau{\c&HFFFFFF&}\Ndas, was das Problem schlimmer macht.
+Dialogue: 0,0:04:10.78,0:04:11.10,Otto,,0,0,0,,also uns fertigmachen, ist genau\N{\c&H1A7AFF&}das,{\c&HFFFFFF&} was das Problem schlimmer macht.
+Dialogue: 0,0:04:11.10,0:04:11.37,Otto,,0,0,0,,also uns fertigmachen, ist genau\Ndas, {\c&H1A7AFF&}was{\c&HFFFFFF&} das Problem schlimmer macht.
+Dialogue: 0,0:04:11.37,0:04:11.64,Otto,,0,0,0,,also uns fertigmachen, ist genau\Ndas, was {\c&H1A7AFF&}das{\c&HFFFFFF&} Problem schlimmer macht.
+Dialogue: 0,0:04:11.64,0:04:12.13,Otto,,0,0,0,,also uns fertigmachen, ist genau\Ndas, was das {\c&H1A7AFF&}Problem{\c&HFFFFFF&} schlimmer macht.
+Dialogue: 0,0:04:12.13,0:04:12.73,Otto,,0,0,0,,also uns fertigmachen, ist genau\Ndas, was das Problem {\c&H1A7AFF&}schlimmer{\c&HFFFFFF&} macht.
+Dialogue: 0,0:04:12.73,0:04:13.16,Otto,,0,0,0,,also uns fertigmachen, ist genau\Ndas, was das Problem schlimmer {\c&H1A7AFF&}macht.{\c&HFFFFFF&}
+Dialogue: 0,0:04:13.52,0:04:13.75,Otto,,0,0,0,,{\c&H1A7AFF&}Und{\c&HFFFFFF&} genau hier setzt der Trick an, den\Nich dir am Anfang versprochen habe.
+Dialogue: 0,0:04:13.75,0:04:14.07,Otto,,0,0,0,,Und {\c&H1A7AFF&}genau{\c&HFFFFFF&} hier setzt der Trick an, den\Nich dir am Anfang versprochen habe.
+Dialogue: 0,0:04:14.07,0:04:14.35,Otto,,0,0,0,,Und genau {\c&H1A7AFF&}hier{\c&HFFFFFF&} setzt der Trick an, den\Nich dir am Anfang versprochen habe.
+Dialogue: 0,0:04:14.35,0:04:14.67,Otto,,0,0,0,,Und genau hier {\c&H1A7AFF&}setzt{\c&HFFFFFF&} der Trick an, den\Nich dir am Anfang versprochen habe.
+Dialogue: 0,0:04:14.67,0:04:14.90,Otto,,0,0,0,,Und genau hier setzt {\c&H1A7AFF&}der{\c&HFFFFFF&} Trick an, den\Nich dir am Anfang versprochen habe.
+Dialogue: 0,0:04:14.90,0:04:15.22,Otto,,0,0,0,,Und genau hier setzt der {\c&H1A7AFF&}Trick{\c&HFFFFFF&} an, den\Nich dir am Anfang versprochen habe.
+Dialogue: 0,0:04:15.22,0:04:15.45,Otto,,0,0,0,,Und genau hier setzt der Trick {\c&H1A7AFF&}an,{\c&HFFFFFF&} den\Nich dir am Anfang versprochen habe.
+Dialogue: 0,0:04:15.45,0:04:15.69,Otto,,0,0,0,,Und genau hier setzt der Trick an, {\c&H1A7AFF&}den{\c&HFFFFFF&}\Nich dir am Anfang versprochen habe.
+Dialogue: 0,0:04:15.69,0:04:15.92,Otto,,0,0,0,,Und genau hier setzt der Trick an, den\N{\c&H1A7AFF&}ich{\c&HFFFFFF&} dir am Anfang versprochen habe.
+Dialogue: 0,0:04:15.92,0:04:16.15,Otto,,0,0,0,,Und genau hier setzt der Trick an, den\Nich {\c&H1A7AFF&}dir{\c&HFFFFFF&} am Anfang versprochen habe.
+Dialogue: 0,0:04:16.15,0:04:16.33,Otto,,0,0,0,,Und genau hier setzt der Trick an, den\Nich dir {\c&H1A7AFF&}am{\c&HFFFFFF&} Anfang versprochen habe.
+Dialogue: 0,0:04:16.33,0:04:16.70,Otto,,0,0,0,,Und genau hier setzt der Trick an, den\Nich dir am {\c&H1A7AFF&}Anfang{\c&HFFFFFF&} versprochen habe.
+Dialogue: 0,0:04:16.70,0:04:17.30,Otto,,0,0,0,,Und genau hier setzt der Trick an, den\Nich dir am Anfang {\c&H1A7AFF&}versprochen{\c&HFFFFFF&} habe.
+Dialogue: 0,0:04:17.30,0:04:17.62,Otto,,0,0,0,,Und genau hier setzt der Trick an, den\Nich dir am Anfang versprochen {\c&H1A7AFF&}habe.{\c&HFFFFFF&}
+Dialogue: 0,0:04:18.22,0:04:18.74,Otto,,0,0,0,,{\c&H1A7AFF&}Also.{\c&HFFFFFF&}
+Dialogue: 0,0:04:18.97,0:04:19.27,Otto,,0,0,0,,{\c&H1A7AFF&}Was{\c&HFFFFFF&} hilft wirklich?
+Dialogue: 0,0:04:19.27,0:04:19.70,Otto,,0,0,0,,Was {\c&H1A7AFF&}hilft{\c&HFFFFFF&} wirklich?
+Dialogue: 0,0:04:19.70,0:04:20.37,Otto,,0,0,0,,Was hilft {\c&H1A7AFF&}wirklich?{\c&HFFFFFF&}
+Dialogue: 0,0:04:20.97,0:04:21.55,Otto,,0,0,0,,{\c&H1A7AFF&}Werkzeug{\c&HFFFFFF&} Nummer eins: Vergib dir selbst.
+Dialogue: 0,0:04:21.55,0:04:22.01,Otto,,0,0,0,,Werkzeug {\c&H1A7AFF&}Nummer{\c&HFFFFFF&} eins: Vergib dir selbst.
+Dialogue: 0,0:04:22.01,0:04:22.42,Otto,,0,0,0,,Werkzeug Nummer {\c&H1A7AFF&}eins:{\c&HFFFFFF&} Vergib dir selbst.
+Dialogue: 0,0:04:22.42,0:04:22.88,Otto,,0,0,0,,Werkzeug Nummer eins: {\c&H1A7AFF&}Vergib{\c&HFFFFFF&} dir selbst.
+Dialogue: 0,0:04:22.88,0:04:23.18,Otto,,0,0,0,,Werkzeug Nummer eins: Vergib {\c&H1A7AFF&}dir{\c&HFFFFFF&} selbst.
+Dialogue: 0,0:04:23.18,0:04:23.70,Otto,,0,0,0,,Werkzeug Nummer eins: Vergib dir {\c&H1A7AFF&}selbst.{\c&HFFFFFF&}
+Dialogue: 0,0:04:24.06,0:04:24.28,Otto,,0,0,0,,{\c&H1A7AFF&}In{\c&HFFFFFF&} einer Studie von Michael Wohl,
+Dialogue: 0,0:04:24.28,0:04:24.66,Otto,,0,0,0,,In {\c&H1A7AFF&}einer{\c&HFFFFFF&} Studie von Michael Wohl,
+Dialogue: 0,0:04:24.66,0:04:25.09,Otto,,0,0,0,,In einer {\c&H1A7AFF&}Studie{\c&HFFFFFF&} von Michael Wohl,
+Dialogue: 0,0:04:25.09,0:04:25.36,Otto,,0,0,0,,In einer Studie {\c&H1A7AFF&}von{\c&HFFFFFF&} Michael Wohl,
+Dialogue: 0,0:04:25.36,0:04:25.85,Otto,,0,0,0,,In einer Studie von {\c&H1A7AFF&}Michael{\c&HFFFFFF&} Wohl,
+Dialogue: 0,0:04:25.85,0:04:26.23,Otto,,0,0,0,,In einer Studie von Michael {\c&H1A7AFF&}Wohl,{\c&HFFFFFF&}
+Dialogue: 0,0:04:26.23,0:04:26.52,Otto,,0,0,0,,{\c&H1A7AFF&}Tim{\c&HFFFFFF&} Pychyl und Shannon Bennett wurden\NStudierende vor zwei Prüfungen begleitet.
+Dialogue: 0,0:04:26.52,0:04:26.97,Otto,,0,0,0,,Tim {\c&H1A7AFF&}Pychyl{\c&HFFFFFF&} und Shannon Bennett wurden\NStudierende vor zwei Prüfungen begleitet.
+Dialogue: 0,0:04:26.97,0:04:27.26,Otto,,0,0,0,,Tim Pychyl {\c&H1A7AFF&}und{\c&HFFFFFF&} Shannon Bennett wurden\NStudierende vor zwei Prüfungen begleitet.
+Dialogue: 0,0:04:27.26,0:04:27.77,Otto,,0,0,0,,Tim Pychyl und {\c&H1A7AFF&}Shannon{\c&HFFFFFF&} Bennett wurden\NStudierende vor zwei Prüfungen begleitet.
+Dialogue: 0,0:04:27.77,0:04:28.29,Otto,,0,0,0,,Tim Pychyl und Shannon {\c&H1A7AFF&}Bennett{\c&HFFFFFF&} wurden\NStudierende vor zwei Prüfungen begleitet.
+Dialogue: 0,0:04:28.29,0:04:28.74,Otto,,0,0,0,,Tim Pychyl und Shannon Bennett {\c&H1A7AFF&}wurden{\c&HFFFFFF&}\NStudierende vor zwei Prüfungen begleitet.
+Dialogue: 0,0:04:28.74,0:04:29.49,Otto,,0,0,0,,Tim Pychyl und Shannon Bennett wurden\N{\c&H1A7AFF&}Studierende{\c&HFFFFFF&} vor zwei Prüfungen begleitet.
+Dialogue: 0,0:04:29.49,0:04:29.77,Otto,,0,0,0,,Tim Pychyl und Shannon Bennett wurden\NStudierende {\c&H1A7AFF&}vor{\c&HFFFFFF&} zwei Prüfungen begleitet.
+Dialogue: 0,0:04:29.77,0:04:30.11,Otto,,0,0,0,,Tim Pychyl und Shannon Bennett wurden\NStudierende vor {\c&H1A7AFF&}zwei{\c&HFFFFFF&} Prüfungen begleitet.
+Dialogue: 0,0:04:30.11,0:04:30.74,Otto,,0,0,0,,Tim Pychyl und Shannon Bennett wurden\NStudierende vor zwei {\c&H1A7AFF&}Prüfungen{\c&HFFFFFF&} begleitet.
+Dialogue: 0,0:04:30.74,0:04:31.43,Otto,,0,0,0,,Tim Pychyl und Shannon Bennett wurden\NStudierende vor zwei Prüfungen {\c&H1A7AFF&}begleitet.{\c&HFFFFFF&}
+Dialogue: 0,0:04:31.79,0:04:32.42,Otto,,0,0,0,,{\c&H1A7AFF&}Diejenigen,{\c&HFFFFFF&} die sich nach der ersten\NPrüfung selbst verziehen hatten,
+Dialogue: 0,0:04:32.42,0:04:32.66,Otto,,0,0,0,,Diejenigen, {\c&H1A7AFF&}die{\c&HFFFFFF&} sich nach der ersten\NPrüfung selbst verziehen hatten,
+Dialogue: 0,0:04:32.66,0:04:32.95,Otto,,0,0,0,,Diejenigen, die {\c&H1A7AFF&}sich{\c&HFFFFFF&} nach der ersten\NPrüfung selbst verziehen hatten,
+Dialogue: 0,0:04:32.95,0:04:33.24,Otto,,0,0,0,,Diejenigen, die sich {\c&H1A7AFF&}nach{\c&HFFFFFF&} der ersten\NPrüfung selbst verziehen hatten,
+Dialogue: 0,0:04:33.24,0:04:33.48,Otto,,0,0,0,,Diejenigen, die sich nach {\c&H1A7AFF&}der{\c&HFFFFFF&} ersten\NPrüfung selbst verziehen hatten,
+Dialogue: 0,0:04:33.48,0:04:33.87,Otto,,0,0,0,,Diejenigen, die sich nach der {\c&H1A7AFF&}ersten{\c&HFFFFFF&}\NPrüfung selbst verziehen hatten,
+Dialogue: 0,0:04:33.87,0:04:34.30,Otto,,0,0,0,,Diejenigen, die sich nach der ersten\N{\c&H1A7AFF&}Prüfung{\c&HFFFFFF&} selbst verziehen hatten,
+Dialogue: 0,0:04:34.30,0:04:34.69,Otto,,0,0,0,,Diejenigen, die sich nach der ersten\NPrüfung {\c&H1A7AFF&}selbst{\c&HFFFFFF&} verziehen hatten,
+Dialogue: 0,0:04:34.69,0:04:35.22,Otto,,0,0,0,,Diejenigen, die sich nach der ersten\NPrüfung selbst {\c&H1A7AFF&}verziehen{\c&HFFFFFF&} hatten,
+Dialogue: 0,0:04:35.22,0:04:35.66,Otto,,0,0,0,,Diejenigen, die sich nach der ersten\NPrüfung selbst verziehen {\c&H1A7AFF&}hatten,{\c&HFFFFFF&}
+Dialogue: 0,0:04:35.66,0:04:35.94,Otto,,0,0,0,,{\c&H1A7AFF&}dass{\c&HFFFFFF&} sie das Lernen aufgeschoben hatten,
+Dialogue: 0,0:04:35.94,0:04:36.18,Otto,,0,0,0,,dass {\c&H1A7AFF&}sie{\c&HFFFFFF&} das Lernen aufgeschoben hatten,
+Dialogue: 0,0:04:36.18,0:04:36.42,Otto,,0,0,0,,dass sie {\c&H1A7AFF&}das{\c&HFFFFFF&} Lernen aufgeschoben hatten,
+Dialogue: 0,0:04:36.42,0:04:36.80,Otto,,0,0,0,,dass sie das {\c&H1A7AFF&}Lernen{\c&HFFFFFF&} aufgeschoben hatten,
+Dialogue: 0,0:04:36.80,0:04:37.47,Otto,,0,0,0,,dass sie das Lernen {\c&H1A7AFF&}aufgeschoben{\c&HFFFFFF&} hatten,
+Dialogue: 0,0:04:37.47,0:04:37.90,Otto,,0,0,0,,dass sie das Lernen aufgeschoben {\c&H1A7AFF&}hatten,{\c&HFFFFFF&}
+Dialogue: 0,0:04:37.90,0:04:38.33,Otto,,0,0,0,,{\c&H1A7AFF&}schoben{\c&HFFFFFF&} vor der zweiten\NPrüfung weniger auf.
+Dialogue: 0,0:04:38.33,0:04:38.56,Otto,,0,0,0,,schoben {\c&H1A7AFF&}vor{\c&HFFFFFF&} der zweiten\NPrüfung weniger auf.
+Dialogue: 0,0:04:38.56,0:04:38.80,Otto,,0,0,0,,schoben vor {\c&H1A7AFF&}der{\c&HFFFFFF&} zweiten\NPrüfung weniger auf.
+Dialogue: 0,0:04:38.80,0:04:39.23,Otto,,0,0,0,,schoben vor der {\c&H1A7AFF&}zweiten{\c&HFFFFFF&}\NPrüfung weniger auf.
+Dialogue: 0,0:04:39.23,0:04:39.66,Otto,,0,0,0,,schoben vor der zweiten\N{\c&H1A7AFF&}Prüfung{\c&HFFFFFF&} weniger auf.
+Dialogue: 0,0:04:39.66,0:04:40.08,Otto,,0,0,0,,schoben vor der zweiten\NPrüfung {\c&H1A7AFF&}weniger{\c&HFFFFFF&} auf.
+Dialogue: 0,0:04:40.08,0:04:40.37,Otto,,0,0,0,,schoben vor der zweiten\NPrüfung weniger {\c&H1A7AFF&}auf.{\c&HFFFFFF&}
+Dialogue: 0,0:04:40.73,0:04:41.12,Otto,,0,0,0,,{\c&H1A7AFF&}Nicht{\c&HFFFFFF&} Druck, sondern Nachsicht.
+Dialogue: 0,0:04:41.12,0:04:41.57,Otto,,0,0,0,,Nicht {\c&H1A7AFF&}Druck,{\c&HFFFFFF&} sondern Nachsicht.
+Dialogue: 0,0:04:41.57,0:04:42.07,Otto,,0,0,0,,Nicht Druck, {\c&H1A7AFF&}sondern{\c&HFFFFFF&} Nachsicht.
+Dialogue: 0,0:04:42.07,0:04:42.75,Otto,,0,0,0,,Nicht Druck, sondern {\c&H1A7AFF&}Nachsicht.{\c&HFFFFFF&}
+Dialogue: 0,0:04:42.98,0:04:43.42,Otto,,0,0,0,,{\c&H1A7AFF&}Klingt{\c&HFFFFFF&} nach Kalenderspruch,\Nist aber Forschung.
+Dialogue: 0,0:04:43.42,0:04:43.76,Otto,,0,0,0,,Klingt {\c&H1A7AFF&}nach{\c&HFFFFFF&} Kalenderspruch,\Nist aber Forschung.
+Dialogue: 0,0:04:43.76,0:04:44.70,Otto,,0,0,0,,Klingt nach {\c&H1A7AFF&}Kalenderspruch,{\c&HFFFFFF&}\Nist aber Forschung.
+Dialogue: 0,0:04:44.70,0:04:44.98,Otto,,0,0,0,,Klingt nach Kalenderspruch,\N{\c&H1A7AFF&}ist{\c&HFFFFFF&} aber Forschung.
+Dialogue: 0,0:04:44.98,0:04:45.32,Otto,,0,0,0,,Klingt nach Kalenderspruch,\Nist {\c&H1A7AFF&}aber{\c&HFFFFFF&} Forschung.
+Dialogue: 0,0:04:45.32,0:04:45.99,Otto,,0,0,0,,Klingt nach Kalenderspruch,\Nist aber {\c&H1A7AFF&}Forschung.{\c&HFFFFFF&}
+Dialogue: 0,0:04:46.59,0:04:47.20,Otto,,0,0,0,,{\c&H1A7AFF&}Werkzeug{\c&HFFFFFF&} Nummer zwei: Benenne das Gefühl.
+Dialogue: 0,0:04:47.20,0:04:47.69,Otto,,0,0,0,,Werkzeug {\c&H1A7AFF&}Nummer{\c&HFFFFFF&} zwei: Benenne das Gefühl.
+Dialogue: 0,0:04:47.69,0:04:48.12,Otto,,0,0,0,,Werkzeug Nummer {\c&H1A7AFF&}zwei:{\c&HFFFFFF&} Benenne das Gefühl.
+Dialogue: 0,0:04:48.12,0:04:48.67,Otto,,0,0,0,,Werkzeug Nummer zwei: {\c&H1A7AFF&}Benenne{\c&HFFFFFF&} das Gefühl.
+Dialogue: 0,0:04:48.67,0:04:48.97,Otto,,0,0,0,,Werkzeug Nummer zwei: Benenne {\c&H1A7AFF&}das{\c&HFFFFFF&} Gefühl.
+Dialogue: 0,0:04:48.97,0:04:49.53,Otto,,0,0,0,,Werkzeug Nummer zwei: Benenne das {\c&H1A7AFF&}Gefühl.{\c&HFFFFFF&}
+Dialogue: 0,0:04:49.89,0:04:50.16,Otto,,0,0,0,,{\c&H1A7AFF&}Frag{\c&HFFFFFF&} dich ehrlich: Was genau\Nwill ich gerade nicht fühlen?
+Dialogue: 0,0:04:50.16,0:04:50.43,Otto,,0,0,0,,Frag {\c&H1A7AFF&}dich{\c&HFFFFFF&} ehrlich: Was genau\Nwill ich gerade nicht fühlen?
+Dialogue: 0,0:04:50.43,0:04:50.88,Otto,,0,0,0,,Frag dich {\c&H1A7AFF&}ehrlich:{\c&HFFFFFF&} Was genau\Nwill ich gerade nicht fühlen?
+Dialogue: 0,0:04:50.88,0:04:51.11,Otto,,0,0,0,,Frag dich ehrlich: {\c&H1A7AFF&}Was{\c&HFFFFFF&} genau\Nwill ich gerade nicht fühlen?
+Dialogue: 0,0:04:51.11,0:04:51.43,Otto,,0,0,0,,Frag dich ehrlich: Was {\c&H1A7AFF&}genau{\c&HFFFFFF&}\Nwill ich gerade nicht fühlen?
+Dialogue: 0,0:04:51.43,0:04:51.70,Otto,,0,0,0,,Frag dich ehrlich: Was genau\N{\c&H1A7AFF&}will{\c&HFFFFFF&} ich gerade nicht fühlen?
+Dialogue: 0,0:04:51.70,0:04:51.93,Otto,,0,0,0,,Frag dich ehrlich: Was genau\Nwill {\c&H1A7AFF&}ich{\c&HFFFFFF&} gerade nicht fühlen?
+Dialogue: 0,0:04:51.93,0:04:52.29,Otto,,0,0,0,,Frag dich ehrlich: Was genau\Nwill ich {\c&H1A7AFF&}gerade{\c&HFFFFFF&} nicht fühlen?
+Dialogue: 0,0:04:52.29,0:04:52.61,Otto,,0,0,0,,Frag dich ehrlich: Was genau\Nwill ich gerade {\c&H1A7AFF&}nicht{\c&HFFFFFF&} fühlen?
+Dialogue: 0,0:04:52.61,0:04:53.02,Otto,,0,0,0,,Frag dich ehrlich: Was genau\Nwill ich gerade nicht {\c&H1A7AFF&}fühlen?{\c&HFFFFFF&}
+Dialogue: 0,0:04:53.24,0:04:54.22,Otto,,0,0,0,,{\c&H1A7AFF&}Langeweile?{\c&HFFFFFF&}
+Dialogue: 0,0:04:54.45,0:04:54.98,Otto,,0,0,0,,{\c&H1A7AFF&}Angst?{\c&HFFFFFF&}
+Dialogue: 0,0:04:55.21,0:04:56.45,Otto,,0,0,0,,{\c&H1A7AFF&}Überforderung?{\c&HFFFFFF&}
+Dialogue: 0,0:04:56.81,0:04:57.06,Otto,,0,0,0,,{\c&H1A7AFF&}Ein{\c&HFFFFFF&} Gefühl, das einen Namen hat,\Nverliert einen Teil seiner Macht.
+Dialogue: 0,0:04:57.06,0:04:57.50,Otto,,0,0,0,,Ein {\c&H1A7AFF&}Gefühl,{\c&HFFFFFF&} das einen Namen hat,\Nverliert einen Teil seiner Macht.
+Dialogue: 0,0:04:57.50,0:04:57.75,Otto,,0,0,0,,Ein Gefühl, {\c&H1A7AFF&}das{\c&HFFFFFF&} einen Namen hat,\Nverliert einen Teil seiner Macht.
+Dialogue: 0,0:04:57.75,0:04:58.09,Otto,,0,0,0,,Ein Gefühl, das {\c&H1A7AFF&}einen{\c&HFFFFFF&} Namen hat,\Nverliert einen Teil seiner Macht.
+Dialogue: 0,0:04:58.09,0:04:58.44,Otto,,0,0,0,,Ein Gefühl, das einen {\c&H1A7AFF&}Namen{\c&HFFFFFF&} hat,\Nverliert einen Teil seiner Macht.
+Dialogue: 0,0:04:58.44,0:04:58.74,Otto,,0,0,0,,Ein Gefühl, das einen Namen {\c&H1A7AFF&}hat,{\c&HFFFFFF&}\Nverliert einen Teil seiner Macht.
+Dialogue: 0,0:04:58.74,0:04:59.23,Otto,,0,0,0,,Ein Gefühl, das einen Namen hat,\N{\c&H1A7AFF&}verliert{\c&HFFFFFF&} einen Teil seiner Macht.
+Dialogue: 0,0:04:59.23,0:04:59.57,Otto,,0,0,0,,Ein Gefühl, das einen Namen hat,\Nverliert {\c&H1A7AFF&}einen{\c&HFFFFFF&} Teil seiner Macht.
+Dialogue: 0,0:04:59.57,0:04:59.87,Otto,,0,0,0,,Ein Gefühl, das einen Namen hat,\Nverliert einen {\c&H1A7AFF&}Teil{\c&HFFFFFF&} seiner Macht.
+Dialogue: 0,0:04:59.87,0:05:00.27,Otto,,0,0,0,,Ein Gefühl, das einen Namen hat,\Nverliert einen Teil {\c&H1A7AFF&}seiner{\c&HFFFFFF&} Macht.
+Dialogue: 0,0:05:00.27,0:05:00.66,Otto,,0,0,0,,Ein Gefühl, das einen Namen hat,\Nverliert einen Teil seiner {\c&H1A7AFF&}Macht.{\c&HFFFFFF&}
+Dialogue: 0,0:05:01.26,0:05:01.81,Otto,,0,0,0,,{\c&H1A7AFF&}Werkzeug{\c&HFFFFFF&} Nummer drei: der\Nlächerlich kleine erste Schritt.
+Dialogue: 0,0:05:01.81,0:05:02.25,Otto,,0,0,0,,Werkzeug {\c&H1A7AFF&}Nummer{\c&HFFFFFF&} drei: der\Nlächerlich kleine erste Schritt.
+Dialogue: 0,0:05:02.25,0:05:02.63,Otto,,0,0,0,,Werkzeug Nummer {\c&H1A7AFF&}drei:{\c&HFFFFFF&} der\Nlächerlich kleine erste Schritt.
+Dialogue: 0,0:05:02.63,0:05:02.91,Otto,,0,0,0,,Werkzeug Nummer drei: {\c&H1A7AFF&}der{\c&HFFFFFF&}\Nlächerlich kleine erste Schritt.
+Dialogue: 0,0:05:02.91,0:05:03.57,Otto,,0,0,0,,Werkzeug Nummer drei: der\N{\c&H1A7AFF&}lächerlich{\c&HFFFFFF&} kleine erste Schritt.
+Dialogue: 0,0:05:03.57,0:05:04.01,Otto,,0,0,0,,Werkzeug Nummer drei: der\Nlächerlich {\c&H1A7AFF&}kleine{\c&HFFFFFF&} erste Schritt.
+Dialogue: 0,0:05:04.01,0:05:04.39,Otto,,0,0,0,,Werkzeug Nummer drei: der\Nlächerlich kleine {\c&H1A7AFF&}erste{\c&HFFFFFF&} Schritt.
+Dialogue: 0,0:05:04.39,0:05:04.94,Otto,,0,0,0,,Werkzeug Nummer drei: der\Nlächerlich kleine erste {\c&H1A7AFF&}Schritt.{\c&HFFFFFF&}
+Dialogue: 0,0:05:05.30,0:05:05.66,Otto,,0,0,0,,{\c&H1A7AFF&}Dein{\c&HFFFFFF&} Gehirn reagiert auf\N„Steuererklärung machen“ mit Alarm.
+Dialogue: 0,0:05:05.66,0:05:06.14,Otto,,0,0,0,,Dein {\c&H1A7AFF&}Gehirn{\c&HFFFFFF&} reagiert auf\N„Steuererklärung machen“ mit Alarm.
+Dialogue: 0,0:05:06.14,0:05:06.74,Otto,,0,0,0,,Dein Gehirn {\c&H1A7AFF&}reagiert{\c&HFFFFFF&} auf\N„Steuererklärung machen“ mit Alarm.
+Dialogue: 0,0:05:06.74,0:05:07.04,Otto,,0,0,0,,Dein Gehirn reagiert {\c&H1A7AFF&}auf{\c&HFFFFFF&}\N„Steuererklärung machen“ mit Alarm.
+Dialogue: 0,0:05:07.04,0:05:08.11,Otto,,0,0,0,,Dein Gehirn reagiert auf\N{\c&H1A7AFF&}„Steuererklärung{\c&HFFFFFF&} machen“ mit Alarm.
+Dialogue: 0,0:05:08.11,0:05:08.65,Otto,,0,0,0,,Dein Gehirn reagiert auf\N„Steuererklärung {\c&H1A7AFF&}machen“{\c&HFFFFFF&} mit Alarm.
+Dialogue: 0,0:05:08.65,0:05:08.95,Otto,,0,0,0,,Dein Gehirn reagiert auf\N„Steuererklärung machen“ {\c&H1A7AFF&}mit{\c&HFFFFFF&} Alarm.
+Dialogue: 0,0:05:08.95,0:05:09.43,Otto,,0,0,0,,Dein Gehirn reagiert auf\N„Steuererklärung machen“ mit {\c&H1A7AFF&}Alarm.{\c&HFFFFFF&}
+Dialogue: 0,0:05:09.79,0:05:10.14,Otto,,0,0,0,,{\c&H1A7AFF&}Aber{\c&HFFFFFF&} auf „Datei öffnen“?
+Dialogue: 0,0:05:10.14,0:05:10.42,Otto,,0,0,0,,Aber {\c&H1A7AFF&}auf{\c&HFFFFFF&} „Datei öffnen“?
+Dialogue: 0,0:05:10.42,0:05:10.88,Otto,,0,0,0,,Aber auf {\c&H1A7AFF&}„Datei{\c&HFFFFFF&} öffnen“?
+Dialogue: 0,0:05:10.88,0:05:11.46,Otto,,0,0,0,,Aber auf „Datei {\c&H1A7AFF&}öffnen“?{\c&HFFFFFF&}
+Dialogue: 0,0:05:11.69,0:05:11.91,Otto,,0,0,0,,{\c&H1A7AFF&}Da{\c&HFFFFFF&} passiert nichts.
+Dialogue: 0,0:05:11.91,0:05:12.46,Otto,,0,0,0,,Da {\c&H1A7AFF&}passiert{\c&HFFFFFF&} nichts.
+Dialogue: 0,0:05:12.46,0:05:12.96,Otto,,0,0,0,,Da passiert {\c&H1A7AFF&}nichts.{\c&HFFFFFF&}
+Dialogue: 0,0:05:13.19,0:05:13.40,Otto,,0,0,0,,{\c&H1A7AFF&}Zu{\c&HFFFFFF&} klein, um Angst zu machen.
+Dialogue: 0,0:05:13.40,0:05:13.84,Otto,,0,0,0,,Zu {\c&H1A7AFF&}klein,{\c&HFFFFFF&} um Angst zu machen.
+Dialogue: 0,0:05:13.84,0:05:14.06,Otto,,0,0,0,,Zu klein, {\c&H1A7AFF&}um{\c&HFFFFFF&} Angst zu machen.
+Dialogue: 0,0:05:14.06,0:05:14.44,Otto,,0,0,0,,Zu klein, um {\c&H1A7AFF&}Angst{\c&HFFFFFF&} zu machen.
+Dialogue: 0,0:05:14.44,0:05:14.66,Otto,,0,0,0,,Zu klein, um Angst {\c&H1A7AFF&}zu{\c&HFFFFFF&} machen.
+Dialogue: 0,0:05:14.66,0:05:15.16,Otto,,0,0,0,,Zu klein, um Angst zu {\c&H1A7AFF&}machen.{\c&HFFFFFF&}
+Dialogue: 0,0:05:15.76,0:05:16.36,Otto,,0,0,0,,{\c&H1A7AFF&}Werkzeug{\c&HFFFFFF&} Nummer vier:\Nder Zehn-Minuten-Deal.
+Dialogue: 0,0:05:16.36,0:05:16.84,Otto,,0,0,0,,Werkzeug {\c&H1A7AFF&}Nummer{\c&HFFFFFF&} vier:\Nder Zehn-Minuten-Deal.
+Dialogue: 0,0:05:16.84,0:05:17.27,Otto,,0,0,0,,Werkzeug Nummer {\c&H1A7AFF&}vier:{\c&HFFFFFF&}\Nder Zehn-Minuten-Deal.
+Dialogue: 0,0:05:17.27,0:05:17.57,Otto,,0,0,0,,Werkzeug Nummer vier:\N{\c&H1A7AFF&}der{\c&HFFFFFF&} Zehn-Minuten-Deal.
+Dialogue: 0,0:05:17.57,0:05:18.78,Otto,,0,0,0,,Werkzeug Nummer vier:\Nder {\c&H1A7AFF&}Zehn-Minuten-Deal.{\c&HFFFFFF&}
+Dialogue: 0,0:05:19.14,0:05:19.45,Otto,,0,0,0,,{\c&H1A7AFF&}Mach{\c&HFFFFFF&} mit dir einen Deal: nur zehn Minuten.
+Dialogue: 0,0:05:19.45,0:05:19.72,Otto,,0,0,0,,Mach {\c&H1A7AFF&}mit{\c&HFFFFFF&} dir einen Deal: nur zehn Minuten.
+Dialogue: 0,0:05:19.72,0:05:19.98,Otto,,0,0,0,,Mach mit {\c&H1A7AFF&}dir{\c&HFFFFFF&} einen Deal: nur zehn Minuten.
+Dialogue: 0,0:05:19.98,0:05:20.35,Otto,,0,0,0,,Mach mit dir {\c&H1A7AFF&}einen{\c&HFFFFFF&} Deal: nur zehn Minuten.
+Dialogue: 0,0:05:20.35,0:05:20.72,Otto,,0,0,0,,Mach mit dir einen {\c&H1A7AFF&}Deal:{\c&HFFFFFF&} nur zehn Minuten.
+Dialogue: 0,0:05:20.72,0:05:20.98,Otto,,0,0,0,,Mach mit dir einen Deal: {\c&H1A7AFF&}nur{\c&HFFFFFF&} zehn Minuten.
+Dialogue: 0,0:05:20.98,0:05:21.30,Otto,,0,0,0,,Mach mit dir einen Deal: nur {\c&H1A7AFF&}zehn{\c&HFFFFFF&} Minuten.
+Dialogue: 0,0:05:21.30,0:05:21.83,Otto,,0,0,0,,Mach mit dir einen Deal: nur zehn {\c&H1A7AFF&}Minuten.{\c&HFFFFFF&}
+Dialogue: 0,0:05:22.05,0:05:22.51,Otto,,0,0,0,,{\c&H1A7AFF&}Danach{\c&HFFFFFF&} darfst du offiziell aufhören.
+Dialogue: 0,0:05:22.51,0:05:22.96,Otto,,0,0,0,,Danach {\c&H1A7AFF&}darfst{\c&HFFFFFF&} du offiziell aufhören.
+Dialogue: 0,0:05:22.96,0:05:23.18,Otto,,0,0,0,,Danach darfst {\c&H1A7AFF&}du{\c&HFFFFFF&} offiziell aufhören.
+Dialogue: 0,0:05:23.18,0:05:23.80,Otto,,0,0,0,,Danach darfst du {\c&H1A7AFF&}offiziell{\c&HFFFFFF&} aufhören.
+Dialogue: 0,0:05:23.80,0:05:24.42,Otto,,0,0,0,,Danach darfst du offiziell {\c&H1A7AFF&}aufhören.{\c&HFFFFFF&}
+Dialogue: 0,0:05:24.78,0:05:25.03,Otto,,0,0,0,,{\c&H1A7AFF&}Der{\c&HFFFFFF&} Witz: Meistens machst du weiter.
+Dialogue: 0,0:05:25.03,0:05:25.37,Otto,,0,0,0,,Der {\c&H1A7AFF&}Witz:{\c&HFFFFFF&} Meistens machst du weiter.
+Dialogue: 0,0:05:25.37,0:05:25.85,Otto,,0,0,0,,Der Witz: {\c&H1A7AFF&}Meistens{\c&HFFFFFF&} machst du weiter.
+Dialogue: 0,0:05:25.85,0:05:26.24,Otto,,0,0,0,,Der Witz: Meistens {\c&H1A7AFF&}machst{\c&HFFFFFF&} du weiter.
+Dialogue: 0,0:05:26.24,0:05:26.44,Otto,,0,0,0,,Der Witz: Meistens machst {\c&H1A7AFF&}du{\c&HFFFFFF&} weiter.
+Dialogue: 0,0:05:26.44,0:05:26.87,Otto,,0,0,0,,Der Witz: Meistens machst du {\c&H1A7AFF&}weiter.{\c&HFFFFFF&}
+Dialogue: 0,0:05:27.23,0:05:27.51,Otto,,0,0,0,,{\c&H1A7AFF&}Denn{\c&HFFFFFF&} das Schlimmste war nie die\NArbeit, sondern der Moment davor.
+Dialogue: 0,0:05:27.51,0:05:27.74,Otto,,0,0,0,,Denn {\c&H1A7AFF&}das{\c&HFFFFFF&} Schlimmste war nie die\NArbeit, sondern der Moment davor.
+Dialogue: 0,0:05:27.74,0:05:28.28,Otto,,0,0,0,,Denn das {\c&H1A7AFF&}Schlimmste{\c&HFFFFFF&} war nie die\NArbeit, sondern der Moment davor.
+Dialogue: 0,0:05:28.28,0:05:28.51,Otto,,0,0,0,,Denn das Schlimmste {\c&H1A7AFF&}war{\c&HFFFFFF&} nie die\NArbeit, sondern der Moment davor.
+Dialogue: 0,0:05:28.51,0:05:28.74,Otto,,0,0,0,,Denn das Schlimmste war {\c&H1A7AFF&}nie{\c&HFFFFFF&} die\NArbeit, sondern der Moment davor.
+Dialogue: 0,0:05:28.74,0:05:28.97,Otto,,0,0,0,,Denn das Schlimmste war nie {\c&H1A7AFF&}die{\c&HFFFFFF&}\NArbeit, sondern der Moment davor.
+Dialogue: 0,0:05:28.97,0:05:29.38,Otto,,0,0,0,,Denn das Schlimmste war nie die\N{\c&H1A7AFF&}Arbeit,{\c&HFFFFFF&} sondern der Moment davor.
+Dialogue: 0,0:05:29.38,0:05:29.79,Otto,,0,0,0,,Denn das Schlimmste war nie die\NArbeit, {\c&H1A7AFF&}sondern{\c&HFFFFFF&} der Moment davor.
+Dialogue: 0,0:05:29.79,0:05:30.01,Otto,,0,0,0,,Denn das Schlimmste war nie die\NArbeit, sondern {\c&H1A7AFF&}der{\c&HFFFFFF&} Moment davor.
+Dialogue: 0,0:05:30.01,0:05:30.38,Otto,,0,0,0,,Denn das Schlimmste war nie die\NArbeit, sondern der {\c&H1A7AFF&}Moment{\c&HFFFFFF&} davor.
+Dialogue: 0,0:05:30.38,0:05:30.74,Otto,,0,0,0,,Denn das Schlimmste war nie die\NArbeit, sondern der Moment {\c&H1A7AFF&}davor.{\c&HFFFFFF&}
+Dialogue: 0,0:05:31.34,0:05:31.68,Otto,,0,0,0,,{\c&H1A7AFF&}Otto{\c&HFFFFFF&} ist nicht faul.
+Dialogue: 0,0:05:31.68,0:05:31.96,Otto,,0,0,0,,Otto {\c&H1A7AFF&}ist{\c&HFFFFFF&} nicht faul.
+Dialogue: 0,0:05:31.96,0:05:32.34,Otto,,0,0,0,,Otto ist {\c&H1A7AFF&}nicht{\c&HFFFFFF&} faul.
+Dialogue: 0,0:05:32.34,0:05:32.73,Otto,,0,0,0,,Otto ist nicht {\c&H1A7AFF&}faul.{\c&HFFFFFF&}
+Dialogue: 0,0:05:32.96,0:05:33.14,Otto,,0,0,0,,{\c&H1A7AFF&}Du{\c&HFFFFFF&} auch nicht.
+Dialogue: 0,0:05:33.14,0:05:33.41,Otto,,0,0,0,,Du {\c&H1A7AFF&}auch{\c&HFFFFFF&} nicht.
+Dialogue: 0,0:05:33.41,0:05:33.77,Otto,,0,0,0,,Du auch {\c&H1A7AFF&}nicht.{\c&HFFFFFF&}
+Dialogue: 0,0:05:34.13,0:05:34.35,Otto,,0,0,0,,{\c&H1A7AFF&}Ihr{\c&HFFFFFF&} habt beide nur ein Gehirn, das euch\Nvor schlechten Gefühlen schützen will.
+Dialogue: 0,0:05:34.35,0:05:34.62,Otto,,0,0,0,,Ihr {\c&H1A7AFF&}habt{\c&HFFFFFF&} beide nur ein Gehirn, das euch\Nvor schlechten Gefühlen schützen will.
+Dialogue: 0,0:05:34.62,0:05:34.93,Otto,,0,0,0,,Ihr habt {\c&H1A7AFF&}beide{\c&HFFFFFF&} nur ein Gehirn, das euch\Nvor schlechten Gefühlen schützen will.
+Dialogue: 0,0:05:34.93,0:05:35.15,Otto,,0,0,0,,Ihr habt beide {\c&H1A7AFF&}nur{\c&HFFFFFF&} ein Gehirn, das euch\Nvor schlechten Gefühlen schützen will.
+Dialogue: 0,0:05:35.15,0:05:35.38,Otto,,0,0,0,,Ihr habt beide nur {\c&H1A7AFF&}ein{\c&HFFFFFF&} Gehirn, das euch\Nvor schlechten Gefühlen schützen will.
+Dialogue: 0,0:05:35.38,0:05:35.78,Otto,,0,0,0,,Ihr habt beide nur ein {\c&H1A7AFF&}Gehirn,{\c&HFFFFFF&} das euch\Nvor schlechten Gefühlen schützen will.
+Dialogue: 0,0:05:35.78,0:05:36.00,Otto,,0,0,0,,Ihr habt beide nur ein Gehirn, {\c&H1A7AFF&}das{\c&HFFFFFF&} euch\Nvor schlechten Gefühlen schützen will.
+Dialogue: 0,0:05:36.00,0:05:36.27,Otto,,0,0,0,,Ihr habt beide nur ein Gehirn, das {\c&H1A7AFF&}euch{\c&HFFFFFF&}\Nvor schlechten Gefühlen schützen will.
+Dialogue: 0,0:05:36.27,0:05:36.49,Otto,,0,0,0,,Ihr habt beide nur ein Gehirn, das euch\N{\c&H1A7AFF&}vor{\c&HFFFFFF&} schlechten Gefühlen schützen will.
+Dialogue: 0,0:05:36.49,0:05:37.02,Otto,,0,0,0,,Ihr habt beide nur ein Gehirn, das euch\Nvor {\c&H1A7AFF&}schlechten{\c&HFFFFFF&} Gefühlen schützen will.
+Dialogue: 0,0:05:37.02,0:05:37.47,Otto,,0,0,0,,Ihr habt beide nur ein Gehirn, das euch\Nvor schlechten {\c&H1A7AFF&}Gefühlen{\c&HFFFFFF&} schützen will.
+Dialogue: 0,0:05:37.47,0:05:37.91,Otto,,0,0,0,,Ihr habt beide nur ein Gehirn, das euch\Nvor schlechten Gefühlen {\c&H1A7AFF&}schützen{\c&HFFFFFF&} will.
+Dialogue: 0,0:05:37.91,0:05:38.22,Otto,,0,0,0,,Ihr habt beide nur ein Gehirn, das euch\Nvor schlechten Gefühlen schützen {\c&H1A7AFF&}will.{\c&HFFFFFF&}
+Dialogue: 0,0:05:38.58,0:05:38.80,Otto,,0,0,0,,{\c&H1A7AFF&}Nur{\c&HFFFFFF&} leider auf die dümmste mögliche Art.
+Dialogue: 0,0:05:38.80,0:05:39.14,Otto,,0,0,0,,Nur {\c&H1A7AFF&}leider{\c&HFFFFFF&} auf die dümmste mögliche Art.
+Dialogue: 0,0:05:39.14,0:05:39.36,Otto,,0,0,0,,Nur leider {\c&H1A7AFF&}auf{\c&HFFFFFF&} die dümmste mögliche Art.
+Dialogue: 0,0:05:39.36,0:05:39.57,Otto,,0,0,0,,Nur leider auf {\c&H1A7AFF&}die{\c&HFFFFFF&} dümmste mögliche Art.
+Dialogue: 0,0:05:39.57,0:05:39.96,Otto,,0,0,0,,Nur leider auf die {\c&H1A7AFF&}dümmste{\c&HFFFFFF&} mögliche Art.
+Dialogue: 0,0:05:39.96,0:05:40.39,Otto,,0,0,0,,Nur leider auf die dümmste {\c&H1A7AFF&}mögliche{\c&HFFFFFF&} Art.
+Dialogue: 0,0:05:40.39,0:05:40.65,Otto,,0,0,0,,Nur leider auf die dümmste mögliche {\c&H1A7AFF&}Art.{\c&HFFFFFF&}
+Dialogue: 0,0:05:43.65,0:05:43.98,Otto,,0,0,0,,{\c&H1A7AFF&}Aber{\c&HFFFFFF&} warum Otto dann kurz vor der\NDeadline plötzlich zu einem Genie wird?
+Dialogue: 0,0:05:43.98,0:05:44.35,Otto,,0,0,0,,Aber {\c&H1A7AFF&}warum{\c&HFFFFFF&} Otto dann kurz vor der\NDeadline plötzlich zu einem Genie wird?
+Dialogue: 0,0:05:44.35,0:05:44.68,Otto,,0,0,0,,Aber warum {\c&H1A7AFF&}Otto{\c&HFFFFFF&} dann kurz vor der\NDeadline plötzlich zu einem Genie wird?
+Dialogue: 0,0:05:44.68,0:05:45.00,Otto,,0,0,0,,Aber warum Otto {\c&H1A7AFF&}dann{\c&HFFFFFF&} kurz vor der\NDeadline plötzlich zu einem Genie wird?
+Dialogue: 0,0:05:45.00,0:05:45.33,Otto,,0,0,0,,Aber warum Otto dann {\c&H1A7AFF&}kurz{\c&HFFFFFF&} vor der\NDeadline plötzlich zu einem Genie wird?
+Dialogue: 0,0:05:45.33,0:05:45.60,Otto,,0,0,0,,Aber warum Otto dann kurz {\c&H1A7AFF&}vor{\c&HFFFFFF&} der\NDeadline plötzlich zu einem Genie wird?
+Dialogue: 0,0:05:45.60,0:05:45.87,Otto,,0,0,0,,Aber warum Otto dann kurz vor {\c&H1A7AFF&}der{\c&HFFFFFF&}\NDeadline plötzlich zu einem Genie wird?
+Dialogue: 0,0:05:45.87,0:05:46.41,Otto,,0,0,0,,Aber warum Otto dann kurz vor der\N{\c&H1A7AFF&}Deadline{\c&HFFFFFF&} plötzlich zu einem Genie wird?
+Dialogue: 0,0:05:46.41,0:05:47.00,Otto,,0,0,0,,Aber warum Otto dann kurz vor der\NDeadline {\c&H1A7AFF&}plötzlich{\c&HFFFFFF&} zu einem Genie wird?
+Dialogue: 0,0:05:47.00,0:05:47.22,Otto,,0,0,0,,Aber warum Otto dann kurz vor der\NDeadline plötzlich {\c&H1A7AFF&}zu{\c&HFFFFFF&} einem Genie wird?
+Dialogue: 0,0:05:47.22,0:05:47.60,Otto,,0,0,0,,Aber warum Otto dann kurz vor der\NDeadline plötzlich zu {\c&H1A7AFF&}einem{\c&HFFFFFF&} Genie wird?
+Dialogue: 0,0:05:47.60,0:05:47.97,Otto,,0,0,0,,Aber warum Otto dann kurz vor der\NDeadline plötzlich zu einem {\c&H1A7AFF&}Genie{\c&HFFFFFF&} wird?
+Dialogue: 0,0:05:47.97,0:05:48.35,Otto,,0,0,0,,Aber warum Otto dann kurz vor der\NDeadline plötzlich zu einem Genie {\c&H1A7AFF&}wird?{\c&HFFFFFF&}
+Dialogue: 0,0:05:48.71,0:05:48.92,Otto,,0,0,0,,{\c&H1A7AFF&}Das{\c&HFFFFFF&} ist eine ganz andere Geschichte.
+Dialogue: 0,0:05:48.92,0:05:49.14,Otto,,0,0,0,,Das {\c&H1A7AFF&}ist{\c&HFFFFFF&} eine ganz andere Geschichte.
+Dialogue: 0,0:05:49.14,0:05:49.39,Otto,,0,0,0,,Das ist {\c&H1A7AFF&}eine{\c&HFFFFFF&} ganz andere Geschichte.
+Dialogue: 0,0:05:49.39,0:05:49.65,Otto,,0,0,0,,Das ist eine {\c&H1A7AFF&}ganz{\c&HFFFFFF&} andere Geschichte.
+Dialogue: 0,0:05:49.65,0:05:49.99,Otto,,0,0,0,,Das ist eine ganz {\c&H1A7AFF&}andere{\c&HFFFFFF&} Geschichte.
+Dialogue: 0,0:05:49.99,0:05:50.54,Otto,,0,0,0,,Das ist eine ganz andere {\c&H1A7AFF&}Geschichte.{\c&HFFFFFF&}
