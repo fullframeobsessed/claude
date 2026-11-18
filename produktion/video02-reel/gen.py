@@ -640,6 +640,10 @@ open(f"{HERE}/index.html", "w").write(f"""<!doctype html>
   </body>
 </html>
 """)
+# Kein Rauschen (Whoosh/Senden/Kratzen klangen wie eine Spraydose) → Klicks und Plops
+SWAP = {"whoosh": ("click", 1.0), "send": ("pop", 1.0), "scratch": ("pop", 1.0)}
+SFX = [(t, SWAP.get(f, (f, 1))[0], g * SWAP.get(f, (f, 1))[1]) for t, f, g in SFX]
+SFX = [x for i, x in enumerate(sorted(SFX)) if not any(abs(x[0] - y[0]) < 0.06 and x[1] == y[1] for y in sorted(SFX)[:i])]
 json.dump([{"t": round(t, 3), "f": f, "g": g} for t, f, g in SFX if g > 0], open(f"{HERE}/assets/sfx.json", "w"), indent=0)
 for fn in ("hyperframes.json", "package.json", "meta.json"):
     open(f"{HERE}/{fn}", "w").write(open(os.path.join(ROOT, "video01-doku", fn)).read().replace("otto-video01-doku", "otto-video02-reel"))
