@@ -5,3 +5,7 @@ produktion/*/out/clips/
 produktion/*/out/stimmproben/
 produktion/*/out/frames/*.svg
 __pycache__/
+produktion/video01-hf/renders/
+produktion/video01-hf/.hyperframes/
+produktion/video01-hf/assets/voice.wav
+produktion/video01-hf/node_modules/

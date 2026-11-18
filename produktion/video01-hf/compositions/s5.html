@@ -1,0 +1,45 @@
+<template>
+  <style>
+  #root { position:absolute; inset:0; overflow:hidden; font-family:'Nunito', sans-serif; color:#1E1E1E; }
+  #root .actor { position:absolute; }
+  #root .ground { position:absolute; inset:0; }
+  #root .cam { position:absolute; inset:0; }
+  #root .hero { position:absolute; font-family:'Archivo Black', sans-serif; line-height:1; }
+  #root .txt { position:absolute; font-weight:800; }
+
+  #root { background:#FF7A1A; }
+  </style>
+  <div id="root" data-composition-id="s5" data-width="1920" data-height="1080">
+
+    <div id="s5-kap" class="txt" style="left:0;right:0;top:330px;text-align:center;font-size:60px;color:#FFE0C2;letter-spacing:.2em;">KAPITEL 1</div>
+    <div id="s5-title" class="hero" style="left:0;right:0;top:420px;text-align:center;font-size:150px;color:#FFF;"><span id="s5-w0" style="display:inline-block;margin:0 14px">Du</span><span id="s5-w1" style="display:inline-block;margin:0 14px">bist</span><span id="s5-w2" style="display:inline-block;margin:0 14px">nicht</span><span id="s5-w3" style="display:inline-block;margin:0 14px">faul</span></div>
+    <div id="s5-head" class="actor" style="left:810px;top:640px;width:300px;height:300px" ><svg viewBox="-150 -180 300 300" width="300" height="300" overflow="visible"><g stroke="#1E1E1E" stroke-width="6" stroke-linejoin="round">
+      <ellipse cx="-106" cy="12" rx="18" ry="26" fill="#F2C6A4"/>
+      <ellipse cx="106" cy="12" rx="18" ry="26" fill="#F2C6A4"/>
+      <ellipse cx="0" cy="0" rx="105" ry="115" fill="#F6D2B3"/>
+      <path fill="#5B3A29" d="M-108,0 C-122,-85 -70,-138 0,-132 C72,-138 122,-85 108,0 C98,-38 84,-55 62,-60 L52,-34 L38,-64 C14,-56 -6,-58 -24,-66 L-36,-38 L-50,-66 C-76,-60 -96,-38 -108,0 Z"/>
+      <path fill="#5B3A29" d="M-28,-128 L-20,-168 L2,-130 Z"/>
+      <path fill="#5B3A29" d="M8,-131 L44,-160 L36,-122 Z"/>
+      <path fill="#5B3A29" d="M-62,-112 L-88,-138 L-44,-124 Z"/></g><g stroke="#1E1E1E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="-38" cy="8" rx="22" ry="24" fill="#FFF"/><ellipse cx="38" cy="8" rx="22" ry="24" fill="#FFF"/><circle cx="-34" cy="14" r="9" fill="#1E1E1E" stroke="none"/><circle cx="42" cy="14" r="9" fill="#1E1E1E" stroke="none"/><path d="M-61,9 A22,24 0 0 1 -15,9 Z" fill="#F6D2B3"/><path d="M15,9 A22,24 0 0 1 61,9 Z" fill="#F6D2B3"/><path d="M-56,40 Q-38,50 -20,40 M20,40 Q38,50 56,40" fill="none" stroke="#B48A8A" stroke-width="4"/><path d="M-62,-30 L-16,-24 M16,-26 L62,-36" fill="none"/><path d="M2,22 Q12,42 -4,46" fill="none" stroke-width="5"/><path d="M-26,72 Q4,82 32,62" fill="none"/></g></svg></div>
+  </div>
+  <script>
+  const T = {};
+
+  const tl = gsap.timeline({ paused: true });
+  const face = (p, from, to, t) => {
+    tl.set(`#${p}-face-${from}`, { opacity: 0 }, t);
+    tl.set(`#${p}-face-${to}`, { opacity: 1 }, t);
+    tl.fromTo(`#${p}-head`, { scaleY: 0.88, transformOrigin: "50% 100%" },
+      { scaleY: 1, duration: 0.32, ease: "back.out(2.2)", immediateRender: false }, t);
+  };
+  const pop = (sel, t, extra = {}) => tl.fromTo(sel, { scale: 0, rotation: extra.rot || 0 },
+      { scale: 1, rotation: 0, duration: extra.d || 0.5, ease: extra.ease || "back.out(1.6)" }, t);
+
+
+  tl.fromTo("#s5-kap", { opacity: 0, filter: "blur(6px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.2, ease: "expo.out" }, 0.05);
+  [0, 1, 2, 3].forEach(i => tl.fromTo(`#s5-w${i}`, { opacity: 0, filter: "blur(8px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.15, ease: "expo.out" }, 0.08 + i * 0.06));
+  tl.fromTo("#s5-head", { y: 400 }, { y: 0, duration: 0.5, ease: "back.out(1.5)" }, 0.45);
+
+  window.__timelines["s5"] = tl;
+  </script>
+</template>
