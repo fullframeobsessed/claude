@@ -2,181 +2,181 @@
  {
   "id": "open",
   "start": 0.0,
-  "end": 3.4
+  "end": 2.8
  },
  {
   "id": "s01_hook",
-  "start": 3.4,
-  "end": 10.189
+  "start": 2.8,
+  "end": 8.738
  },
  {
   "id": "title",
-  "start": 10.189,
-  "end": 13.389
+  "start": 8.738,
+  "end": 11.338
  },
  {
   "id": "s02_bad",
-  "start": 13.389,
-  "end": 16.23
+  "start": 11.338,
+  "end": 13.76
  },
  {
   "id": "s03_socken",
-  "start": 16.23,
-  "end": 18.05
+  "start": 13.76,
+  "end": 15.36
  },
  {
   "id": "s04_pinguine",
-  "start": 18.05,
-  "end": 23.199
+  "start": 15.36,
+  "end": 19.24
  },
  {
   "id": "s05_faul",
-  "start": 23.199,
-  "end": 27.05
+  "start": 19.24,
+  "end": 22.72
  },
  {
   "id": "s06_nicht_faul",
-  "start": 27.05,
-  "end": 30.815
+  "start": 22.72,
+  "end": 26.12
  },
  {
   "id": "s07_versprechen",
-  "start": 30.815,
-  "end": 53.541
+  "start": 26.12,
+  "end": 44.037
  },
  {
   "id": "s08_kap1",
-  "start": 53.541,
-  "end": 56.941
+  "start": 44.037,
+  "end": 46.837
  },
  {
   "id": "s09_zahlen",
-  "start": 56.941,
-  "end": 79.106
+  "start": 46.837,
+  "end": 65.3
  },
  {
   "id": "s10_zitat",
-  "start": 79.106,
-  "end": 97.522
+  "start": 65.3,
+  "end": 80.04
  },
  {
   "id": "s11_wolke",
-  "start": 97.522,
-  "end": 114.27
+  "start": 80.04,
+  "end": 92.56
  },
  {
   "id": "s12_flucht",
-  "start": 114.27,
-  "end": 126.658
+  "start": 92.56,
+  "end": 103.254
  },
  {
   "id": "s13_kap2",
-  "start": 126.658,
-  "end": 137.015
+  "start": 103.254,
+  "end": 111.5
  },
  {
   "id": "s14_gehirn",
-  "start": 137.015,
-  "end": 158.813
+  "start": 111.5,
+  "end": 128.82
  },
  {
   "id": "s15_bochum",
-  "start": 158.813,
-  "end": 184.839
+  "start": 128.82,
+  "end": 150.4
  },
  {
   "id": "s16_knopf",
-  "start": 184.839,
-  "end": 193.41
+  "start": 150.4,
+  "end": 157.7
  },
  {
   "id": "s17_waage",
-  "start": 193.41,
-  "end": 201.666
+  "start": 157.7,
+  "end": 164.384
  },
  {
   "id": "s18_kap3",
-  "start": 201.666,
-  "end": 210.81
+  "start": 164.384,
+  "end": 172.1
  },
  {
   "id": "s19_morgenotto",
-  "start": 210.81,
-  "end": 214.516
+  "start": 172.1,
+  "end": 174.88
  },
  {
   "id": "s20_scans",
-  "start": 214.516,
-  "end": 236.966
+  "start": 174.88,
+  "end": 194.22
  },
  {
   "id": "s21_uebergabe",
-  "start": 236.966,
-  "end": 249.15
+  "start": 194.22,
+  "end": 204.02
  },
  {
   "id": "s22_kette",
-  "start": 249.15,
-  "end": 261.153
+  "start": 204.02,
+  "end": 214.251
  },
  {
   "id": "s23_kap4",
-  "start": 261.153,
-  "end": 265.87
+  "start": 214.251,
+  "end": 217.6
  },
  {
   "id": "s24_kreis",
-  "start": 265.87,
-  "end": 292.801
+  "start": 217.6,
+  "end": 240.12
  },
  {
   "id": "s25_fertigmachen",
-  "start": 292.801,
-  "end": 309.558
+  "start": 240.12,
+  "end": 254.69
  },
  {
   "id": "s26_kap5",
-  "start": 309.558,
-  "end": 314.646
+  "start": 254.69,
+  "end": 257.96
  },
  {
   "id": "s27_vergeben",
-  "start": 314.646,
-  "end": 347.884
+  "start": 257.96,
+  "end": 282.96
  },
  {
   "id": "s28_benennen",
-  "start": 347.884,
-  "end": 365.934
+  "start": 282.96,
+  "end": 296.44
  },
  {
   "id": "s29_schritt",
-  "start": 365.934,
-  "end": 383.48
+  "start": 296.44,
+  "end": 308.8
  },
  {
   "id": "s30_timer",
-  "start": 383.48,
-  "end": 402.547
+  "start": 308.8,
+  "end": 323.1
  },
  {
   "id": "s31_jetzt",
-  "start": 402.547,
-  "end": 416.824
+  "start": 323.1,
+  "end": 331.974
  },
  {
   "id": "s32_spaeter",
-  "start": 416.824,
-  "end": 419.424
+  "start": 331.974,
+  "end": 334.374
  },
  {
   "id": "s33_deadline",
-  "start": 419.424,
-  "end": 429.142
+  "start": 334.374,
+  "end": 341.803
  },
  {
   "id": "s34_endcard",
-  "start": 429.142,
-  "end": 439.142
+  "start": 341.803,
+  "end": 349.803
  }
 ]

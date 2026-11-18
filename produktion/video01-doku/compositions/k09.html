@@ -18,7 +18,7 @@
     <div id="k09-ft" class="t" style="left:130px;top:880px;font-size:28px;font-weight:600;letter-spacing:.14em;color:#8C8F96;">QUELLE: STEEL (2007), PSYCHOLOGICAL BULLETIN</div></div>
   </div>
   <script>
-  const T = {"p95": 8.639, "steel": 6.279, "fuenfte": 14.639, "chron": 16.339, "mensch": 20.939, "end": 22.165};
+  const T = {"p95": 7.383, "steel": 5.663, "fuenfte": 12.363, "chron": 13.963, "mensch": 17.623, "end": 18.463};
 
   const tl = gsap.timeline({ paused: true });
   const face = (p, from, to, t) => {
@@ -39,8 +39,8 @@ tl.fromTo("#k09-cam", { scale: 1 }, { scale: 1.04, duration: T.end, ease: "none"
   fadeIn("#k09-gl", T.fuenfte, 0.6);
   [0, 5, 10, 15].forEach((i, j) => fadeIn(`#k09-q${i}`, T.chron + j * 0.12, 0.4));
   tl.to("#k09-cam", { opacity: 0.12, duration: 0.6, ease: "power2.inOut" }, T.mensch - 0.5);
-  fadeIn("#k09-fin", T.mensch, 0.8, { from: { scale: 1.06 }, to: { scale: 1 } });
-  fadeOut("#k09-fin", T.end - 0.5, 0.45);
+  fadeIn("#k09-fin", T.mensch - 0.35, 0.5, { from: { scale: 1.06 }, to: { scale: 1 } });
+  fadeOut("#k09-fin", T.end - 0.3, 0.28);
 
   window.__timelines["k09"] = tl;
   </script>

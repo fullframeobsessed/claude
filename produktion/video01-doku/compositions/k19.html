@@ -48,7 +48,7 @@
     <div id="k19-lt" class="t" style="left:790px;top:170px;"><div id="k19-ltl" style="width:420px;height:3px;background:#FFF;transform-origin:0 50%;"></div><div class="cond" style="margin-top:16px;font-size:72px;letter-spacing:.12em;line-height:1;">MORGEN-OTTO</div><div style="margin-top:12px;font-size:28px;letter-spacing:.24em;color:#8C8F96;font-weight:600;">OTTOS ZUKÜNFTIGES ICH</div></div></div>
   </div>
   <script>
-  const T = {"vor": 0.71, "end": 3.706};
+  const T = {"vor": 0.44, "end": 2.78};
 
   const tl = gsap.timeline({ paused: true });
   const face = (p, from, to, t) => {
@@ -61,7 +61,7 @@
   const fadeOut = (sel, t, d = 0.4) => tl.to(sel, { opacity: 0, duration: d, ease: "power2.in" }, t);
 
 tl.fromTo("#k19-cam", { scale: 1 }, { scale: 1.04, duration: T.end, ease: "none", transformOrigin: "960px 540px" }, 0);fadeIn("#k19-cam", 0, 0.5); tl.to("#k19-cam", { opacity: 0, duration: 0.4, ease: "power2.in" }, T.end - 0.4);
-tl.fromTo("#k19-ltl", { scaleX: 0 }, { scaleX: 1, duration: 0.7, ease: "power3.out" }, 1.110);fadeIn("#k19-lt", 1.110, 0.6); fadeOut("#k19-lt", 3.206, 0.4);
+tl.fromTo("#k19-ltl", { scaleX: 0 }, { scaleX: 1, duration: 0.7, ease: "power3.out" }, 0.820);fadeIn("#k19-lt", 0.820, 0.6); fadeOut("#k19-lt", 2.280, 0.4);
   fadeIn("#k19-mo", T.vor - 0.3, 0.8, { from: { x: 80 }, to: { x: 0 } });
   face("k19o", "tired", "shock", T.vor + 0.4);
 

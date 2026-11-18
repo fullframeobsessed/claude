@@ -14,7 +14,7 @@
     <div id="d2-s" class="t" style="left:0;right:0;top:660px;text-align:center;font-size:30px;font-weight:600;letter-spacing:.5em;color:#8C8F96;">DIE KUNST DES AUFSCHIEBENS</div>
   </div>
   <script>
-  const T = {"end": 3.2};
+  const T = {"end": 2.6};
 
   const tl = gsap.timeline({ paused: true });
   const face = (p, from, to, t) => {
@@ -29,7 +29,7 @@
 
   tl.fromTo("#d2-t", { opacity: 0 }, { opacity: 1, duration: 1.0, ease: "power2.out" }, 0);
   tl.fromTo("#d2-t", { scale: 1.12 }, { scale: 1, duration: T.end - 0.6, ease: "power2.out", immediateRender: false }, 0);
-  fadeIn("#d2-s", 1.0, 0.8);
+  fadeIn("#d2-s", 0.45, 0.6);
   fadeOut(["#d2-t", "#d2-s"], T.end - 0.55, 0.5);
   window.__timelines["d2"] = tl;
   </script>

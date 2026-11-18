@@ -14,7 +14,7 @@
     <div id="d6-t" class="t cond" style="left:0;right:0;top:480px;text-align:center;font-size:130px;line-height:1;letter-spacing:.12em;">DU BIST NICHT FAUL</div>
   </div>
   <script>
-  const T = {"end": 3.4};
+  const T = {"end": 2.8};
 
   const tl = gsap.timeline({ paused: true });
   const face = (p, from, to, t) => {
@@ -27,8 +27,8 @@
   const fadeOut = (sel, t, d = 0.4) => tl.to(sel, { opacity: 0, duration: d, ease: "power2.in" }, t);
 
 
-  fadeIn("#d6-k", 0.3, 0.8);
-  tl.fromTo("#d6-t", { opacity: 0, scale: 1.1 }, { opacity: 1, scale: 1, duration: 1.6, ease: "power2.out" }, 0.6);
+  fadeIn("#d6-k", 0.1, 0.5);
+  tl.fromTo("#d6-t", { opacity: 0, scale: 1.1 }, { opacity: 1, scale: 1, duration: 1.0, ease: "power2.out" }, 0.25);
   fadeOut(["#d6-k", "#d6-t"], T.end - 0.5, 0.45);
   window.__timelines["d6"] = tl;
   </script>

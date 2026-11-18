@@ -1,6 +1,6 @@
 # Video 01 (Doku-Fassung): „Warum du alles aufschiebst (und es NICHTS mit Faulheit zu tun hat)“
 
-**Länge:** 7:19 Min. · 1920×1080 · 30 fps · Kinobalken 2,35:1
+**Länge:** 5:49 Min. · 1920×1080 · 30 fps · Kinobalken 2,35:1
 **Erzähler:** „Arthur“ (ElevenLabs über Higgsfield), Studio-Bearbeitung, −16 LUFS Sprecherspur
 **Look:** dunkle Räume mit Lichtkegeln, alter Film (Staub im Licht, Fussel, Kratzer, Flackern, Korn, Vignette, warmer Ton)
 
@@ -11,7 +11,8 @@
 | `otto_video01_ohne_untertitel.mp4` | Für Final Cut (Stimme drin, keine Untertitel) |
 | `untertitel_video01.srt` | Untertitel für Final Cut (`Ablage › Importieren › Untertitel`) oder YouTube |
 | `assets/voice.wav` | Sprecherspur einzeln (wird lokal erzeugt, nicht im Repo) |
-| `assets/arthur/*.mp3` | Die 23 Original-Aufnahmen von Arthur |
+| `assets/arthur2/*.mp3` | Die 8 Kapitel-Aufnahmen von Arthur (v2, aktuell) |
+| `assets/arthur/*.mp3` | Erste Fassung in 23 Stücken (nicht mehr verwendet) |
 
 ## In Final Cut fertigstellen
 1. Projekt 1080p, **30p**, Stereo 48 kHz anlegen und `otto_video01_ohne_untertitel.mp4` importieren.
@@ -27,12 +28,12 @@ warum du dein zukünftiges Ich wie einen Fremden behandelst – und welche 4 ein
 Werkzeuge wirklich helfen.
 
 0:00 Otto hat genau eine Aufgabe
-0:53 Kapitel 1: Du bist nicht faul
-2:06 Kapitel 2: Der Kampf im Kopf
-3:21 Kapitel 3: Der Fremde
-4:21 Kapitel 4: Der Teufelskreis
-5:09 Kapitel 5: Der Ausweg
-6:42 Otto ist nicht faul
+0:44 Kapitel 1: Du bist nicht faul
+1:43 Kapitel 2: Der Kampf im Kopf
+2:44 Kapitel 3: Der Fremde
+3:34 Kapitel 4: Der Teufelskreis
+4:14 Kapitel 5: Der Ausweg
+5:23 Otto ist nicht faul
 
 Quellen
 – Steel, P. (2007). The nature of procrastination. Psychological Bulletin, 133(1), 65–94.
@@ -47,8 +48,8 @@ Erzählstimme: KI-generiert.
 
 ## Neu bauen
 ```bash
-HF_HUB_DISABLE_XET=1 python3 voice_arthur.py   # Sprecherspur + Wort-Zeiten (aus assets/arthur/*.mp3)
+HF_HUB_DISABLE_XET=1 python3 voice_v2.py       # Sprecherspur + Wort-Zeiten (aus assets/arthur2/*.mp3, Tempo 1.08, Pausen ≤ 0,32 s)
 python3 gen.py                                  # Szenen, Untertitel, SRT
-./render_all.sh                                 # beide Videos rendern (~40 Min.)
+./render_all.sh                                 # beide Videos rendern (~30 Min.)
 ```
 Dateien: `gen.py` (Hook bis Kapitel 1, Kapitelkarten, Untertitel), `rest.py` (Szenen 9–34), `film.py` (Alter-Film-Effekte).

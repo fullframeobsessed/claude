@@ -76,7 +76,7 @@ a0, e0 = SEG["open"]
 scene("d0", f"""
     <div id="d0-q" class="t" style="left:0;right:0;top:500px;text-align:center;font-family:'EB Garamond';font-style:italic;font-size:44px;color:#CFC9BC;">
       Die folgende Geschichte beruht auf wahren Begebenheiten.</div>""",
-      r"""  fadeIn("#d0-q", 0.5, 0.9); fadeOut("#d0-q", T.end - 0.75, 0.6);""", {"end": e0 - a0})
+      r"""  fadeIn("#d0-q", 0.15, 0.6); fadeOut("#d0-q", T.end - 0.45, 0.4);""", {"end": e0 - a0})
 
 # ------------------------------------------------------------ d1 Hook
 a1, e1 = SEG["s01_hook"]
@@ -134,7 +134,7 @@ scene("d2", f"""
       r"""
   tl.fromTo("#d2-t", { opacity: 0 }, { opacity: 1, duration: 1.0, ease: "power2.out" }, 0);
   tl.fromTo("#d2-t", { scale: 1.12 }, { scale: 1, duration: T.end - 0.6, ease: "power2.out", immediateRender: false }, 0);
-  fadeIn("#d2-s", 1.0, 0.8);
+  fadeIn("#d2-s", 0.45, 0.6);
   fadeOut(["#d2-t", "#d2-s"], T.end - 0.55, 0.5);""", {"end": e2 - a2})
 
 # ------------------------------------------------------------ d3 Montage
@@ -263,8 +263,8 @@ def chapter(cid, sid, num, title):
     <div id="{cid}-k" class="t" style="left:0;right:0;top:420px;text-align:center;font-size:30px;font-weight:700;letter-spacing:.6em;color:{MUTED};">KAPITEL {num}</div>
     <div id="{cid}-t" class="t cond" style="left:0;right:0;top:480px;text-align:center;font-size:130px;line-height:1;letter-spacing:.12em;">{title}</div>""",
           f"""
-  fadeIn("#{cid}-k", 0.3, 0.8);
-  tl.fromTo("#{cid}-t", {{ opacity: 0, scale: 1.1 }}, {{ opacity: 1, scale: 1, duration: 1.6, ease: "power2.out" }}, 0.6);
+  fadeIn("#{cid}-k", 0.1, 0.5);
+  tl.fromTo("#{cid}-t", {{ opacity: 0, scale: 1.1 }}, {{ opacity: 1, scale: 1, duration: 1.0, ease: "power2.out" }}, 0.25);
   fadeOut(["#{cid}-k", "#{cid}-t"], T.end - 0.5, 0.45);""", {"end": e - a})
     return (cid, a, e)
 

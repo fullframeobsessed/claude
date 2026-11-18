@@ -1,708 +1,716 @@
 1
-00:00:03,370 --> 00:00:04,810
+00:00:02,770 --> 00:00:04,110
 Das ist Otto.
 
 2
-00:00:05,210 --> 00:00:07,370
+00:00:04,230 --> 00:00:06,530
 Otto hat heute genau eine Aufgabe.
 
 3
-00:00:07,390 --> 00:00:09,730
+00:00:06,810 --> 00:00:08,410
 Und Otto wird sie nicht machen.
 
 4
-00:00:13,339 --> 00:00:15,750
+00:00:11,288 --> 00:00:13,470
 Stattdessen putzt Otto das Bad.
 
 5
-00:00:16,330 --> 00:00:18,130
+00:00:13,830 --> 00:00:15,410
 Sortiert seine Socken nach Farbe.
 
 6
-00:00:18,150 --> 00:00:22,850
+00:00:15,430 --> 00:00:19,170
 Und liest zwei Stunden lang über Pinguine.
 
 7
-00:00:23,149 --> 00:00:25,090
+00:00:19,310 --> 00:00:21,190
 Jetzt würden die meisten sagen:
 
 8
-00:00:25,490 --> 00:00:26,790
+00:00:21,550 --> 00:00:22,770
 Otto ist faul.
 
 9
-00:00:27,150 --> 00:00:30,470
-Aber faule Menschen sortieren keine Socken.
+00:00:22,790 --> 00:00:24,090
+Aber faule Menschen
 
 10
-00:00:30,765 --> 00:00:32,330
-Was mit Otto los ist,
+00:00:24,310 --> 00:00:25,930
+sortieren keine Socken.
 
 11
-00:00:32,350 --> 00:00:34,450
-und vermutlich auch mit dir,
+00:00:26,190 --> 00:00:27,470
+Was mit Otto los ist,
 
 12
-00:00:34,930 --> 00:00:37,030
-ist etwas völlig anderes.
+00:00:27,490 --> 00:00:29,010
+und vermutlich auch mit dir,
 
 13
-00:00:37,770 --> 00:00:40,350
-Und wenn du es einmal verstanden hast,
+00:00:29,130 --> 00:00:30,830
+ist etwas völlig anderes.
 
 14
-00:00:40,850 --> 00:00:43,010
-schiebst du deutlich weniger auf.
+00:00:31,110 --> 00:00:33,310
+Und wenn du es einmal verstanden hast,
 
 15
-00:00:43,870 --> 00:00:45,850
-Am Ende zeige ich dir einen Trick,
+00:00:33,550 --> 00:00:35,570
+schiebst du deutlich weniger auf.
 
 16
-00:00:46,330 --> 00:00:47,950
-der so simpel ist,
+00:00:35,890 --> 00:00:37,770
+Am Ende zeige ich dir einen Trick,
 
 17
-00:00:47,970 --> 00:00:49,750
-dass er fast peinlich ist.
+00:00:37,790 --> 00:00:39,290
+der so simpel ist,
 
 18
-00:00:50,290 --> 00:00:53,310
-Aber er ist wissenschaftlich getestet.
+00:00:39,530 --> 00:00:41,130
+dass er fast peinlich ist.
 
 19
-00:00:56,891 --> 00:00:58,670
-Fangen wir mit einer Zahl an.
+00:00:41,170 --> 00:00:43,710
+Aber er ist wissenschaftlich getestet.
 
 20
-00:00:59,330 --> 00:01:03,150
-Laut einer großen Übersichtsarbeit des Psychologen Piers
+00:00:46,787 --> 00:00:48,710
+Fangen wir mit einer Zahl an.
 
 21
-00:01:03,170 --> 00:01:07,190
-Steel schieben bis zu 95 Prozent der
+00:00:48,950 --> 00:00:52,430
+Laut einer großen Übersichtsarbeit des Psychologen Piers
 
 22
-00:01:07,210 --> 00:01:10,290
-Studierenden regelmäßig Dinge auf.
+00:00:52,450 --> 00:00:55,570
+Steel schieben bis zu 95 Prozent der
 
 23
-00:01:10,770 --> 00:01:13,210
-Und etwa jeder fünfte Erwachsene tut es
+00:00:55,590 --> 00:00:58,390
+Studierenden regelmäßig Dinge auf.
 
 24
-00:01:13,230 --> 00:01:14,130
-chronisch.
+00:00:58,490 --> 00:01:00,730
+Und etwa jeder fünfte Erwachsene tut es
 
 25
-00:01:14,650 --> 00:01:16,730
-Das sind nicht alles Faulpelze.
+00:01:00,750 --> 00:01:01,650
+chronisch.
 
 26
-00:01:17,130 --> 00:01:18,830
-Das ist einfach menschlich.
+00:01:01,730 --> 00:01:03,530
+Das sind nicht alles Faulpelze.
 
 27
-00:01:19,056 --> 00:01:20,800
-Der Psychologe Tim Pychyl
+00:01:03,690 --> 00:01:05,290
+Das ist einfach menschlich.
 
 28
-00:01:20,830 --> 00:01:24,750
-forscht seit Jahrzehnten zu genau diesem Thema.
+00:01:05,370 --> 00:01:06,890
+Der Psychologe Tim Pychyl
 
 29
-00:01:25,350 --> 00:01:28,410
-Gemeinsam mit Fuschia Sirois hat er es
+00:01:06,910 --> 00:01:10,310
+forscht seit Jahrzehnten zu genau diesem Thema.
 
 30
-00:01:28,430 --> 00:01:29,890
-auf einen Satz gebracht:
+00:01:10,490 --> 00:01:12,170
+Gemeinsam mit Fuschia Sirois
 
 31
-00:01:30,690 --> 00:01:34,730
-Aufschieben ist kein Problem des Zeitmanagements,
+00:01:12,190 --> 00:01:14,510
+hat er es auf einen Satz gebracht:
 
 32
-00:01:34,890 --> 00:01:37,090
-sondern der Gefühlsregulation.
+00:01:14,770 --> 00:01:17,830
+Aufschieben ist kein Problem des Zeitmanagements,
 
 33
-00:01:37,472 --> 00:01:38,570
-Heißt übersetzt:
+00:01:17,930 --> 00:01:19,850
+sondern der Gefühlsregulation.
 
 34
-00:01:38,590 --> 00:01:42,350
-Otto vermeidet nicht die Steuererklärung.
+00:01:20,110 --> 00:01:21,290
+Heißt übersetzt:
 
 35
-00:01:42,910 --> 00:01:44,430
-Otto vermeidet das Gefühl,
+00:01:21,470 --> 00:01:23,910
+Otto vermeidet nicht die Steuererklärung.
 
 36
-00:01:44,450 --> 00:01:47,450
-das die Steuererklärung in ihm auslöst.
+00:01:23,930 --> 00:01:25,410
+Otto vermeidet das Gefühl,
 
 37
-00:01:48,010 --> 00:01:48,910
-Langeweile.
+00:01:25,430 --> 00:01:28,430
+das die Steuererklärung in ihm auslöst.
 
 38
-00:01:49,730 --> 00:01:50,670
-Überforderung.
+00:01:28,610 --> 00:01:29,510
+Langeweile.
 
 39
-00:01:51,290 --> 00:01:51,830
-Die Angst,
+00:01:29,630 --> 00:01:30,770
+Überforderung.
 
 40
-00:01:51,850 --> 00:01:53,750
-etwas falsch zu machen.
+00:01:30,850 --> 00:01:31,310
+Die Angst,
 
 41
-00:01:54,370 --> 00:01:55,830
-Und das Bad putzen?
+00:01:31,330 --> 00:01:32,610
+etwas falsch zu machen.
 
 42
-00:01:56,310 --> 00:01:57,710
-Das fühlt sich gut an.
+00:01:32,630 --> 00:01:34,510
+Und das Bad putzen?
 
 43
-00:01:58,250 --> 00:01:59,970
-Man sieht sofort ein Ergebnis.
+00:01:34,610 --> 00:01:35,870
+Das fühlt sich gut an.
 
 44
-00:02:00,770 --> 00:02:03,050
-Otto flüchtet also nicht vor der Arbeit.
+00:01:35,990 --> 00:01:37,650
+Man sieht sofort ein Ergebnis.
 
 45
-00:02:03,550 --> 00:02:06,230
-Otto flüchtet vor einem schlechten Gefühl.
+00:01:37,990 --> 00:01:40,090
+Otto flüchtet also nicht vor der Arbeit.
 
 46
-00:02:08,208 --> 00:02:09,570
-Und jetzt wird's spannend.
+00:01:40,290 --> 00:01:43,150
+Otto flüchtet vor einem schlechten Gefühl.
 
 47
-00:02:10,230 --> 00:02:12,550
-Denn in Ottos Kopf läuft in diesem
+00:01:44,204 --> 00:01:45,270
+Und jetzt wird's
 
 48
-00:02:12,570 --> 00:02:14,050
-Moment ein Kampf,
+00:01:45,290 --> 00:01:45,870
+spannend.
 
 49
-00:02:14,290 --> 00:02:16,630
-den er praktisch nicht gewinnen kann.
+00:01:46,170 --> 00:01:47,970
+Denn in Ottos Kopf läuft in diesem
 
 50
-00:02:16,965 --> 00:02:19,510
-In deinem Gehirn sitzt die Amygdala,
+00:01:47,990 --> 00:01:49,330
+Moment ein Kampf,
 
 51
-00:02:19,790 --> 00:02:21,890
-quasi deine Alarmanlage.
+00:01:49,350 --> 00:01:51,430
+den er praktisch nicht gewinnen kann.
 
 52
-00:02:22,390 --> 00:02:24,770
-Sie reagiert blitzschnell auf alles,
+00:01:51,570 --> 00:01:53,830
+In deinem Gehirn sitzt die Amygdala,
 
 53
-00:02:24,790 --> 00:02:28,170
-was sich unangenehm oder bedrohlich anfühlt.
+00:01:54,030 --> 00:01:55,870
+quasi deine Alarmanlage.
 
 54
-00:02:28,690 --> 00:02:32,030
-Und dann gibt es den präfrontalen Kortex,
+00:01:56,070 --> 00:01:57,950
+Sie reagiert blitzschnell auf alles,
 
 55
-00:02:32,070 --> 00:02:33,570
-den Planer.
+00:01:57,970 --> 00:02:01,230
+was sich unangenehm oder bedrohlich anfühlt.
 
 56
-00:02:33,990 --> 00:02:35,030
-Der weiß,
+00:02:01,330 --> 00:02:03,870
+Und dann gibt es den präfrontalen Kortex,
 
 57
-00:02:35,150 --> 00:02:37,830
-dass die Steuererklärung bis Freitag fertig sein
+00:02:04,090 --> 00:02:05,090
+den Planer.
 
 58
-00:02:37,850 --> 00:02:38,370
-muss.
+00:02:05,110 --> 00:02:05,730
+Der weiß,
 
 59
-00:02:38,763 --> 00:02:40,210
-Forscher der Ruhr-Universität
+00:02:05,750 --> 00:02:08,210
+dass die Steuererklärung bis Freitag fertig sein
 
 60
-00:02:40,410 --> 00:02:44,870
-Bochum haben 2018 etwas Spannendes entdeckt.
+00:02:08,230 --> 00:02:08,750
+muss.
 
 61
-00:02:45,270 --> 00:02:45,950
-Bei Menschen,
+00:02:08,890 --> 00:02:10,190
+Forscher der Ruhr-Universität
 
 62
-00:02:45,970 --> 00:02:47,170
-die eher dazu neigen,
+00:02:10,350 --> 00:02:14,470
+Bochum haben 2018 etwas Spannendes entdeckt.
 
 63
-00:02:47,190 --> 00:02:48,550
-Dinge aufzuschieben,
+00:02:14,610 --> 00:02:15,210
+Bei Menschen,
 
 64
-00:02:48,830 --> 00:02:51,050
-war die Amygdala größer.
+00:02:15,230 --> 00:02:16,510
+die eher dazu neigen,
 
 65
-00:02:51,630 --> 00:02:54,770
-Und die Verbindung zwischen Alarmanlage und Planer
+00:02:16,530 --> 00:02:17,830
+Dinge aufzuschieben,
 
 66
-00:02:54,790 --> 00:02:56,050
-war schwächer.
+00:02:17,950 --> 00:02:19,470
+war die Amygdala größer.
 
 67
-00:02:56,230 --> 00:02:56,990
-Das heißt:
+00:02:19,490 --> 00:02:22,590
+Und die Verbindung zwischen Alarmanlage und Planer
 
 68
-00:02:57,450 --> 00:02:59,910
-Die Alarmanlage schreit „Gefahr!“,
+00:02:22,610 --> 00:02:23,850
+war schwächer.
 
 69
-00:03:00,120 --> 00:03:02,490
-und der Planer kommt mit seinem Klemmbrett
+00:02:23,970 --> 00:02:24,590
+Das heißt:
 
 70
-00:03:02,510 --> 00:03:04,570
-einfach nicht dagegen an.
+00:02:24,810 --> 00:02:26,450
+Die Alarmanlage schreit „Gefahr!“,
 
 71
-00:03:04,789 --> 00:03:06,370
-Und dann kommt noch dazu:
+00:02:26,470 --> 00:02:28,750
+und der Planer kommt mit seinem Klemmbrett
 
 72
-00:03:06,710 --> 00:03:09,130
-Dein Gehirn liebt Belohnungen,
+00:02:28,770 --> 00:02:30,410
+einfach nicht dagegen an.
 
 73
-00:03:09,310 --> 00:03:10,370
-und zwar jetzt.
+00:02:30,470 --> 00:02:31,850
+Und dann kommt noch dazu:
 
 74
-00:03:10,910 --> 00:03:13,290
-Das Handy belohnt dich in einer Sekunde.
+00:02:32,050 --> 00:02:34,010
+Dein Gehirn liebt Belohnungen,
 
 75
-00:03:13,510 --> 00:03:16,990
-Die Steuererklärung belohnt dich irgendwann im Juli,
+00:02:34,130 --> 00:02:35,170
+und zwar jetzt.
 
 76
-00:03:17,010 --> 00:03:19,230
-mit einem Bescheid vom Finanzamt.
+00:02:35,470 --> 00:02:37,650
+Das Handy belohnt dich in einer Sekunde.
 
 77
-00:03:19,830 --> 00:03:20,650
-Rate mal,
+00:02:37,770 --> 00:02:40,550
+Die Steuererklärung belohnt dich irgendwann im Juli,
 
 78
-00:03:20,670 --> 00:03:21,430
-wer gewinnt.
+00:02:40,570 --> 00:02:42,750
+mit einem Bescheid vom Finanzamt.
 
 79
-00:03:23,216 --> 00:03:26,150
-Aber der seltsamste Grund kommt erst noch.
+00:02:42,950 --> 00:02:43,490
+Rate mal,
 
 80
-00:03:26,570 --> 00:03:28,630
-Denn Otto hat einen Mitbewohner,
+00:02:43,510 --> 00:02:44,370
+wer gewinnt.
 
 81
-00:03:28,870 --> 00:03:30,310
-von dem er nichts weiß.
+00:02:45,334 --> 00:02:48,230
+Aber der seltsamste Grund kommt erst noch.
 
 82
-00:03:30,910 --> 00:03:31,850
-Darf ich vorstellen:
+00:02:48,390 --> 00:02:50,770
+Denn Otto hat einen Mitbewohner,
 
 83
-00:03:31,870 --> 00:03:33,470
-Morgen-Otto.
+00:02:50,790 --> 00:02:52,010
+von dem er nichts weiß.
 
 84
-00:03:34,470 --> 00:03:36,410
-Der Psychologe Hal Hershfield
+00:02:52,170 --> 00:02:52,850
+Darf ich vorstellen:
 
 85
-00:03:36,430 --> 00:03:39,390
-hat Menschen im Hirnscanner gebeten,
+00:02:52,870 --> 00:02:54,210
+Morgen-Otto.
 
 86
-00:03:39,530 --> 00:03:41,050
-an sich selbst zu denken,
+00:02:54,950 --> 00:02:56,930
+Der Psychologe Hal Hershfield
 
 87
-00:03:41,530 --> 00:03:43,490
-an sich selbst in zehn Jahren
+00:02:56,950 --> 00:02:59,070
+hat Menschen im Hirnscanner gebeten,
 
 88
-00:03:43,810 --> 00:03:45,330
-und an fremde Personen.
+00:02:59,170 --> 00:03:00,550
+an sich selbst zu denken,
 
 89
-00:03:46,030 --> 00:03:46,870
-Das Ergebnis:
+00:03:00,810 --> 00:03:03,210
+an sich selbst in zehn Jahren und
 
 90
-00:03:47,690 --> 00:03:50,390
-Wenn wir an unser zukünftiges Ich denken,
+00:03:03,230 --> 00:03:04,890
+an fremde Personen.
 
 91
-00:03:50,990 --> 00:03:53,850
-sieht die Gehirnaktivität eher so aus,
+00:03:05,090 --> 00:03:05,890
+Das Ergebnis:
 
 92
-00:03:54,110 --> 00:03:56,550
-als würden wir an einen Fremden denken.
+00:03:06,350 --> 00:03:08,770
+Wenn wir an unser zukünftiges Ich denken,
 
 93
-00:03:56,916 --> 00:03:59,570
-Und genau das macht Otto jeden Tag.
+00:03:08,790 --> 00:03:12,030
+sieht die Gehirnaktivität eher so aus,
 
 94
-00:04:00,470 --> 00:04:01,390
-Er denkt nicht:
+00:03:12,050 --> 00:03:13,990
+als würden wir an einen Fremden denken.
 
 95
-00:04:01,590 --> 00:04:02,770
-„Ich mache das morgen.“
+00:03:14,290 --> 00:03:16,710
+Und genau das macht Otto jeden Tag.
 
 96
-00:04:03,330 --> 00:04:04,070
-Er denkt,
+00:03:17,050 --> 00:03:18,030
+Er denkt nicht:
 
 97
-00:04:04,270 --> 00:04:05,490
-ohne es zu merken:
+00:03:18,230 --> 00:03:19,530
+„Ich mache das morgen.“
 
 98
-00:04:05,970 --> 00:04:08,030
-„Der da macht das morgen.“
+00:03:19,690 --> 00:03:20,470
+Er denkt,
 
 99
-00:04:09,250 --> 00:04:09,850
-Das Problem:
+00:03:20,530 --> 00:03:21,830
+ohne es zu merken:
 
 100
-00:04:09,870 --> 00:04:13,370
-Morgen-Otto hat genau dieselben Gefühle.
+00:03:22,050 --> 00:03:23,990
+„Der da macht das morgen.“
 
 101
-00:04:13,390 --> 00:04:15,670
-Dieselbe Alarmanlage.
+00:03:24,090 --> 00:03:24,610
+Das Problem:
 
 102
-00:04:15,850 --> 00:04:17,010
-Dasselbe Handy.
+00:03:24,630 --> 00:03:27,630
+Morgen-Otto hat genau dieselben Gefühle.
 
 103
-00:04:17,470 --> 00:04:21,190
-Und der schiebt es weiter an Übermorgen-Otto.
+00:03:27,650 --> 00:03:29,230
+Dieselbe Alarmanlage.
 
 104
-00:04:22,703 --> 00:04:25,470
-Jetzt passiert etwas Fieses.
+00:03:29,250 --> 00:03:30,790
+Dasselbe Handy.
 
 105
-00:04:25,970 --> 00:04:27,470
-Wenn Otto aufschiebt,
+00:03:31,030 --> 00:03:34,130
+Und der schiebt es weiter an Übermorgen-Otto.
 
 106
-00:04:27,650 --> 00:04:28,950
-geht es ihm kurz besser.
+00:03:35,201 --> 00:03:37,610
+Jetzt passiert etwas Fieses.
 
 107
-00:04:29,230 --> 00:04:30,290
-Erleichterung.
+00:03:37,670 --> 00:03:39,110
+Wenn Otto aufschiebt,
 
 108
-00:04:30,910 --> 00:04:32,770
-Aber ein paar Stunden später kommt das
+00:03:39,250 --> 00:03:40,610
+geht es ihm kurz besser.
 
 109
-00:04:32,790 --> 00:04:33,950
-schlechte Gewissen.
+00:03:40,890 --> 00:03:41,810
+Erleichterung.
 
 110
-00:04:34,230 --> 00:04:35,810
-„Warum bin ich so?
+00:03:41,830 --> 00:03:43,450
+Aber ein paar Stunden später kommt das
 
 111
-00:04:36,090 --> 00:04:38,010
-Ich krieg nichts auf die Reihe.“
+00:03:43,470 --> 00:03:44,590
+schlechte Gewissen.
 
 112
-00:04:38,450 --> 00:04:41,590
-Und dieses Schuldgefühl ist ein neues schlechtes
+00:03:44,710 --> 00:03:46,010
+„Warum bin ich so?
 
 113
-00:04:41,610 --> 00:04:42,290
-Gefühl,
+00:03:46,090 --> 00:03:47,690
+Ich krieg nichts auf die Reihe.“
 
 114
-00:04:42,570 --> 00:04:44,230
-das an der Aufgabe klebt.
+00:03:47,710 --> 00:03:50,370
+Und dieses Schuldgefühl ist ein neues
 
 115
-00:04:44,910 --> 00:04:47,170
-Die Aufgabe fühlt sich also beim nächsten
+00:03:50,510 --> 00:03:51,750
+schlechtes Gefühl,
 
 116
-00:04:47,190 --> 00:04:49,350
-Mal noch schlimmer an.
+00:03:51,910 --> 00:03:53,530
+das an der Aufgabe klebt.
 
 117
-00:04:49,710 --> 00:04:52,530
-Also schiebt Otto sie noch weiter auf.
+00:03:53,810 --> 00:03:55,510
+Die Aufgabe fühlt sich also beim nächsten
 
 118
-00:04:52,751 --> 00:04:53,850
-Merkst du was?
+00:03:55,530 --> 00:03:57,670
+Mal noch schlimmer an.
 
 119
-00:04:54,670 --> 00:04:54,970
-Das,
+00:03:57,710 --> 00:03:59,990
+Also schiebt Otto sie noch weiter auf.
 
 120
-00:04:54,990 --> 00:04:56,390
-was wir normalerweise tun,
+00:04:00,190 --> 00:04:01,070
+Merkst du was?
 
 121
-00:04:56,410 --> 00:04:58,230
-um uns selbst zu motivieren,
+00:04:01,530 --> 00:04:01,810
+Das,
 
 122
-00:04:58,530 --> 00:05:00,100
-also uns fertigmachen,
+00:04:01,830 --> 00:04:03,290
+was wir normalerweise tun,
 
 123
-00:05:00,610 --> 00:05:01,750
-ist genau das,
+00:04:03,310 --> 00:04:05,110
+um uns selbst zu motivieren,
 
 124
-00:05:01,990 --> 00:05:03,850
-was das Problem schlimmer macht.
+00:04:05,430 --> 00:04:06,660
+also uns fertigmachen,
 
 125
-00:05:04,230 --> 00:05:06,710
-Und genau hier setzt der Trick an,
+00:04:06,930 --> 00:04:08,130
+ist genau das,
 
 126
-00:05:06,850 --> 00:05:09,250
-den ich dir am Anfang versprochen habe.
+00:04:08,190 --> 00:04:10,210
+was das Problem schlimmer macht.
 
 127
-00:05:11,108 --> 00:05:11,750
-Also.
+00:04:10,410 --> 00:04:12,530
+Und genau hier setzt der Trick an,
 
 128
-00:05:12,450 --> 00:05:14,130
-Was hilft wirklich?
+00:04:12,590 --> 00:04:14,710
+den ich dir am Anfang versprochen habe.
 
 129
-00:05:14,610 --> 00:05:16,370
-Werkzeug Nummer eins:
+00:04:15,640 --> 00:04:15,970
+Also.
 
 130
-00:05:17,210 --> 00:05:18,890
-Vergib dir selbst.
+00:04:15,990 --> 00:04:17,810
+Was hilft wirklich?
 
 131
-00:05:19,790 --> 00:05:22,070
-In einer Studie von Michael Wohl,
+00:04:18,030 --> 00:04:19,010
+Werkzeug Nummer eins:
 
 132
-00:05:22,330 --> 00:05:25,930
-Tim Pychyl und Shannon Bennett wurden Studierende
+00:04:19,030 --> 00:04:20,650
+Vergib dir selbst.
 
 133
-00:05:25,950 --> 00:05:28,070
-vor zwei Prüfungen begleitet.
+00:04:20,870 --> 00:04:22,710
+In einer Studie von Michael Wohl,
 
 134
-00:05:28,710 --> 00:05:29,770
-Diejenigen,
+00:04:22,850 --> 00:04:25,830
+Tim Pychyl und Shannon Bennett wurden Studierende
 
 135
-00:05:29,990 --> 00:05:32,090
-die sich nach der ersten Prüfung selbst
+00:04:25,850 --> 00:04:27,690
+vor zwei Prüfungen begleitet.
 
 136
-00:05:32,110 --> 00:05:33,370
-verziehen hatten,
+00:04:27,910 --> 00:04:28,670
+Diejenigen,
 
 137
-00:05:33,750 --> 00:05:35,870
-dass sie das Lernen aufgeschoben hatten,
+00:04:28,850 --> 00:04:30,670
+die sich nach der ersten Prüfung selbst
 
 138
-00:05:36,510 --> 00:05:39,610
-schoben vor der zweiten Prüfung weniger auf.
+00:04:30,690 --> 00:04:31,890
+verziehen hatten,
 
 139
-00:05:40,510 --> 00:05:41,690
-Nicht Druck,
+00:04:32,210 --> 00:04:34,210
+dass sie das Lernen aufgeschoben hatten,
 
 140
-00:05:42,030 --> 00:05:43,690
-sondern Nachsicht.
+00:04:34,590 --> 00:04:37,430
+schoben vor der zweiten Prüfung weniger auf.
 
 141
-00:05:44,270 --> 00:05:46,110
-Klingt nach Kalenderspruch,
+00:04:37,570 --> 00:04:38,470
+Nicht Druck,
 
 142
-00:05:46,170 --> 00:05:47,650
-ist aber Forschung.
+00:04:38,630 --> 00:04:40,010
+sondern Nachsicht.
 
 143
-00:05:47,834 --> 00:05:49,610
-Werkzeug Nummer zwei:
+00:04:40,130 --> 00:04:41,610
+Klingt nach Kalenderspruch,
 
 144
-00:05:50,150 --> 00:05:51,530
-Benenne das Gefühl.
+00:04:41,650 --> 00:04:42,990
+ist aber Forschung.
 
 145
-00:05:52,190 --> 00:05:53,570
-Frag dich ehrlich:
+00:04:43,030 --> 00:04:44,270
+Werkzeug Nummer zwei:
 
 146
-00:05:54,010 --> 00:05:56,470
-Was genau will ich gerade nicht fühlen?
+00:04:44,390 --> 00:04:45,630
+Benenne das Gefühl.
 
 147
-00:05:56,910 --> 00:05:57,770
-Langeweile?
+00:04:45,890 --> 00:04:46,870
+Frag dich ehrlich:
 
 148
-00:05:58,250 --> 00:05:58,970
-Angst?
+00:04:47,110 --> 00:04:49,270
+Was genau will ich gerade nicht fühlen?
 
 149
-00:05:59,770 --> 00:06:00,870
-Überforderung?
+00:04:49,430 --> 00:04:50,150
+Langeweile?
 
 150
-00:06:01,650 --> 00:06:02,330
-Ein Gefühl,
+00:04:50,450 --> 00:04:50,970
+Angst?
 
 151
-00:06:02,350 --> 00:06:03,570
-das einen Namen hat,
+00:04:51,370 --> 00:04:52,350
+Überforderung?
 
 152
-00:06:03,590 --> 00:06:05,630
-verliert einen Teil seiner Macht.
+00:04:52,430 --> 00:04:53,030
+Ein Gefühl,
 
 153
-00:06:05,884 --> 00:06:07,650
-Werkzeug Nummer drei:
+00:04:53,050 --> 00:04:54,410
+das einen Namen hat,
 
 154
-00:06:08,110 --> 00:06:10,650
-der lächerlich kleine erste Schritt.
+00:04:54,550 --> 00:04:56,290
+verliert einen Teil seiner Macht.
 
 155
-00:06:11,470 --> 00:06:15,270
-Dein Gehirn reagiert auf „Steuererklärung machen“ mit
+00:04:56,510 --> 00:04:57,750
+Werkzeug Nummer drei:
 
 156
-00:06:15,290 --> 00:06:16,530
-Alarm.
+00:04:57,950 --> 00:05:00,390
+der lächerlich kleine erste Schritt.
 
 157
-00:06:17,110 --> 00:06:18,850
-Aber auf „Datei öffnen“?
+00:05:00,530 --> 00:05:03,010
+Dein Gehirn reagiert auf „Steuererklärung machen“ mit
 
 158
-00:06:19,370 --> 00:06:20,530
-Da passiert nichts.
+00:05:03,030 --> 00:05:03,930
+Alarm.
 
 159
-00:06:21,110 --> 00:06:21,790
-Zu klein,
+00:05:03,950 --> 00:05:05,650
+Aber auf „Datei öffnen“?
 
 160
-00:06:21,810 --> 00:06:23,150
-um Angst zu machen.
+00:05:05,730 --> 00:05:06,870
+Da passiert nichts.
 
 161
-00:06:23,450 --> 00:06:25,130
-Werkzeug Nummer vier:
+00:05:07,050 --> 00:05:07,590
+Zu klein,
 
 162
-00:06:25,710 --> 00:06:27,090
-der Zehn-Minuten-Deal.
+00:05:07,610 --> 00:05:08,710
+um Angst zu machen.
 
 163
-00:06:27,790 --> 00:06:29,250
-Mach mit dir einen Deal:
+00:05:08,870 --> 00:05:10,070
+Werkzeug Nummer vier:
 
 164
-00:06:29,690 --> 00:06:31,010
-nur zehn Minuten.
+00:05:10,330 --> 00:05:11,410
+der Zehn-Minuten-Deal.
 
 165
-00:06:31,530 --> 00:06:33,810
-Danach darfst du offiziell aufhören.
+00:05:11,810 --> 00:05:13,070
+Mach mit dir einen Deal:
 
 166
-00:06:34,310 --> 00:06:35,130
-Der Witz:
+00:05:13,230 --> 00:05:14,330
+nur zehn Minuten.
 
 167
-00:06:35,550 --> 00:06:37,510
-Meistens machst du weiter.
+00:05:14,590 --> 00:05:16,710
+Danach darfst du offiziell aufhören.
 
 168
-00:06:38,090 --> 00:06:40,220
-Denn das Schlimmste war nie die Arbeit,
+00:05:16,870 --> 00:05:17,570
+Der Witz:
 
 169
-00:06:40,540 --> 00:06:42,140
-sondern der Moment davor.
+00:05:17,650 --> 00:05:19,190
+Meistens machst du weiter.
 
 170
-00:06:42,497 --> 00:06:44,020
-Otto ist nicht faul.
+00:05:19,390 --> 00:05:21,190
+Denn das Schlimmste war nie die Arbeit,
 
 171
-00:06:44,380 --> 00:06:45,440
-Du auch nicht.
+00:05:21,350 --> 00:05:23,030
+sondern der Moment davor.
 
 172
-00:06:46,040 --> 00:06:48,360
-Ihr habt beide nur ein Gehirn,
+00:05:23,170 --> 00:05:24,490
+Otto ist nicht faul.
 
 173
-00:06:48,460 --> 00:06:51,440
-das euch vor schlechten Gefühlen schützen will.
+00:05:24,530 --> 00:05:25,390
+Du auch nicht.
 
 174
-00:06:52,040 --> 00:06:56,460
-Nur leider auf die dümmste mögliche Art.
+00:05:25,510 --> 00:05:27,170
+Ihr habt beide nur ein Gehirn,
 
 175
-00:06:59,374 --> 00:07:01,640
-Aber warum Otto dann kurz vor der
+00:05:27,190 --> 00:05:29,450
+das euch vor schlechten Gefühlen schützen will.
 
 176
-00:07:01,660 --> 00:07:04,760
-Deadline plötzlich zu einem Genie wird?
+00:05:29,490 --> 00:05:31,870
+Nur leider auf die dümmste mögliche Art.
 
 177
-00:07:04,780 --> 00:07:08,580
+00:05:34,324 --> 00:05:36,190
+Aber warum Otto dann kurz vor der
+
+178
+00:05:36,210 --> 00:05:39,110
+Deadline plötzlich zu einem Genie wird?
+
+179
+00:05:39,270 --> 00:05:41,630
 Das ist eine ganz andere Geschichte.
 

@@ -16,7 +16,7 @@
     <div id="k10-lt" class="t" style="left:130px;top:640px;"><div id="k10-ltl" style="width:420px;height:3px;background:#FFF;transform-origin:0 50%;"></div><div class="cond" style="margin-top:16px;font-size:72px;letter-spacing:.12em;line-height:1;">TIM PYCHYL</div><div style="margin-top:12px;font-size:28px;letter-spacing:.24em;color:#8C8F96;font-weight:600;">PSYCHOLOGE · CARLETON UNIVERSITY</div></div></div>
   </div>
   <script>
-  const T = {"auf": 11.634, "gef": 16.634, "end": 18.416};
+  const T = {"auf": 9.52, "gef": 13.36, "end": 14.74};
 
   const tl = gsap.timeline({ paused: true });
   const face = (p, from, to, t) => {
@@ -29,7 +29,7 @@
   const fadeOut = (sel, t, d = 0.4) => tl.to(sel, { opacity: 0, duration: d, ease: "power2.in" }, t);
 
 tl.fromTo("#k10-cam", { scale: 1 }, { scale: 1.04, duration: T.end, ease: "none", transformOrigin: "960px 540px" }, 0);fadeIn("#k10-cam", 0, 0.5); tl.to("#k10-cam", { opacity: 0, duration: 0.4, ease: "power2.in" }, T.end - 0.4);
-tl.fromTo("#k10-ltl", { scaleX: 0 }, { scaleX: 1, duration: 0.7, ease: "power3.out" }, 0.854);fadeIn("#k10-lt", 0.854, 0.6); fadeOut("#k10-lt", 11.034, 0.4);
+tl.fromTo("#k10-ltl", { scaleX: 0 }, { scaleX: 1, duration: 0.7, ease: "power3.out" }, 0.800);fadeIn("#k10-lt", 0.800, 0.6); fadeOut("#k10-lt", 8.920, 0.4);
   [0, 1, 2].forEach(i => fadeIn(`#k10-q${i}`, T.auf + i * 0.9, 0.8, { from: { filter: "blur(6px)" }, to: { filter: "blur(0px)" } }));
   fadeIn("#k10-at", T.gef - 0.6, 0.8);
 

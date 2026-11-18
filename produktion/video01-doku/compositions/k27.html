@@ -39,7 +39,7 @@
     <div id="k27-lt" class="t" style="left:180px;top:700px;"><div id="k27-ltl" style="width:420px;height:3px;background:#FFF;transform-origin:0 50%;"></div><div class="cond" style="margin-top:16px;font-size:72px;letter-spacing:.12em;line-height:1;">WOHL, PYCHYL &amp; BENNETT</div><div style="margin-top:12px;font-size:28px;letter-spacing:.24em;color:#8C8F96;font-weight:600;">STUDIE · 2010</div></div></div>
   </div>
   <script>
-  const T = {"die": 14.114, "wen": 23.734, "nach": 28.014, "end": 33.238};
+  const T = {"die": 10.0, "wen": 18.24, "nach": 21.1, "end": 25.0};
 
   const tl = gsap.timeline({ paused: true });
   const face = (p, from, to, t) => {
@@ -52,7 +52,7 @@
   const fadeOut = (sel, t, d = 0.4) => tl.to(sel, { opacity: 0, duration: d, ease: "power2.in" }, t);
 
 tl.fromTo("#k27-cam", { scale: 1 }, { scale: 1.04, duration: T.end, ease: "none", transformOrigin: "960px 540px" }, 0);fadeIn("#k27-cam", 0, 0.5); tl.to("#k27-cam", { opacity: 0, duration: 0.4, ease: "power2.in" }, T.end - 0.4);
-tl.fromTo("#k27-ltl", { scaleX: 0 }, { scaleX: 1, duration: 0.7, ease: "power3.out" }, 5.594);fadeIn("#k27-lt", 5.594, 0.6); fadeOut("#k27-lt", 13.614, 0.4);
+tl.fromTo("#k27-ltl", { scaleX: 0 }, { scaleX: 1, duration: 0.7, ease: "power3.out" }, 3.260);fadeIn("#k27-lt", 3.260, 0.6); fadeOut("#k27-lt", 9.500, 0.4);
   fadeIn("#k27-hk", 0.2, 0.6); fadeIn("#k27-ht", 0.4, 0.8);
   fadeIn("#k27-chart", T.die, 0.5);
   tl.fromTo("#k27-b1", { scaleY: 0 }, { scaleY: 1, duration: 0.8, ease: "power2.out" }, T.die + 0.2);

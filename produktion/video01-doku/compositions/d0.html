@@ -14,7 +14,7 @@
       Die folgende Geschichte beruht auf wahren Begebenheiten.</div>
   </div>
   <script>
-  const T = {"end": 3.4};
+  const T = {"end": 2.8};
 
   const tl = gsap.timeline({ paused: true });
   const face = (p, from, to, t) => {
@@ -26,7 +26,7 @@
   const fadeIn = (sel, t, d = 0.6, extra = {}) => tl.fromTo(sel, { opacity: 0, ...extra.from }, { opacity: 1, duration: d, ease: "power2.out", ...extra.to }, t);
   const fadeOut = (sel, t, d = 0.4) => tl.to(sel, { opacity: 0, duration: d, ease: "power2.in" }, t);
 
-  fadeIn("#d0-q", 0.5, 0.9); fadeOut("#d0-q", T.end - 0.75, 0.6);
+  fadeIn("#d0-q", 0.15, 0.6); fadeOut("#d0-q", T.end - 0.45, 0.4);
   window.__timelines["d0"] = tl;
   </script>
 </template>

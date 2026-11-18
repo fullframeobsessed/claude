@@ -81,8 +81,8 @@ put(S, "k09", html_cam("k09", f"""
   fadeIn("#k09-gl", T.fuenfte, 0.6);
   [0, 5, 10, 15].forEach((i, j) => fadeIn(`#k09-q${i}`, T.chron + j * 0.12, 0.4));
   tl.to("#k09-cam", { opacity: 0.12, duration: 0.6, ease: "power2.inOut" }, T.mensch - 0.5);
-  fadeIn("#k09-fin", T.mensch, 0.8, { from: { scale: 1.06 }, to: { scale: 1 } });
-  fadeOut("#k09-fin", T.end - 0.5, 0.45);
+  fadeIn("#k09-fin", T.mensch - 0.35, 0.5, { from: { scale: 1.06 }, to: { scale: 1 } });
+  fadeOut("#k09-fin", T.end - 0.3, 0.28);
 """,
     {"p95": w("95", S), "steel": w("Steel", S), "fuenfte": w("fünfte", S), "chron": w("chronisch.", S), "mensch": w("menschlich.", S)})
 # Schlusszeile außerhalb der Kamera, damit sie hell bleibt

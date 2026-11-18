@@ -14,7 +14,7 @@
     <div id="k18-t" class="t cond" style="left:0;right:0;top:480px;text-align:center;font-size:130px;line-height:1;letter-spacing:.12em;">DER FREMDE</div>
   </div>
   <script>
-  const T = {"end": 9.144};
+  const T = {"end": 7.716};
 
   const tl = gsap.timeline({ paused: true });
   const face = (p, from, to, t) => {
@@ -27,8 +27,8 @@
   const fadeOut = (sel, t, d = 0.4) => tl.to(sel, { opacity: 0, duration: d, ease: "power2.in" }, t);
 
 
-  fadeIn("#k18-k", 0.3, 0.8);
-  tl.fromTo("#k18-t", { opacity: 0, scale: 1.1 }, { opacity: 1, scale: 1, duration: 1.6, ease: "power2.out" }, 0.6);
+  fadeIn("#k18-k", 0.1, 0.5);
+  tl.fromTo("#k18-t", { opacity: 0, scale: 1.1 }, { opacity: 1, scale: 1, duration: 1.0, ease: "power2.out" }, 0.25);
   fadeOut(["#k18-k", "#k18-t"], T.end - 0.5, 0.45);
   window.__timelines["k18"] = tl;
   </script>
