@@ -45,8 +45,138 @@
   "end": 53.541
  },
  {
-  "id": "chapter",
+  "id": "s08_kap1",
   "start": 53.541,
-  "end": 56.741
+  "end": 56.941
+ },
+ {
+  "id": "s09_zahlen",
+  "start": 56.941,
+  "end": 79.106
+ },
+ {
+  "id": "s10_zitat",
+  "start": 79.106,
+  "end": 97.522
+ },
+ {
+  "id": "s11_wolke",
+  "start": 97.522,
+  "end": 114.27
+ },
+ {
+  "id": "s12_flucht",
+  "start": 114.27,
+  "end": 126.658
+ },
+ {
+  "id": "s13_kap2",
+  "start": 126.658,
+  "end": 137.015
+ },
+ {
+  "id": "s14_gehirn",
+  "start": 137.015,
+  "end": 158.813
+ },
+ {
+  "id": "s15_bochum",
+  "start": 158.813,
+  "end": 184.839
+ },
+ {
+  "id": "s16_knopf",
+  "start": 184.839,
+  "end": 193.41
+ },
+ {
+  "id": "s17_waage",
+  "start": 193.41,
+  "end": 201.666
+ },
+ {
+  "id": "s18_kap3",
+  "start": 201.666,
+  "end": 210.81
+ },
+ {
+  "id": "s19_morgenotto",
+  "start": 210.81,
+  "end": 214.516
+ },
+ {
+  "id": "s20_scans",
+  "start": 214.516,
+  "end": 236.966
+ },
+ {
+  "id": "s21_uebergabe",
+  "start": 236.966,
+  "end": 249.15
+ },
+ {
+  "id": "s22_kette",
+  "start": 249.15,
+  "end": 261.153
+ },
+ {
+  "id": "s23_kap4",
+  "start": 261.153,
+  "end": 265.87
+ },
+ {
+  "id": "s24_kreis",
+  "start": 265.87,
+  "end": 292.801
+ },
+ {
+  "id": "s25_fertigmachen",
+  "start": 292.801,
+  "end": 309.558
+ },
+ {
+  "id": "s26_kap5",
+  "start": 309.558,
+  "end": 314.646
+ },
+ {
+  "id": "s27_vergeben",
+  "start": 314.646,
+  "end": 347.884
+ },
+ {
+  "id": "s28_benennen",
+  "start": 347.884,
+  "end": 365.934
+ },
+ {
+  "id": "s29_schritt",
+  "start": 365.934,
+  "end": 383.48
+ },
+ {
+  "id": "s30_timer",
+  "start": 383.48,
+  "end": 402.547
+ },
+ {
+  "id": "s31_jetzt",
+  "start": 402.547,
+  "end": 416.824
+ },
+ {
+  "id": "s32_spaeter",
+  "start": 416.824,
+  "end": 419.424
+ },
+ {
+  "id": "s33_deadline",
+  "start": 419.424,
+  "end": 429.142
+ },
+ {
+  "id": "s34_endcard",
+  "start": 429.142,
+  "end": 439.142
  }
 ]

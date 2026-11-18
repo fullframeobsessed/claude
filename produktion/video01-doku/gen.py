@@ -256,39 +256,27 @@ scene("d5", f"""
 """, {"dir": L(W("dir")), "wenn": L(W("wenn", a5)), "weniger": L(W("weniger")), "ende": L(W("Ende")),
       "trick": L(W("Trick")), "peinlich": L(W("peinlich")), "wiss": L(W("Aber", W("peinlich"))), "end": e5 - a5})
 
-# ------------------------------------------------------------ d6 Kapitel
-a6, e6 = SEG["chapter"]
-scene("d6", f"""
-    <div id="d6-k" class="t" style="left:0;right:0;top:420px;text-align:center;font-size:30px;font-weight:700;letter-spacing:.6em;color:{MUTED};">KAPITEL 1</div>
-    <div id="d6-t" class="t cond" style="left:0;right:0;top:480px;text-align:center;font-size:130px;line-height:1;letter-spacing:.12em;">DU BIST NICHT FAUL</div>""",
-      r"""
-  fadeIn("#d6-k", 0.3, 0.8);
-  tl.fromTo("#d6-t", { opacity: 0, scale: 1.1 }, { opacity: 1, scale: 1, duration: 1.6, ease: "power2.out" }, 0.6);""",
-      {"end": e6 - a6})
+# ------------------------------------------------------------ Kapitelkarten
+def chapter(cid, sid, num, title):
+    a, e = SEG[sid]
+    scene(cid, f"""
+    <div id="{cid}-k" class="t" style="left:0;right:0;top:420px;text-align:center;font-size:30px;font-weight:700;letter-spacing:.6em;color:{MUTED};">KAPITEL {num}</div>
+    <div id="{cid}-t" class="t cond" style="left:0;right:0;top:480px;text-align:center;font-size:130px;line-height:1;letter-spacing:.12em;">{title}</div>""",
+          f"""
+  fadeIn("#{cid}-k", 0.3, 0.8);
+  tl.fromTo("#{cid}-t", {{ opacity: 0, scale: 1.1 }}, {{ opacity: 1, scale: 1, duration: 1.6, ease: "power2.out" }}, 0.6);
+  fadeOut(["#{cid}-k", "#{cid}-t"], T.end - 0.5, 0.45);""", {"end": e - a})
+    return (cid, a, e)
 
-# ------------------------------------------------------------ Rahmen: Balken, Vignette, Korn
-rnd = random.Random(7)
-grain_js = "".join(f'tl.set("#fr-grain", {{backgroundPosition:"{rnd.randint(0, 255)}px {rnd.randint(0, 255)}px"}}, {i / 12:.3f});'
-                   for i in range(int(END * 12)))
-noise = ("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence "
-         "type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")
-open(f"{HERE}/compositions/frame.html", "w").write(f"""<template>
-  <style>
-  #root {{ position:absolute; inset:0; pointer-events:none; }}
-  #root .bar {{ position:absolute; left:0; right:0; height:{BAR}px; background:#000; }}
-  </style>
-  <div id="root" data-composition-id="frame" data-width="1920" data-height="1080" data-layout-ignore>
-    <div id="fr-vig" style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%, transparent 45%, rgba(0,0,0,.6) 100%);"></div>
-    <div id="fr-grain" style="position:absolute;inset:0;background-image:url(&quot;{noise}&quot;);background-size:256px 256px;opacity:.09;mix-blend-mode:overlay;"></div>
-    <div class="bar" style="top:0"></div><div class="bar" style="bottom:0"></div>
-  </div>
-  <script>
-  const tl = gsap.timeline({{ paused: true }});
-  {grain_js}
-  window.__timelines["frame"] = tl;
-  </script>
-</template>
-""")
+
+HOSTS = [("d0", *SEG["open"]), ("d1", *SEG["s01_hook"]), ("d2", *SEG["title"]), ("d3", a3, e3), ("d4", a4, e4),
+         ("d5", *SEG["s07_versprechen"]), chapter("d6", "s08_kap1", 1, "DU BIST NICHT FAUL")]
+
+# ------------------------------------------------------------ Restliche Szenen (Kapitel 1–5, Ende)
+exec(open(f"{HERE}/rest.py", encoding="utf-8").read())
+
+# ------------------------------------------------------------ Rahmen: alter Film (Balken, Vignette, Korn, Staub, Kratzer, Flackern)
+exec(open(f"{HERE}/film.py", encoding="utf-8").read())
 
 # ------------------------------------------------------------ Untertitel (im unteren Balken)
 groups, cur = [], []
@@ -320,9 +308,17 @@ open(f"{HERE}/compositions/captions.html", "w", encoding="utf-8").write(f"""<tem
 </template>
 """)
 
+# ------------------------------------------------------------ SRT für Final Cut / YouTube
+def srt_t(x):
+    ms = int(round(x * 1000)); return f"{ms//3600000:02d}:{ms//60000%60:02d}:{ms//1000%60:02d},{ms%1000:03d}"
+with open(f"{HERE}/untertitel_video01.srt", "w", encoding="utf-8") as f:
+    for gi, g in enumerate(groups):
+        a, b = starts[gi], min(g[-1]["end"] + 0.25, END, starts[gi + 1] - 0.02)
+        f.write(f"{gi + 1}\n{srt_t(a)} --> {srt_t(b)}\n{' '.join(w['text'] for w in g)}\n\n")
+
 # ------------------------------------------------------------ Root
-hosts = [("d0", *SEG["open"]), ("d1", *SEG["s01_hook"]), ("d2", *SEG["title"]), ("d3", a3, e3), ("d4", a4, e4),
-         ("d5", *SEG["s07_versprechen"]), ("d6", *SEG["chapter"])]
+NOCAP = "--nocap" in sys.argv
+hosts = HOSTS
 hh = "\n".join(f'      <div id="{s}" data-composition-id="{s}" data-composition-src="compositions/{s}.html" data-start="{a:.3f}" '
                f'data-duration="{b - a:.3f}" data-track-index="1" data-track-kind="graphics" data-width="1920" data-height="1080"></div>'
                for s, a, b in hosts)
@@ -341,7 +337,7 @@ open(f"{HERE}/index.html", "w").write(f"""<!doctype html>
     <div id="root" data-composition-id="main" data-start="0" data-duration="{END}" data-width="1920" data-height="1080">
 {hh}
       <div id="frame" data-composition-id="frame" data-composition-src="compositions/frame.html" data-start="0" data-duration="{END}" data-track-index="2" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
-      <div id="captions" data-composition-id="captions" data-composition-src="compositions/captions.html" data-start="0" data-duration="{END}" data-track-index="3" data-track-kind="captions" data-width="1920" data-height="1080"></div>
+      <div id="captions" data-composition-id="captions" data-composition-src="compositions/captions.html" data-start="0" data-duration="{END}" data-track-index="3" data-track-kind="captions" data-width="1920" data-height="1080"{' data-hidden' if NOCAP else ''}></div>
       <audio id="vo" class="clip" src="assets/voice.wav" data-start="0" data-duration="{END}" data-track-index="4" data-volume="1"></audio>
     </div>
     <script>
@@ -350,4 +346,4 @@ open(f"{HERE}/index.html", "w").write(f"""<!doctype html>
   </body>
 </html>
 """)
-print(f"Doku-Probe: {END}s, {len(WORDS)} Wörter, {len(groups)} Untertitel-Gruppen")
+print(f"Video 01 (Doku): {END}s, {len(WORDS)} Wörter, {len(groups)} Untertitel-Gruppen")

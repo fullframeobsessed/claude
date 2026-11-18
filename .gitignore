@@ -13,3 +13,6 @@ produktion/video01-doku/renders/
 produktion/video01-doku/.hyperframes/
 produktion/video01-doku/assets/*.wav
 produktion/stimmen/higgsfield_erzaehler_shortlist.m4a
+produktion/video01-doku/*.log
+produktion/video01-doku/otto_video01_mit_untertiteln.mp4
+produktion/video01-doku/otto_video01_ohne_untertitel.mp4

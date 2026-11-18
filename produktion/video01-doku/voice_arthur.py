@@ -15,7 +15,13 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 A = f"{HERE}/assets"
 SR = 48000
 PLAN = [("open", 3.4), ("A", ["s01_hook"]), ("title", 3.2), ("B", ["s02_bad", "s03_socken", "s04_pinguine"]),
-        ("C", ["s05_faul", "s06_nicht_faul"]), ("D", ["s07_versprechen"]), ("chapter", 3.2)]
+        ("C", ["s05_faul", "s06_nicht_faul"]), ("D", ["s07_versprechen"]), ("s08_kap1", 3.4),
+        ("E", ["s09_zahlen"]), ("F", ["s10_zitat"]), ("G", ["s11_wolke", "s12_flucht"]),
+        ("lead", 1.6), ("H", ["s13_kap2"]), ("I", ["s14_gehirn"]), ("J", ["s15_bochum"]), ("K", ["s16_knopf", "s17_waage"]),
+        ("lead", 1.6), ("L", ["s18_kap3", "s19_morgenotto"]), ("M", ["s20_scans"]), ("N", ["s21_uebergabe", "s22_kette"]),
+        ("lead", 1.6), ("O", ["s23_kap4", "s24_kreis"]), ("P", ["s25_fertigmachen"]),
+        ("lead", 1.6), ("Q", ["s26_kap5"]), ("R", ["s27_vergeben"]), ("S", ["s28_benennen"]), ("T", ["s29_schritt"]),
+        ("U", ["s30_timer"]), ("V", ["s31_jetzt"]), ("s32_spaeter", 2.6), ("W", ["s33_deadline"]), ("s34_endcard", 10.0)]
 GAP = 0.45  # Luft zwischen zwei Stücken
 by_id = {s["id"]: s for s in scenes.SCENES}
 
@@ -27,14 +33,17 @@ def load_trimmed(p):
     return y[a:b]
 
 
-chunks, segs, pieces, t = [], [], [], 0.0
+chunks, segs, pieces, t, lead = [], [], [], 0.0, None
 for name, val in PLAN:
     if isinstance(val, (int, float)):
-        segs.append({"id": name, "start": round(t, 3), "end": round(t + val, 3)})
+        if name == "lead":  # Stille, die zur nächsten Szene (Kapitelkarte) gehört
+            lead = t
+        else:
+            segs.append({"id": name, "start": round(t, 3), "end": round(t + val, 3)})
         chunks.append(np.zeros(int(val * SR), np.float32)); t += val
         continue
     y = load_trimmed(f"{A}/arthur/{name}.mp3")
-    pieces.append({"name": name, "scenes": val, "start": t, "end": t + len(y) / SR})
+    pieces.append({"name": name, "scenes": val, "start": t, "end": t + len(y) / SR, "lead": lead}); lead = None
     chunks.append(y); t += len(y) / SR
     chunks.append(np.zeros(int(GAP * SR), np.float32)); t += GAP
 
@@ -75,7 +84,7 @@ for i in range(1, len(words)):
 
 # Szenengrenzen innerhalb eines Stücks: kurz vor dem ersten Wort der nächsten Szene
 for p in pieces:
-    bounds = [p["start"]]
+    bounds = [p["lead"] if p["lead"] is not None else p["start"]]
     for sid in p["scenes"][1:]:
         first = next(w for w in words if w["scene"] == sid)
         bounds.append(round(first["start"] - 0.15, 3))

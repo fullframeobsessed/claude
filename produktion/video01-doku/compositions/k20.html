@@ -1,0 +1,40 @@
+<template>
+  <style>
+  #root { position:absolute; inset:0; overflow:hidden; background:#0B0C0E; color:#FFF; font-family:'Inter', sans-serif; }
+  #root .actor, #root .light, #root .lay, #root .t { position:absolute; }
+  #root .lay { inset:0; }
+  #root .t { white-space:nowrap; }
+  #root .stamp { font-family:'Inter'; font-weight:700; font-size:30px; letter-spacing:.3em; color:#D9D4C7; }
+  #root .cond { font-family:'Oswald', sans-serif; font-weight:700; text-transform:uppercase; }
+  #root .floor { position:absolute; border-radius:50%; background:radial-gradient(ellipse, rgba(255,240,215,.16) 0%, transparent 70%); }
+</style>
+  <div id="root" data-composition-id="k20" data-width="1920" data-height="1080">
+<div id="k20-cam" class="lay">
+    <div id="k20-l" class="light" style="left:200px;top:-290px;width:1520px;height:1520px;opacity:1.0;background:radial-gradient(circle, rgba(255,226,180,.14) 0%, transparent 70%);"></div>
+    <div id="k20-s0" class="actor" style="left:290px;top:300px;width:400px;height:340px;"><svg viewBox="-200 -170 400 340" width="400" height="340" overflow="visible"><ellipse cx="0" cy="0" rx="190" ry="160" fill="#22262E" stroke="#5A606B" stroke-width="5"/><path d="M0,-150 Q-20,-40 0,0 Q20,60 0,150" fill="none" stroke="#3A404B" stroke-width="5"/><g id="k20-sp0" opacity="0"><circle cx="-60" cy="-40" r="40" fill="#FFB300" opacity=".85"/><circle cx="40" cy="-70" r="34" fill="#FFB300" opacity=".85"/><circle cx="0" cy="40" r="46" fill="#FFB300" opacity=".85"/></g></svg></div><div id="k20-t0" class="t" style="left:290px;width:400px;top:670px;text-align:center;font-size:30px;font-weight:700;letter-spacing:.2em;">ICH SELBST</div><div id="k20-s1" class="actor" style="left:770px;top:300px;width:400px;height:340px;"><svg viewBox="-200 -170 400 340" width="400" height="340" overflow="visible"><ellipse cx="0" cy="0" rx="190" ry="160" fill="#22262E" stroke="#5A606B" stroke-width="5"/><path d="M0,-150 Q-20,-40 0,0 Q20,60 0,150" fill="none" stroke="#3A404B" stroke-width="5"/><g id="k20-sp1" opacity="0"><circle cx="80" cy="10" r="34" fill="#FFB300" opacity=".85"/><circle cx="-90" cy="60" r="28" fill="#FFB300" opacity=".85"/></g></svg></div><div id="k20-t1" class="t" style="left:770px;width:400px;top:670px;text-align:center;font-size:30px;font-weight:700;letter-spacing:.2em;">ICH IN 10 JAHREN</div><div id="k20-s2" class="actor" style="left:1250px;top:300px;width:400px;height:340px;"><svg viewBox="-200 -170 400 340" width="400" height="340" overflow="visible"><ellipse cx="0" cy="0" rx="190" ry="160" fill="#22262E" stroke="#5A606B" stroke-width="5"/><path d="M0,-150 Q-20,-40 0,0 Q20,60 0,150" fill="none" stroke="#3A404B" stroke-width="5"/><g id="k20-sp2" opacity="0"><circle cx="70" cy="20" r="34" fill="#FFB300" opacity=".85"/><circle cx="-80" cy="50" r="30" fill="#FFB300" opacity=".85"/></g></svg></div><div id="k20-t2" class="t" style="left:1250px;width:400px;top:670px;text-align:center;font-size:30px;font-weight:700;letter-spacing:.2em;">EIN FREMDER</div>
+    <div id="k20-eq" class="t cond" style="left:1210px;top:380px;font-size:140px;color:#E8C27A;">≈</div>
+    <div id="k20-ft" class="t" style="left:130px;top:880px;font-size:28px;font-weight:600;letter-spacing:.14em;color:#8C8F96;">HERSHFIELD ET AL. (2009), SOCIAL COGNITIVE AND AFFECTIVE NEUROSCIENCE</div></div>
+  </div>
+  <script>
+  const T = {"her": 1.454, "selbst": 5.364, "zehn": 7.984, "fremde": 9.764, "fremden": 20.804, "end": 22.45};
+
+  const tl = gsap.timeline({ paused: true });
+  const face = (p, from, to, t) => {
+    tl.set(`#${p}-face-${from}`, { opacity: 0 }, t);
+    tl.set(`#${p}-face-${to}`, { opacity: 1 }, t);
+    tl.fromTo(`#${p}-head`, { scaleY: 0.94, transformOrigin: "50% 100%" }, { scaleY: 1, duration: 0.4, ease: "power2.out", immediateRender: false }, t);
+  };
+  const type = (sel, n, t, gap = 0.045) => { for (let i = 0; i < n; i++) tl.fromTo(`${sel}-${i}`, { opacity: 0 }, { opacity: 1, duration: 0.01 }, t + i * gap); };
+  const fadeIn = (sel, t, d = 0.6, extra = {}) => tl.fromTo(sel, { opacity: 0, ...extra.from }, { opacity: 1, duration: d, ease: "power2.out", ...extra.to }, t);
+  const fadeOut = (sel, t, d = 0.4) => tl.to(sel, { opacity: 0, duration: d, ease: "power2.in" }, t);
+
+tl.fromTo("#k20-cam", { scale: 1 }, { scale: 1.04, duration: T.end, ease: "none", transformOrigin: "960px 540px" }, 0);fadeIn("#k20-cam", 0, 0.5); tl.to("#k20-cam", { opacity: 0, duration: 0.4, ease: "power2.in" }, T.end - 0.4);
+
+  [0, 1, 2].forEach(i => { fadeIn(`#k20-s${i}`, 0.3 + i * 0.25, 0.6); fadeIn(`#k20-t${i}`, 0.5 + i * 0.25, 0.6); });
+  fadeIn("#k20-ft", T.her, 0.6);
+  fadeIn("#k20-sp0", T.selbst, 0.6); fadeIn("#k20-sp1", T.zehn, 0.6); fadeIn("#k20-sp2", T.fremde, 0.6);
+  fadeIn("#k20-eq", T.fremden, 0.7, { from: { scale: 1.3 }, to: { scale: 1 } });
+
+  window.__timelines["k20"] = tl;
+  </script>
+</template>
