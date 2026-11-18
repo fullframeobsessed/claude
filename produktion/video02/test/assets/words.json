@@ -1,0 +1,632 @@
+[
+{
+"text": "Das",
+"start": 3.0,
+"end": 3.28
+},
+{
+"text": "ist",
+"start": 3.28,
+"end": 3.62
+},
+{
+"text": "Otto.",
+"start": 3.62,
+"end": 3.96
+},
+{
+"text": "Otto",
+"start": 4.4,
+"end": 4.68
+},
+{
+"text": "hatte",
+"start": 4.68,
+"end": 4.92
+},
+{
+"text": "für",
+"start": 4.92,
+"end": 5.12
+},
+{
+"text": "diese",
+"start": 5.12,
+"end": 5.34
+},
+{
+"text": "Präsentation",
+"start": 5.34,
+"end": 6.22
+},
+{
+"text": "drei",
+"start": 6.22,
+"end": 6.96
+},
+{
+"text": "Wochen",
+"start": 6.96,
+"end": 7.24
+},
+{
+"text": "Zeit.",
+"start": 7.24,
+"end": 7.64
+},
+{
+"text": "Gemacht",
+"start": 8.08,
+"end": 8.58
+},
+{
+"text": "hat",
+"start": 8.58,
+"end": 9.04
+},
+{
+"text": "er",
+"start": 9.04,
+"end": 9.16
+},
+{
+"text": "sie",
+"start": 9.16,
+"end": 9.28
+},
+{
+"text": "in",
+"start": 9.28,
+"end": 9.42
+},
+{
+"text": "den",
+"start": 9.42,
+"end": 9.52
+},
+{
+"text": "letzten",
+"start": 9.52,
+"end": 9.92
+},
+{
+"text": "drei",
+"start": 9.92,
+"end": 10.26
+},
+{
+"text": "Stunden.",
+"start": 10.26,
+"end": 10.68
+},
+{
+"text": "Und",
+"start": 11.1,
+"end": 11.22
+},
+{
+"text": "das",
+"start": 11.22,
+"end": 11.34
+},
+{
+"text": "Verrückte:",
+"start": 11.34,
+"end": 11.9
+},
+{
+"text": "Sie",
+"start": 12.3,
+"end": 12.44
+},
+{
+"text": "ist",
+"start": 12.44,
+"end": 12.64
+},
+{
+"text": "richtig",
+"start": 12.64,
+"end": 13.0
+},
+{
+"text": "gut",
+"start": 13.0,
+"end": 13.28
+},
+{
+"text": "geworden.",
+"start": 13.28,
+"end": 13.72
+},
+{
+"text": "Ist",
+"start": 14.3,
+"end": 14.5
+},
+{
+"text": "Otto",
+"start": 14.5,
+"end": 14.82
+},
+{
+"text": "heimlich",
+"start": 14.82,
+"end": 15.28
+},
+{
+"text": "ein",
+"start": 15.28,
+"end": 15.48
+},
+{
+"text": "Genie,",
+"start": 15.48,
+"end": 15.98
+},
+{
+"text": "das",
+"start": 16.08,
+"end": 16.16
+},
+{
+"text": "einfach",
+"start": 16.16,
+"end": 16.52
+},
+{
+"text": "nur",
+"start": 16.52,
+"end": 16.72
+},
+{
+"text": "Druck",
+"start": 16.72,
+"end": 17.08
+},
+{
+"text": "braucht?",
+"start": 17.08,
+"end": 17.62
+},
+{
+"text": "Oder",
+"start": 18.24,
+"end": 18.52
+},
+{
+"text": "spielt",
+"start": 18.52,
+"end": 18.8
+},
+{
+"text": "ihm",
+"start": 18.8,
+"end": 19.02
+},
+{
+"text": "sein",
+"start": 19.02,
+"end": 19.22
+},
+{
+"text": "Gehirn",
+"start": 19.22,
+"end": 19.7
+},
+{
+"text": "hier",
+"start": 19.7,
+"end": 19.84
+},
+{
+"text": "einen",
+"start": 19.84,
+"end": 20.06
+},
+{
+"text": "Streich?",
+"start": 20.06,
+"end": 20.58
+},
+{
+"text": "Kurze",
+"start": 21.1,
+"end": 21.38
+},
+{
+"text": "Frage",
+"start": 21.38,
+"end": 21.66
+},
+{
+"text": "an",
+"start": 21.66,
+"end": 21.88
+},
+{
+"text": "dich,",
+"start": 21.88,
+"end": 21.98
+},
+{
+"text": "bevor",
+"start": 22.06,
+"end": 22.26
+},
+{
+"text": "wir",
+"start": 22.26,
+"end": 22.42
+},
+{
+"text": "anfangen:",
+"start": 22.42,
+"end": 22.82
+},
+{
+"text": "Wann",
+"start": 22.82,
+"end": 23.8
+},
+{
+"text": "hast",
+"start": 23.8,
+"end": 24.02
+},
+{
+"text": "du",
+"start": 24.02,
+"end": 24.36
+},
+{
+"text": "deine",
+"start": 24.36,
+"end": 24.68
+},
+{
+"text": "letzte",
+"start": 24.68,
+"end": 25.06
+},
+{
+"text": "große",
+"start": 25.06,
+"end": 25.44
+},
+{
+"text": "Aufgabe",
+"start": 25.44,
+"end": 26.06
+},
+{
+"text": "erledigt?",
+"start": 26.06,
+"end": 26.66
+},
+{
+"text": "A:",
+"start": 27.1,
+"end": 27.3
+},
+{
+"text": "früh.",
+"start": 27.9,
+"end": 28.06
+},
+{
+"text": "B:",
+"start": 28.62,
+"end": 28.8
+},
+{
+"text": "pünktlich.",
+"start": 29.38,
+"end": 29.82
+},
+{
+"text": "Oder",
+"start": 30.1,
+"end": 30.38
+},
+{
+"text": "C:",
+"start": 30.38,
+"end": 30.72
+},
+{
+"text": "in",
+"start": 31.4,
+"end": 31.45
+},
+{
+"text": "letzter",
+"start": 31.419999999999998,
+"end": 31.84
+},
+{
+"text": "Minute?",
+"start": 31.84,
+"end": 32.18
+},
+{
+"text": "Merk",
+"start": 32.64,
+"end": 32.88
+},
+{
+"text": "dir",
+"start": 32.88,
+"end": 33.02
+},
+{
+"text": "deine",
+"start": 33.02,
+"end": 33.24
+},
+{
+"text": "Antwort.",
+"start": 33.24,
+"end": 33.6
+},
+{
+"text": "Wir",
+"start": 34.3,
+"end": 34.44
+},
+{
+"text": "lösen",
+"start": 34.44,
+"end": 34.74
+},
+{
+"text": "das",
+"start": 34.74,
+"end": 34.9
+},
+{
+"text": "am",
+"start": 34.9,
+"end": 35.04
+},
+{
+"text": "Ende",
+"start": 35.04,
+"end": 35.3
+},
+{
+"text": "auf.",
+"start": 35.3,
+"end": 35.62
+},
+{
+"text": "1955",
+"start": 41.38,
+"end": 42.14
+},
+{
+"text": "schrieb",
+"start": 42.14,
+"end": 42.9
+},
+{
+"text": "der",
+"start": 42.9,
+"end": 43.08
+},
+{
+"text": "britische",
+"start": 43.08,
+"end": 43.48
+},
+{
+"text": "Historiker",
+"start": 43.48,
+"end": 44.2
+},
+{
+"text": "Cyril",
+"start": 44.2,
+"end": 44.9
+},
+{
+"text": "Northcote",
+"start": 44.9,
+"end": 45.24
+},
+{
+"text": "Parkinson",
+"start": 45.58,
+"end": 46.18
+},
+{
+"text": "einen",
+"start": 46.18,
+"end": 47.02
+},
+{
+"text": "Satz,",
+"start": 47.02,
+"end": 47.78
+},
+{
+"text": "der",
+"start": 47.78,
+"end": 47.96
+},
+{
+"text": "seitdem",
+"start": 47.96,
+"end": 48.36
+},
+{
+"text": "berühmt",
+"start": 48.36,
+"end": 48.82
+},
+{
+"text": "ist:",
+"start": 48.82,
+"end": 49.08
+},
+{
+"text": "Arbeit",
+"start": 49.52,
+"end": 49.9
+},
+{
+"text": "dehnt",
+"start": 49.9,
+"end": 50.48
+},
+{
+"text": "sich",
+"start": 50.48,
+"end": 50.66
+},
+{
+"text": "genau",
+"start": 50.66,
+"end": 50.94
+},
+{
+"text": "so",
+"start": 50.94,
+"end": 51.24
+},
+{
+"text": "weit",
+"start": 51.24,
+"end": 51.5
+},
+{
+"text": "aus,",
+"start": 51.5,
+"end": 51.88
+},
+{
+"text": "wie",
+"start": 52.22,
+"end": 52.52
+},
+{
+"text": "Zeit",
+"start": 52.52,
+"end": 52.96
+},
+{
+"text": "für",
+"start": 52.96,
+"end": 53.28
+},
+{
+"text": "sie",
+"start": 53.28,
+"end": 53.46
+},
+{
+"text": "zur",
+"start": 53.46,
+"end": 53.66
+},
+{
+"text": "Verfügung",
+"start": 53.66,
+"end": 54.04
+},
+{
+"text": "steht.",
+"start": 54.04,
+"end": 54.46
+},
+{
+"text": "Hat",
+"start": 55.08,
+"end": 55.24
+},
+{
+"text": "Otto",
+"start": 55.24,
+"end": 55.5
+},
+{
+"text": "drei",
+"start": 55.5,
+"end": 55.84
+},
+{
+"text": "Wochen",
+"start": 55.84,
+"end": 56.1
+},
+{
+"text": "Zeit,",
+"start": 56.1,
+"end": 56.56
+},
+{
+"text": "braucht",
+"start": 57.18,
+"end": 57.44
+},
+{
+"text": "die",
+"start": 57.44,
+"end": 57.76
+},
+{
+"text": "Präsentation",
+"start": 57.76,
+"end": 58.48
+},
+{
+"text": "drei",
+"start": 58.48,
+"end": 58.76
+},
+{
+"text": "Wochen.",
+"start": 58.76,
+"end": 59.08
+},
+{
+"text": "Hat",
+"start": 59.7,
+"end": 59.88
+},
+{
+"text": "er",
+"start": 59.88,
+"end": 59.98
+},
+{
+"text": "drei",
+"start": 59.98,
+"end": 60.26
+},
+{
+"text": "Stunden,",
+"start": 60.26,
+"end": 60.78
+},
+{
+"text": "braucht",
+"start": 61.5,
+"end": 61.76
+},
+{
+"text": "sie",
+"start": 61.76,
+"end": 62.0
+},
+{
+"text": "drei",
+"start": 62.0,
+"end": 62.36
+},
+{
+"text": "Stunden.",
+"start": 62.36,
+"end": 62.8
+}
+]

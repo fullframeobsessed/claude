@@ -1,0 +1,73 @@
+<template>
+  <style>
+  #root { position:absolute; inset:0; overflow:hidden; background:#0B0C0E; color:#FFF; font-family:'Inter', sans-serif; }
+  #root .actor, #root .light, #root .lay, #root .t { position:absolute; }
+  #root .lay { inset:0; }
+  #root .t { white-space:nowrap; }
+  #root .stamp { font-weight:700; font-size:30px; letter-spacing:.3em; color:#D9D4C7; }
+  #root .cond { font-family:'Oswald', sans-serif; font-weight:700; text-transform:uppercase; line-height:1; }
+  #root .card { background:#16181D; border:2px solid #3A3F48; border-radius:22px; box-shadow:0 30px 80px rgba(0,0,0,.6); }
+  #root .floor { position:absolute; border-radius:50%; background:radial-gradient(ellipse, rgba(255,240,215,.16) 0%, transparent 70%); }
+</style>
+  <div id="root" data-composition-id="c7" data-width="1920" data-height="1080">
+
+  <div id="c7-cam" class="lay">
+    <div id="c7-l" class="light" style="left:200px;top:-280px;width:1520px;height:1520px;opacity:1.0;background:radial-gradient(circle, rgba(255,226,180,.14) 0%, transparent 70%);"></div>
+    <div id="c7-box" class="actor" style="left:360px;top:300px;width:1200px;height:300px;border:4px dashed #CFC9BC;border-radius:24px;transform-origin:0 50%;opacity:0"></div>
+    <div id="c7-lab" class="t" style="left:360px;top:250px;font-size:30px;font-weight:800;letter-spacing:.3em;color:#8C8F96;opacity:0">ZEIT</div>
+    <div id="c7-w" class="t cond" style="left:360px;width:1200px;top:630px;text-align:center;font-size:84px;color:#E8C27A;opacity:0">3 WOCHEN</div>
+    <div id="c7-s" class="t cond" style="left:360px;width:300px;top:630px;text-align:center;font-size:84px;color:#E2483D;opacity:0">3 STD</div>
+    <div id="c7-blob" class="actor" style="left:380px;top:320px;width:1160px;height:260px;border-radius:120px;background:#FF7A1A;transform-origin:0 50%;
+         display:flex;align-items:center;justify-content:center;font-family:'Oswald';font-weight:700;font-size:80px;color:#1E1E1E;opacity:0">ARBEIT</div>
+    <div style="position:absolute;left:1560px;top:520px;width:320px;height:400px;overflow:hidden">
+      <div style="position:absolute;left:0;top:0;width:600px;height:760px;transform:scale(.5);transform-origin:0 0"><svg viewBox="-300 -200 600 760" width="600" height="760" overflow="visible"><path d="M-45,330 L-52,470" stroke="#1E1E1E" stroke-width="60" fill="none" stroke-linecap="round"/><path d="M-45,330 L-52,470" stroke="#6B7280" stroke-width="48" fill="none" stroke-linecap="round"/><path d="M45,330 L52,470" stroke="#1E1E1E" stroke-width="60" fill="none" stroke-linecap="round"/><path d="M45,330 L52,470" stroke="#6B7280" stroke-width="48" fill="none" stroke-linecap="round"/><g stroke="#1E1E1E" stroke-width="6" fill="#FFF"><path d="M-100,500 Q-100,462 -60,462 Q-28,462 -22,500 Z"/><path d="M100,500 Q100,462 60,462 Q28,462 22,500 Z"/></g><path d="M-100,494 L-22,494 M22,494 L100,494" stroke="#FF7A1A" stroke-width="5"/><path d="M-86,170 Q-132,235 -124,318" stroke="#1E1E1E" stroke-width="54" fill="none" stroke-linecap="round"/><path d="M-86,170 Q-132,235 -124,318" stroke="#FF7A1A" stroke-width="42" fill="none" stroke-linecap="round"/><circle cx="-124" cy="336" r="21" fill="#F6D2B3" stroke="#1E1E1E" stroke-width="6"/><g stroke="#1E1E1E" stroke-width="6">
+      <path d="M-92,100 Q0,160 92,100 Q112,150 78,168 L-78,168 Q-112,150 -92,100 Z" fill="#D9600F"/>
+      <rect x="-22" y="100" width="44" height="50" fill="#F6D2B3"/>
+      <path d="M-96,152 Q0,132 96,152 L110,330 Q0,348 -110,330 Z" fill="#FF7A1A"/>
+      <rect x="-112" y="318" width="224" height="26" rx="10" fill="#D9600F"/>
+      <path d="M-52,142 Q0,200 52,142" fill="none"/>
+      <path d="M-18,178 L-24,238 M18,178 L24,232" fill="none" stroke-width="5"/>
+      <circle cx="-24" cy="244" r="6" fill="#FFF" stroke-width="4"/><circle cx="24" cy="238" r="6" fill="#FFF" stroke-width="4"/>
+      <path d="M-62,256 L62,256 L78,318 L-78,318 Z" fill="#F08A3E"/></g><g id="c7o-arm"><path d="M86,170 Q132,235 124,318" stroke="#1E1E1E" stroke-width="54" fill="none" stroke-linecap="round"/><path d="M86,170 Q132,235 124,318" stroke="#FF7A1A" stroke-width="42" fill="none" stroke-linecap="round"/><circle cx="124" cy="336" r="21" fill="#F6D2B3" stroke="#1E1E1E" stroke-width="6"/></g><g id="c7o-head"><g stroke="#1E1E1E" stroke-width="6" stroke-linejoin="round">
+      <ellipse cx="-106" cy="12" rx="18" ry="26" fill="#F2C6A4"/>
+      <ellipse cx="106" cy="12" rx="18" ry="26" fill="#F2C6A4"/>
+      <ellipse cx="0" cy="0" rx="105" ry="115" fill="#F6D2B3"/>
+      <path fill="#5B3A29" d="M-108,0 C-122,-85 -70,-138 0,-132 C72,-138 122,-85 108,0 C98,-38 84,-55 62,-60 L52,-34 L38,-64 C14,-56 -6,-58 -24,-66 L-36,-38 L-50,-66 C-76,-60 -96,-38 -108,0 Z"/>
+      <path fill="#5B3A29" d="M-28,-128 L-20,-168 L2,-130 Z"/>
+      <path fill="#5B3A29" d="M8,-131 L44,-160 L36,-122 Z"/>
+      <path fill="#5B3A29" d="M-62,-112 L-88,-138 L-44,-124 Z"/></g><g id="c7o-face-tired" opacity="1"><g stroke="#1E1E1E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="-38" cy="8" rx="22" ry="24" fill="#FFF"/><ellipse cx="38" cy="8" rx="22" ry="24" fill="#FFF"/><circle cx="-34" cy="14" r="9" fill="#1E1E1E" stroke="none"/><circle cx="42" cy="14" r="9" fill="#1E1E1E" stroke="none"/><path d="M-61,9 A22,24 0 0 1 -15,9 Z" fill="#F6D2B3"/><path d="M15,9 A22,24 0 0 1 61,9 Z" fill="#F6D2B3"/><path d="M-56,40 Q-38,50 -20,40 M20,40 Q38,50 56,40" fill="none" stroke="#B48A8A" stroke-width="4"/><path d="M-62,-30 L-16,-24 M16,-26 L62,-36" fill="none"/><path d="M2,22 Q12,42 -4,46" fill="none" stroke-width="5"/><path d="M-26,72 Q4,82 32,62" fill="none"/></g></g><g id="c7o-face-shock" opacity="0"><g stroke="#1E1E1E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="-38" cy="4" rx="27" ry="32" fill="#FFF"/><ellipse cx="38" cy="4" rx="27" ry="32" fill="#FFF"/><circle cx="-38" cy="6" r="6" fill="#1E1E1E" stroke="none"/><circle cx="38" cy="6" r="6" fill="#1E1E1E" stroke="none"/><path d="M-64,-34 Q-40,-54 -14,-38 M14,-38 Q40,-54 64,-34" fill="none"/><path d="M2,22 Q12,42 -4,46" fill="none" stroke-width="5"/><ellipse cx="0" cy="78" rx="18" ry="24" fill="#6B2A2A"/></g></g></g></svg></div></div>
+  </div>
+  </div>
+  <script>
+  const T = {"wochen": 0.88, "braucht": 2.22, "stunden": 5.3, "braucht2": 6.54, "end": 8.116};
+
+  const tl = gsap.timeline({ paused: true });
+  const face = (p, from, to, t) => {
+    tl.set(`#${p}-face-${from}`, { opacity: 0 }, t); tl.set(`#${p}-face-${to}`, { opacity: 1 }, t);
+    tl.fromTo(`#${p}-head`, { scaleY: 0.9, transformOrigin: "50% 100%" }, { scaleY: 1, duration: 0.4, ease: "back.out(2.5)", immediateRender: false }, t);
+  };
+  const type = (sel, n, t, gap = 0.035) => { for (let i = 0; i < n; i++) tl.fromTo(`${sel}-${i}`, { opacity: 0 }, { opacity: 1, duration: 0.01 }, t + i * gap); };
+  const fadeIn = (sel, t, d = 0.5, extra = {}) => tl.fromTo(sel, { opacity: 0, ...extra.from }, { opacity: 1, duration: d, ease: "power3.out", ...extra.to }, t);
+  const popIn = (sel, t, d = 0.5) => tl.fromTo(sel, { opacity: 0, scale: 0.4 }, { opacity: 1, scale: 1, duration: d, ease: "back.out(1.8)" }, t);
+  const fadeOut = (sel, t, d = 0.35) => tl.to(sel, { opacity: 0, duration: d, ease: "power2.in" }, t);
+  const move = (sel, x, y, t, d = 0.6) => tl.to(sel, { x, y, duration: d, ease: "power3.inOut" }, t);
+  const click = (cid, t) => { tl.fromTo(`#${cid}-cur`, { scale: 1 }, { keyframes: [{ scale: 0.85, duration: 0.07 }, { scale: 1, duration: 0.15 }], immediateRender: false }, t);
+    tl.fromTo(`#${cid}-rip`, { opacity: 1, scale: 0.3 }, { opacity: 0, scale: 1.6, duration: 0.45, ease: "power2.out", immediateRender: false }, t); };
+
+
+  fadeIn("#c7-cam", 0, 0.3);
+  fadeIn("#c7-lab", 0.1, 0.4);
+  tl.fromTo("#c7-box", { opacity: 0, scaleX: 0.2 }, { opacity: 1, scaleX: 1, duration: 0.8, ease: "power3.out" }, T.wochen - 0.4);
+  fadeIn("#c7-w", T.wochen, 0.4);
+  tl.fromTo("#c7-blob", { opacity: 0, scaleX: 0.08, scaleY: 0.5 }, { opacity: 1, scaleX: 1, scaleY: 1, duration: 1.0, ease: "elastic.out(1, 0.55)" }, T.braucht);
+  fadeOut("#c7-w", T.stunden - 0.3, 0.2);
+  tl.to("#c7-box", { scaleX: 0.25, duration: 0.6, ease: "power3.inOut" }, T.stunden);
+  fadeIn("#c7-s", T.stunden + 0.4, 0.3);
+  face("c7o", "tired", "shock", T.stunden + 0.2);
+  tl.to("#c7-blob", { keyframes: [{ scaleX: 0.3, scaleY: 1.25, duration: 0.35, ease: "power3.in" }, { scaleX: 0.238, scaleY: 1, duration: 0.6, ease: "elastic.out(1, 0.45)" }] }, T.stunden + 0.05);
+  tl.to("#c7-blob", { keyframes: [{ scaleY: 1.12, duration: 0.15 }, { scaleY: 1, duration: 0.4, ease: "elastic.out(1, 0.4)" }] }, T.braucht2);
+  fadeOut("#c7-cam", T.end - 0.4, 0.4);
+
+  window.__timelines["c7"] = tl;
+  </script>
+</template>

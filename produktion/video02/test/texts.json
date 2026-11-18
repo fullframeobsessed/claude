@@ -1,0 +1,7 @@
+{"pieces": {"P1": ["v_hook", "v_frage", "v_poll"], "P2": ["v_park", "v_box"]},
+ "scenes": {
+  "v_hook": "Das ist Otto. Otto hatte für diese Präsentation drei Wochen Zeit. Gemacht hat er sie in den letzten drei Stunden. Und das Verrückte: Sie ist richtig gut geworden.",
+  "v_frage": "Ist Otto heimlich ein Genie, das einfach nur Druck braucht? Oder spielt ihm sein Gehirn hier einen Streich?",
+  "v_poll": "Kurze Frage an dich, bevor wir anfangen: Wann hast du deine letzte große Aufgabe erledigt? A: früh. B: pünktlich. Oder C: in letzter Minute? Merk dir deine Antwort. Wir lösen das am Ende auf.",
+  "v_park": "1955 schrieb der britische Historiker Cyril Northcote Parkinson einen Satz, der seitdem berühmt ist: Arbeit dehnt sich genau so weit aus, wie Zeit für sie zur Verfügung steht.",
+  "v_box": "Hat Otto drei Wochen Zeit, braucht die Präsentation drei Wochen. Hat er drei Stunden, braucht sie drei Stunden."}}

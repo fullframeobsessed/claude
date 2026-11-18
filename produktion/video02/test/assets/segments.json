@@ -1,0 +1,47 @@
+[
+ {
+  "id": "open",
+  "start": 0.0,
+  "end": 3.0
+ },
+ {
+  "id": "v_hook",
+  "start": 3.0,
+  "end": 14.18
+ },
+ {
+  "id": "v_frage",
+  "start": 14.18,
+  "end": 20.98
+ },
+ {
+  "id": "v_poll",
+  "start": 20.98,
+  "end": 35.901
+ },
+ {
+  "id": "title",
+  "start": 35.901,
+  "end": 38.301
+ },
+ {
+  "id": "kap1",
+  "start": 38.301,
+  "end": 40.501
+ },
+ {
+  "id": "v_park",
+  "start": 40.501,
+  "end": 54.96
+ },
+ {
+  "id": "v_box",
+  "start": 54.96,
+  "end": 63.076
+ },
+ {
+  "id": "outro",
+  "start": 63.076,
+  "end": 65.476
+ }
+]

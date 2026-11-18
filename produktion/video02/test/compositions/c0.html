@@ -1,0 +1,47 @@
+<template>
+  <style>
+  #root { position:absolute; inset:0; overflow:hidden; background:#0B0C0E; color:#FFF; font-family:'Inter', sans-serif; }
+  #root .actor, #root .light, #root .lay, #root .t { position:absolute; }
+  #root .lay { inset:0; }
+  #root .t { white-space:nowrap; }
+  #root .stamp { font-weight:700; font-size:30px; letter-spacing:.3em; color:#D9D4C7; }
+  #root .cond { font-family:'Oswald', sans-serif; font-weight:700; text-transform:uppercase; line-height:1; }
+  #root .card { background:#16181D; border:2px solid #3A3F48; border-radius:22px; box-shadow:0 30px 80px rgba(0,0,0,.6); }
+  #root .floor { position:absolute; border-radius:50%; background:radial-gradient(ellipse, rgba(255,240,215,.16) 0%, transparent 70%); }
+</style>
+  <div id="root" data-composition-id="c0" data-width="1920" data-height="1080">
+
+  <div id="c0-cam" class="lay">
+    <div id="c0-l" class="light" style="left:440px;top:100px;width:1040px;height:1040px;opacity:1.0;background:radial-gradient(circle, rgba(140,190,255,.22) 0%, transparent 70%);"></div>
+    <div id="c0-clock" class="t" style="left:0;right:0;top:230px;text-align:center;font-family:'Space Mono';font-weight:700;font-size:150px;color:#FF5A4A;text-shadow:0 0 40px rgba(255,60,40,.6);">
+      <span style="font-size:60px;color:#B44;vertical-align:middle;margin-right:30px">FR</span>23:58:<span id="c0-s">47</span></div>
+    <div id="c0-lap" class="actor" style="left:660px;top:520px;width:600px;height:330px;background:#2E333B;border:5px solid #111;border-radius:16px;padding:26px 34px;">
+      <div style="background:#F4F5F7;border-radius:6px;height:100%;padding:14px 22px;overflow:hidden"><div id="c0-l0" style="height:14px;margin:12px 0;width:82%;background:#C5CCD6;border-radius:4px;opacity:0"></div><div id="c0-l1" style="height:14px;margin:12px 0;width:64%;background:#C5CCD6;border-radius:4px;opacity:0"></div><div id="c0-l2" style="height:14px;margin:12px 0;width:90%;background:#C5CCD6;border-radius:4px;opacity:0"></div><div id="c0-l3" style="height:14px;margin:12px 0;width:71%;background:#C5CCD6;border-radius:4px;opacity:0"></div><div id="c0-l4" style="height:14px;margin:12px 0;width:55%;background:#C5CCD6;border-radius:4px;opacity:0"></div><div id="c0-l5" style="height:14px;margin:12px 0;width:88%;background:#C5CCD6;border-radius:4px;opacity:0"></div><div id="c0-l6" style="height:14px;margin:12px 0;width:77%;background:#C5CCD6;border-radius:4px;opacity:0"></div><div id="c0-l7" style="height:14px;margin:12px 0;width:60%;background:#C5CCD6;border-radius:4px;opacity:0"></div><div id="c0-l8" style="height:14px;margin:12px 0;width:93%;background:#C5CCD6;border-radius:4px;opacity:0"></div><div id="c0-l9" style="height:14px;margin:12px 0;width:69%;background:#C5CCD6;border-radius:4px;opacity:0"></div></div></div>
+  </div>
+  </div>
+  <script>
+  const T = {"end": 3.0};
+
+  const tl = gsap.timeline({ paused: true });
+  const face = (p, from, to, t) => {
+    tl.set(`#${p}-face-${from}`, { opacity: 0 }, t); tl.set(`#${p}-face-${to}`, { opacity: 1 }, t);
+    tl.fromTo(`#${p}-head`, { scaleY: 0.9, transformOrigin: "50% 100%" }, { scaleY: 1, duration: 0.4, ease: "back.out(2.5)", immediateRender: false }, t);
+  };
+  const type = (sel, n, t, gap = 0.035) => { for (let i = 0; i < n; i++) tl.fromTo(`${sel}-${i}`, { opacity: 0 }, { opacity: 1, duration: 0.01 }, t + i * gap); };
+  const fadeIn = (sel, t, d = 0.5, extra = {}) => tl.fromTo(sel, { opacity: 0, ...extra.from }, { opacity: 1, duration: d, ease: "power3.out", ...extra.to }, t);
+  const popIn = (sel, t, d = 0.5) => tl.fromTo(sel, { opacity: 0, scale: 0.4 }, { opacity: 1, scale: 1, duration: d, ease: "back.out(1.8)" }, t);
+  const fadeOut = (sel, t, d = 0.35) => tl.to(sel, { opacity: 0, duration: d, ease: "power2.in" }, t);
+  const move = (sel, x, y, t, d = 0.6) => tl.to(sel, { x, y, duration: d, ease: "power3.inOut" }, t);
+  const click = (cid, t) => { tl.fromTo(`#${cid}-cur`, { scale: 1 }, { keyframes: [{ scale: 0.85, duration: 0.07 }, { scale: 1, duration: 0.15 }], immediateRender: false }, t);
+    tl.fromTo(`#${cid}-rip`, { opacity: 1, scale: 0.3 }, { opacity: 0, scale: 1.6, duration: 0.45, ease: "power2.out", immediateRender: false }, t); };
+
+
+  fadeIn("#c0-cam", 0, 0.25);
+  ["48", "49", "50"].forEach((s, i) => tl.set("#c0-s", { textContent: s }, 0.8 + i));
+  for (let i = 0; i < 10; i++) tl.fromTo(`#c0-l${i}`, { opacity: 0, scaleX: 0, transformOrigin: "0 50%" }, { opacity: 1, scaleX: 1, duration: 0.12, ease: "none" }, 0.35 + i * 0.22);
+  tl.fromTo("#c0-cam", { x: 0 }, { keyframes: [...Array(16)].map((_, i) => ({ x: (i % 2 ? 3 : -3), y: (i % 3 ? -2 : 2), duration: 0.12 })), immediateRender: false }, 0.6);
+  fadeOut("#c0-cam", T.end - 0.25, 0.25);
+
+  window.__timelines["c0"] = tl;
+  </script>
+</template>
