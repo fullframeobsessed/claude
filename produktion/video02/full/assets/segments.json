@@ -1,0 +1,152 @@
+[
+ {
+  "id": "open",
+  "start": 0.0,
+  "end": 3.0
+ },
+ {
+  "id": "v_hook",
+  "start": 3.0,
+  "end": 14.18
+ },
+ {
+  "id": "v_frage",
+  "start": 14.18,
+  "end": 20.98
+ },
+ {
+  "id": "v_poll",
+  "start": 20.98,
+  "end": 35.901
+ },
+ {
+  "id": "title",
+  "start": 35.901,
+  "end": 38.301
+ },
+ {
+  "id": "kap1",
+  "start": 38.301,
+  "end": 40.501
+ },
+ {
+  "id": "v_park",
+  "start": 40.501,
+  "end": 54.46
+ },
+ {
+  "id": "v_box",
+  "start": 54.46,
+  "end": 61.8
+ },
+ {
+  "id": "v_horizont",
+  "start": 61.8,
+  "end": 80.335
+ },
+ {
+  "id": "kap2",
+  "start": 80.335,
+  "end": 82.535
+ },
+ {
+  "id": "v_amy",
+  "start": 82.535,
+  "end": 98.4
+ },
+ {
+  "id": "v_hormon",
+  "start": 98.4,
+  "end": 107.56
+ },
+ {
+  "id": "v_kurve",
+  "start": 107.56,
+  "end": 124.384
+ },
+ {
+  "id": "kap3",
+  "start": 124.384,
+  "end": 126.584
+ },
+ {
+  "id": "v_doch",
+  "start": 126.584,
+  "end": 131.3
+ },
+ {
+  "id": "v_tice",
+  "start": 131.3,
+  "end": 147.4
+ },
+ {
+  "id": "v_gedaechtnis",
+  "start": 147.4,
+  "end": 159.28
+ },
+ {
+  "id": "v_pause",
+  "start": 159.28,
+  "end": 163.816
+ },
+ {
+  "id": "pausefreeze",
+  "start": 163.816,
+  "end": 165.216
+ },
+ {
+  "id": "kap4",
+  "start": 165.216,
+  "end": 167.416
+ },
+ {
+  "id": "v_gut",
+  "start": 167.416,
+  "end": 172.08
+ },
+ {
+  "id": "v_ariely",
+  "start": 172.08,
+  "end": 198.2
+ },
+ {
+  "id": "v_hack1",
+  "start": 198.2,
+  "end": 206.54
+ },
+ {
+  "id": "v_hack2",
+  "start": 206.54,
+  "end": 214.02
+ },
+ {
+  "id": "v_hack3",
+  "start": 214.02,
+  "end": 223.68
+ },
+ {
+  "id": "v_hack4",
+  "start": 223.68,
+  "end": 241.419
+ },
+ {
+  "id": "v_aufl",
+  "start": 241.419,
+  "end": 249.9
+ },
+ {
+  "id": "v_umfrage2",
+  "start": 249.9,
+  "end": 260.0
+ },
+ {
+  "id": "v_bruecke",
+  "start": 260.0,
+  "end": 268.448
+ },
+ {
+  "id": "endcard",
+  "start": 268.448,
+  "end": 276.448
+ }
+]

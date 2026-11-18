@@ -1,0 +1,50 @@
+<template>
+  <style>
+  #root { position:absolute; inset:0; overflow:hidden; background:#0B0C0E; color:#FFF; font-family:'Inter', sans-serif; }
+  #root .actor, #root .light, #root .lay, #root .t { position:absolute; }
+  #root .lay { inset:0; }
+  #root .t { white-space:nowrap; }
+  #root .stamp { font-weight:700; font-size:30px; letter-spacing:.3em; color:#D9D4C7; }
+  #root .cond { font-family:'Oswald', sans-serif; font-weight:700; text-transform:uppercase; line-height:1; }
+  #root .card { background:#16181D; border:2px solid #3A3F48; border-radius:22px; box-shadow:0 30px 80px rgba(0,0,0,.6); }
+  #root .floor { position:absolute; border-radius:50%; background:radial-gradient(ellipse, rgba(255,240,215,.16) 0%, transparent 70%); }
+</style>
+  <div id="root" data-composition-id="c27" data-width="1920" data-height="1080">
+
+  <div id="c27-cam" class="lay">
+    <div id="c27-drop" class="actor" style="left:930px;top:150px;width:60px;height:80px;border-radius:50% 50% 50% 50% / 60% 60% 40% 40%;background:#8EC5FF;opacity:0"></div>
+    <div id="c27-rip" class="actor" style="left:810px;top:560px;width:300px;height:80px;border-radius:50%;border:4px solid #8EC5FF;opacity:0"></div>
+    <div id="c27-gl" class="light" style="left:660px;top:130px;width:600px;height:600px;opacity:0;background:radial-gradient(circle, rgba(255,220,120,.6) 0%, transparent 70%);"></div>
+    <div id="c27-b" class="actor" style="left:860px;top:300px;width:200px;height:230px;opacity:0"><svg viewBox="-100 -110 200 230" width="200" height="230" overflow="visible"><g stroke="#111" stroke-width="5"><path d="M-30,30 a60,60 0 1 1 60,0 l0,40 l-60,0 Z" fill="#FFD43B"/><rect x="-32" y="70" width="64" height="26" rx="6" fill="#9AA0A6"/></g></svg></div>
+    <div id="c27-t" class="t" style="left:0;right:0;top:700px;text-align:center;font-size:30px;font-weight:800;letter-spacing:.4em;color:#8C8F96;opacity:0">NÄCHSTE FOLGE</div>
+    <div id="c27-n" class="t cond" style="left:0;right:0;top:750px;text-align:center;font-size:76px;opacity:0">DIE PERFEKTE IDEE UNTER DER DUSCHE</div>
+  </div>
+  </div>
+  <script>
+  const T = {"dusche": 3.52, "naechstes": 7.16, "end": 8.448};
+
+  const tl = gsap.timeline({ paused: true });
+  const face = (p, from, to, t) => {
+    tl.set(`#${p}-face-${from}`, { opacity: 0 }, t); tl.set(`#${p}-face-${to}`, { opacity: 1 }, t);
+    tl.fromTo(`#${p}-head`, { scaleY: 0.9, transformOrigin: "50% 100%" }, { scaleY: 1, duration: 0.4, ease: "back.out(2.5)", immediateRender: false }, t);
+  };
+  const type = (sel, n, t, gap = 0.035) => { for (let i = 0; i < n; i++) tl.fromTo(`${sel}-${i}`, { opacity: 0 }, { opacity: 1, duration: 0.01 }, t + i * gap); };
+  const fadeIn = (sel, t, d = 0.5, extra = {}) => tl.fromTo(sel, { opacity: 0, ...extra.from }, { opacity: 1, duration: d, ease: "power3.out", ...extra.to }, t);
+  const popIn = (sel, t, d = 0.5) => tl.fromTo(sel, { opacity: 0, scale: 0.4 }, { opacity: 1, scale: 1, duration: d, ease: "back.out(1.8)" }, t);
+  const fadeOut = (sel, t, d = 0.35) => tl.to(sel, { opacity: 0, duration: d, ease: "power2.in" }, t);
+  const move = (sel, x, y, t, d = 0.6) => tl.to(sel, { x, y, duration: d, ease: "power3.inOut" }, t);
+  const click = (cid, t) => { tl.fromTo(`#${cid}-cur`, { scale: 1 }, { keyframes: [{ scale: 0.85, duration: 0.07 }, { scale: 1, duration: 0.15 }], immediateRender: false }, t);
+    tl.fromTo(`#${cid}-rip`, { opacity: 1, scale: 0.3 }, { opacity: 0, scale: 1.6, duration: 0.45, ease: "power2.out", immediateRender: false }, t); };
+
+
+  tl.fromTo("#c27-drop", { opacity: 1, y: 0 }, { opacity: 1, y: 400, duration: 0.6, ease: "power2.in" }, T.dusche - 0.6);
+  tl.set("#c27-drop", { opacity: 0 }, T.dusche);
+  tl.fromTo("#c27-rip", { opacity: 1, scale: 0.2 }, { opacity: 0, scale: 1.6, duration: 0.9, ease: "power2.out" }, T.dusche);
+  tl.fromTo("#c27-b", { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.5, ease: "back.out(2)" }, T.dusche + 0.6);
+  tl.fromTo("#c27-gl", { opacity: 0 }, { keyframes: [{ opacity: 1, duration: 0.1 }, { opacity: 0.3, duration: 0.08 }, { opacity: 1, duration: 0.2 }] }, T.dusche + 1.0);
+  fadeIn("#c27-t", T.dusche + 1.2, 0.4); fadeIn("#c27-n", T.dusche + 1.4, 0.5);
+  fadeOut("#c27-cam", T.end - 0.3, 0.3);
+
+  window.__timelines["c27"] = tl;
+  </script>
+</template>

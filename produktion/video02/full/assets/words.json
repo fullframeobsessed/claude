@@ -1,0 +1,2957 @@
+[
+{
+"text": "Das",
+"start": 3.0,
+"end": 3.28
+},
+{
+"text": "ist",
+"start": 3.28,
+"end": 3.62
+},
+{
+"text": "Otto.",
+"start": 3.62,
+"end": 3.96
+},
+{
+"text": "Otto",
+"start": 4.38,
+"end": 4.68
+},
+{
+"text": "hatte",
+"start": 4.68,
+"end": 4.92
+},
+{
+"text": "für",
+"start": 4.92,
+"end": 5.12
+},
+{
+"text": "diese",
+"start": 5.12,
+"end": 5.34
+},
+{
+"text": "Präsentation",
+"start": 5.34,
+"end": 6.2
+},
+{
+"text": "drei",
+"start": 6.2,
+"end": 6.96
+},
+{
+"text": "Wochen",
+"start": 6.96,
+"end": 7.24
+},
+{
+"text": "Zeit.",
+"start": 7.24,
+"end": 7.64
+},
+{
+"text": "Gemacht",
+"start": 8.08,
+"end": 8.58
+},
+{
+"text": "hat",
+"start": 8.58,
+"end": 9.04
+},
+{
+"text": "er",
+"start": 9.04,
+"end": 9.16
+},
+{
+"text": "sie",
+"start": 9.16,
+"end": 9.28
+},
+{
+"text": "in",
+"start": 9.28,
+"end": 9.42
+},
+{
+"text": "den",
+"start": 9.42,
+"end": 9.52
+},
+{
+"text": "letzten",
+"start": 9.52,
+"end": 9.92
+},
+{
+"text": "drei",
+"start": 9.92,
+"end": 10.26
+},
+{
+"text": "Stunden.",
+"start": 10.26,
+"end": 10.68
+},
+{
+"text": "Und",
+"start": 11.1,
+"end": 11.22
+},
+{
+"text": "das",
+"start": 11.22,
+"end": 11.34
+},
+{
+"text": "Verrückte:",
+"start": 11.34,
+"end": 11.9
+},
+{
+"text": "Sie",
+"start": 12.3,
+"end": 12.44
+},
+{
+"text": "ist",
+"start": 12.44,
+"end": 12.64
+},
+{
+"text": "richtig",
+"start": 12.64,
+"end": 13.0
+},
+{
+"text": "gut",
+"start": 13.0,
+"end": 13.28
+},
+{
+"text": "geworden.",
+"start": 13.28,
+"end": 13.72
+},
+{
+"text": "Ist",
+"start": 14.3,
+"end": 14.5
+},
+{
+"text": "Otto",
+"start": 14.5,
+"end": 14.82
+},
+{
+"text": "heimlich",
+"start": 14.82,
+"end": 15.28
+},
+{
+"text": "ein",
+"start": 15.28,
+"end": 15.48
+},
+{
+"text": "Genie,",
+"start": 15.48,
+"end": 15.98
+},
+{
+"text": "das",
+"start": 16.08,
+"end": 16.18
+},
+{
+"text": "einfach",
+"start": 16.18,
+"end": 16.52
+},
+{
+"text": "nur",
+"start": 16.52,
+"end": 16.72
+},
+{
+"text": "Druck",
+"start": 16.72,
+"end": 17.08
+},
+{
+"text": "braucht?",
+"start": 17.08,
+"end": 17.64
+},
+{
+"text": "Oder",
+"start": 18.14,
+"end": 18.52
+},
+{
+"text": "spielt",
+"start": 18.52,
+"end": 18.8
+},
+{
+"text": "ihm",
+"start": 18.8,
+"end": 19.02
+},
+{
+"text": "sein",
+"start": 19.02,
+"end": 19.22
+},
+{
+"text": "Gehirn",
+"start": 19.22,
+"end": 19.7
+},
+{
+"text": "hier",
+"start": 19.7,
+"end": 19.84
+},
+{
+"text": "einen",
+"start": 19.84,
+"end": 20.06
+},
+{
+"text": "Streich?",
+"start": 20.06,
+"end": 20.58
+},
+{
+"text": "Kurze",
+"start": 21.1,
+"end": 21.38
+},
+{
+"text": "Frage",
+"start": 21.38,
+"end": 21.66
+},
+{
+"text": "an",
+"start": 21.66,
+"end": 21.88
+},
+{
+"text": "dich,",
+"start": 21.88,
+"end": 21.98
+},
+{
+"text": "bevor",
+"start": 22.06,
+"end": 22.26
+},
+{
+"text": "wir",
+"start": 22.26,
+"end": 22.42
+},
+{
+"text": "anfangen:",
+"start": 22.42,
+"end": 22.82
+},
+{
+"text": "Wann",
+"start": 22.82,
+"end": 23.8
+},
+{
+"text": "hast",
+"start": 23.8,
+"end": 24.02
+},
+{
+"text": "du",
+"start": 24.02,
+"end": 24.36
+},
+{
+"text": "deine",
+"start": 24.36,
+"end": 24.68
+},
+{
+"text": "letzte",
+"start": 24.68,
+"end": 25.06
+},
+{
+"text": "große",
+"start": 25.06,
+"end": 25.46
+},
+{
+"text": "Aufgabe",
+"start": 25.46,
+"end": 26.06
+},
+{
+"text": "erledigt?",
+"start": 26.06,
+"end": 26.68
+},
+{
+"text": "A:",
+"start": 27.1,
+"end": 27.32
+},
+{
+"text": "früh.",
+"start": 27.9,
+"end": 28.06
+},
+{
+"text": "B:",
+"start": 28.62,
+"end": 28.8
+},
+{
+"text": "pünktlich.",
+"start": 29.38,
+"end": 29.82
+},
+{
+"text": "Oder",
+"start": 30.1,
+"end": 30.38
+},
+{
+"text": "C:",
+"start": 30.38,
+"end": 30.72
+},
+{
+"text": "in",
+"start": 31.4,
+"end": 31.45
+},
+{
+"text": "letzter",
+"start": 31.419999999999998,
+"end": 31.84
+},
+{
+"text": "Minute?",
+"start": 31.84,
+"end": 32.16
+},
+{
+"text": "Merk",
+"start": 32.64,
+"end": 32.88
+},
+{
+"text": "dir",
+"start": 32.88,
+"end": 33.02
+},
+{
+"text": "deine",
+"start": 33.02,
+"end": 33.24
+},
+{
+"text": "Antwort.",
+"start": 33.24,
+"end": 33.6
+},
+{
+"text": "Wir",
+"start": 34.28,
+"end": 34.44
+},
+{
+"text": "lösen",
+"start": 34.44,
+"end": 34.74
+},
+{
+"text": "das",
+"start": 34.74,
+"end": 34.9
+},
+{
+"text": "am",
+"start": 34.9,
+"end": 35.04
+},
+{
+"text": "Ende",
+"start": 35.04,
+"end": 35.28
+},
+{
+"text": "auf.",
+"start": 35.28,
+"end": 35.62
+},
+{
+"text": "1955",
+"start": 41.46,
+"end": 42.26
+},
+{
+"text": "schrieb",
+"start": 42.26,
+"end": 43.06
+},
+{
+"text": "der",
+"start": 43.06,
+"end": 43.24
+},
+{
+"text": "britische",
+"start": 43.24,
+"end": 43.66
+},
+{
+"text": "Historiker",
+"start": 43.66,
+"end": 44.32
+},
+{
+"text": "Cyril",
+"start": 44.32,
+"end": 44.98
+},
+{
+"text": "Northcote",
+"start": 44.98,
+"end": 45.22
+},
+{
+"text": "Parkinson",
+"start": 45.46,
+"end": 46.08
+},
+{
+"text": "einen",
+"start": 46.08,
+"end": 46.48
+},
+{
+"text": "Satz,",
+"start": 46.48,
+"end": 46.9
+},
+{
+"text": "der",
+"start": 46.9,
+"end": 47.62
+},
+{
+"text": "seitdem",
+"start": 47.62,
+"end": 48.02
+},
+{
+"text": "berühmt",
+"start": 48.02,
+"end": 48.48
+},
+{
+"text": "ist:",
+"start": 48.48,
+"end": 48.78
+},
+{
+"text": "Arbeit",
+"start": 49.18,
+"end": 49.58
+},
+{
+"text": "dehnt",
+"start": 49.58,
+"end": 49.84
+},
+{
+"text": "sich",
+"start": 50.1,
+"end": 50.3
+},
+{
+"text": "genau",
+"start": 50.3,
+"end": 50.68
+},
+{
+"text": "so",
+"start": 50.68,
+"end": 50.98
+},
+{
+"text": "weit",
+"start": 50.98,
+"end": 51.22
+},
+{
+"text": "aus,",
+"start": 51.22,
+"end": 51.58
+},
+{
+"text": "wie",
+"start": 52.14,
+"end": 52.26
+},
+{
+"text": "Zeit",
+"start": 52.26,
+"end": 52.66
+},
+{
+"text": "für",
+"start": 52.66,
+"end": 52.98
+},
+{
+"text": "sie",
+"start": 52.98,
+"end": 53.14
+},
+{
+"text": "zur",
+"start": 53.14,
+"end": 53.32
+},
+{
+"text": "Verfügung",
+"start": 53.32,
+"end": 53.7
+},
+{
+"text": "steht.",
+"start": 53.7,
+"end": 54.12
+},
+{
+"text": "Hat",
+"start": 54.58,
+"end": 54.78
+},
+{
+"text": "Otto",
+"start": 54.78,
+"end": 54.96
+},
+{
+"text": "drei",
+"start": 54.96,
+"end": 55.28
+},
+{
+"text": "Wochen",
+"start": 55.28,
+"end": 55.5
+},
+{
+"text": "Zeit,",
+"start": 55.5,
+"end": 55.92
+},
+{
+"text": "braucht",
+"start": 56.46,
+"end": 56.8
+},
+{
+"text": "die",
+"start": 56.8,
+"end": 57.08
+},
+{
+"text": "Präsentation",
+"start": 57.08,
+"end": 57.78
+},
+{
+"text": "drei",
+"start": 57.78,
+"end": 58.06
+},
+{
+"text": "Wochen.",
+"start": 58.06,
+"end": 58.34
+},
+{
+"text": "Hat",
+"start": 58.84,
+"end": 59.02
+},
+{
+"text": "er",
+"start": 59.02,
+"end": 59.1
+},
+{
+"text": "drei",
+"start": 59.1,
+"end": 59.34
+},
+{
+"text": "Stunden,",
+"start": 59.34,
+"end": 59.7
+},
+{
+"text": "braucht",
+"start": 60.24,
+"end": 60.64
+},
+{
+"text": "sie",
+"start": 60.64,
+"end": 60.82
+},
+{
+"text": "drei",
+"start": 60.82,
+"end": 61.06
+},
+{
+"text": "Stunden.",
+"start": 61.06,
+"end": 61.44
+},
+{
+"text": "Das",
+"start": 61.92,
+"end": 62.06
+},
+{
+"text": "Problem",
+"start": 62.06,
+"end": 62.4
+},
+{
+"text": "ist",
+"start": 62.4,
+"end": 62.68
+},
+{
+"text": "nicht,",
+"start": 62.68,
+"end": 63.04
+},
+{
+"text": "dass",
+"start": 63.34,
+"end": 63.42
+},
+{
+"text": "Otto",
+"start": 63.42,
+"end": 63.74
+},
+{
+"text": "zu",
+"start": 63.74,
+"end": 63.94
+},
+{
+"text": "wenig",
+"start": 63.94,
+"end": 64.14
+},
+{
+"text": "Zeit",
+"start": 64.14,
+"end": 64.5
+},
+{
+"text": "hat.",
+"start": 64.5,
+"end": 64.78
+},
+{
+"text": "Das",
+"start": 65.3,
+"end": 65.52
+},
+{
+"text": "Problem",
+"start": 65.52,
+"end": 65.92
+},
+{
+"text": "ist,",
+"start": 65.92,
+"end": 66.28
+},
+{
+"text": "dass",
+"start": 66.76,
+"end": 66.9
+},
+{
+"text": "sich",
+"start": 66.9,
+"end": 67.12
+},
+{
+"text": "zu",
+"start": 67.12,
+"end": 67.46
+},
+{
+"text": "viel",
+"start": 67.46,
+"end": 67.8
+},
+{
+"text": "Zeit",
+"start": 67.8,
+"end": 68.28
+},
+{
+"text": "nach",
+"start": 68.28,
+"end": 68.9
+},
+{
+"text": "gar",
+"start": 68.9,
+"end": 69.18
+},
+{
+"text": "nichts",
+"start": 69.18,
+"end": 69.42
+},
+{
+"text": "anfühlt.",
+"start": 69.42,
+"end": 70.02
+},
+{
+"text": "Drei",
+"start": 70.4,
+"end": 70.7
+},
+{
+"text": "Wochen",
+"start": 70.7,
+"end": 71.02
+},
+{
+"text": "sind",
+"start": 71.02,
+"end": 71.28
+},
+{
+"text": "für",
+"start": 71.28,
+"end": 71.46
+},
+{
+"text": "dein",
+"start": 71.46,
+"end": 71.62
+},
+{
+"text": "Gehirn",
+"start": 71.62,
+"end": 72.12
+},
+{
+"text": "ein",
+"start": 72.12,
+"end": 72.28
+},
+{
+"text": "unendlich",
+"start": 72.28,
+"end": 73.06
+},
+{
+"text": "weiter",
+"start": 73.06,
+"end": 73.36
+},
+{
+"text": "Horizont.",
+"start": 73.36,
+"end": 73.96
+},
+{
+"text": "Freitag,",
+"start": 73.96,
+"end": 75.18
+},
+{
+"text": "23:58",
+"start": 75.18,
+"end": 75.78
+},
+{
+"text": "Uhr",
+"start": 76.38,
+"end": 77.38
+},
+{
+"text": "ist",
+"start": 77.38,
+"end": 77.66
+},
+{
+"text": "dagegen",
+"start": 77.66,
+"end": 77.86
+},
+{
+"text": "sehr,",
+"start": 77.86,
+"end": 78.46
+},
+{
+"text": "sehr",
+"start": 78.88,
+"end": 79.26
+},
+{
+"text": "konkret.",
+"start": 79.26,
+"end": 79.92
+},
+{
+"text": "Erinnerst",
+"start": 82.535,
+"end": 83.14
+},
+{
+"text": "du",
+"start": 83.14,
+"end": 83.24
+},
+{
+"text": "dich",
+"start": 83.24,
+"end": 83.38
+},
+{
+"text": "an",
+"start": 83.38,
+"end": 83.6
+},
+{
+"text": "die",
+"start": 83.6,
+"end": 83.72
+},
+{
+"text": "Alarmanlage",
+"start": 83.72,
+"end": 84.48
+},
+{
+"text": "aus",
+"start": 84.48,
+"end": 84.72
+},
+{
+"text": "der",
+"start": 84.72,
+"end": 84.86
+},
+{
+"text": "letzten",
+"start": 84.86,
+"end": 85.12
+},
+{
+"text": "Folge?",
+"start": 85.12,
+"end": 85.54
+},
+{
+"text": "Die",
+"start": 86.1,
+"end": 86.2
+},
+{
+"text": "Amygdala?",
+"start": 86.2,
+"end": 86.76
+},
+{
+"text": "Solange",
+"start": 87.24,
+"end": 87.64
+},
+{
+"text": "die",
+"start": 87.64,
+"end": 87.86
+},
+{
+"text": "Deadline",
+"start": 87.86,
+"end": 88.26
+},
+{
+"text": "weit",
+"start": 88.26,
+"end": 88.52
+},
+{
+"text": "weg",
+"start": 88.52,
+"end": 88.76
+},
+{
+"text": "ist,",
+"start": 88.76,
+"end": 89.1
+},
+{
+"text": "schlägt",
+"start": 89.5,
+"end": 89.68
+},
+{
+"text": "sie",
+"start": 89.68,
+"end": 89.84
+},
+{
+"text": "Alarm",
+"start": 89.84,
+"end": 90.22
+},
+{
+"text": "bei",
+"start": 90.22,
+"end": 90.62
+},
+{
+"text": "der",
+"start": 90.62,
+"end": 90.74
+},
+{
+"text": "Aufgabe.",
+"start": 90.74,
+"end": 91.04
+},
+{
+"text": "Je",
+"start": 91.68,
+"end": 91.8
+},
+{
+"text": "näher",
+"start": 91.8,
+"end": 92.18
+},
+{
+"text": "die",
+"start": 92.18,
+"end": 92.32
+},
+{
+"text": "Deadline",
+"start": 92.32,
+"end": 92.7
+},
+{
+"text": "rückt,",
+"start": 92.7,
+"end": 93.1
+},
+{
+"text": "desto",
+"start": 93.56,
+"end": 93.86
+},
+{
+"text": "mehr",
+"start": 93.86,
+"end": 94.16
+},
+{
+"text": "dreht",
+"start": 94.16,
+"end": 94.6
+},
+{
+"text": "sich",
+"start": 94.6,
+"end": 94.76
+},
+{
+"text": "das",
+"start": 94.76,
+"end": 94.94
+},
+{
+"text": "um:",
+"start": 94.94,
+"end": 95.24
+},
+{
+"text": "Jetzt",
+"start": 95.68,
+"end": 95.96
+},
+{
+"text": "ist",
+"start": 95.96,
+"end": 96.24
+},
+{
+"text": "das",
+"start": 96.24,
+"end": 96.46
+},
+{
+"text": "Nicht-Machen",
+"start": 96.46,
+"end": 97.02
+},
+{
+"text": "das",
+"start": 97.58,
+"end": 97.7
+},
+{
+"text": "größere",
+"start": 97.7,
+"end": 98.22
+},
+{
+"text": "Übel.",
+"start": 98.22,
+"end": 98.52
+},
+{
+"text": "Dein",
+"start": 98.52,
+"end": 99.34
+},
+{
+"text": "Körper",
+"start": 99.34,
+"end": 99.68
+},
+{
+"text": "schüttet",
+"start": 99.68,
+"end": 100.18
+},
+{
+"text": "Stresshormone",
+"start": 100.18,
+"end": 101.02
+},
+{
+"text": "wie",
+"start": 101.02,
+"end": 101.24
+},
+{
+"text": "Noradrenalin",
+"start": 101.24,
+"end": 101.74
+},
+{
+"text": "aus.",
+"start": 102.24,
+"end": 102.62
+},
+{
+"text": "Der",
+"start": 103.14,
+"end": 103.24
+},
+{
+"text": "Puls",
+"start": 103.24,
+"end": 103.6
+},
+{
+"text": "steigt,",
+"start": 103.6,
+"end": 104.12
+},
+{
+"text": "der",
+"start": 104.52,
+"end": 104.58
+},
+{
+"text": "Fokus",
+"start": 104.58,
+"end": 104.9
+},
+{
+"text": "wird",
+"start": 104.9,
+"end": 105.18
+},
+{
+"text": "enger,",
+"start": 105.18,
+"end": 105.52
+},
+{
+"text": "Ablenkungen",
+"start": 106.04,
+"end": 106.64
+},
+{
+"text": "verschwinden.",
+"start": 106.64,
+"end": 107.26
+},
+{
+"text": "Psychologen",
+"start": 107.68,
+"end": 108.32
+},
+{
+"text": "beschreiben",
+"start": 108.32,
+"end": 108.78
+},
+{
+"text": "das",
+"start": 108.78,
+"end": 108.88
+},
+{
+"text": "seit",
+"start": 108.96,
+"end": 109.12
+},
+{
+"text": "über",
+"start": 109.12,
+"end": 109.32
+},
+{
+"text": "hundert",
+"start": 109.32,
+"end": 109.56
+},
+{
+"text": "Jahren",
+"start": 109.56,
+"end": 109.98
+},
+{
+"text": "mit",
+"start": 109.98,
+"end": 110.2
+},
+{
+"text": "einer",
+"start": 110.2,
+"end": 110.42
+},
+{
+"text": "Kurve:",
+"start": 110.42,
+"end": 110.92
+},
+{
+"text": "Mit",
+"start": 111.5,
+"end": 111.6
+},
+{
+"text": "etwas",
+"start": 111.6,
+"end": 111.86
+},
+{
+"text": "Anspannung",
+"start": 111.86,
+"end": 112.7
+},
+{
+"text": "steigt",
+"start": 112.7,
+"end": 113.56
+},
+{
+"text": "die",
+"start": 113.56,
+"end": 113.84
+},
+{
+"text": "Leistung.",
+"start": 113.84,
+"end": 114.32
+},
+{
+"text": "Aber",
+"start": 114.64,
+"end": 114.84
+},
+{
+"text": "nur",
+"start": 114.84,
+"end": 115.08
+},
+{
+"text": "bis",
+"start": 115.08,
+"end": 115.36
+},
+{
+"text": "zu",
+"start": 115.36,
+"end": 115.54
+},
+{
+"text": "einem",
+"start": 115.54,
+"end": 115.68
+},
+{
+"text": "Punkt.",
+"start": 115.68,
+"end": 116.08
+},
+{
+"text": "Danach",
+"start": 116.62,
+"end": 116.94
+},
+{
+"text": "kippt",
+"start": 116.94,
+"end": 117.32
+},
+{
+"text": "sie.",
+"start": 117.32,
+"end": 117.42
+},
+{
+"text": "Otto",
+"start": 117.78,
+"end": 118.04
+},
+{
+"text": "lebt",
+"start": 118.04,
+"end": 118.42
+},
+{
+"text": "auf",
+"start": 118.42,
+"end": 118.56
+},
+{
+"text": "dem",
+"start": 118.56,
+"end": 118.7
+},
+{
+"text": "steilen",
+"start": 118.7,
+"end": 119.16
+},
+{
+"text": "Teil",
+"start": 119.16,
+"end": 119.48
+},
+{
+"text": "dieser",
+"start": 119.48,
+"end": 119.76
+},
+{
+"text": "Kurve.",
+"start": 119.76,
+"end": 120.26
+},
+{
+"text": "Und",
+"start": 120.26,
+"end": 121.02
+},
+{
+"text": "manchmal",
+"start": 121.02,
+"end": 121.66
+},
+{
+"text": "fällt",
+"start": 121.66,
+"end": 122.38
+},
+{
+"text": "er",
+"start": 122.38,
+"end": 122.56
+},
+{
+"text": "auf",
+"start": 122.56,
+"end": 122.7
+},
+{
+"text": "der",
+"start": 122.7,
+"end": 122.82
+},
+{
+"text": "anderen",
+"start": 122.82,
+"end": 123.12
+},
+{
+"text": "Seite",
+"start": 123.12,
+"end": 123.54
+},
+{
+"text": "wieder",
+"start": 123.54,
+"end": 123.74
+},
+{
+"text": "runter.",
+"start": 123.74,
+"end": 124.1
+},
+{
+"text": "Also",
+"start": 126.584,
+"end": 126.84
+},
+{
+"text": "stimmt",
+"start": 126.84,
+"end": 127.16
+},
+{
+"text": "es",
+"start": 127.16,
+"end": 127.38
+},
+{
+"text": "doch:",
+"start": 127.38,
+"end": 127.62
+},
+{
+"text": "Unter",
+"start": 128.14,
+"end": 128.36
+},
+{
+"text": "Druck",
+"start": 128.36,
+"end": 128.7
+},
+{
+"text": "arbeiten",
+"start": 128.7,
+"end": 129.26
+},
+{
+"text": "wir",
+"start": 129.26,
+"end": 129.5
+},
+{
+"text": "besser?",
+"start": 129.5,
+"end": 129.88
+},
+{
+"text": "Nicht",
+"start": 130.32,
+"end": 130.58
+},
+{
+"text": "ganz.",
+"start": 130.58,
+"end": 130.84
+},
+{
+"text": "Die",
+"start": 131.42,
+"end": 131.52
+},
+{
+"text": "Psychologen",
+"start": 131.52,
+"end": 132.18
+},
+{
+"text": "Dianne",
+"start": 132.18,
+"end": 132.66
+},
+{
+"text": "Tice",
+"start": 132.66,
+"end": 132.9
+},
+{
+"text": "und",
+"start": 133.14,
+"end": 133.36
+},
+{
+"text": "Roy",
+"start": 133.36,
+"end": 133.76
+},
+{
+"text": "Baumeister",
+"start": 133.76,
+"end": 134.58
+},
+{
+"text": "haben",
+"start": 134.58,
+"end": 135.3
+},
+{
+"text": "Studierende",
+"start": 135.3,
+"end": 136.04
+},
+{
+"text": "ein",
+"start": 136.04,
+"end": 136.26
+},
+{
+"text": "ganzes",
+"start": 136.26,
+"end": 136.72
+},
+{
+"text": "Semester",
+"start": 136.72,
+"end": 137.2
+},
+{
+"text": "lang",
+"start": 137.2,
+"end": 137.4
+},
+{
+"text": "begleitet.",
+"start": 137.4,
+"end": 137.96
+},
+{
+"text": "Die",
+"start": 138.48,
+"end": 138.6
+},
+{
+"text": "Aufschieber",
+"start": 138.6,
+"end": 139.26
+},
+{
+"text": "waren",
+"start": 139.26,
+"end": 139.54
+},
+{
+"text": "am",
+"start": 139.54,
+"end": 139.7
+},
+{
+"text": "Anfang",
+"start": 139.7,
+"end": 140.1
+},
+{
+"text": "entspannter",
+"start": 140.1,
+"end": 140.76
+},
+{
+"text": "als",
+"start": 140.76,
+"end": 140.94
+},
+{
+"text": "alle",
+"start": 140.94,
+"end": 141.18
+},
+{
+"text": "anderen.",
+"start": 141.18,
+"end": 141.62
+},
+{
+"text": "Doch",
+"start": 142.2,
+"end": 142.42
+},
+{
+"text": "gegen",
+"start": 142.42,
+"end": 142.6
+},
+{
+"text": "Ende",
+"start": 142.6,
+"end": 142.98
+},
+{
+"text": "hatten",
+"start": 142.98,
+"end": 143.22
+},
+{
+"text": "sie",
+"start": 143.22,
+"end": 143.44
+},
+{
+"text": "mehr",
+"start": 143.44,
+"end": 143.68
+},
+{
+"text": "Stress,",
+"start": 143.68,
+"end": 144.1
+},
+{
+"text": "mehr",
+"start": 144.68,
+"end": 144.82
+},
+{
+"text": "Krankheitssymptome",
+"start": 144.82,
+"end": 145.92
+},
+{
+"text": "und",
+"start": 145.92,
+"end": 146.28
+},
+{
+"text": "schlechtere",
+"start": 146.28,
+"end": 147.04
+},
+{
+"text": "Noten.",
+"start": 147.04,
+"end": 147.52
+},
+{
+"text": "Das",
+"start": 147.52,
+"end": 148.0
+},
+{
+"text": "Genie-Gefühl",
+"start": 148.0,
+"end": 148.42
+},
+{
+"text": "ist",
+"start": 148.84,
+"end": 149.1
+},
+{
+"text": "ein",
+"start": 149.1,
+"end": 149.26
+},
+{
+"text": "Gedächtnistrick.",
+"start": 149.26,
+"end": 149.94
+},
+{
+"text": "Wir",
+"start": 150.62,
+"end": 150.72
+},
+{
+"text": "erinnern",
+"start": 150.72,
+"end": 151.18
+},
+{
+"text": "uns",
+"start": 151.18,
+"end": 151.32
+},
+{
+"text": "an",
+"start": 151.32,
+"end": 151.46
+},
+{
+"text": "die",
+"start": 151.46,
+"end": 151.56
+},
+{
+"text": "eine",
+"start": 151.56,
+"end": 151.82
+},
+{
+"text": "Nacht,",
+"start": 151.82,
+"end": 152.14
+},
+{
+"text": "in",
+"start": 152.26,
+"end": 152.34
+},
+{
+"text": "der",
+"start": 152.34,
+"end": 152.48
+},
+{
+"text": "es",
+"start": 152.48,
+"end": 152.58
+},
+{
+"text": "geklappt",
+"start": 152.58,
+"end": 153.02
+},
+{
+"text": "hat.",
+"start": 153.02,
+"end": 153.24
+},
+{
+"text": "Und",
+"start": 153.24,
+"end": 153.8
+},
+{
+"text": "vergessen",
+"start": 153.8,
+"end": 154.16
+},
+{
+"text": "die",
+"start": 154.16,
+"end": 154.38
+},
+{
+"text": "drei,",
+"start": 154.38,
+"end": 154.74
+},
+{
+"text": "in",
+"start": 154.88,
+"end": 155.0
+},
+{
+"text": "denen",
+"start": 155.0,
+"end": 155.16
+},
+{
+"text": "es",
+"start": 155.16,
+"end": 155.46
+},
+{
+"text": "knapp,",
+"start": 155.46,
+"end": 155.72
+},
+{
+"text": "peinlich",
+"start": 156.22,
+"end": 156.76
+},
+{
+"text": "oder",
+"start": 156.76,
+"end": 157.4
+},
+{
+"text": "einfach",
+"start": 157.4,
+"end": 157.74
+},
+{
+"text": "nur",
+"start": 157.74,
+"end": 157.96
+},
+{
+"text": "mittelmäßig",
+"start": 157.96,
+"end": 158.54
+},
+{
+"text": "wurde.",
+"start": 158.54,
+"end": 158.98
+},
+{
+"text": "Pausier",
+"start": 159.4,
+"end": 159.76
+},
+{
+"text": "mal",
+"start": 159.76,
+"end": 159.94
+},
+{
+"text": "kurz",
+"start": 159.94,
+"end": 160.22
+},
+{
+"text": "und",
+"start": 160.22,
+"end": 160.46
+},
+{
+"text": "sei",
+"start": 160.46,
+"end": 160.64
+},
+{
+"text": "ehrlich:",
+"start": 160.64,
+"end": 160.98
+},
+{
+"text": "Wie",
+"start": 161.6,
+"end": 161.74
+},
+{
+"text": "oft",
+"start": 161.74,
+"end": 162.06
+},
+{
+"text": "hat",
+"start": 162.06,
+"end": 162.22
+},
+{
+"text": "es",
+"start": 162.22,
+"end": 162.38
+},
+{
+"text": "bei",
+"start": 162.38,
+"end": 162.5
+},
+{
+"text": "dir",
+"start": 162.5,
+"end": 162.64
+},
+{
+"text": "wirklich",
+"start": 162.64,
+"end": 162.96
+},
+{
+"text": "geklappt?",
+"start": 162.96,
+"end": 163.58
+},
+{
+"text": "Die",
+"start": 167.416,
+"end": 167.56
+},
+{
+"text": "gute",
+"start": 167.56,
+"end": 167.86
+},
+{
+"text": "Nachricht:",
+"start": 167.86,
+"end": 168.48
+},
+{
+"text": "Den",
+"start": 169.0,
+"end": 169.12
+},
+{
+"text": "Turbo",
+"start": 169.12,
+"end": 169.42
+},
+{
+"text": "kannst",
+"start": 169.42,
+"end": 169.72
+},
+{
+"text": "du",
+"start": 169.72,
+"end": 169.96
+},
+{
+"text": "nutzen,",
+"start": 169.96,
+"end": 170.3
+},
+{
+"text": "ohne",
+"start": 170.48,
+"end": 170.74
+},
+{
+"text": "bis",
+"start": 170.74,
+"end": 171.0
+},
+{
+"text": "Freitagnacht",
+"start": 171.0,
+"end": 171.6
+},
+{
+"text": "zu",
+"start": 171.6,
+"end": 171.9
+},
+{
+"text": "warten.",
+"start": 171.9,
+"end": 172.05
+},
+{
+"text": "Dan",
+"start": 172.2,
+"end": 172.82
+},
+{
+"text": "Ariely",
+"start": 172.82,
+"end": 173.4
+},
+{
+"text": "und",
+"start": 173.4,
+"end": 173.66
+},
+{
+"text": "Klaus",
+"start": 173.66,
+"end": 173.94
+},
+{
+"text": "Wertenbroch",
+"start": 173.94,
+"end": 174.34
+},
+{
+"text": "haben",
+"start": 174.74,
+"end": 175.18
+},
+{
+"text": "das",
+"start": 175.18,
+"end": 175.4
+},
+{
+"text": "getestet.",
+"start": 175.4,
+"end": 176.04
+},
+{
+"text": "Studierende",
+"start": 176.4,
+"end": 177.06
+},
+{
+"text": "sollten",
+"start": 177.06,
+"end": 177.34
+},
+{
+"text": "drei",
+"start": 177.34,
+"end": 177.7
+},
+{
+"text": "Arbeiten",
+"start": 177.7,
+"end": 178.24
+},
+{
+"text": "schreiben.",
+"start": 178.24,
+"end": 178.62
+},
+{
+"text": "Eine",
+"start": 179.22,
+"end": 179.4
+},
+{
+"text": "Gruppe",
+"start": 179.4,
+"end": 179.74
+},
+{
+"text": "hatte",
+"start": 179.74,
+"end": 179.92
+},
+{
+"text": "feste,",
+"start": 179.92,
+"end": 180.46
+},
+{
+"text": "gleichmäßig",
+"start": 180.52,
+"end": 181.0
+},
+{
+"text": "verteilte",
+"start": 181.0,
+"end": 181.62
+},
+{
+"text": "Abgabetermine.",
+"start": 181.62,
+"end": 182.6
+},
+{
+"text": "Eine",
+"start": 183.0,
+"end": 183.3
+},
+{
+"text": "durfte",
+"start": 183.3,
+"end": 183.66
+},
+{
+"text": "sich",
+"start": 183.66,
+"end": 183.88
+},
+{
+"text": "ihre",
+"start": 183.88,
+"end": 184.12
+},
+{
+"text": "Termine",
+"start": 184.12,
+"end": 184.5
+},
+{
+"text": "selbst",
+"start": 184.5,
+"end": 184.82
+},
+{
+"text": "setzen.",
+"start": 184.82,
+"end": 185.24
+},
+{
+"text": "Und",
+"start": 185.24,
+"end": 185.82
+},
+{
+"text": "eine",
+"start": 185.82,
+"end": 186.1
+},
+{
+"text": "hatte",
+"start": 186.1,
+"end": 186.3
+},
+{
+"text": "nur",
+"start": 186.3,
+"end": 186.5
+},
+{
+"text": "einen",
+"start": 186.5,
+"end": 186.86
+},
+{
+"text": "Termin,",
+"start": 186.86,
+"end": 187.46
+},
+{
+"text": "ganz",
+"start": 187.7,
+"end": 188.0
+},
+{
+"text": "am",
+"start": 188.0,
+"end": 188.26
+},
+{
+"text": "Ende.",
+"start": 188.26,
+"end": 188.58
+},
+{
+"text": "Das",
+"start": 189.02,
+"end": 189.14
+},
+{
+"text": "Ergebnis:",
+"start": 189.14,
+"end": 189.5
+},
+{
+"text": "Die",
+"start": 190.14,
+"end": 190.22
+},
+{
+"text": "festen",
+"start": 190.22,
+"end": 190.7
+},
+{
+"text": "Zwischentermine",
+"start": 190.7,
+"end": 191.54
+},
+{
+"text": "schnitten",
+"start": 191.54,
+"end": 191.84
+},
+{
+"text": "am",
+"start": 191.84,
+"end": 192.08
+},
+{
+"text": "besten",
+"start": 192.08,
+"end": 192.42
+},
+{
+"text": "ab,",
+"start": 192.42,
+"end": 192.74
+},
+{
+"text": "die",
+"start": 193.12,
+"end": 193.22
+},
+{
+"text": "Gruppe",
+"start": 193.22,
+"end": 193.56
+},
+{
+"text": "mit",
+"start": 193.56,
+"end": 193.76
+},
+{
+"text": "nur",
+"start": 193.76,
+"end": 193.92
+},
+{
+"text": "einem",
+"start": 193.92,
+"end": 194.26
+},
+{
+"text": "Termin",
+"start": 194.26,
+"end": 194.74
+},
+{
+"text": "am",
+"start": 194.74,
+"end": 194.9
+},
+{
+"text": "schlechtesten.",
+"start": 194.9,
+"end": 195.56
+},
+{
+"text": "Also:",
+"start": 195.94,
+"end": 196.3
+},
+{
+"text": "Hol",
+"start": 196.3,
+"end": 196.98
+},
+{
+"text": "dir",
+"start": 196.98,
+"end": 197.22
+},
+{
+"text": "die",
+"start": 197.22,
+"end": 197.38
+},
+{
+"text": "Deadline",
+"start": 197.38,
+"end": 197.78
+},
+{
+"text": "nach",
+"start": 197.78,
+"end": 198.0
+},
+{
+"text": "vorne.",
+"start": 198.0,
+"end": 198.32
+},
+{
+"text": "Hack",
+"start": 198.32,
+"end": 198.63
+},
+{
+"text": "Nummer",
+"start": 198.94,
+"end": 199.16
+},
+{
+"text": "eins:",
+"start": 199.16,
+"end": 199.54
+},
+{
+"text": "Zwischen-Deadlines.",
+"start": 200.2,
+"end": 200.92
+},
+{
+"text": "Teil",
+"start": 200.92,
+"end": 201.64
+},
+{
+"text": "die",
+"start": 201.64,
+"end": 201.86
+},
+{
+"text": "große",
+"start": 201.86,
+"end": 202.14
+},
+{
+"text": "Aufgabe",
+"start": 202.14,
+"end": 202.72
+},
+{
+"text": "in",
+"start": 202.72,
+"end": 202.96
+},
+{
+"text": "kleine",
+"start": 202.96,
+"end": 203.26
+},
+{
+"text": "Stücke,",
+"start": 203.26,
+"end": 203.68
+},
+{
+"text": "und",
+"start": 204.0,
+"end": 204.24
+},
+{
+"text": "jedes",
+"start": 204.24,
+"end": 204.46
+},
+{
+"text": "Stück",
+"start": 204.46,
+"end": 204.78
+},
+{
+"text": "bekommt",
+"start": 204.78,
+"end": 205.32
+},
+{
+"text": "ein",
+"start": 205.32,
+"end": 205.58
+},
+{
+"text": "eigenes",
+"start": 205.58,
+"end": 206.18
+},
+{
+"text": "Datum.",
+"start": 206.18,
+"end": 206.66
+},
+{
+"text": "Hack",
+"start": 206.66,
+"end": 206.91
+},
+{
+"text": "Nummer",
+"start": 207.16,
+"end": 207.4
+},
+{
+"text": "zwei:",
+"start": 207.4,
+"end": 207.82
+},
+{
+"text": "Mach",
+"start": 208.22,
+"end": 208.4
+},
+{
+"text": "sie",
+"start": 208.4,
+"end": 208.56
+},
+{
+"text": "öffentlich.",
+"start": 208.56,
+"end": 209.0
+},
+{
+"text": "Sag",
+"start": 209.58,
+"end": 209.78
+},
+{
+"text": "jemandem,",
+"start": 209.78,
+"end": 210.4
+},
+{
+"text": "bis",
+"start": 210.68,
+"end": 210.88
+},
+{
+"text": "wann",
+"start": 210.88,
+"end": 211.12
+},
+{
+"text": "du",
+"start": 211.12,
+"end": 211.28
+},
+{
+"text": "fertig",
+"start": 211.28,
+"end": 211.58
+},
+{
+"text": "bist.",
+"start": 211.58,
+"end": 212.0
+},
+{
+"text": "Plötzlich",
+"start": 212.38,
+"end": 212.9
+},
+{
+"text": "ist",
+"start": 212.9,
+"end": 213.14
+},
+{
+"text": "die",
+"start": 213.14,
+"end": 213.3
+},
+{
+"text": "Deadline",
+"start": 213.3,
+"end": 213.68
+},
+{
+"text": "echt.",
+"start": 213.68,
+"end": 214.14
+},
+{
+"text": "Hack",
+"start": 214.14,
+"end": 214.46
+},
+{
+"text": "Nummer",
+"start": 214.78,
+"end": 215.04
+},
+{
+"text": "drei:",
+"start": 215.04,
+"end": 215.44
+},
+{
+"text": "der",
+"start": 215.88,
+"end": 215.96
+},
+{
+"text": "Mini-Countdown.",
+"start": 215.96,
+"end": 216.69
+},
+{
+"text": "Stell",
+"start": 217.42,
+"end": 217.56
+},
+{
+"text": "dir",
+"start": 217.56,
+"end": 217.72
+},
+{
+"text": "einen",
+"start": 217.72,
+"end": 217.94
+},
+{
+"text": "Timer",
+"start": 217.94,
+"end": 218.42
+},
+{
+"text": "auf",
+"start": 218.42,
+"end": 218.56
+},
+{
+"text": "25",
+"start": 218.56,
+"end": 219.16
+},
+{
+"text": "Minuten",
+"start": 219.16,
+"end": 219.6
+},
+{
+"text": "und",
+"start": 219.6,
+"end": 220.42
+},
+{
+"text": "tu",
+"start": 220.42,
+"end": 220.54
+},
+{
+"text": "so,",
+"start": 220.66,
+"end": 220.9
+},
+{
+"text": "als",
+"start": 221.24,
+"end": 221.42
+},
+{
+"text": "wäre",
+"start": 221.42,
+"end": 221.64
+},
+{
+"text": "es",
+"start": 221.64,
+"end": 221.86
+},
+{
+"text": "Freitag,",
+"start": 221.86,
+"end": 222.46
+},
+{
+"text": "23:35",
+"start": 222.46,
+"end": 222.92
+},
+{
+"text": "Uhr.",
+"start": 223.38,
+"end": 223.8
+},
+{
+"text": "Hack",
+"start": 223.8,
+"end": 224.51
+},
+{
+"text": "Nummer",
+"start": 225.22,
+"end": 225.48
+},
+{
+"text": "vier:",
+"start": 225.48,
+"end": 225.8
+},
+{
+"text": "der",
+"start": 226.34,
+"end": 226.39
+},
+{
+"text": "Wenn-dann-Plan.",
+"start": 226.38,
+"end": 227.18
+},
+{
+"text": "Nicht:",
+"start": 227.98,
+"end": 228.2
+},
+{
+"text": "„Ich",
+"start": 228.2,
+"end": 228.76
+},
+{
+"text": "mach",
+"start": 228.76,
+"end": 228.86
+},
+{
+"text": "das",
+"start": 228.92,
+"end": 229.12
+},
+{
+"text": "diese",
+"start": 229.12,
+"end": 229.34
+},
+{
+"text": "Woche.“",
+"start": 229.34,
+"end": 229.64
+},
+{
+"text": "Sondern:",
+"start": 230.12,
+"end": 230.38
+},
+{
+"text": "„Wenn",
+"start": 230.38,
+"end": 231.06
+},
+{
+"text": "es",
+"start": 231.06,
+"end": 231.22
+},
+{
+"text": "Dienstag",
+"start": 231.22,
+"end": 231.68
+},
+{
+"text": "18",
+"start": 231.68,
+"end": 232.12
+},
+{
+"text": "Uhr",
+"start": 232.12,
+"end": 232.36
+},
+{
+"text": "ist,",
+"start": 232.36,
+"end": 232.7
+},
+{
+"text": "dann",
+"start": 233.0,
+"end": 233.06
+},
+{
+"text": "öffne",
+"start": 233.06,
+"end": 233.52
+},
+{
+"text": "ich",
+"start": 233.52,
+"end": 233.66
+},
+{
+"text": "die",
+"start": 233.66,
+"end": 233.82
+},
+{
+"text": "Datei.“",
+"start": 233.82,
+"end": 234.3
+},
+{
+"text": "Der",
+"start": 234.64,
+"end": 234.7
+},
+{
+"text": "Psychologe",
+"start": 234.7,
+"end": 235.32
+},
+{
+"text": "Peter",
+"start": 235.32,
+"end": 235.58
+},
+{
+"text": "Gollwitzer",
+"start": 235.58,
+"end": 236.22
+},
+{
+"text": "hat",
+"start": 236.22,
+"end": 236.44
+},
+{
+"text": "gezeigt,",
+"start": 236.44,
+"end": 236.8
+},
+{
+"text": "dass",
+"start": 237.32,
+"end": 237.5
+},
+{
+"text": "solche",
+"start": 237.5,
+"end": 237.8
+},
+{
+"text": "Pläne",
+"start": 237.8,
+"end": 238.2
+},
+{
+"text": "die",
+"start": 238.2,
+"end": 238.34
+},
+{
+"text": "Chance",
+"start": 238.34,
+"end": 238.6
+},
+{
+"text": "deutlich",
+"start": 238.6,
+"end": 239.12
+},
+{
+"text": "erhöhen,",
+"start": 239.12,
+"end": 239.68
+},
+{
+"text": "dass",
+"start": 239.98,
+"end": 240.18
+},
+{
+"text": "wir",
+"start": 240.18,
+"end": 240.3
+},
+{
+"text": "wirklich",
+"start": 240.3,
+"end": 240.58
+},
+{
+"text": "anfangen.",
+"start": 240.58,
+"end": 241.12
+},
+{
+"text": "Otto",
+"start": 241.419,
+"end": 241.64
+},
+{
+"text": "hat",
+"start": 241.64,
+"end": 241.94
+},
+{
+"text": "es",
+"start": 241.94,
+"end": 242.06
+},
+{
+"text": "ausprobiert.",
+"start": 242.06,
+"end": 242.72
+},
+{
+"text": "Mittwochabend",
+"start": 243.34,
+"end": 243.96
+},
+{
+"text": "war",
+"start": 243.96,
+"end": 244.18
+},
+{
+"text": "die",
+"start": 244.18,
+"end": 244.3
+},
+{
+"text": "Präsentation",
+"start": 244.3,
+"end": 244.96
+},
+{
+"text": "fertig.",
+"start": 244.96,
+"end": 245.44
+},
+{
+"text": "Und",
+"start": 245.44,
+"end": 246.08
+},
+{
+"text": "Freitag",
+"start": 246.08,
+"end": 246.58
+},
+{
+"text": "um",
+"start": 246.58,
+"end": 246.82
+},
+{
+"text": "23:58",
+"start": 246.82,
+"end": 247.39
+},
+{
+"text": "Uhr?",
+"start": 247.96,
+"end": 249.08
+},
+{
+"text": "Hat",
+"start": 249.08,
+"end": 249.2
+},
+{
+"text": "Otto",
+"start": 249.2,
+"end": 249.44
+},
+{
+"text": "geschlafen.",
+"start": 249.44,
+"end": 250.02
+},
+{
+"text": "Und",
+"start": 250.02,
+"end": 250.54
+},
+{
+"text": "du?",
+"start": 250.54,
+"end": 250.82
+},
+{
+"text": "Was",
+"start": 251.16,
+"end": 251.3
+},
+{
+"text": "war",
+"start": 251.3,
+"end": 251.46
+},
+{
+"text": "deine",
+"start": 251.46,
+"end": 251.74
+},
+{
+"text": "Antwort",
+"start": 251.74,
+"end": 252.24
+},
+{
+"text": "am",
+"start": 252.24,
+"end": 252.46
+},
+{
+"text": "Anfang:",
+"start": 252.46,
+"end": 252.82
+},
+{
+"text": "A,",
+"start": 253.24,
+"end": 253.5
+},
+{
+"text": "B",
+"start": 253.98,
+"end": 254.18
+},
+{
+"text": "oder",
+"start": 254.18,
+"end": 254.6
+},
+{
+"text": "C?",
+"start": 254.6,
+"end": 254.92
+},
+{
+"text": "Schreib's",
+"start": 255.3,
+"end": 255.68
+},
+{
+"text": "in",
+"start": 255.68,
+"end": 255.76
+},
+{
+"text": "die",
+"start": 255.76,
+"end": 255.9
+},
+{
+"text": "Kommentare.",
+"start": 255.9,
+"end": 256.26
+},
+{
+"text": "Ich",
+"start": 256.84,
+"end": 256.96
+},
+{
+"text": "bin",
+"start": 256.96,
+"end": 257.1
+},
+{
+"text": "gespannt,",
+"start": 257.1,
+"end": 257.48
+},
+{
+"text": "wie",
+"start": 257.78,
+"end": 257.9
+},
+{
+"text": "viele",
+"start": 257.9,
+"end": 258.24
+},
+{
+"text": "C-Menschen",
+"start": 258.24,
+"end": 258.67
+},
+{
+"text": "hier",
+"start": 259.1,
+"end": 259.34
+},
+{
+"text": "sind.",
+"start": 259.34,
+"end": 259.66
+},
+{
+"text": "Aber",
+"start": 260.12,
+"end": 260.42
+},
+{
+"text": "warum",
+"start": 260.42,
+"end": 260.78
+},
+{
+"text": "dir",
+"start": 260.78,
+"end": 261.04
+},
+{
+"text": "die",
+"start": 261.04,
+"end": 261.18
+},
+{
+"text": "perfekte",
+"start": 261.18,
+"end": 261.78
+},
+{
+"text": "Idee",
+"start": 261.78,
+"end": 262.1
+},
+{
+"text": "ausgerechnet",
+"start": 262.1,
+"end": 262.94
+},
+{
+"text": "unter",
+"start": 262.94,
+"end": 263.34
+},
+{
+"text": "der",
+"start": 263.34,
+"end": 263.52
+},
+{
+"text": "Dusche",
+"start": 263.52,
+"end": 263.94
+},
+{
+"text": "einfällt",
+"start": 263.94,
+"end": 264.48
+},
+{
+"text": "und",
+"start": 264.94,
+"end": 265.02
+},
+{
+"text": "nicht",
+"start": 265.02,
+"end": 265.22
+},
+{
+"text": "am",
+"start": 265.22,
+"end": 265.4
+},
+{
+"text": "Schreibtisch?",
+"start": 265.4,
+"end": 266.0
+},
+{
+"text": "Das",
+"start": 266.44,
+"end": 266.56
+},
+{
+"text": "schauen",
+"start": 266.56,
+"end": 266.82
+},
+{
+"text": "wir",
+"start": 266.82,
+"end": 267.02
+},
+{
+"text": "uns",
+"start": 267.02,
+"end": 267.16
+},
+{
+"text": "nächstes",
+"start": 267.16,
+"end": 267.58
+},
+{
+"text": "Mal",
+"start": 267.58,
+"end": 267.86
+},
+{
+"text": "an.",
+"start": 267.86,
+"end": 268.12
+}
+]

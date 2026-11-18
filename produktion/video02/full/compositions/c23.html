@@ -1,0 +1,50 @@
+<template>
+  <style>
+  #root { position:absolute; inset:0; overflow:hidden; background:#0B0C0E; color:#FFF; font-family:'Inter', sans-serif; }
+  #root .actor, #root .light, #root .lay, #root .t { position:absolute; }
+  #root .lay { inset:0; }
+  #root .t { white-space:nowrap; }
+  #root .stamp { font-weight:700; font-size:30px; letter-spacing:.3em; color:#D9D4C7; }
+  #root .cond { font-family:'Oswald', sans-serif; font-weight:700; text-transform:uppercase; line-height:1; }
+  #root .card { background:#16181D; border:2px solid #3A3F48; border-radius:22px; box-shadow:0 30px 80px rgba(0,0,0,.6); }
+  #root .floor { position:absolute; border-radius:50%; background:radial-gradient(ellipse, rgba(255,240,215,.16) 0%, transparent 70%); }
+</style>
+  <div id="root" data-composition-id="c23" data-width="1920" data-height="1080">
+
+  <div id="c23-cam" class="lay">
+    <div id="c23-hk" class="t" style="left:130px;top:180px;font-size:28px;font-weight:800;letter-spacing:.4em;color:#E8C27A;opacity:0">HACK 3</div><div id="c23-ht" class="t cond" style="left:130px;top:222px;font-size:88px;opacity:0">DER MINI-COUNTDOWN</div>
+    <svg class="actor" style="left:310px;top:330px" width="440" height="440" viewBox="0 0 440 440">
+      <circle cx="220" cy="220" r="190" fill="#16181D" stroke="#3A3F48" stroke-width="6"/>
+      <circle id="c23-arc" cx="220" cy="220" r="170" fill="none" stroke="#FF7A1A" stroke-width="22" stroke-dasharray="1068" stroke-dashoffset="0" transform="rotate(-90 220 220)"/></svg>
+    <div id="c23-t" class="t" style="left:310px;width:440px;top:500px;text-align:center;font-family:'Space Mono';font-weight:700;font-size:96px;opacity:0">25:00</div>
+    <div id="c23-as" class="t cond" style="left:900px;top:380px;font-size:64px;opacity:0">TU SO, ALS WÄRE ES …</div>
+    <div id="c23-clk" class="actor" style="left:900px;top:480px;padding:10px 26px;background:#111;border:3px solid #333;border-radius:18px;font-family:'Space Mono';font-weight:700;font-size:120px;color:#FF5A4A;text-shadow:0 0 30px rgba(255,60,40,.5);opacity:0">FR 23:35</div>
+  </div>
+  </div>
+  <script>
+  const T = {"timer": 3.92, "freitag": 7.84, "end": 9.66};
+
+  const tl = gsap.timeline({ paused: true });
+  const face = (p, from, to, t) => {
+    tl.set(`#${p}-face-${from}`, { opacity: 0 }, t); tl.set(`#${p}-face-${to}`, { opacity: 1 }, t);
+    tl.fromTo(`#${p}-head`, { scaleY: 0.9, transformOrigin: "50% 100%" }, { scaleY: 1, duration: 0.4, ease: "back.out(2.5)", immediateRender: false }, t);
+  };
+  const type = (sel, n, t, gap = 0.035) => { for (let i = 0; i < n; i++) tl.fromTo(`${sel}-${i}`, { opacity: 0 }, { opacity: 1, duration: 0.01 }, t + i * gap); };
+  const fadeIn = (sel, t, d = 0.5, extra = {}) => tl.fromTo(sel, { opacity: 0, ...extra.from }, { opacity: 1, duration: d, ease: "power3.out", ...extra.to }, t);
+  const popIn = (sel, t, d = 0.5) => tl.fromTo(sel, { opacity: 0, scale: 0.4 }, { opacity: 1, scale: 1, duration: d, ease: "back.out(1.8)" }, t);
+  const fadeOut = (sel, t, d = 0.35) => tl.to(sel, { opacity: 0, duration: d, ease: "power2.in" }, t);
+  const move = (sel, x, y, t, d = 0.6) => tl.to(sel, { x, y, duration: d, ease: "power3.inOut" }, t);
+  const click = (cid, t) => { tl.fromTo(`#${cid}-cur`, { scale: 1 }, { keyframes: [{ scale: 0.85, duration: 0.07 }, { scale: 1, duration: 0.15 }], immediateRender: false }, t);
+    tl.fromTo(`#${cid}-rip`, { opacity: 1, scale: 0.3 }, { opacity: 0, scale: 1.6, duration: 0.45, ease: "power2.out", immediateRender: false }, t); };
+
+fadeIn("#c23-hk", 0.1, 0.4); tl.fromTo("#c23-ht", { opacity: 0, x: -60 }, { opacity: 1, x: 0, duration: 0.5, ease: "power4.out" }, 0.25);
+  fadeIn("#c23-cam", 0, 0.3); fadeIn("#c23-t", T.timer - 0.2, 0.3);
+  for (let i = 1; i <= 25; i++) tl.set("#c23-t", { textContent: `${String(25 - i).padStart(2, "0")}:${String((i * 37) % 60).padStart(2, "0")}` }, T.timer + 0.4 + i * 0.12);
+  tl.to("#c23-arc", { attr: { "stroke-dashoffset": 1068 }, duration: 3.1, ease: "none" }, T.timer + 0.4);
+  fadeIn("#c23-as", T.freitag - 0.8, 0.4);
+  tl.fromTo("#c23-clk", { opacity: 0, scale: 1.3 }, { opacity: 1, scale: 1, duration: 0.3, ease: "expo.out" }, T.freitag);
+  fadeOut("#c23-cam", T.end - 0.3, 0.3);
+
+  window.__timelines["c23"] = tl;
+  </script>
+</template>
