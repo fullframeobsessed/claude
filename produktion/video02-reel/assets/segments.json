@@ -1,0 +1,57 @@
+[
+ {
+  "id": "open",
+  "start": 0.0,
+  "end": 0.25
+ },
+ {
+  "id": "r_hook",
+  "start": 0.25,
+  "end": 4.68
+ },
+ {
+  "id": "r_promise",
+  "start": 4.68,
+  "end": 10.202
+ },
+ {
+  "id": "go",
+  "start": 10.202,
+  "end": 10.502
+ },
+ {
+  "id": "timer",
+  "start": 10.202,
+  "end": 70.202
+ },
+ {
+  "id": "r_park",
+  "start": 10.502,
+  "end": 23.82
+ },
+ {
+  "id": "r_turbo",
+  "start": 23.82,
+  "end": 40.74
+ },
+ {
+  "id": "r_illusion",
+  "start": 40.74,
+  "end": 52.72
+ },
+ {
+  "id": "r_trick",
+  "start": 52.72,
+  "end": 69.932
+ },
+ {
+  "id": "r_cta",
+  "start": 70.202,
+  "end": 74.779
+ },
+ {
+  "id": "endcard",
+  "start": 74.779,
+  "end": 77.779
+ }
+]

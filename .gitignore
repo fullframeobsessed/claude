@@ -32,3 +32,12 @@ produktion/video02/full/assets/_*.wav
 produktion/video02/full/assets/mix.wav
 produktion/video02/full/assets/musik_bett.wav
 produktion/video02/full/assets/sfx_spur.wav
+produktion/video02-reel/renders/
+produktion/video02-reel/.hyperframes/
+produktion/video02-reel/video_stumm.mp4
+produktion/video02-reel/*.log
+produktion/video02-reel/assets/_*.wav
+produktion/video02-reel/assets/mix.wav
+produktion/video02-reel/assets/musik_bett.wav
+produktion/video02-reel/assets/sfx_spur.wav
+produktion/video02-reel/assets/voice_raw.wav

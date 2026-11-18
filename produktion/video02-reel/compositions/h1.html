@@ -1,0 +1,62 @@
+<template>
+  <style>
+  #root { position:absolute; inset:0; overflow:hidden; color:#FFF; font-family:'Inter', sans-serif; }
+  #root .actor, #root .light, #root .lay, #root .t { position:absolute; }
+  #root .lay { inset:0; }
+  #root .t { white-space:nowrap; }
+  #root .cond { font-family:'Oswald', sans-serif; font-weight:700; text-transform:uppercase; line-height:1; }
+  #root .mono { font-family:'Space Mono', monospace; font-weight:700; line-height:1; }
+  #root .card { background:#16181D; border:2px solid #3A3F48; border-radius:26px; box-shadow:0 30px 80px rgba(0,0,0,.6); }
+  #root .emo { line-height:1; }
+</style>
+  <div id="root" data-composition-id="h1" data-width="1080" data-height="1920">
+
+  <div id="h1-cam" class="lay">
+    <div id="h1-txt" class="lay">
+      <div class="t cond" style="left:0;width:1080px;top:470px;text-align:center;font-size:72px"><span id="h1-w0" style="display:inline-block;opacity:0;margin:0 10px">WARUM</span><span id="h1-w1" style="display:inline-block;opacity:0;margin:0 10px">DU</span><span id="h1-w2" style="display:inline-block;opacity:0;margin:0 10px">KURZ</span><span id="h1-w3" style="display:inline-block;opacity:0;margin:0 10px">VOR</span><span id="h1-w4" style="display:inline-block;opacity:0;margin:0 10px">DER</span></div>
+      <div id="h1-dl" class="t cond" style="left:0;width:1080px;top:560px;text-align:center;font-size:190px;color:#FF4B3E;opacity:0;text-shadow:0 0 40px rgba(255,60,40,.45)">DEADLINE</div>
+      <div class="t cond" style="left:0;width:1080px;top:770px;text-align:center;font-size:72px"><span id="h1-p" style="display:inline-block;opacity:0">PLÖTZLICH</span>
+        <span id="h1-e" style="display:inline-block;opacity:0;margin-left:16px">EIN</span></div>
+      <div id="h1-g" class="t cond" style="left:0;width:1080px;top:850px;text-align:center;font-size:170px;color:#E8C27A;opacity:0;text-shadow:0 0 50px rgba(232,194,122,.5)">GENIE <span class="emo">💡</span></div>
+    </div>
+    <div id="h1-k" class="t cond" style="left:0;width:1080px;top:470px;text-align:center;font-size:56px;color:#8C8F96;opacity:0;letter-spacing:.2em">ERKLÄRT IN</div>
+    <div id="h1-ring" class="actor" style="left:340px;top:540px;width:400px;height:400px;opacity:0"><svg viewBox="-200 -200 400 400" width="400" height="400"><circle r="170" fill="#111" stroke="#3A3F48" stroke-width="18"/><circle id="h1-arc" r="170" fill="none" stroke="#E8C27A" stroke-width="18" stroke-linecap="round" stroke-dasharray="1068" stroke-dashoffset="1068" transform="rotate(-90)"/><rect x="-26" y="-226" width="52" height="34" rx="8" fill="#3A3F48"/></svg>
+      <div class="t mono" style="left:0;width:400px;top:140px;text-align:center;font-size:110px;color:#FFF">1:00</div></div>
+    <div id="h1-m" class="t cond" style="left:0;width:1080px;top:960px;text-align:center;font-size:120px;color:#E8C27A;opacity:0;">1 MINUTE</div>
+    <div id="h1-los" class="t cond" style="left:0;width:1080px;top:660px;text-align:center;font-size:210px;color:#5BE37D;opacity:0;text-shadow:0 0 60px rgba(91,227,125,.6)">LOS!</div>
+  </div>
+  </div>
+  <script>
+  const T = {"warum": 0.12, "du": 0.22, "kurz": 0.46, "vor": 0.8, "der": 0.98, "deadline": 1.12, "ploetzlich": 1.5, "ein": 1.96, "genie": 2.2, "erklaer": 2.84, "einer": 4.02, "minute": 4.2, "los": 4.96, "end": 5.822};
+
+  const tl = gsap.timeline({ paused: true });
+  const fadeIn = (sel, t, d = 0.3) => tl.fromTo(sel, { opacity: 0 }, { opacity: 1, duration: d, ease: "power2.out" }, t);
+  const fadeOut = (sel, t, d = 0.22) => tl.to(sel, { opacity: 0, duration: d, ease: "power2.in" }, t);
+  const popIn = (sel, t, d = 0.32, s = 0.3) => tl.fromTo(sel, { opacity: 0, scale: s }, { opacity: 1, scale: 1, duration: d, ease: "back.out(2.2)" }, t);
+  const slam = (sel, t, s = 2.4) => tl.fromTo(sel, { opacity: 0, scale: s }, { opacity: 1, scale: 1, duration: 0.22, ease: "power4.in" }, t);
+  const upIn = (sel, t, d = 0.3) => tl.fromTo(sel, { opacity: 0, y: 60 }, { opacity: 1, y: 0, duration: d, ease: "power3.out" }, t);
+  const outUp = (sel, t, d = 0.22) => tl.to(sel, { opacity: 0, y: -50, scale: 0.9, duration: d, ease: "power2.in" }, t);
+  const shake = (sel, t, a = 14) => tl.fromTo(sel, { x: 0, y: 0 }, { keyframes: [...Array(8)].map((_, i) => ({ x: (i % 2 ? a : -a) * (1 - i / 8), y: (i % 3 ? -a : a) * 0.5 * (1 - i / 8), duration: 0.035 })).concat([{ x: 0, y: 0, duration: 0.04 }]), immediateRender: false }, t);
+  const tagIn = (sel, t) => tl.fromTo(sel, { opacity: 0, y: -30, scale: 0.8 }, { opacity: 1, y: 0, scale: 1, duration: 0.35, ease: "back.out(2)" }, t);
+  const face = (p, from, to, t) => { tl.set(`#${p}-face-${from}`, { opacity: 0 }, t); tl.set(`#${p}-face-${to}`, { opacity: 1 }, t); };
+
+
+  ["warum", "du", "kurz", "vor", "der"].forEach((k, i) => tl.fromTo(`#h1-w${i}`, { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.18, ease: "back.out(2.5)" }, T[k]));
+  slam("#h1-dl", T.deadline, 2.2);
+  shake("#h1-cam", T.deadline + 0.22, 10);
+  tl.fromTo("#h1-p", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.2, ease: "back.out(2.5)" }, T.ploetzlich);
+  tl.fromTo("#h1-e", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.2, ease: "back.out(2.5)" }, T.ein);
+  popIn("#h1-g", T.genie, 0.35, 0.4);
+  outUp("#h1-txt", T.erklaer, 0.25);
+  tl.fromTo("#h1-k", { opacity: 0, y: -30 }, { opacity: 1, y: 0, duration: 0.3, ease: "power3.out" }, T.erklaer + 0.15);
+  popIn("#h1-ring", T.einer - 0.1, 0.35, 0.2);
+  tl.fromTo("#h1-arc", { attr: { "stroke-dashoffset": 1068 } }, { attr: { "stroke-dashoffset": 0 }, duration: 0.6, ease: "power2.inOut" }, T.einer);
+  slam("#h1-m", T.minute, 2.0);
+  tl.to(["#h1-k", "#h1-m"], { opacity: 0, duration: 0.15 }, T.los - 0.1);
+  tl.to("#h1-ring", { y: -360, scale: 0.25, opacity: 0, duration: 0.35, ease: "power3.in" }, T.los - 0.05);
+  slam("#h1-los", T.los, 2.5);
+  tl.to("#h1-los", { opacity: 0, scale: 1.4, duration: 0.25, ease: "power2.in" }, T.end - 0.25);
+
+  window.__timelines["h1"] = tl;
+  </script>
+</template>

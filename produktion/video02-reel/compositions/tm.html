@@ -1,0 +1,48 @@
+<template>
+  <style>
+  #root { position:absolute; inset:0; overflow:hidden; color:#FFF; font-family:'Inter', sans-serif; }
+  #root .actor, #root .light, #root .lay, #root .t { position:absolute; }
+  #root .lay { inset:0; }
+  #root .t { white-space:nowrap; }
+  #root .cond { font-family:'Oswald', sans-serif; font-weight:700; text-transform:uppercase; line-height:1; }
+  #root .mono { font-family:'Space Mono', monospace; font-weight:700; line-height:1; }
+  #root .card { background:#16181D; border:2px solid #3A3F48; border-radius:26px; box-shadow:0 30px 80px rgba(0,0,0,.6); }
+  #root .emo { line-height:1; }
+</style>
+  <div id="root" data-composition-id="tm" data-width="1080" data-height="1920">
+
+  <div id="tm-box" class="actor card" style="left:360px;top:296px;width:360px;height:104px;border-radius:52px;display:flex;align-items:center;justify-content:center;gap:22px;opacity:0">
+    <svg viewBox="-30 -34 60 64" width="56" height="60"><circle r="24" fill="none" stroke="#E8C27A" stroke-width="6"/><rect x="-6" y="-34" width="12" height="8" rx="2" fill="#E8C27A"/>
+      <path id="tm-hand" d="M0,0 L0,-15" stroke="#E8C27A" stroke-width="6" stroke-linecap="round"/></svg>
+    <div id="tm-n" class="mono" style="font-size:68px;color:#FFF">1:00</div></div>
+  <div id="tm-bar" class="actor" style="left:400px;top:412px;width:280px;height:8px;border-radius:4px;background:#E8C27A;transform-origin:0 50%;opacity:0"></div>
+  </div>
+  <script>
+  const T = {"end": 61.642};
+
+  const tl = gsap.timeline({ paused: true });
+  const fadeIn = (sel, t, d = 0.3) => tl.fromTo(sel, { opacity: 0 }, { opacity: 1, duration: d, ease: "power2.out" }, t);
+  const fadeOut = (sel, t, d = 0.22) => tl.to(sel, { opacity: 0, duration: d, ease: "power2.in" }, t);
+  const popIn = (sel, t, d = 0.32, s = 0.3) => tl.fromTo(sel, { opacity: 0, scale: s }, { opacity: 1, scale: 1, duration: d, ease: "back.out(2.2)" }, t);
+  const slam = (sel, t, s = 2.4) => tl.fromTo(sel, { opacity: 0, scale: s }, { opacity: 1, scale: 1, duration: 0.22, ease: "power4.in" }, t);
+  const upIn = (sel, t, d = 0.3) => tl.fromTo(sel, { opacity: 0, y: 60 }, { opacity: 1, y: 0, duration: d, ease: "power3.out" }, t);
+  const outUp = (sel, t, d = 0.22) => tl.to(sel, { opacity: 0, y: -50, scale: 0.9, duration: d, ease: "power2.in" }, t);
+  const shake = (sel, t, a = 14) => tl.fromTo(sel, { x: 0, y: 0 }, { keyframes: [...Array(8)].map((_, i) => ({ x: (i % 2 ? a : -a) * (1 - i / 8), y: (i % 3 ? -a : a) * 0.5 * (1 - i / 8), duration: 0.035 })).concat([{ x: 0, y: 0, duration: 0.04 }]), immediateRender: false }, t);
+  const tagIn = (sel, t) => tl.fromTo(sel, { opacity: 0, y: -30, scale: 0.8 }, { opacity: 1, y: 0, scale: 1, duration: 0.35, ease: "back.out(2)" }, t);
+  const face = (p, from, to, t) => { tl.set(`#${p}-face-${from}`, { opacity: 0 }, t); tl.set(`#${p}-face-${to}`, { opacity: 1 }, t); };
+
+
+  popIn("#tm-box", 0, 0.35, 0.3);
+  fadeIn("#tm-bar", 0.2, 0.2);
+  tl.fromTo("#tm-bar", { scaleX: 1 }, { scaleX: 0, duration: 60, ease: "none", immediateRender: false }, 0.442);
+  tl.fromTo("#tm-hand", { rotation: 0 }, { rotation: 360 * 60, svgOrigin: "0 0", duration: 60, ease: "none", immediateRender: false }, 0.442);
+  tl.set("#tm-n", { textContent: "0:59" }, 1.442);tl.set("#tm-n", { textContent: "0:58" }, 2.442);tl.set("#tm-n", { textContent: "0:57" }, 3.442);tl.set("#tm-n", { textContent: "0:56" }, 4.442);tl.set("#tm-n", { textContent: "0:55" }, 5.442);tl.set("#tm-n", { textContent: "0:54" }, 6.442);tl.set("#tm-n", { textContent: "0:53" }, 7.442);tl.set("#tm-n", { textContent: "0:52" }, 8.442);tl.set("#tm-n", { textContent: "0:51" }, 9.442);tl.set("#tm-n", { textContent: "0:50" }, 10.442);tl.set("#tm-n", { textContent: "0:49" }, 11.442);tl.set("#tm-n", { textContent: "0:48" }, 12.442);tl.set("#tm-n", { textContent: "0:47" }, 13.442);tl.set("#tm-n", { textContent: "0:46" }, 14.442);tl.set("#tm-n", { textContent: "0:45" }, 15.442);tl.set("#tm-n", { textContent: "0:44" }, 16.442);tl.set("#tm-n", { textContent: "0:43" }, 17.442);tl.set("#tm-n", { textContent: "0:42" }, 18.442);tl.set("#tm-n", { textContent: "0:41" }, 19.442);tl.set("#tm-n", { textContent: "0:40" }, 20.442);tl.set("#tm-n", { textContent: "0:39" }, 21.442);tl.set("#tm-n", { textContent: "0:38" }, 22.442);tl.set("#tm-n", { textContent: "0:37" }, 23.442);tl.set("#tm-n", { textContent: "0:36" }, 24.442);tl.set("#tm-n", { textContent: "0:35" }, 25.442);tl.set("#tm-n", { textContent: "0:34" }, 26.442);tl.set("#tm-n", { textContent: "0:33" }, 27.442);tl.set("#tm-n", { textContent: "0:32" }, 28.442);tl.set("#tm-n", { textContent: "0:31" }, 29.442);tl.set("#tm-n", { textContent: "0:30" }, 30.442);tl.set("#tm-n", { textContent: "0:29" }, 31.442);tl.set("#tm-n", { textContent: "0:28" }, 32.442);tl.set("#tm-n", { textContent: "0:27" }, 33.442);tl.set("#tm-n", { textContent: "0:26" }, 34.442);tl.set("#tm-n", { textContent: "0:25" }, 35.442);tl.set("#tm-n", { textContent: "0:24" }, 36.442);tl.set("#tm-n", { textContent: "0:23" }, 37.442);tl.set("#tm-n", { textContent: "0:22" }, 38.442);tl.set("#tm-n", { textContent: "0:21" }, 39.442);tl.set("#tm-n", { textContent: "0:20" }, 40.442);tl.set("#tm-n", { textContent: "0:19" }, 41.442);tl.set("#tm-n", { textContent: "0:18" }, 42.442);tl.set("#tm-n", { textContent: "0:17" }, 43.442);tl.set("#tm-n", { textContent: "0:16" }, 44.442);tl.set("#tm-n", { textContent: "0:15" }, 45.442);tl.set("#tm-n", { textContent: "0:14" }, 46.442);tl.set("#tm-n", { textContent: "0:13" }, 47.442);tl.set("#tm-n", { textContent: "0:12" }, 48.442);tl.set("#tm-n", { textContent: "0:11" }, 49.442);tl.set("#tm-n", { textContent: "0:10" }, 50.442);tl.set("#tm-n", { textContent: "0:09" }, 51.442);tl.set("#tm-n", { textContent: "0:08" }, 52.442);tl.set("#tm-n", { textContent: "0:07" }, 53.442);tl.set("#tm-n", { textContent: "0:06" }, 54.442);tl.set("#tm-n", { textContent: "0:05" }, 55.442);tl.set("#tm-n", { textContent: "0:04" }, 56.442);tl.set("#tm-n", { textContent: "0:03" }, 57.442);tl.set("#tm-n", { textContent: "0:02" }, 58.442);tl.set("#tm-n", { textContent: "0:01" }, 59.442);tl.set("#tm-n", { textContent: "0:00" }, 60.442);
+  tl.set(["#tm-n"], { color: "#FF4B3E" }, 50.442);
+  tl.set("#tm-bar", { backgroundColor: "#FF4B3E" }, 50.442);
+  for (let i = 5; i >= 1; i--) tl.fromTo("#tm-box", { scale: 1.14 }, { scale: 1, duration: 0.4, ease: "power2.out", immediateRender: false }, 60.442 - i);
+  tl.fromTo("#tm-box", { scale: 1.35 }, { scale: 1, duration: 0.5, ease: "elastic.out(1, 0.4)", immediateRender: false }, 60.442);
+  tl.to(["#tm-box", "#tm-bar"], { opacity: 0, y: -40, duration: 0.3, ease: "power2.in" }, T.end - 0.3);
+
+  window.__timelines["tm"] = tl;
+  </script>
+</template>

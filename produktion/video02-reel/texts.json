@@ -1,0 +1,12 @@
+{
+  "pieces": {"P1": ["r_hook", "r_promise"], "P2": ["r_park", "r_turbo", "r_illusion", "r_trick"], "P3": ["r_cta"]},
+  "scenes": {
+    "r_hook": "Drei Wochen Zeit. Und trotzdem passiert alles in der letzten Nacht?",
+    "r_promise": "Warum du kurz vor der Deadline plötzlich ein Genie bist, erklär ich dir in einer Minute. Los!",
+    "r_park": "Erstens: Parkinsons Gesetz. Arbeit dehnt sich genau so weit aus, wie Zeit dafür da ist. Drei Wochen fühlen sich für dein Gehirn nach gar nichts an. Freitag, 23:58 Uhr dagegen ist sehr konkret.",
+    "r_turbo": "Zweitens: der Turbo. Je näher die Deadline, desto lauter der Alarm in deinem Kopf. Plötzlich ist Nicht-Machen schlimmer als Machen. Stresshormone, der Puls steigt, der Fokus wird eng. Ablenkungen? Weg. Bis zu einem Punkt steigt so deine Leistung. Danach kippt sie.",
+    "r_illusion": "Aber: Das Genie ist eine Illusion. In einer Langzeitstudie hatten Aufschieber am Ende mehr Stress, mehr Krankheitssymptome und schlechtere Noten. Du erinnerst dich nur an die eine Nacht, in der es geklappt hat.",
+    "r_trick": "Der Trick: Hol dir die Deadline nach vorne. Studien zeigen: Feste Zwischentermine schlagen eine einzige große Deadline. Also: Setz Zwischen-Deadlines. Sag jemandem, bis wann du fertig bist. Und mach einen Wenn-dann-Plan: Wenn es Dienstag, 18 Uhr ist, öffne ich die Datei.",
+    "r_cta": "Zeit um! Die ganze Folge mit allen vier Hacks findest du auf YouTube."
+  }
+}
