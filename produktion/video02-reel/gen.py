@@ -78,7 +78,12 @@ JS = r"""
 HOSTS = []
 
 
+DY = 170  # alles (außer Hintergrund) so viel tiefer, damit die Grafik optisch mittig sitzt
+
+
 def scene(cid, a, e, html, js, T=None, track=1):
+    if cid != "bg":
+        html = f'<div class="lay" style="transform:translateY({DY}px)">\n{html}\n</div>'
     T = {k: round(v - a, 3) for k, v in (T or {}).items()}
     T["end"] = round(e - a, 3)
     src = (f'<template>\n  <style>{CSS}</style>\n  <div id="root" data-composition-id="{cid}" data-width="1080" data-height="1920">\n{html}\n  </div>\n'
@@ -90,7 +95,7 @@ def scene(cid, a, e, html, js, T=None, track=1):
 # ================================================================ Hintergrund: warme Lichter, die langsam wandern
 scene("bg", 0, END, f"""
   <div style="position:absolute;inset:0;background:#0B0C0E"></div>
-  {light("bg-l1", 540, 760, 640, "rgba(255,226,180,.20)")}
+  {light("bg-l1", 540, 930, 640, "rgba(255,226,180,.20)")}
   {light("bg-l2", 300, 1300, 520, "rgba(140,190,255,.07)")}
   {light("bg-l3", 820, 400, 420, "rgba(255,150,80,.08)")}""", f"""
   tl.fromTo("#bg-l1", {{ x: -60, y: 0 }}, {{ x: 60, y: 40, duration: {END}, ease: "sine.inOut" }}, 0);
@@ -513,7 +518,7 @@ SFX += [(T["der"], "whoosh", 0.45), (T["deadline"], "pop", 0.35), (T["nach"], "w
 a, e = SEG["r_trick"][1], END
 T = dict(zeit=T1, die=W("Die", 71), ganze=W("ganze"), youtube=W("YouTube."))
 scene("p5", a, e, f"""
-  <div id="p5-fl" class="actor" style="left:0;top:0;width:1080px;height:1920px;background:#FFF;opacity:0"></div>
+  <div id="p5-fl" class="actor" style="left:0;top:-400px;width:1080px;height:2700px;background:#FFF;opacity:0"></div>
   <div id="p5-cam" class="lay">
     {ctext("p5-zu", 620, "ZEIT UM!", 180, color=RED, extra="text-shadow:0 0 60px rgba(255,60,40,.7)")}
     {ctext("p5-k", 446, "DIE GANZE FOLGE", 56, cls="", color=AMBER, extra="font-weight:900;letter-spacing:.18em")}
@@ -607,7 +612,7 @@ for gi, g in enumerate(groups):
 open(f"{HERE}/compositions/captions.html", "w", encoding="utf-8").write(f"""<template>
   <style>
   #root {{ position:absolute; inset:0; }}
-  #root .cap {{ position:absolute; left:192px; width:696px; top:1080px; text-align:center; font-family:'Inter', sans-serif; font-weight:900;
+  #root .cap {{ position:absolute; left:192px; width:696px; top:1290px; text-align:center; font-family:'Inter', sans-serif; font-weight:900;
           font-size:64px; line-height:1.12; color:#FFF; opacity:0; letter-spacing:.01em;
           text-shadow:0 5px 0 #000, 0 0 24px rgba(0,0,0,.9), 3px 3px 0 #000, -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000; }}
   </style>
