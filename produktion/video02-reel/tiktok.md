@@ -17,5 +17,5 @@ Ganze Folge auf YouTube: Otto Normalpsyche
 ## Hinweise
 - **Link in der Bio:** Auf TikTok gibt es einen klickbaren Bio-Link erst ab bestimmten Voraussetzungen (z. B. Follower-Zahl). Bis dahin in der Bio den YouTube-Kanalnamen „Otto Normalpsyche“ nennen, dann finden Zuschauer die Folge über die YouTube-Suche.
 - **Zeitpunkt:** vor oder am Sonntag posten, weil im Reel „kommenden Sonntagabend“ gesagt wird. Gute Zeiten: werktags 18–21 Uhr.
-- **Titelbild:** `branding/reel02_a_genie.png` hochladen (TikTok: „Titelbild bearbeiten“ → „Aus der Galerie hochladen“).
+- **Titelbild:** `branding/reel02_b_orange.png` hochladen (gleich wie auf Instagram) (TikTok: „Titelbild bearbeiten“ → „Aus der Galerie hochladen“).
 - In den ersten 30–60 Minuten Kommentare beantworten.
