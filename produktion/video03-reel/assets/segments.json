@@ -47,21 +47,21 @@
  {
   "id": "r_zeit",
   "start": 69.206,
-  "end": 70.34
+  "end": 69.6
  },
  {
   "id": "r_challenge",
-  "start": 70.34,
-  "end": 77.28
+  "start": 69.6,
+  "end": 77.34
  },
  {
   "id": "r_folge",
-  "start": 77.28,
-  "end": 85.012
+  "start": 77.34,
+  "end": 84.156
  },
  {
   "id": "endcard",
-  "start": 85.012,
-  "end": 88.512
+  "start": 84.156,
+  "end": 87.656
  }
 ]

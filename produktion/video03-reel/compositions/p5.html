@@ -29,7 +29,7 @@
         <div style="position:absolute;right:18px;bottom:18px;padding:4px 12px;border-radius:8px;background:rgba(0,0,0,.85);font-size:30px;font-weight:800">7:14</div>
         <div id="p5-play" style="position:absolute;left:288px;top:138px;width:120px;height:116px;opacity:0">
           <svg viewBox="0 0 120 116" width="120" height="116"><rect x="0" y="16" width="120" height="84" rx="24" fill="#FF0033"/><path d="M48,38 L82,58 L48,78 Z" fill="#FFF"/></svg></div></div>
-      <div id="p5-so" class="actor" style="left:530px;top:570px;padding:10px 22px;border-radius:14px;background:#E8C27A;color:#1A1A1A;font-size:36px;font-weight:900;letter-spacing:.04em;transform:rotate(6deg);box-shadow:0 12px 30px rgba(0,0,0,.5);opacity:0">SONNTAGABEND</div>
+      <div id="p5-so" class="actor" style="left:530px;top:570px;padding:10px 22px;border-radius:14px;background:#E8C27A;color:#1A1A1A;font-size:36px;font-weight:900;letter-spacing:.04em;transform:rotate(6deg);box-shadow:0 12px 30px rgba(0,0,0,.5);opacity:0">MITTWOCHABEND</div>
       <div id="p5-yt" class="t" style="left:0;width:1080px;top:960px;text-align:center;opacity:0">
         <span style="display:inline-flex;align-items:center;gap:14px;padding:10px 26px;border-radius:40px;background:#FF0033;font-size:36px;font-weight:900">▶ YouTube · Otto Normalpsyche</span></div>
       <div id="p5-bio" class="t" style="left:0;width:1080px;top:960px;text-align:center;opacity:0">
@@ -55,7 +55,7 @@
 </div>
   </div>
   <script>
-  const T = {"zeit": 0.27, "kleine": 1.524, "ziegel": 4.464, "schreib": 5.804, "komm": 8.004, "die": 8.464, "ganze": 9.024, "sonntag": 11.884, "youtube": 12.824, "link": 13.744, "bio": 15.384, "end": 19.576};
+  const T = {"zeit": 0.27, "kleine": 0.784, "ziegel": 4.364, "schreib": 5.824, "komm": 7.684, "die": 8.524, "ganze": 8.664, "sonntag": 11.504, "youtube": 12.284, "link": 13.084, "bio": 14.704, "end": 18.72};
 
   const tl = gsap.timeline({ paused: true });
   const fadeIn = (sel, t, d = 0.3) => tl.fromTo(sel, { opacity: 0 }, { opacity: 1, duration: d, ease: "power2.out" }, t);

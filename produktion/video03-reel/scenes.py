@@ -265,7 +265,7 @@ SFX += [(T["der"], "click", 0.45)] + [(T[k] - 0.25, "pop", 0.4) for _, _, k in h
 # ================================================================ P5 Zeit um! → Ziegelstein-Challenge → ganze Folge, Sonntagabend, Link in der Bio
 a, e = SEG["r_trick"][1], END
 T = dict(zeit=T1, kleine=W("Kleine"), ziegel=W("Ziegelstein"), schreib=W("Schreib"), komm=W("Kommentare."), die=W("Die", 77), ganze=W("ganze", 77),
-         sonntag=W("Sonntagabend"), youtube=W("YouTube."), link=W("Link"), bio=W("Bio."))
+         sonntag=W("Mittwochabend"), youtube=W("YouTube."), link=W("Link"), bio=W("Bio."))
 BRICK = (f'<div style="position:absolute;inset:0;border-radius:14px;background:linear-gradient(160deg,#C2593A,#8E3B26);box-shadow:inset 0 -14px 0 rgba(0,0,0,.25),0 30px 60px rgba(0,0,0,.6)"></div>'
          + "".join(f'<div style="position:absolute;left:{70 + i * 120}px;top:52px;width:56px;height:56px;border-radius:50%;background:#5A2316;box-shadow:inset 0 6px 10px rgba(0,0,0,.5)"></div>' for i in range(3)))
 scene("p5", a, e, f"""
@@ -286,7 +286,7 @@ scene("p5", a, e, f"""
         <div style="position:absolute;right:18px;bottom:18px;padding:4px 12px;border-radius:8px;background:rgba(0,0,0,.85);font-size:30px;font-weight:800">7:14</div>
         <div id="p5-play" style="position:absolute;left:288px;top:138px;width:120px;height:116px;opacity:0">
           <svg viewBox="0 0 120 116" width="120" height="116"><rect x="0" y="16" width="120" height="84" rx="24" fill="#FF0033"/><path d="M48,38 L82,58 L48,78 Z" fill="#FFF"/></svg></div></div>
-      <div id="p5-so" class="actor" style="left:530px;top:570px;padding:10px 22px;border-radius:14px;background:{AMBER};color:#1A1A1A;font-size:36px;font-weight:900;letter-spacing:.04em;transform:rotate(6deg);box-shadow:0 12px 30px rgba(0,0,0,.5);opacity:0">SONNTAGABEND</div>
+      <div id="p5-so" class="actor" style="left:530px;top:570px;padding:10px 22px;border-radius:14px;background:{AMBER};color:#1A1A1A;font-size:36px;font-weight:900;letter-spacing:.04em;transform:rotate(6deg);box-shadow:0 12px 30px rgba(0,0,0,.5);opacity:0">MITTWOCHABEND</div>
       <div id="p5-yt" class="t" style="left:0;width:1080px;top:960px;text-align:center;opacity:0">
         <span style="display:inline-flex;align-items:center;gap:14px;padding:10px 26px;border-radius:40px;background:#FF0033;font-size:36px;font-weight:900">▶ YouTube · Otto Normalpsyche</span></div>
       <div id="p5-bio" class="t" style="left:0;width:1080px;top:960px;text-align:center;opacity:0">
