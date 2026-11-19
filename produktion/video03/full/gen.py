@@ -234,6 +234,8 @@ open(f"{HERE}/index.html", "w").write(f"""<!doctype html>
   </body>
 </html>
 """)
+# Glühbirnen-/Geistesblitz-Glocke dezent (Richtlinie): höchstens 0.2
+SFX = [(t, f, min(g * 0.3, 0.2) if f == "ding" else g) for t, f, g in SFX]
 json.dump([{"t": round(t, 3), "f": f, "g": g} for t, f, g in SFX if g > 0], open(f"{HERE}/assets/sfx.json", "w"), indent=0)
 for fn in ("hyperframes.json", "package.json", "meta.json"):
     open(f"{HERE}/{fn}", "w").write(open(os.path.join(ROOT, "video01-doku", fn)).read().replace("otto-video01-doku", "otto-video03"))

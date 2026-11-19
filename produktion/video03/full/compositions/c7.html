@@ -43,7 +43,7 @@
   const shake = (sel, t, a = 10) => tl.fromTo(sel, { x: 0, y: 0 }, { keyframes: [...Array(8)].map((_, i) => ({ x: (i % 2 ? a : -a) * (1 - i / 8), y: (i % 3 ? -a : a) * 0.5 * (1 - i / 8), duration: 0.035 })).concat([{ x: 0, y: 0, duration: 0.04 }]), immediateRender: false }, t);
 
 type("#c7-q", 48, T.was, 0.022);fadeIn("#c7-hk", 0.1, 0.4); tl.fromTo("#c7-ht", { opacity: 0, x: -60 }, { opacity: 1, x: 0, duration: 0.5, ease: "power4.out" }, 0.25);
-  tl.fromTo("#c7-brick", { opacity: 0, y: -300, rotation: -30 }, { opacity: 1, y: 0, rotation: -6, duration: 0.6, ease: "bounce.out" }, T.ziegel - 0.1);
+  tl.fromTo("#c7-brick", { opacity: 0, y: -160, rotation: -30 }, { opacity: 1, y: 0, rotation: -6, duration: 0.6, ease: "bounce.out" }, T.ziegel - 0.1);
   tl.to("#c7-brick", { rotation: 6, duration: Math.max(0.1, (T.los - T.ziegel - 0.75) / 2), ease: "sine.inOut", yoyo: true, repeat: 1 }, T.ziegel + 0.6);
   tl.to("#c7-brick", { x: 0, y: -360, scale: 0.55, rotation: 0, duration: 0.5, ease: "power3.inOut" }, T.los);
   tl.fromTo("#c7-pad", { opacity: 0, y: 80 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, T.los + 0.15);

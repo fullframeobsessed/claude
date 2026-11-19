@@ -43,7 +43,7 @@ fadeIn("#c19-lt", T.math - 0.3, 0.5); tl.fromTo("#c19-ltl", { scaleX: 0 }, { sca
   fadeIn("#c19-cam", 0, 0.3);
   for (let i = 0; i < 3; i++) tl.fromTo(`#c19-p${i}`, { opacity: 0, y: -200 }, { opacity: 1, y: 0, duration: 0.45, ease: "back.out(1.4)" }, T.wochen - 0.2 + i * 0.3);
   fadeIn("#c19-road", T.einfiel - 0.8, 0.3);
-  tl.fromTo("#c19-bus", { opacity: 1, x: 900 }, { opacity: 1, x: 0, duration: 1.0, ease: "power3.out" }, T.einfiel - 0.8);
+  tl.fromTo("#c19-bus", { opacity: 0, x: 400 }, { opacity: 1, x: 0, duration: 1.0, ease: "power3.out" }, T.einfiel - 0.8);
   tl.fromTo("#c19-b", { opacity: 0, scale: 0.3 }, { opacity: 1, scale: 1, duration: 0.4, ease: "back.out(2.5)" }, T.bus);
   tl.fromTo("#c19-b-g", { opacity: 0 }, { opacity: 1, duration: 0.4 }, T.bus + 0.1);
   fadeOut("#c19-lt", T.ohne - 0.6, 0.3);

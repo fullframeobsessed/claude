@@ -196,7 +196,7 @@ put("c31", S, f"""
       <div id="c31-r" style="margin:12px auto;width:52px;height:52px;border-radius:50%;background:#FF3B30"></div>
       <div style="margin:0 auto;width:52px;height:52px;border-radius:50%;background:#3A2A00"></div>
       <div id="c31-g" style="margin:12px auto;width:52px;height:52px;border-radius:50%;background:#123A1A"></div></div>
-    {bulb_html("c31-b", 1100, 120, 0.7)}
+    {bulb_html("c31-b", 1100, 160, 0.7)}
     <div id="c31-nb" class="actor" style="left:640px;top:520px;font-size:130px;opacity:0">📓</div>
     <div id="c31-ok" data-layout-allow-overlap class="actor" style="left:810px;top:520px;font-size:90px;color:{GREEN};opacity:0">✓</div>
   </div>""", r"""
@@ -231,10 +231,10 @@ put("c32", S, f"""
     <div id="c32-cm" class="actor card" style="left:560px;top:620px;width:800px;height:130px;display:flex;align-items:center;gap:20px;padding:0 30px;opacity:0">
       <span style="font-size:52px">💬</span><span style="font-size:36px;font-weight:700;color:{MUTED}">Meine verrückteste Idee …</span>
       <span id="c32-btn" style="margin-left:auto;padding:12px 22px;border-radius:12px;background:#2D6CDF;font-size:28px;font-weight:900">KOMMENTIEREN</span></div>
-    {cursor("c32", 1500, 950)}
+    {cursor("c32", 1500, 860)}
   </div>""", r"""
   fadeIn("#c32-cam", 0, 0.3);
-  tl.fromTo("#c32-brick", { opacity: 0, y: -300, rotation: -30 }, { opacity: 1, y: 0, rotation: 0, duration: 0.6, ease: "bounce.out" }, 0.1);
+  tl.fromTo("#c32-brick", { opacity: 0, y: -160, rotation: -30 }, { opacity: 1, y: 0, rotation: 0, duration: 0.6, ease: "bounce.out" }, 0.1);
   for (let i = 0; i < 6; i++) popIn(`#c32-o${i}`, T.mehr - 0.2 + i * 0.22, 0.35);
   tl.to(["#c32-o2", "#c32-o3", "#c32-o5"], { opacity: 0.2, duration: 0.3 }, T.schreib - 0.4);
   tl.fromTo("#c32-cm", { opacity: 0, y: 60 }, { opacity: 1, y: 0, duration: 0.45, ease: "back.out(1.6)" }, T.schreib - 0.2);

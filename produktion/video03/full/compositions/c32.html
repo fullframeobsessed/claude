@@ -18,7 +18,7 @@
     <div id="c32-cm" class="actor card" style="left:560px;top:620px;width:800px;height:130px;display:flex;align-items:center;gap:20px;padding:0 30px;opacity:0">
       <span style="font-size:52px">💬</span><span style="font-size:36px;font-weight:700;color:#8C8F96">Meine verrückteste Idee …</span>
       <span id="c32-btn" style="margin-left:auto;padding:12px 22px;border-radius:12px;background:#2D6CDF;font-size:28px;font-weight:900">KOMMENTIEREN</span></div>
-    <div id="c32-cur" class="actor" style="left:1500px;top:950px;width:44px;height:57px;z-index:20;opacity:0"><div id="c32-rip" style="position:absolute;left:-26px;top:-26px;width:60px;height:60px;border-radius:50%;border:4px solid #E8C27A;opacity:0"></div><svg viewBox="0 0 40 52" width="44" height="57"><path d="M4,3 L4,42 L14,33 L21,49 L28,46 L21,30 L35,30 Z" fill="#FFF" stroke="#111" stroke-width="3" stroke-linejoin="round"/></svg></div>
+    <div id="c32-cur" class="actor" style="left:1500px;top:860px;width:44px;height:57px;z-index:20;opacity:0"><div id="c32-rip" style="position:absolute;left:-26px;top:-26px;width:60px;height:60px;border-radius:50%;border:4px solid #E8C27A;opacity:0"></div><svg viewBox="0 0 40 52" width="44" height="57"><path d="M4,3 L4,42 L14,33 L21,49 L28,46 L21,30 L35,30 Z" fill="#FFF" stroke="#111" stroke-width="3" stroke-linejoin="round"/></svg></div>
   </div>
   </div>
   <script>
@@ -42,7 +42,7 @@
 
 
   fadeIn("#c32-cam", 0, 0.3);
-  tl.fromTo("#c32-brick", { opacity: 0, y: -300, rotation: -30 }, { opacity: 1, y: 0, rotation: 0, duration: 0.6, ease: "bounce.out" }, 0.1);
+  tl.fromTo("#c32-brick", { opacity: 0, y: -160, rotation: -30 }, { opacity: 1, y: 0, rotation: 0, duration: 0.6, ease: "bounce.out" }, 0.1);
   for (let i = 0; i < 6; i++) popIn(`#c32-o${i}`, T.mehr - 0.2 + i * 0.22, 0.35);
   tl.to(["#c32-o2", "#c32-o3", "#c32-o5"], { opacity: 0.2, duration: 0.3 }, T.schreib - 0.4);
   tl.fromTo("#c32-cm", { opacity: 0, y: 60 }, { opacity: 1, y: 0, duration: 0.45, ease: "back.out(1.6)" }, T.schreib - 0.2);

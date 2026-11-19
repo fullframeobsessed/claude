@@ -12,7 +12,7 @@
   <div id="root" data-composition-id="c0" data-width="1920" data-height="1080">
 
   <div id="c0-cam" class="lay">
-    <div id="c0-drop" class="actor" style="left:935px;top:120px;width:50px;height:70px;border-radius:50% 50% 50% 50% / 60% 60% 40% 40%;background:#8EC5FF;box-shadow:0 0 30px rgba(142,197,255,.6);opacity:0"></div>
+    <div id="c0-drop" class="actor" style="left:935px;top:160px;width:50px;height:70px;border-radius:50% 50% 50% 50% / 60% 60% 40% 40%;background:#8EC5FF;box-shadow:0 0 30px rgba(142,197,255,.6);opacity:0"></div>
     <div id="c0-r0" class="actor" style="left:810px;top:690px;width:300px;height:70px;border-radius:50%;border:4px solid #8EC5FF;opacity:0"></div>
     <div id="c0-r1" class="actor" style="left:810px;top:690px;width:300px;height:70px;border-radius:50%;border:3px solid #8EC5FF;opacity:0"></div>
     <div id="c0-b-g" class="light" style="left:740.0px;top:200.0px;width:440.0px;height:440.0px;opacity:0;background:radial-gradient(circle, rgba(255,220,120,.55) 0%, transparent 70%);"></div><div id="c0-b" class="actor" style="left:860px;top:330px;width:200px;height:230px;opacity:0"><svg viewBox="-100 -110 200 230" width="200" height="230" overflow="visible"><g stroke="#111" stroke-width="5"><path d="M-30,30 a60,60 0 1 1 60,0 l0,40 l-60,0 Z" fill="#FFD43B"/><rect x="-32" y="70" width="64" height="26" rx="6" fill="#9AA0A6"/></g></svg></div>
@@ -38,7 +38,7 @@
   const shake = (sel, t, a = 10) => tl.fromTo(sel, { x: 0, y: 0 }, { keyframes: [...Array(8)].map((_, i) => ({ x: (i % 2 ? a : -a) * (1 - i / 8), y: (i % 3 ? -a : a) * 0.5 * (1 - i / 8), duration: 0.035 })).concat([{ x: 0, y: 0, duration: 0.04 }]), immediateRender: false }, t);
 
 
-  tl.fromTo("#c0-drop", { opacity: 1, y: 0 }, { opacity: 1, y: 560, duration: 0.9, ease: "power2.in" }, 0.1);
+  tl.fromTo("#c0-drop", { opacity: 1, y: 0 }, { opacity: 1, y: 520, duration: 0.9, ease: "power2.in" }, 0.1);
   tl.to("#c0-drop", { opacity: 0, scaleY: 0.3, duration: 0.08 }, 1.0);
   [0, 1].forEach(i => tl.fromTo(`#c0-r${i}`, { opacity: 0.9, scale: 0.2 }, { opacity: 0, scale: 1.6 + i * 0.6, duration: 1.2, ease: "power2.out" }, 1.0 + i * 0.18));
   tl.fromTo("#c0-b", { opacity: 0 }, { keyframes: [{ opacity: 0.6, duration: 0.05 }, { opacity: 0.1, duration: 0.08 }, { opacity: 0.8, duration: 0.05 }, { opacity: 0.2, duration: 0.1 }, { opacity: 1, duration: 0.05 }] }, 1.7);

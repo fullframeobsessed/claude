@@ -7,7 +7,7 @@ S = "v_wandern"; a = SEG[S][0]
 T = dict(dusche=W("Dusche", a), schlaf=W("Schlaf.", a), koerper=W("Körper", a), kopf=W("Kopf", a), wandern=W("wandern.", a), harvard=W("Harvard", a),
          haelfte=W("Hälfte", a), abschweifen=W("abschweifen.", a))
 bub = [("🏖️", 120, -40), ("🎵", 260, -120), ("🍕", 60, -200), ("✈️", 230, -260)]
-bh = "".join(f'<div id="c13-b{i}" class="actor" style="left:{560 + dx}px;top:{430 + dy}px;width:110px;height:110px;border-radius:50%;background:rgba(255,255,255,.1);border:3px solid rgba(255,255,255,.35);'
+bh = "".join(f'<div id="c13-b{i}" class="actor" style="left:{560 + dx}px;top:{460 + dy}px;width:110px;height:110px;border-radius:50%;background:rgba(255,255,255,.1);border:3px solid rgba(255,255,255,.35);'
              f'display:flex;align-items:center;justify-content:center;font-size:56px;opacity:0">{em}</div>' for i, (em, dx, dy) in enumerate(bub))
 R = 170; CIRC = 2 * 3.14159 * R
 put("c13", S, f"""
@@ -21,14 +21,14 @@ put("c13", S, f"""
         <circle id="c13-arc" cx="220" cy="220" r="{R}" fill="none" stroke="{AMBER}" stroke-width="60" stroke-dasharray="{CIRC:.1f}" stroke-dashoffset="{CIRC:.1f}" transform="rotate(-90 220 220)"/></svg>
       <div class="t" style="left:0;width:440px;top:170px;text-align:center;font-family:'Space Mono';font-weight:700;font-size:96px"><span id="c13-p">0</span>%</div></div>
     <div id="c13-cl" class="t" style="left:1080px;width:640px;top:720px;text-align:center;font-size:34px;font-weight:800;letter-spacing:.06em;line-height:1.3;opacity:0">DER WACHEN ZEIT<br><span style="color:{AMBER}">SCHWEIFEN UNSERE GEDANKEN AB</span></div>
-    {foot("c13", "Killingsworth &amp; Gilbert (2010), Harvard", 1180)}
+    {foot("c13", "Killingsworth &amp; Gilbert (2010), Harvard", 1080)}
   </div>""", r"""
   fadeIn("#c13-cam", 0, 0.4);
   tl.fromTo("#c13-k1", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.35, ease: "back.out(2)" }, T.koerper);
   tl.fromTo("#c13-k2", { opacity: 0, y: -30 }, { opacity: 1, y: 0, duration: 0.35, ease: "back.out(2)" }, T.kopf);
   for (let i = 0; i < 4; i++) {
     tl.fromTo(`#c13-b${i}`, { opacity: 0, scale: 0.2, y: 120 }, { opacity: 1, scale: 1, y: 0, duration: 0.6, ease: "back.out(1.6)" }, T.wandern - 0.5 + i * 0.25);
-    tl.to(`#c13-b${i}`, { y: -30 - i * 10, x: (i % 2 ? 20 : -20), duration: 3, ease: "sine.inOut", yoyo: true, repeat: 1 }, T.wandern + 0.3 + i * 0.25);
+    tl.to(`#c13-b${i}`, { y: -15, x: (i % 2 ? 20 : -20), duration: 3, ease: "sine.inOut", yoyo: true, repeat: 1 }, T.wandern + 0.3 + i * 0.25);
   }
   face("c13o", "tired", "happy", T.wandern);
   popIn("#c13-chart", T.harvard - 0.2, 0.45);
@@ -114,14 +114,14 @@ S = "v_ohnescreen"; a = SEG[S][0]
 T = dict(vorteil=W("Vorteil:", a), bild=W("Bildschirm.", a), handy=W("Handy,", a), mails=W("Mails,", a), nachr=W("Nachrichten.", a), warme=W("warme", a),
          rauschen=W("Rauschen", a), allein=W("allein", a), alltag=W("Alltag", a))
 noti = [("📱", -1, 340), ("✉️", 1, 480), ("🔔", -1, 620)]
-nh2 = "".join(f'<div id="c16-n{i}" class="actor card" style="left:{(20 if s < 0 else 1560)}px;top:{y}px;width:340px;height:110px;display:flex;align-items:center;gap:16px;padding:0 20px;opacity:0">'
+nh2 = "".join(f'<div id="c16-n{i}" class="actor card" style="left:{(70 if s < 0 else 1510)}px;top:{y}px;width:340px;height:110px;display:flex;align-items:center;gap:16px;padding:0 20px;opacity:0">'
               f'<span style="font-size:56px">{em}</span><span style="font-size:28px;font-weight:800">{["NEUE NACHRICHT", "3 NEUE MAILS", "ERINNERUNG"][i]}</span></div>' for i, (em, s, y) in enumerate(noti))
 steam = "".join(f'<div id="c16-s{i}" class="actor" style="left:{740 + (i * 97) % 440}px;top:780px;width:{120 + (i * 31) % 80}px;height:{120 + (i * 31) % 80}px;border-radius:50%;background:rgba(230,236,244,.18);filter:blur(18px);opacity:0"></div>' for i in range(9))
 put("c16", S, f"""
   <div id="c16-cam" class="lay">
     {light("c16-l", 960, 520, 560, "rgba(142,197,255,.16)")}
     <div class="actor" style="left:660px;top:150px;width:600px;height:760px;opacity:.55;filter:blur(3px)">{otto_svg("c16o", ("happy",))}</div>
-    <div id="c16-glass" class="actor" style="left:600px;top:130px;width:720px;height:800px;border-radius:20px;background:linear-gradient(135deg,rgba(220,232,244,.22),rgba(220,232,244,.08));
+    <div id="c16-glass" class="actor" style="left:600px;top:150px;width:720px;height:770px;border-radius:20px;background:linear-gradient(135deg,rgba(220,232,244,.22),rgba(220,232,244,.08));
       border:3px solid rgba(220,232,244,.45);box-shadow:inset 0 0 80px rgba(255,255,255,.12);opacity:0"></div>
     <div id="c16-kb" class="t cond" style="left:600px;width:720px;top:470px;text-align:center;font-size:84px;color:#F4F7FB;text-shadow:0 0 30px rgba(0,0,0,.6);opacity:0">KEIN<br>BILDSCHIRM</div>
     {nh2}
@@ -133,11 +133,11 @@ put("c16", S, f"""
   popIn("#c16-kb", T.bild - 0.1, 0.4);
   [T.handy, T.mails, T.nachr].forEach((t, i) => {
     const s = [-1, 1, -1][i];
-    tl.fromTo(`#c16-n${i}`, { opacity: 1, x: s * 400 }, { opacity: 1, x: -s * 280, duration: 0.35, ease: "power3.in" }, t - 0.5);
+    tl.fromTo(`#c16-n${i}`, { opacity: 0, x: s * 160 }, { opacity: 1, x: -s * 230, duration: 0.35, ease: "power3.in" }, t - 0.5);
     tl.to(`#c16-n${i}`, { x: s * 500, rotation: -s * 25, opacity: 0, duration: 0.5, ease: "power2.out" }, t + 0.35);
   });
   tl.to("#c16-kb", { opacity: 0.25, duration: 0.4 }, T.warme - 0.2);
-  for (let i = 0; i < 9; i++) tl.fromTo(`#c16-s${i}`, { opacity: 0, y: 0 }, { opacity: 1, y: -500 - i * 30, duration: 4, ease: "sine.out" }, T.warme + i * 0.25);
+  for (let i = 0; i < 9; i++) tl.fromTo(`#c16-s${i}`, { opacity: 0, y: 0 }, { opacity: 1, y: -380 - i * 15, duration: 4, ease: "sine.out" }, T.warme + i * 0.25);
   tl.fromTo("#c16-th", { opacity: 0, scale: 0.5, transformOrigin: "0% 100%" }, { opacity: 1, scale: 1, duration: 0.45, ease: "back.out(2)" }, T.allein);
   fadeOut("#c16-cam", T.end - 0.3, 0.3);
 """, T)
@@ -184,7 +184,7 @@ put("c19", S, f"""
   fadeIn("#c19-cam", 0, 0.3);
   for (let i = 0; i < 3; i++) tl.fromTo(`#c19-p${i}`, { opacity: 0, y: -200 }, { opacity: 1, y: 0, duration: 0.45, ease: "back.out(1.4)" }, T.wochen - 0.2 + i * 0.3);
   fadeIn("#c19-road", T.einfiel - 0.8, 0.3);
-  tl.fromTo("#c19-bus", { opacity: 1, x: 900 }, { opacity: 1, x: 0, duration: 1.0, ease: "power3.out" }, T.einfiel - 0.8);
+  tl.fromTo("#c19-bus", { opacity: 0, x: 400 }, { opacity: 1, x: 0, duration: 1.0, ease: "power3.out" }, T.einfiel - 0.8);
   tl.fromTo("#c19-b", { opacity: 0, scale: 0.3 }, { opacity: 1, scale: 1, duration: 0.4, ease: "back.out(2.5)" }, T.bus);
   tl.fromTo("#c19-b-g", { opacity: 0 }, { opacity: 1, duration: 0.4 }, T.bus + 0.1);
   fadeOut("#c19-lt", T.ohne - 0.6, 0.3);
@@ -271,14 +271,14 @@ SFX += [(T[k] - 0.1, "pop", 0.35) for k in ("vorb", "inku", "erl", "ueber")] + [
 # ================================================================ c22 Außenwelt ausblenden → Blitz
 S = "v_ausblenden"; a = SEG[S][0]
 T = dict(kurz=W("kurz", a), blitz=W("Geistesblitz", a), aussen=W("Außenwelt", a), leise=W("leise", a), idee=W("Idee", a))
-dots = "".join(f'<div class="actor" style="left:{(i * 211) % 1800 + 40}px;top:{(i * 137) % 760 + 150}px;font-size:56px;opacity:.85">{["📱", "🚗", "🔔", "💬", "📺", "🐕", "🎵", "✉️"][i % 8]}</div>' for i in range(18))
+dots = "".join(f'<div class="actor" style="left:{(i * 211) % 1800 + 40}px;top:{(i * 137) % 690 + 160}px;font-size:56px;opacity:.85">{["📱", "🚗", "🔔", "💬", "📺", "🐕", "🎵", "✉️"][i % 8]}</div>' for i in range(18))
 put("c22", S, f"""
   <div id="c22-cam" class="lay">
     <div id="c22-world" class="lay">{dots}</div>
     <div id="c22-vig" class="actor" style="left:-1080px;top:-1260px;width:4080px;height:3600px;opacity:0;
       background:radial-gradient(circle at 50% 50%, transparent 0px, transparent 150px, rgba(0,0,0,.96) 320px)"></div>
     <div id="c22-dot" class="actor" style="left:930px;top:510px;width:60px;height:60px;border-radius:50%;background:radial-gradient(circle,#FFF6C8,#FFD43B 50%,rgba(255,212,59,0) 72%);opacity:0"></div>
-    <div id="c22-fl" class="actor" style="left:0;top:0;width:1920px;height:1080px;background:#FFF6D8;opacity:0"></div>
+    <div id="c22-fl" class="actor" style="left:0;top:132px;width:1920px;height:816px;background:#FFF6D8;opacity:0"></div>
     {bulb_html("c22-b", 860, 380)}
   </div>""", r"""
   fadeIn("#c22-cam", 0, 0.3);
@@ -302,7 +302,7 @@ putr("c23", a, e, f"""
     <div id="c23-p" class="actor" style="left:810px;top:230px;width:300px;height:320px;opacity:0;display:flex;gap:60px;justify-content:center">
       <div style="width:110px;height:320px;border-radius:18px;background:#FFF"></div><div style="width:110px;height:320px;border-radius:18px;background:#FFF"></div></div>
     <div id="c23-note" class="actor" style="left:500px;top:600px;width:920px;height:320px;background:#FFE680;box-shadow:0 20px 50px rgba(0,0,0,.6);transform:rotate(-1.5deg);opacity:0">{q1}{q2}</div>
-    <div id="c23-fr" class="actor" style="left:0;top:0;width:1920px;height:1080px;background:rgba(255,255,255,.06);opacity:0"></div>
+    <div id="c23-fr" class="actor" style="left:0;top:132px;width:1920px;height:816px;background:rgba(255,255,255,.06);opacity:0"></div>
   </div>""", f'type("#c23-q1", {n1}, T.wann, 0.03); type("#c23-q2", {n2}, T.was, 0.03);' + r"""
   fadeIn("#c23-cam", 0, 0.2);
   tl.fromTo("#c23-p", { opacity: 0, scale: 1.6 }, { opacity: 1, scale: 1, duration: 0.3, ease: "power4.in" }, T.pausier);

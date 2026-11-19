@@ -60,8 +60,8 @@ scene("h0", a, e, f"""
   tl.to("#h0-doc", { opacity: 0.3, duration: 0.2 }, T.nichts - 0.1);
   slam("#h0-n", T.nichts, 2.4);
   shake("#h0-cam", T.nichts + 0.22, 12);
-  tl.to("#h0-desk", { x: -1100, duration: 0.35, ease: "power3.in" }, T.fuenf - 0.2);
-  tl.fromTo("#h0-sh", { opacity: 0, x: 1100 }, { opacity: 1, x: 0, duration: 0.35, ease: "power3.out" }, T.fuenf - 0.05);
+  tl.to("#h0-desk", { x: -200, opacity: 0, duration: 0.3, ease: "power3.in" }, T.fuenf - 0.2);
+  tl.fromTo("#h0-sh", { opacity: 0, x: 200 }, { opacity: 1, x: 0, duration: 0.35, ease: "power3.out" }, T.fuenf - 0.05);
   tl.fromTo("#h0-otto", { opacity: 0 }, { opacity: 1, duration: 0.01 }, T.fuenf - 0.05);
   fadeIn("#h0-s", T.fuenf, 0.2);
   tl.fromTo("#h0-w", { y: -54 }, { y: 0, duration: 0.4, ease: "none", repeat: 8, immediateRender: false }, T.fuenf);
@@ -299,7 +299,7 @@ scene("p5", a, e, f"""
   shake("#p5-cam", T.zeit + 0.22, 8);
   tl.to("#p5-zu", { y: -260, scale: 0.4, opacity: 0, duration: 0.3, ease: "power3.in" }, T.kleine - 0.25);
   popIn("#p5-ch", T.kleine, 0.35, 0.5);
-  tl.fromTo("#p5-brick", { opacity: 0, y: -400, rotation: -30 }, { opacity: 1, y: 0, rotation: -4, duration: 0.6, ease: "bounce.out" }, T.ziegel - 0.3);
+  tl.fromTo("#p5-brick", { opacity: 0, y: -120, rotation: -30 }, { opacity: 1, y: 0, rotation: -4, duration: 0.6, ease: "bounce.out" }, T.ziegel - 0.3);
   fadeIn("#p5-q", T.ziegel + 0.2, 0.3);
   tl.fromTo("#p5-cm", { opacity: 0, y: 60 }, { opacity: 1, y: 0, duration: 0.35, ease: "back.out(1.8)" }, T.schreib);
   tl.fromTo("#p5-cm", { scale: 1.08 }, { scale: 1, duration: 0.3, ease: "back.out(3)", immediateRender: false }, T.komm);
