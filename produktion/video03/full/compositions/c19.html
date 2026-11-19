@@ -1,0 +1,56 @@
+<template>
+  <style>
+  #root { position:absolute; inset:0; overflow:hidden; background:#0B0C0E; color:#FFF; font-family:'Inter', sans-serif; }
+  #root .actor, #root .light, #root .lay, #root .t { position:absolute; }
+  #root .lay { inset:0; }
+  #root .t { white-space:nowrap; }
+  #root .stamp { font-weight:700; font-size:30px; letter-spacing:.3em; color:#D9D4C7; }
+  #root .cond { font-family:'Oswald', sans-serif; font-weight:700; text-transform:uppercase; line-height:1; }
+  #root .card { background:#16181D; border:2px solid #3A3F48; border-radius:22px; box-shadow:0 30px 80px rgba(0,0,0,.6); }
+  #root .floor { position:absolute; border-radius:50%; background:radial-gradient(ellipse, rgba(255,240,215,.16) 0%, transparent 70%); }
+</style>
+  <div id="root" data-composition-id="c19" data-width="1920" data-height="1080">
+
+  <div id="c19-cam" class="lay">
+    <div id="c19-lt" class="t" style="left:130px;top:180px;opacity:0"><div id="c19-ltl" style="width:440px;height:3px;background:#FFF;transform-origin:0 50%"></div><div class="cond" style="margin-top:16px;font-size:60px;letter-spacing:.08em;">HENRI POINCARÉ</div><div style="margin-top:10px;font-size:28px;letter-spacing:.24em;color:#8C8F96;font-weight:600;">MATHEMATIKER · 1854–1912</div></div>
+    <div id="c19-p0" class="actor" style="left:230px;top:330px;width:300px;height:360px;background:#EDE6D6;border-radius:6px;box-shadow:0 20px 50px rgba(0,0,0,.6);color:#333;padding:26px;opacity:0;transform:rotate(-6deg)" data-layout-allow-overlap><div style="font-size:28px;font-weight:900;letter-spacing:.2em;color:#8A2B1E">WOCHE 1</div><div style="margin-top:22px;font-family:'EB Garamond';font-size:30px;line-height:1.5;color:#555">f(z) = …<br>∑ aₙ zⁿ<br>z ↦ (az+b)/(cz+d)<br>?</div></div><div id="c19-p1" class="actor" style="left:270px;top:360px;width:300px;height:360px;background:#EDE6D6;border-radius:6px;box-shadow:0 20px 50px rgba(0,0,0,.6);color:#333;padding:26px;opacity:0;transform:rotate(2deg)" data-layout-allow-overlap><div style="font-size:28px;font-weight:900;letter-spacing:.2em;color:#8A2B1E">WOCHE 2</div><div style="margin-top:22px;font-family:'EB Garamond';font-size:30px;line-height:1.5;color:#555">f(z) = …<br>∑ aₙ zⁿ<br>z ↦ (az+b)/(cz+d)<br>?</div></div><div id="c19-p2" class="actor" style="left:310px;top:390px;width:300px;height:360px;background:#EDE6D6;border-radius:6px;box-shadow:0 20px 50px rgba(0,0,0,.6);color:#333;padding:26px;opacity:0;transform:rotate(7deg)" data-layout-allow-overlap><div style="font-size:28px;font-weight:900;letter-spacing:.2em;color:#8A2B1E">WOCHE 3</div><div style="margin-top:22px;font-family:'EB Garamond';font-size:30px;line-height:1.5;color:#555">f(z) = …<br>∑ aₙ zⁿ<br>z ↦ (az+b)/(cz+d)<br>?</div></div>
+    <div id="c19-road" class="actor" style="left:760px;top:740px;width:1100px;height:10px;background:#3A3F48;border-radius:5px;opacity:0"></div>
+    <div id="c19-bus" class="actor" style="left:1280px;top:470px;font-size:280px;line-height:1;opacity:0">🚌</div>
+    <div id="c19-b-g" class="light" style="left:1222.0px;top:73.0px;width:396.0px;height:396.0px;opacity:0;background:radial-gradient(circle, rgba(255,220,120,.55) 0%, transparent 70%);"></div><div id="c19-b" class="actor" style="left:1330px;top:190px;width:180px;height:207px;opacity:0"><svg viewBox="-100 -110 200 230" width="180" height="207" overflow="visible"><g stroke="#111" stroke-width="5"><path d="M-30,30 a60,60 0 1 1 60,0 l0,40 l-60,0 Z" fill="#FFD43B"/><rect x="-32" y="70" width="64" height="26" rx="6" fill="#9AA0A6"/></g></svg></div>
+    <div id="c19-o" class="t cond" style="left:200px;width:560px;top:760px;text-align:center;font-size:52px;color:#E8C27A;opacity:0">OHNE DIE WOCHEN DAVOR:<br>KEINE IDEE</div>
+  </div>
+  </div>
+  <script>
+  const T = {"math": 0.26, "wochen": 5.74, "einfiel": 8.02, "bus": 10.04, "ohne": 11.22, "davor": 11.86, "end": 14.22};
+
+  const tl = gsap.timeline({ paused: true });
+  const face = (p, from, to, t) => {
+    tl.set(`#${p}-face-${from}`, { opacity: 0 }, t); tl.set(`#${p}-face-${to}`, { opacity: 1 }, t);
+    tl.fromTo(`#${p}-head`, { scaleY: 0.9, transformOrigin: "50% 100%" }, { scaleY: 1, duration: 0.4, ease: "back.out(2.5)", immediateRender: false }, t);
+  };
+  const type = (sel, n, t, gap = 0.035) => { for (let i = 0; i < n; i++) tl.fromTo(`${sel}-${i}`, { opacity: 0 }, { opacity: 1, duration: 0.01 }, t + i * gap); };
+  const fadeIn = (sel, t, d = 0.5, extra = {}) => tl.fromTo(sel, { opacity: 0, ...extra.from }, { opacity: 1, duration: d, ease: "power3.out", ...extra.to }, t);
+  const popIn = (sel, t, d = 0.5) => tl.fromTo(sel, { opacity: 0, scale: 0.4 }, { opacity: 1, scale: 1, duration: d, ease: "back.out(1.8)" }, t);
+  const fadeOut = (sel, t, d = 0.35) => tl.to(sel, { opacity: 0, duration: d, ease: "power2.in" }, t);
+  const move = (sel, x, y, t, d = 0.6) => tl.to(sel, { x, y, duration: d, ease: "power3.inOut" }, t);
+  const click = (cid, t) => { tl.fromTo(`#${cid}-cur`, { scale: 1 }, { keyframes: [{ scale: 0.85, duration: 0.07 }, { scale: 1, duration: 0.15 }], immediateRender: false }, t);
+    tl.fromTo(`#${cid}-rip`, { opacity: 1, scale: 0.3 }, { opacity: 0, scale: 1.6, duration: 0.45, ease: "power2.out", immediateRender: false }, t); };
+
+  const slam = (sel, t, s = 2.2) => tl.fromTo(sel, { opacity: 0, scale: s }, { opacity: 1, scale: 1, duration: 0.25, ease: "power4.in" }, t);
+  const shake = (sel, t, a = 10) => tl.fromTo(sel, { x: 0, y: 0 }, { keyframes: [...Array(8)].map((_, i) => ({ x: (i % 2 ? a : -a) * (1 - i / 8), y: (i % 3 ? -a : a) * 0.5 * (1 - i / 8), duration: 0.035 })).concat([{ x: 0, y: 0, duration: 0.04 }]), immediateRender: false }, t);
+
+fadeIn("#c19-lt", T.math - 0.3, 0.5); tl.fromTo("#c19-ltl", { scaleX: 0 }, { scaleX: 1, duration: 0.7, ease: "power3.out" }, T.math - 0.3);
+  fadeIn("#c19-cam", 0, 0.3);
+  for (let i = 0; i < 3; i++) tl.fromTo(`#c19-p${i}`, { opacity: 0, y: -200 }, { opacity: 1, y: 0, duration: 0.45, ease: "back.out(1.4)" }, T.wochen - 0.2 + i * 0.3);
+  fadeIn("#c19-road", T.einfiel - 0.8, 0.3);
+  tl.fromTo("#c19-bus", { opacity: 1, x: 900 }, { opacity: 1, x: 0, duration: 1.0, ease: "power3.out" }, T.einfiel - 0.8);
+  tl.fromTo("#c19-b", { opacity: 0, scale: 0.3 }, { opacity: 1, scale: 1, duration: 0.4, ease: "back.out(2.5)" }, T.bus);
+  tl.fromTo("#c19-b-g", { opacity: 0 }, { opacity: 1, duration: 0.4 }, T.bus + 0.1);
+  fadeOut("#c19-lt", T.ohne - 0.6, 0.3);
+  for (let i = 0; i < 3; i++) tl.to(`#c19-p${i}`, { boxShadow: "0 0 40px rgba(232,194,122,.8)", duration: 0.3 }, T.ohne + i * 0.15);
+  fadeIn("#c19-o", T.davor, 0.4);
+  fadeOut("#c19-cam", T.end - 0.3, 0.3);
+
+  window.__timelines["c19"] = tl;
+  </script>
+</template>

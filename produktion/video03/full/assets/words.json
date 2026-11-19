@@ -1,0 +1,4647 @@
+[
+{
+"text": "Das",
+"start": 3.0,
+"end": 3.2
+},
+{
+"text": "ist",
+"start": 3.2,
+"end": 3.38
+},
+{
+"text": "Otto.",
+"start": 3.38,
+"end": 3.64
+},
+{
+"text": "Otto",
+"start": 4.06,
+"end": 4.38
+},
+{
+"text": "sitzt",
+"start": 4.38,
+"end": 4.64
+},
+{
+"text": "seit",
+"start": 4.64,
+"end": 5.08
+},
+{
+"text": "zwei",
+"start": 5.08,
+"end": 5.54
+},
+{
+"text": "Stunden",
+"start": 5.54,
+"end": 5.94
+},
+{
+"text": "vor",
+"start": 5.94,
+"end": 6.24
+},
+{
+"text": "einem",
+"start": 6.24,
+"end": 6.44
+},
+{
+"text": "leeren",
+"start": 6.44,
+"end": 6.74
+},
+{
+"text": "Dokument.",
+"start": 6.74,
+"end": 7.16
+},
+{
+"text": "Er",
+"start": 7.74,
+"end": 7.82
+},
+{
+"text": "braucht",
+"start": 7.82,
+"end": 8.1
+},
+{
+"text": "eine",
+"start": 8.1,
+"end": 8.32
+},
+{
+"text": "Idee",
+"start": 8.32,
+"end": 8.72
+},
+{
+"text": "für",
+"start": 8.72,
+"end": 9.04
+},
+{
+"text": "seine",
+"start": 9.04,
+"end": 9.26
+},
+{
+"text": "Präsentation.",
+"start": 9.26,
+"end": 10.08
+},
+{
+"text": "Nichts.",
+"start": 10.56,
+"end": 11.1
+},
+{
+"text": "Absolut",
+"start": 11.46,
+"end": 12.1
+},
+{
+"text": "nichts.",
+"start": 12.1,
+"end": 12.64
+},
+{
+"text": "Also",
+"start": 13.36,
+"end": 13.74
+},
+{
+"text": "gibt",
+"start": 13.74,
+"end": 14.0
+},
+{
+"text": "er",
+"start": 14.0,
+"end": 14.14
+},
+{
+"text": "auf",
+"start": 14.14,
+"end": 14.42
+},
+{
+"text": "und",
+"start": 14.42,
+"end": 14.62
+},
+{
+"text": "geht",
+"start": 14.62,
+"end": 14.8
+},
+{
+"text": "duschen.",
+"start": 14.8,
+"end": 15.2
+},
+{
+"text": "Und",
+"start": 15.6,
+"end": 15.72
+},
+{
+"text": "dann,",
+"start": 15.72,
+"end": 16.0
+},
+{
+"text": "mitten",
+"start": 16.7,
+"end": 16.92
+},
+{
+"text": "im",
+"start": 16.92,
+"end": 17.1
+},
+{
+"text": "Shampoo:",
+"start": 17.1,
+"end": 17.54
+},
+{
+"text": "die",
+"start": 18.0,
+"end": 18.12
+},
+{
+"text": "perfekte",
+"start": 18.12,
+"end": 18.74
+},
+{
+"text": "Idee.",
+"start": 18.74,
+"end": 19.04
+},
+{
+"text": "Kein",
+"start": 19.5,
+"end": 19.76
+},
+{
+"text": "Stift.",
+"start": 19.76,
+"end": 20.1
+},
+{
+"text": "Kein",
+"start": 20.58,
+"end": 20.84
+},
+{
+"text": "Handy.",
+"start": 20.84,
+"end": 21.16
+},
+{
+"text": "Nur",
+"start": 21.64,
+"end": 21.92
+},
+{
+"text": "Schaum.",
+"start": 21.92,
+"end": 22.44
+},
+{
+"text": "Warum",
+"start": 22.98,
+"end": 23.36
+},
+{
+"text": "kommt",
+"start": 23.36,
+"end": 23.66
+},
+{
+"text": "die",
+"start": 23.66,
+"end": 23.84
+},
+{
+"text": "beste",
+"start": 23.84,
+"end": 24.08
+},
+{
+"text": "Idee",
+"start": 24.08,
+"end": 24.46
+},
+{
+"text": "genau",
+"start": 24.46,
+"end": 24.92
+},
+{
+"text": "dann,",
+"start": 24.92,
+"end": 25.28
+},
+{
+"text": "wenn",
+"start": 25.82,
+"end": 26.06
+},
+{
+"text": "du",
+"start": 26.06,
+"end": 26.18
+},
+{
+"text": "gar",
+"start": 26.18,
+"end": 26.36
+},
+{
+"text": "nicht",
+"start": 26.36,
+"end": 26.5
+},
+{
+"text": "danach",
+"start": 26.5,
+"end": 26.74
+},
+{
+"text": "suchst?",
+"start": 26.74,
+"end": 27.32
+},
+{
+"text": "Kurze",
+"start": 27.66,
+"end": 27.94
+},
+{
+"text": "Frage",
+"start": 27.94,
+"end": 28.18
+},
+{
+"text": "an",
+"start": 28.18,
+"end": 28.46
+},
+{
+"text": "dich:",
+"start": 28.46,
+"end": 28.6
+},
+{
+"text": "Wo",
+"start": 28.6,
+"end": 29.18
+},
+{
+"text": "kommen",
+"start": 29.18,
+"end": 29.42
+},
+{
+"text": "dir",
+"start": 29.42,
+"end": 29.62
+},
+{
+"text": "die",
+"start": 29.62,
+"end": 29.74
+},
+{
+"text": "besten",
+"start": 29.74,
+"end": 30.16
+},
+{
+"text": "Ideen?",
+"start": 30.16,
+"end": 30.86
+},
+{
+"text": "A:",
+"start": 30.86,
+"end": 30.96
+},
+{
+"text": "unter",
+"start": 30.88,
+"end": 31.36
+},
+{
+"text": "der",
+"start": 31.36,
+"end": 31.54
+},
+{
+"text": "Dusche.",
+"start": 31.54,
+"end": 31.9
+},
+{
+"text": "B:",
+"start": 31.9,
+"end": 32.03
+},
+{
+"text": "beim",
+"start": 32.16,
+"end": 32.52
+},
+{
+"text": "Spazierengehen.",
+"start": 32.52,
+"end": 32.97
+},
+{
+"text": "Oder",
+"start": 33.42,
+"end": 34.32
+},
+{
+"text": "C:",
+"start": 34.32,
+"end": 34.42
+},
+{
+"text": "kurz",
+"start": 34.34,
+"end": 35.16
+},
+{
+"text": "vorm",
+"start": 35.16,
+"end": 35.38
+},
+{
+"text": "Einschlafen?",
+"start": 35.38,
+"end": 36.02
+},
+{
+"text": "Merk",
+"start": 36.54,
+"end": 36.74
+},
+{
+"text": "dir",
+"start": 36.74,
+"end": 36.9
+},
+{
+"text": "deine",
+"start": 36.9,
+"end": 37.12
+},
+{
+"text": "Antwort.",
+"start": 37.12,
+"end": 37.56
+},
+{
+"text": "Am",
+"start": 38.24,
+"end": 38.36
+},
+{
+"text": "Ende",
+"start": 38.36,
+"end": 38.66
+},
+{
+"text": "verrate",
+"start": 38.66,
+"end": 39.14
+},
+{
+"text": "ich",
+"start": 39.14,
+"end": 39.34
+},
+{
+"text": "dir,",
+"start": 39.34,
+"end": 39.5
+},
+{
+"text": "was",
+"start": 40.14,
+"end": 40.24
+},
+{
+"text": "alle",
+"start": 40.24,
+"end": 40.66
+},
+{
+"text": "drei",
+"start": 40.66,
+"end": 40.92
+},
+{
+"text": "Orte",
+"start": 40.92,
+"end": 41.4
+},
+{
+"text": "gemeinsam",
+"start": 41.4,
+"end": 41.9
+},
+{
+"text": "haben.",
+"start": 41.9,
+"end": 42.32
+},
+{
+"text": "Erst",
+"start": 47.222,
+"end": 47.272
+},
+{
+"text": "mal",
+"start": 47.242000000000004,
+"end": 47.272
+},
+{
+"text": "ein",
+"start": 47.86,
+"end": 48.18
+},
+{
+"text": "kleines",
+"start": 48.18,
+"end": 48.58
+},
+{
+"text": "Experiment.",
+"start": 48.58,
+"end": 49.24
+},
+{
+"text": "Du",
+"start": 49.96,
+"end": 50.04
+},
+{
+"text": "hast",
+"start": 50.04,
+"end": 50.28
+},
+{
+"text": "zehn",
+"start": 50.28,
+"end": 50.72
+},
+{
+"text": "Sekunden:",
+"start": 50.72,
+"end": 51.32
+},
+{
+"text": "Was",
+"start": 51.8,
+"end": 51.92
+},
+{
+"text": "kann",
+"start": 51.92,
+"end": 52.08
+},
+{
+"text": "man",
+"start": 52.08,
+"end": 52.2
+},
+{
+"text": "alles",
+"start": 52.2,
+"end": 52.48
+},
+{
+"text": "mit",
+"start": 52.48,
+"end": 52.64
+},
+{
+"text": "einem",
+"start": 52.64,
+"end": 52.84
+},
+{
+"text": "Ziegelstein",
+"start": 52.84,
+"end": 53.6
+},
+{
+"text": "machen?",
+"start": 54.817,
+"end": 62.36
+},
+{
+"text": "Los!",
+"start": 54.837,
+"end": 62.36
+},
+{
+"text": "Und?",
+"start": 65.597,
+"end": 65.82
+},
+{
+"text": "Wahrscheinlich:",
+"start": 66.2,
+"end": 66.74
+},
+{
+"text": "bauen,",
+"start": 66.74,
+"end": 67.48
+},
+{
+"text": "werfen,",
+"start": 68.14,
+"end": 68.56
+},
+{
+"text": "vielleicht",
+"start": 69.04,
+"end": 69.44
+},
+{
+"text": "Türstopper.",
+"start": 69.44,
+"end": 70.4
+},
+{
+"text": "Die",
+"start": 70.78,
+"end": 70.9
+},
+{
+"text": "meisten",
+"start": 70.9,
+"end": 71.24
+},
+{
+"text": "bleiben",
+"start": 71.24,
+"end": 71.62
+},
+{
+"text": "bei",
+"start": 71.62,
+"end": 71.9
+},
+{
+"text": "den",
+"start": 71.9,
+"end": 72.02
+},
+{
+"text": "naheliegenden",
+"start": 72.02,
+"end": 72.72
+},
+{
+"text": "Ideen",
+"start": 72.72,
+"end": 73.18
+},
+{
+"text": "hängen.",
+"start": 73.18,
+"end": 73.46
+},
+{
+"text": "Genau",
+"start": 74.04,
+"end": 74.34
+},
+{
+"text": "das",
+"start": 74.34,
+"end": 74.64
+},
+{
+"text": "passiert",
+"start": 74.64,
+"end": 75.04
+},
+{
+"text": "Otto",
+"start": 75.04,
+"end": 75.44
+},
+{
+"text": "am",
+"start": 75.44,
+"end": 75.64
+},
+{
+"text": "Schreibtisch.",
+"start": 75.64,
+"end": 76.2
+},
+{
+"text": "Wenn",
+"start": 76.66,
+"end": 76.74
+},
+{
+"text": "du",
+"start": 76.74,
+"end": 76.86
+},
+{
+"text": "dich",
+"start": 76.86,
+"end": 77.0
+},
+{
+"text": "verbissen",
+"start": 77.0,
+"end": 77.46
+},
+{
+"text": "auf",
+"start": 77.46,
+"end": 77.64
+},
+{
+"text": "ein",
+"start": 77.64,
+"end": 77.76
+},
+{
+"text": "Problem",
+"start": 77.76,
+"end": 78.12
+},
+{
+"text": "konzentrierst,",
+"start": 78.12,
+"end": 79.12
+},
+{
+"text": "läuft",
+"start": 79.54,
+"end": 79.82
+},
+{
+"text": "dein",
+"start": 79.82,
+"end": 80.04
+},
+{
+"text": "Denken",
+"start": 80.04,
+"end": 80.4
+},
+{
+"text": "immer",
+"start": 80.4,
+"end": 80.8
+},
+{
+"text": "wieder",
+"start": 80.8,
+"end": 81.18
+},
+{
+"text": "dieselben",
+"start": 81.18,
+"end": 81.76
+},
+{
+"text": "Wege",
+"start": 81.76,
+"end": 82.08
+},
+{
+"text": "entlang.",
+"start": 82.08,
+"end": 82.46
+},
+{
+"text": "Psychologen",
+"start": 82.46,
+"end": 83.56
+},
+{
+"text": "nennen",
+"start": 83.56,
+"end": 83.76
+},
+{
+"text": "das",
+"start": 83.76,
+"end": 84.1
+},
+{
+"text": "Fixierung.",
+"start": 84.1,
+"end": 85.04
+},
+{
+"text": "Du",
+"start": 85.6,
+"end": 85.82
+},
+{
+"text": "suchst",
+"start": 85.82,
+"end": 86.22
+},
+{
+"text": "nicht",
+"start": 86.22,
+"end": 86.36
+},
+{
+"text": "nach",
+"start": 86.36,
+"end": 86.6
+},
+{
+"text": "neuen",
+"start": 86.6,
+"end": 86.86
+},
+{
+"text": "Lösungen,",
+"start": 86.86,
+"end": 87.4
+},
+{
+"text": "du",
+"start": 87.86,
+"end": 88.06
+},
+{
+"text": "drehst",
+"start": 88.06,
+"end": 88.46
+},
+{
+"text": "dich",
+"start": 88.46,
+"end": 88.56
+},
+{
+"text": "im",
+"start": 88.56,
+"end": 88.72
+},
+{
+"text": "Kreis",
+"start": 88.72,
+"end": 89.28
+},
+{
+"text": "um",
+"start": 89.28,
+"end": 89.44
+},
+{
+"text": "die",
+"start": 89.44,
+"end": 89.58
+},
+{
+"text": "erste,",
+"start": 89.58,
+"end": 90.06
+},
+{
+"text": "die",
+"start": 90.32,
+"end": 90.4
+},
+{
+"text": "dir",
+"start": 90.4,
+"end": 90.56
+},
+{
+"text": "eingefallen",
+"start": 90.56,
+"end": 91.08
+},
+{
+"text": "ist.",
+"start": 91.08,
+"end": 91.4
+},
+{
+"text": "Der",
+"start": 92.02,
+"end": 92.16
+},
+{
+"text": "Psychologe",
+"start": 92.16,
+"end": 92.74
+},
+{
+"text": "Karl",
+"start": 92.74,
+"end": 93.04
+},
+{
+"text": "Duncker",
+"start": 93.04,
+"end": 93.52
+},
+{
+"text": "hat",
+"start": 93.52,
+"end": 93.84
+},
+{
+"text": "das",
+"start": 93.84,
+"end": 93.96
+},
+{
+"text": "schon",
+"start": 93.96,
+"end": 94.18
+},
+{
+"text": "in",
+"start": 94.18,
+"end": 94.38
+},
+{
+"text": "den",
+"start": 94.38,
+"end": 94.52
+},
+{
+"text": "Dreißigerjahren",
+"start": 94.52,
+"end": 94.91
+},
+{
+"text": "gezeigt.",
+"start": 95.3,
+"end": 95.74
+},
+{
+"text": "Er",
+"start": 96.44,
+"end": 96.6
+},
+{
+"text": "gab",
+"start": 96.6,
+"end": 96.76
+},
+{
+"text": "Menschen",
+"start": 96.76,
+"end": 97.2
+},
+{
+"text": "eine",
+"start": 97.2,
+"end": 97.46
+},
+{
+"text": "Kerze,",
+"start": 97.46,
+"end": 98.02
+},
+{
+"text": "eine",
+"start": 98.5,
+"end": 98.64
+},
+{
+"text": "Schachtel",
+"start": 98.64,
+"end": 99.02
+},
+{
+"text": "Reißzwecken",
+"start": 99.02,
+"end": 99.84
+},
+{
+"text": "und",
+"start": 99.84,
+"end": 100.36
+},
+{
+"text": "Streichhölzer.",
+"start": 100.36,
+"end": 101.08
+},
+{
+"text": "Die",
+"start": 101.64,
+"end": 101.86
+},
+{
+"text": "Aufgabe:",
+"start": 101.86,
+"end": 102.24
+},
+{
+"text": "Befestige",
+"start": 102.94,
+"end": 103.54
+},
+{
+"text": "die",
+"start": 103.54,
+"end": 103.7
+},
+{
+"text": "Kerze",
+"start": 103.7,
+"end": 104.14
+},
+{
+"text": "so",
+"start": 104.14,
+"end": 104.44
+},
+{
+"text": "an",
+"start": 104.44,
+"end": 104.66
+},
+{
+"text": "der",
+"start": 104.66,
+"end": 104.78
+},
+{
+"text": "Wand,",
+"start": 104.78,
+"end": 105.04
+},
+{
+"text": "dass",
+"start": 105.44,
+"end": 105.6
+},
+{
+"text": "kein",
+"start": 105.6,
+"end": 105.94
+},
+{
+"text": "Wachs",
+"start": 105.94,
+"end": 106.48
+},
+{
+"text": "auf",
+"start": 106.48,
+"end": 106.64
+},
+{
+"text": "den",
+"start": 106.64,
+"end": 106.8
+},
+{
+"text": "Tisch",
+"start": 106.8,
+"end": 107.02
+},
+{
+"text": "tropft.",
+"start": 107.02,
+"end": 107.44
+},
+{
+"text": "Die",
+"start": 107.98,
+"end": 108.16
+},
+{
+"text": "meisten",
+"start": 108.16,
+"end": 108.52
+},
+{
+"text": "versuchen,",
+"start": 108.52,
+"end": 109.0
+},
+{
+"text": "die",
+"start": 109.0,
+"end": 109.24
+},
+{
+"text": "Kerze",
+"start": 109.24,
+"end": 109.68
+},
+{
+"text": "an",
+"start": 109.68,
+"end": 109.84
+},
+{
+"text": "die",
+"start": 109.84,
+"end": 109.96
+},
+{
+"text": "Wand",
+"start": 109.96,
+"end": 110.14
+},
+{
+"text": "zu",
+"start": 110.14,
+"end": 110.4
+},
+{
+"text": "nageln",
+"start": 110.4,
+"end": 110.98
+},
+{
+"text": "oder",
+"start": 110.98,
+"end": 111.54
+},
+{
+"text": "mit",
+"start": 111.54,
+"end": 111.74
+},
+{
+"text": "Wachs",
+"start": 111.74,
+"end": 112.22
+},
+{
+"text": "festzukleben.",
+"start": 112.22,
+"end": 112.94
+},
+{
+"text": "Die",
+"start": 113.42,
+"end": 113.54
+},
+{
+"text": "Lösung:",
+"start": 113.54,
+"end": 113.94
+},
+{
+"text": "Schachtel",
+"start": 114.48,
+"end": 114.9
+},
+{
+"text": "ausleeren,",
+"start": 114.9,
+"end": 115.5
+},
+{
+"text": "an",
+"start": 116.04,
+"end": 116.2
+},
+{
+"text": "die",
+"start": 116.2,
+"end": 116.32
+},
+{
+"text": "Wand",
+"start": 116.32,
+"end": 116.54
+},
+{
+"text": "pinnen,",
+"start": 116.54,
+"end": 116.9
+},
+{
+"text": "Kerze",
+"start": 117.32,
+"end": 117.72
+},
+{
+"text": "reinstellen.",
+"start": 117.72,
+"end": 118.24
+},
+{
+"text": "Fertig.",
+"start": 118.84,
+"end": 119.36
+},
+{
+"text": "Aber",
+"start": 119.94,
+"end": 120.18
+},
+{
+"text": "weil",
+"start": 120.18,
+"end": 120.38
+},
+{
+"text": "die",
+"start": 120.38,
+"end": 120.52
+},
+{
+"text": "Schachtel",
+"start": 120.52,
+"end": 121.0
+},
+{
+"text": "im",
+"start": 121.0,
+"end": 121.12
+},
+{
+"text": "Kopf",
+"start": 121.12,
+"end": 121.42
+},
+{
+"text": "als",
+"start": 121.42,
+"end": 121.66
+},
+{
+"text": "Behälter",
+"start": 121.66,
+"end": 122.18
+},
+{
+"text": "für",
+"start": 122.18,
+"end": 122.36
+},
+{
+"text": "Reißzwecken",
+"start": 122.36,
+"end": 123.1
+},
+{
+"text": "abgespeichert",
+"start": 123.1,
+"end": 123.86
+},
+{
+"text": "ist,",
+"start": 123.86,
+"end": 124.1
+},
+{
+"text": "sieht",
+"start": 124.6,
+"end": 124.8
+},
+{
+"text": "kaum",
+"start": 124.8,
+"end": 125.14
+},
+{
+"text": "jemand",
+"start": 125.14,
+"end": 125.54
+},
+{
+"text": "das",
+"start": 125.54,
+"end": 125.84
+},
+{
+"text": "kleine",
+"start": 125.84,
+"end": 126.08
+},
+{
+"text": "Regal",
+"start": 126.08,
+"end": 126.54
+},
+{
+"text": "darin.",
+"start": 126.54,
+"end": 126.94
+},
+{
+"text": "Und",
+"start": 127.18,
+"end": 127.36
+},
+{
+"text": "es",
+"start": 127.36,
+"end": 127.5
+},
+{
+"text": "kommt",
+"start": 127.5,
+"end": 127.68
+},
+{
+"text": "noch",
+"start": 127.68,
+"end": 127.94
+},
+{
+"text": "dicker:",
+"start": 127.94,
+"end": 128.4
+},
+{
+"text": "Wer",
+"start": 128.84,
+"end": 129.02
+},
+{
+"text": "einmal",
+"start": 129.02,
+"end": 129.4
+},
+{
+"text": "einen",
+"start": 129.4,
+"end": 129.7
+},
+{
+"text": "Lösungsweg",
+"start": 129.7,
+"end": 130.38
+},
+{
+"text": "gelernt",
+"start": 130.38,
+"end": 130.74
+},
+{
+"text": "hat,",
+"start": 130.74,
+"end": 131.1
+},
+{
+"text": "benutzt",
+"start": 131.48,
+"end": 131.84
+},
+{
+"text": "ihn",
+"start": 131.84,
+"end": 131.98
+},
+{
+"text": "auch",
+"start": 131.98,
+"end": 132.16
+},
+{
+"text": "dann",
+"start": 132.16,
+"end": 132.4
+},
+{
+"text": "noch,",
+"start": 132.4,
+"end": 132.72
+},
+{
+"text": "wenn",
+"start": 132.82,
+"end": 132.94
+},
+{
+"text": "es",
+"start": 132.94,
+"end": 133.08
+},
+{
+"text": "einen",
+"start": 133.08,
+"end": 133.26
+},
+{
+"text": "viel",
+"start": 133.26,
+"end": 133.64
+},
+{
+"text": "einfacheren",
+"start": 133.64,
+"end": 134.54
+},
+{
+"text": "gibt.",
+"start": 134.54,
+"end": 134.78
+},
+{
+"text": "Das",
+"start": 135.44,
+"end": 135.76
+},
+{
+"text": "hat",
+"start": 135.76,
+"end": 135.92
+},
+{
+"text": "der",
+"start": 135.92,
+"end": 136.04
+},
+{
+"text": "Psychologe",
+"start": 136.04,
+"end": 136.54
+},
+{
+"text": "Abraham",
+"start": 136.54,
+"end": 137.04
+},
+{
+"text": "Luchins",
+"start": 137.04,
+"end": 137.38
+},
+{
+"text": "mit",
+"start": 137.72,
+"end": 138.16
+},
+{
+"text": "simplen",
+"start": 138.16,
+"end": 138.62
+},
+{
+"text": "Rätseln",
+"start": 138.62,
+"end": 139.28
+},
+{
+"text": "zum",
+"start": 139.28,
+"end": 139.4
+},
+{
+"text": "Umfüllen",
+"start": 139.4,
+"end": 140.02
+},
+{
+"text": "von",
+"start": 140.02,
+"end": 140.24
+},
+{
+"text": "Wasserkrügen",
+"start": 140.24,
+"end": 140.61
+},
+{
+"text": "gezeigt.",
+"start": 140.98,
+"end": 141.36
+},
+{
+"text": "Und",
+"start": 142.18,
+"end": 142.34
+},
+{
+"text": "je",
+"start": 142.34,
+"end": 142.52
+},
+{
+"text": "verkrampfter",
+"start": 142.52,
+"end": 143.26
+},
+{
+"text": "Otto",
+"start": 143.26,
+"end": 143.54
+},
+{
+"text": "sucht,",
+"start": 143.54,
+"end": 144.26
+},
+{
+"text": "desto",
+"start": 144.54,
+"end": 144.92
+},
+{
+"text": "tiefer",
+"start": 144.92,
+"end": 145.42
+},
+{
+"text": "wird",
+"start": 145.42,
+"end": 145.64
+},
+{
+"text": "die",
+"start": 145.64,
+"end": 145.8
+},
+{
+"text": "Spur.",
+"start": 145.8,
+"end": 146.18
+},
+{
+"text": "Unter",
+"start": 148.639,
+"end": 148.92
+},
+{
+"text": "der",
+"start": 148.92,
+"end": 149.12
+},
+{
+"text": "Dusche",
+"start": 149.12,
+"end": 149.54
+},
+{
+"text": "passiert",
+"start": 149.54,
+"end": 150.34
+},
+{
+"text": "etwas",
+"start": 150.34,
+"end": 150.7
+},
+{
+"text": "anderes.",
+"start": 150.7,
+"end": 151.26
+},
+{
+"text": "Duschen",
+"start": 151.84,
+"end": 152.28
+},
+{
+"text": "kannst",
+"start": 152.28,
+"end": 152.5
+},
+{
+"text": "du",
+"start": 152.5,
+"end": 152.76
+},
+{
+"text": "im",
+"start": 152.76,
+"end": 152.86
+},
+{
+"text": "Schlaf.",
+"start": 152.86,
+"end": 153.24
+},
+{
+"text": "Dein",
+"start": 153.8,
+"end": 153.94
+},
+{
+"text": "Körper",
+"start": 153.94,
+"end": 154.2
+},
+{
+"text": "ist",
+"start": 154.2,
+"end": 154.4
+},
+{
+"text": "beschäftigt,",
+"start": 154.4,
+"end": 155.18
+},
+{
+"text": "dein",
+"start": 155.52,
+"end": 155.68
+},
+{
+"text": "Kopf",
+"start": 155.68,
+"end": 156.02
+},
+{
+"text": "ist",
+"start": 156.02,
+"end": 156.52
+},
+{
+"text": "frei.",
+"start": 156.52,
+"end": 156.88
+},
+{
+"text": "Und",
+"start": 157.32,
+"end": 157.4
+},
+{
+"text": "dann",
+"start": 157.4,
+"end": 157.66
+},
+{
+"text": "fangen",
+"start": 157.66,
+"end": 158.02
+},
+{
+"text": "deine",
+"start": 158.02,
+"end": 158.26
+},
+{
+"text": "Gedanken",
+"start": 158.26,
+"end": 158.74
+},
+{
+"text": "an",
+"start": 158.74,
+"end": 158.96
+},
+{
+"text": "zu",
+"start": 158.96,
+"end": 159.16
+},
+{
+"text": "wandern.",
+"start": 159.16,
+"end": 159.58
+},
+{
+"text": "Das",
+"start": 159.98,
+"end": 160.14
+},
+{
+"text": "ist",
+"start": 160.14,
+"end": 160.32
+},
+{
+"text": "übrigens",
+"start": 160.32,
+"end": 160.66
+},
+{
+"text": "völlig",
+"start": 160.66,
+"end": 160.92
+},
+{
+"text": "normal:",
+"start": 160.92,
+"end": 161.34
+},
+{
+"text": "Eine",
+"start": 161.92,
+"end": 162.08
+},
+{
+"text": "große",
+"start": 162.08,
+"end": 162.36
+},
+{
+"text": "Studie",
+"start": 162.36,
+"end": 162.92
+},
+{
+"text": "aus",
+"start": 162.92,
+"end": 163.1
+},
+{
+"text": "Harvard",
+"start": 163.1,
+"end": 163.5
+},
+{
+"text": "kam",
+"start": 163.5,
+"end": 163.88
+},
+{
+"text": "zu",
+"start": 163.88,
+"end": 164.08
+},
+{
+"text": "dem",
+"start": 164.08,
+"end": 164.24
+},
+{
+"text": "Ergebnis,",
+"start": 164.24,
+"end": 164.7
+},
+{
+"text": "dass",
+"start": 164.7,
+"end": 165.4
+},
+{
+"text": "unsere",
+"start": 165.4,
+"end": 165.7
+},
+{
+"text": "Gedanken",
+"start": 165.7,
+"end": 166.14
+},
+{
+"text": "fast",
+"start": 166.14,
+"end": 166.54
+},
+{
+"text": "die",
+"start": 166.54,
+"end": 166.78
+},
+{
+"text": "Hälfte",
+"start": 166.78,
+"end": 167.2
+},
+{
+"text": "der",
+"start": 167.2,
+"end": 167.4
+},
+{
+"text": "wachen",
+"start": 167.4,
+"end": 167.69
+},
+{
+"text": "Zeit",
+"start": 167.69,
+"end": 167.835
+},
+{
+"text": "abschweifen.",
+"start": 167.98,
+"end": 168.8
+},
+{
+"text": "Hirnforscher",
+"start": 169.28,
+"end": 170.04
+},
+{
+"text": "kennen",
+"start": 170.04,
+"end": 170.3
+},
+{
+"text": "ein",
+"start": 170.3,
+"end": 170.56
+},
+{
+"text": "Netzwerk,",
+"start": 170.56,
+"end": 171.22
+},
+{
+"text": "das",
+"start": 171.6,
+"end": 171.86
+},
+{
+"text": "genau",
+"start": 171.86,
+"end": 172.12
+},
+{
+"text": "dann",
+"start": 172.12,
+"end": 172.44
+},
+{
+"text": "aktiv",
+"start": 172.44,
+"end": 172.88
+},
+{
+"text": "wird,",
+"start": 172.88,
+"end": 173.26
+},
+{
+"text": "wenn",
+"start": 173.38,
+"end": 173.5
+},
+{
+"text": "wir",
+"start": 173.5,
+"end": 173.62
+},
+{
+"text": "nichts",
+"start": 173.62,
+"end": 173.86
+},
+{
+"text": "Bestimmtes",
+"start": 173.86,
+"end": 174.5
+},
+{
+"text": "tun:",
+"start": 174.5,
+"end": 174.82
+},
+{
+"text": "das",
+"start": 175.34,
+"end": 175.48
+},
+{
+"text": "Ruhezustandsnetzwerk,",
+"start": 175.48,
+"end": 176.51
+},
+{
+"text": "auf",
+"start": 177.54,
+"end": 177.74
+},
+{
+"text": "Englisch",
+"start": 177.74,
+"end": 178.48
+},
+{
+"text": "Default",
+"start": 178.48,
+"end": 179.24
+},
+{
+"text": "Mode",
+"start": 179.24,
+"end": 179.7
+},
+{
+"text": "Network.",
+"start": 179.7,
+"end": 180.28
+},
+{
+"text": "Es",
+"start": 180.76,
+"end": 180.92
+},
+{
+"text": "verknüpft",
+"start": 180.92,
+"end": 181.38
+},
+{
+"text": "Erinnerungen,",
+"start": 181.38,
+"end": 182.06
+},
+{
+"text": "Bilder",
+"start": 182.54,
+"end": 182.8
+},
+{
+"text": "und",
+"start": 182.8,
+"end": 183.06
+},
+{
+"text": "Gedanken,",
+"start": 183.06,
+"end": 183.46
+},
+{
+"text": "die",
+"start": 183.92,
+"end": 184.16
+},
+{
+"text": "sonst",
+"start": 184.16,
+"end": 184.42
+},
+{
+"text": "nichts",
+"start": 184.42,
+"end": 184.92
+},
+{
+"text": "miteinander",
+"start": 184.92,
+"end": 185.42
+},
+{
+"text": "zu",
+"start": 185.42,
+"end": 185.78
+},
+{
+"text": "tun",
+"start": 185.78,
+"end": 185.98
+},
+{
+"text": "haben.",
+"start": 185.98,
+"end": 186.26
+},
+{
+"text": "Genau",
+"start": 186.7,
+"end": 187.0
+},
+{
+"text": "das",
+"start": 187.0,
+"end": 187.3
+},
+{
+"text": "ist",
+"start": 187.3,
+"end": 187.6
+},
+{
+"text": "der",
+"start": 187.6,
+"end": 187.8
+},
+{
+"text": "Stoff,",
+"start": 187.8,
+"end": 188.22
+},
+{
+"text": "aus",
+"start": 188.48,
+"end": 188.78
+},
+{
+"text": "dem",
+"start": 188.78,
+"end": 188.96
+},
+{
+"text": "neue",
+"start": 188.96,
+"end": 189.36
+},
+{
+"text": "Ideen",
+"start": 189.36,
+"end": 190.0
+},
+{
+"text": "sind.",
+"start": 190.0,
+"end": 190.2
+},
+{
+"text": "Eine",
+"start": 190.2,
+"end": 190.88
+},
+{
+"text": "Studie",
+"start": 190.88,
+"end": 191.28
+},
+{
+"text": "aus",
+"start": 191.28,
+"end": 191.44
+},
+{
+"text": "dem",
+"start": 191.44,
+"end": 191.56
+},
+{
+"text": "Jahr",
+"start": 191.56,
+"end": 191.74
+},
+{
+"text": "zweitausendzweiundzwanzig",
+"start": 191.74,
+"end": 192.28
+},
+{
+"text": "hat",
+"start": 192.82,
+"end": 193.28
+},
+{
+"text": "gezeigt:",
+"start": 193.28,
+"end": 193.72
+},
+{
+"text": "Am",
+"start": 194.46,
+"end": 194.62
+},
+{
+"text": "meisten",
+"start": 194.62,
+"end": 195.12
+},
+{
+"text": "hilft",
+"start": 195.12,
+"end": 195.62
+},
+{
+"text": "eine",
+"start": 195.62,
+"end": 195.94
+},
+{
+"text": "Tätigkeit,",
+"start": 195.94,
+"end": 196.66
+},
+{
+"text": "die",
+"start": 197.14,
+"end": 197.3
+},
+{
+"text": "dich",
+"start": 197.3,
+"end": 197.46
+},
+{
+"text": "nur",
+"start": 197.46,
+"end": 197.6
+},
+{
+"text": "ein",
+"start": 197.6,
+"end": 197.76
+},
+{
+"text": "bisschen",
+"start": 197.76,
+"end": 198.12
+},
+{
+"text": "beschäftigt.",
+"start": 198.12,
+"end": 199.02
+},
+{
+"text": "Nicht",
+"start": 199.38,
+"end": 199.52
+},
+{
+"text": "zu",
+"start": 199.52,
+"end": 199.72
+},
+{
+"text": "langweilig,",
+"start": 199.72,
+"end": 200.36
+},
+{
+"text": "nicht",
+"start": 200.64,
+"end": 200.74
+},
+{
+"text": "zu",
+"start": 200.74,
+"end": 200.94
+},
+{
+"text": "anstrengend.",
+"start": 200.94,
+"end": 201.56
+},
+{
+"text": "Also",
+"start": 201.94,
+"end": 202.16
+},
+{
+"text": "genau",
+"start": 202.16,
+"end": 202.48
+},
+{
+"text": "wie",
+"start": 202.48,
+"end": 202.66
+},
+{
+"text": "Duschen.",
+"start": 202.66,
+"end": 203.1
+},
+{
+"text": "Oder",
+"start": 203.1,
+"end": 203.7
+},
+{
+"text": "Spazierengehen.",
+"start": 203.7,
+"end": 204.57
+},
+{
+"text": "Und",
+"start": 205.44,
+"end": 205.56
+},
+{
+"text": "die",
+"start": 205.56,
+"end": 205.7
+},
+{
+"text": "Dusche",
+"start": 205.7,
+"end": 206.06
+},
+{
+"text": "hat",
+"start": 206.06,
+"end": 206.24
+},
+{
+"text": "noch",
+"start": 206.24,
+"end": 206.42
+},
+{
+"text": "einen",
+"start": 206.42,
+"end": 206.62
+},
+{
+"text": "Vorteil:",
+"start": 206.62,
+"end": 207.32
+},
+{
+"text": "Sie",
+"start": 207.72,
+"end": 207.82
+},
+{
+"text": "ist",
+"start": 207.82,
+"end": 208.02
+},
+{
+"text": "einer",
+"start": 208.02,
+"end": 208.22
+},
+{
+"text": "der",
+"start": 208.22,
+"end": 208.4
+},
+{
+"text": "letzten",
+"start": 208.4,
+"end": 208.76
+},
+{
+"text": "Orte",
+"start": 208.76,
+"end": 209.44
+},
+{
+"text": "ohne",
+"start": 209.74,
+"end": 210.18
+},
+{
+"text": "Bildschirm.",
+"start": 210.18,
+"end": 210.84
+},
+{
+"text": "Kein",
+"start": 211.26,
+"end": 211.5
+},
+{
+"text": "Handy,",
+"start": 211.5,
+"end": 211.82
+},
+{
+"text": "keine",
+"start": 212.4,
+"end": 212.58
+},
+{
+"text": "Mails,",
+"start": 212.58,
+"end": 213.02
+},
+{
+"text": "keine",
+"start": 213.5,
+"end": 213.66
+},
+{
+"text": "Nachrichten.",
+"start": 213.66,
+"end": 214.34
+},
+{
+"text": "Das",
+"start": 214.8,
+"end": 214.94
+},
+{
+"text": "warme",
+"start": 214.94,
+"end": 215.32
+},
+{
+"text": "Wasser",
+"start": 215.32,
+"end": 215.56
+},
+{
+"text": "entspannt,",
+"start": 215.56,
+"end": 216.1
+},
+{
+"text": "das",
+"start": 216.1,
+"end": 216.78
+},
+{
+"text": "gleichmäßige",
+"start": 216.78,
+"end": 217.58
+},
+{
+"text": "Rauschen",
+"start": 217.58,
+"end": 218.16
+},
+{
+"text": "schirmt",
+"start": 218.16,
+"end": 218.62
+},
+{
+"text": "Geräusche",
+"start": 218.62,
+"end": 219.24
+},
+{
+"text": "ab.",
+"start": 219.24,
+"end": 219.5
+},
+{
+"text": "Du",
+"start": 219.9,
+"end": 219.96
+},
+{
+"text": "bist",
+"start": 219.96,
+"end": 220.16
+},
+{
+"text": "allein",
+"start": 220.16,
+"end": 220.6
+},
+{
+"text": "mit",
+"start": 220.6,
+"end": 220.84
+},
+{
+"text": "deinen",
+"start": 220.84,
+"end": 221.06
+},
+{
+"text": "Gedanken.",
+"start": 221.06,
+"end": 221.56
+},
+{
+"text": "Und",
+"start": 222.14,
+"end": 222.22
+},
+{
+"text": "genau",
+"start": 222.22,
+"end": 222.56
+},
+{
+"text": "das",
+"start": 222.56,
+"end": 222.9
+},
+{
+"text": "passiert",
+"start": 222.9,
+"end": 223.82
+},
+{
+"text": "im",
+"start": 223.82,
+"end": 224.06
+},
+{
+"text": "Alltag",
+"start": 224.06,
+"end": 224.6
+},
+{
+"text": "sonst",
+"start": 224.6,
+"end": 225.16
+},
+{
+"text": "kaum",
+"start": 225.16,
+"end": 225.58
+},
+{
+"text": "noch.",
+"start": 225.58,
+"end": 225.96
+},
+{
+"text": "Aber",
+"start": 228.441,
+"end": 228.62
+},
+{
+"text": "Achtung:",
+"start": 228.62,
+"end": 229.14
+},
+{
+"text": "Die",
+"start": 229.58,
+"end": 229.7
+},
+{
+"text": "Dusche",
+"start": 229.7,
+"end": 230.12
+},
+{
+"text": "zaubert",
+"start": 230.12,
+"end": 230.7
+},
+{
+"text": "keine",
+"start": 230.7,
+"end": 231.0
+},
+{
+"text": "Ideen",
+"start": 231.0,
+"end": 231.58
+},
+{
+"text": "aus",
+"start": 231.58,
+"end": 231.76
+},
+{
+"text": "dem",
+"start": 231.76,
+"end": 231.92
+},
+{
+"text": "Nichts.",
+"start": 231.92,
+"end": 232.2
+},
+{
+"text": "Der",
+"start": 232.7,
+"end": 232.84
+},
+{
+"text": "Mathematiker",
+"start": 232.84,
+"end": 233.48
+},
+{
+"text": "Henri",
+"start": 233.48,
+"end": 233.8
+},
+{
+"text": "Poincaré",
+"start": 233.8,
+"end": 234.44
+},
+{
+"text": "hat",
+"start": 234.44,
+"end": 234.76
+},
+{
+"text": "beschrieben,",
+"start": 234.76,
+"end": 235.36
+},
+{
+"text": "wie",
+"start": 235.98,
+"end": 236.1
+},
+{
+"text": "ihm",
+"start": 236.1,
+"end": 236.3
+},
+{
+"text": "die",
+"start": 236.3,
+"end": 236.42
+},
+{
+"text": "Lösung",
+"start": 236.42,
+"end": 236.88
+},
+{
+"text": "für",
+"start": 236.88,
+"end": 237.14
+},
+{
+"text": "ein",
+"start": 237.14,
+"end": 237.32
+},
+{
+"text": "Problem,",
+"start": 237.32,
+"end": 237.78
+},
+{
+"text": "an",
+"start": 237.98,
+"end": 238.1
+},
+{
+"text": "dem",
+"start": 238.1,
+"end": 238.2
+},
+{
+"text": "er",
+"start": 238.2,
+"end": 238.32
+},
+{
+"text": "wochenlang",
+"start": 238.32,
+"end": 238.78
+},
+{
+"text": "gesessen",
+"start": 238.78,
+"end": 239.2
+},
+{
+"text": "hatte,",
+"start": 239.2,
+"end": 239.6
+},
+{
+"text": "plötzlich",
+"start": 240.14,
+"end": 240.6
+},
+{
+"text": "einfiel,",
+"start": 240.6,
+"end": 241.42
+},
+{
+"text": "als",
+"start": 241.76,
+"end": 242.02
+},
+{
+"text": "er",
+"start": 242.02,
+"end": 242.24
+},
+{
+"text": "in",
+"start": 242.24,
+"end": 242.4
+},
+{
+"text": "einen",
+"start": 242.4,
+"end": 242.62
+},
+{
+"text": "Bus",
+"start": 242.62,
+"end": 242.94
+},
+{
+"text": "stieg.",
+"start": 242.94,
+"end": 243.36
+},
+{
+"text": "Ohne",
+"start": 243.8,
+"end": 244.1
+},
+{
+"text": "die",
+"start": 244.1,
+"end": 244.22
+},
+{
+"text": "Wochen",
+"start": 244.22,
+"end": 244.44
+},
+{
+"text": "davor",
+"start": 244.44,
+"end": 244.92
+},
+{
+"text": "wäre",
+"start": 244.92,
+"end": 245.54
+},
+{
+"text": "sie",
+"start": 245.54,
+"end": 245.78
+},
+{
+"text": "nie",
+"start": 245.78,
+"end": 246.06
+},
+{
+"text": "gekommen.",
+"start": 246.06,
+"end": 246.44
+},
+{
+"text": "Psychologen",
+"start": 246.92,
+"end": 247.54
+},
+{
+"text": "nennen",
+"start": 247.54,
+"end": 247.8
+},
+{
+"text": "das",
+"start": 247.8,
+"end": 248.1
+},
+{
+"text": "Inkubation:",
+"start": 248.1,
+"end": 249.14
+},
+{
+"text": "Erst",
+"start": 249.82,
+"end": 250.06
+},
+{
+"text": "arbeitest",
+"start": 250.06,
+"end": 250.7
+},
+{
+"text": "du",
+"start": 250.7,
+"end": 250.84
+},
+{
+"text": "hart",
+"start": 250.84,
+"end": 251.1
+},
+{
+"text": "an",
+"start": 251.1,
+"end": 251.36
+},
+{
+"text": "einem",
+"start": 251.36,
+"end": 251.58
+},
+{
+"text": "Problem.",
+"start": 251.58,
+"end": 251.96
+},
+{
+"text": "Dann",
+"start": 252.4,
+"end": 252.62
+},
+{
+"text": "lässt",
+"start": 252.62,
+"end": 252.86
+},
+{
+"text": "du",
+"start": 252.86,
+"end": 253.04
+},
+{
+"text": "los.",
+"start": 253.04,
+"end": 253.34
+},
+{
+"text": "Und",
+"start": 253.86,
+"end": 253.92
+},
+{
+"text": "im",
+"start": 253.92,
+"end": 254.06
+},
+{
+"text": "Hintergrund",
+"start": 254.06,
+"end": 254.6
+},
+{
+"text": "arbeitet",
+"start": 254.6,
+"end": 255.16
+},
+{
+"text": "dein",
+"start": 255.16,
+"end": 255.4
+},
+{
+"text": "Gehirn",
+"start": 255.4,
+"end": 255.78
+},
+{
+"text": "weiter.",
+"start": 255.78,
+"end": 256.06
+},
+{
+"text": "Viele",
+"start": 256.58,
+"end": 256.8
+},
+{
+"text": "Studien",
+"start": 256.8,
+"end": 257.18
+},
+{
+"text": "zeigen:",
+"start": 257.18,
+"end": 257.72
+},
+{
+"text": "Eine",
+"start": 258.38,
+"end": 258.6
+},
+{
+"text": "Pause",
+"start": 258.6,
+"end": 259.0
+},
+{
+"text": "nach",
+"start": 259.0,
+"end": 259.28
+},
+{
+"text": "der",
+"start": 259.28,
+"end": 259.44
+},
+{
+"text": "Anstrengung",
+"start": 259.44,
+"end": 260.08
+},
+{
+"text": "bringt",
+"start": 260.08,
+"end": 260.36
+},
+{
+"text": "oft",
+"start": 260.36,
+"end": 260.68
+},
+{
+"text": "bessere",
+"start": 260.68,
+"end": 261.18
+},
+{
+"text": "Lösungen,",
+"start": 261.18,
+"end": 261.66
+},
+{
+"text": "als",
+"start": 262.1,
+"end": 262.48
+},
+{
+"text": "stur",
+"start": 262.48,
+"end": 262.77
+},
+{
+"text": "weiterzumachen.",
+"start": 263.06,
+"end": 263.76
+},
+{
+"text": "Schon",
+"start": 264.18,
+"end": 264.4
+},
+{
+"text": "neunzehnhundertsechsundzwanzig",
+"start": 264.4,
+"end": 265.01
+},
+{
+"text": "hat",
+"start": 265.62,
+"end": 266.1
+},
+{
+"text": "der",
+"start": 266.1,
+"end": 266.22
+},
+{
+"text": "Psychologe",
+"start": 266.22,
+"end": 266.84
+},
+{
+"text": "Graham",
+"start": 266.84,
+"end": 267.18
+},
+{
+"text": "Wallas",
+"start": 267.18,
+"end": 267.4
+},
+{
+"text": "das",
+"start": 267.62,
+"end": 268.32
+},
+{
+"text": "in",
+"start": 268.32,
+"end": 268.5
+},
+{
+"text": "vier",
+"start": 268.5,
+"end": 268.74
+},
+{
+"text": "Phasen",
+"start": 268.74,
+"end": 269.26
+},
+{
+"text": "beschrieben:",
+"start": 269.26,
+"end": 269.76
+},
+{
+"text": "Vorbereitung,",
+"start": 270.2,
+"end": 270.84
+},
+{
+"text": "Inkubation,",
+"start": 270.84,
+"end": 272.0
+},
+{
+"text": "Erleuchtung",
+"start": 272.7,
+"end": 273.36
+},
+{
+"text": "und",
+"start": 273.36,
+"end": 273.9
+},
+{
+"text": "Überprüfung.",
+"start": 273.9,
+"end": 274.7
+},
+{
+"text": "Die",
+"start": 275.02,
+"end": 275.22
+},
+{
+"text": "letzte",
+"start": 275.22,
+"end": 275.44
+},
+{
+"text": "Phase",
+"start": 275.44,
+"end": 275.82
+},
+{
+"text": "wird",
+"start": 275.82,
+"end": 276.06
+},
+{
+"text": "gern",
+"start": 276.06,
+"end": 276.26
+},
+{
+"text": "vergessen.",
+"start": 276.26,
+"end": 276.76
+},
+{
+"text": "Denn",
+"start": 277.26,
+"end": 277.4
+},
+{
+"text": "nicht",
+"start": 277.4,
+"end": 277.66
+},
+{
+"text": "jede",
+"start": 277.66,
+"end": 278.02
+},
+{
+"text": "Dusch-Idee",
+"start": 278.02,
+"end": 278.41
+},
+{
+"text": "ist",
+"start": 278.8,
+"end": 278.96
+},
+{
+"text": "genial.",
+"start": 278.96,
+"end": 279.36
+},
+{
+"text": "Manche",
+"start": 279.94,
+"end": 280.28
+},
+{
+"text": "sehen",
+"start": 280.28,
+"end": 280.52
+},
+{
+"text": "beim",
+"start": 280.52,
+"end": 280.7
+},
+{
+"text": "Abtrocknen",
+"start": 280.7,
+"end": 281.32
+},
+{
+"text": "schon",
+"start": 281.32,
+"end": 281.52
+},
+{
+"text": "ganz",
+"start": 281.52,
+"end": 281.78
+},
+{
+"text": "anders",
+"start": 281.78,
+"end": 282.12
+},
+{
+"text": "aus.",
+"start": 282.12,
+"end": 282.5
+},
+{
+"text": "Und",
+"start": 283.02,
+"end": 283.12
+},
+{
+"text": "kurz",
+"start": 283.12,
+"end": 283.42
+},
+{
+"text": "bevor",
+"start": 283.42,
+"end": 283.78
+},
+{
+"text": "der",
+"start": 283.78,
+"end": 283.96
+},
+{
+"text": "Geistesblitz",
+"start": 283.96,
+"end": 284.7
+},
+{
+"text": "kommt,",
+"start": 284.7,
+"end": 285.06
+},
+{
+"text": "blendet",
+"start": 285.7,
+"end": 286.16
+},
+{
+"text": "dein",
+"start": 286.16,
+"end": 286.46
+},
+{
+"text": "Gehirn",
+"start": 286.46,
+"end": 287.0
+},
+{
+"text": "die",
+"start": 287.0,
+"end": 287.18
+},
+{
+"text": "Außenwelt",
+"start": 287.18,
+"end": 287.8
+},
+{
+"text": "für",
+"start": 287.8,
+"end": 288.02
+},
+{
+"text": "einen",
+"start": 288.02,
+"end": 288.24
+},
+{
+"text": "Moment",
+"start": 288.24,
+"end": 288.62
+},
+{
+"text": "ein",
+"start": 288.62,
+"end": 288.84
+},
+{
+"text": "Stück",
+"start": 288.84,
+"end": 289.04
+},
+{
+"text": "weit",
+"start": 289.04,
+"end": 289.26
+},
+{
+"text": "aus,",
+"start": 289.26,
+"end": 289.7
+},
+{
+"text": "damit",
+"start": 289.94,
+"end": 290.48
+},
+{
+"text": "die",
+"start": 290.48,
+"end": 290.68
+},
+{
+"text": "leise",
+"start": 290.68,
+"end": 291.06
+},
+{
+"text": "Idee",
+"start": 291.06,
+"end": 291.44
+},
+{
+"text": "durchkommt.",
+"start": 291.44,
+"end": 292.18
+},
+{
+"text": "Pausier",
+"start": 292.18,
+"end": 292.49
+},
+{
+"text": "mal",
+"start": 292.8,
+"end": 293.1
+},
+{
+"text": "kurz:",
+"start": 293.1,
+"end": 293.42
+},
+{
+"text": "Wann",
+"start": 293.94,
+"end": 294.14
+},
+{
+"text": "hattest",
+"start": 294.14,
+"end": 294.48
+},
+{
+"text": "du",
+"start": 294.48,
+"end": 294.6
+},
+{
+"text": "deinen",
+"start": 294.6,
+"end": 294.8
+},
+{
+"text": "letzten",
+"start": 294.8,
+"end": 295.2
+},
+{
+"text": "Geistesblitz?",
+"start": 295.2,
+"end": 296.24
+},
+{
+"text": "Und",
+"start": 296.7,
+"end": 296.8
+},
+{
+"text": "was",
+"start": 296.8,
+"end": 296.96
+},
+{
+"text": "hast",
+"start": 296.96,
+"end": 297.14
+},
+{
+"text": "du",
+"start": 297.14,
+"end": 297.28
+},
+{
+"text": "in",
+"start": 297.28,
+"end": 297.42
+},
+{
+"text": "dem",
+"start": 297.42,
+"end": 297.56
+},
+{
+"text": "Moment",
+"start": 297.56,
+"end": 297.84
+},
+{
+"text": "gerade",
+"start": 297.84,
+"end": 298.2
+},
+{
+"text": "gemacht?",
+"start": 298.2,
+"end": 298.66
+},
+{
+"text": "Die",
+"start": 302.586,
+"end": 302.74
+},
+{
+"text": "gute",
+"start": 302.74,
+"end": 303.0
+},
+{
+"text": "Nachricht:",
+"start": 303.0,
+"end": 303.56
+},
+{
+"text": "Du",
+"start": 304.04,
+"end": 304.12
+},
+{
+"text": "musst",
+"start": 304.12,
+"end": 304.32
+},
+{
+"text": "nicht",
+"start": 304.32,
+"end": 304.56
+},
+{
+"text": "dreimal",
+"start": 304.56,
+"end": 305.16
+},
+{
+"text": "am",
+"start": 305.16,
+"end": 305.36
+},
+{
+"text": "Tag",
+"start": 305.36,
+"end": 305.58
+},
+{
+"text": "duschen.",
+"start": 305.58,
+"end": 306.02
+},
+{
+"text": "Du",
+"start": 306.44,
+"end": 306.52
+},
+{
+"text": "kannst",
+"start": 306.52,
+"end": 306.7
+},
+{
+"text": "den",
+"start": 306.7,
+"end": 307.02
+},
+{
+"text": "Dusch-Effekt",
+"start": 307.02,
+"end": 307.76
+},
+{
+"text": "gezielt",
+"start": 307.76,
+"end": 308.36
+},
+{
+"text": "nutzen.",
+"start": 308.36,
+"end": 308.78
+},
+{
+"text": "Mit",
+"start": 309.26,
+"end": 309.36
+},
+{
+"text": "fünf",
+"start": 309.36,
+"end": 309.62
+},
+{
+"text": "Hacks.",
+"start": 309.62,
+"end": 310.1
+},
+{
+"text": "Hack",
+"start": 310.1,
+"end": 310.34
+},
+{
+"text": "Nummer",
+"start": 310.58,
+"end": 310.82
+},
+{
+"text": "eins:",
+"start": 310.82,
+"end": 311.2
+},
+{
+"text": "Erst",
+"start": 311.62,
+"end": 311.92
+},
+{
+"text": "füttern,",
+"start": 311.92,
+"end": 312.38
+},
+{
+"text": "dann",
+"start": 312.86,
+"end": 313.0
+},
+{
+"text": "loslassen.",
+"start": 313.0,
+"end": 313.64
+},
+{
+"text": "Beschäftige",
+"start": 314.04,
+"end": 314.56
+},
+{
+"text": "dich",
+"start": 314.56,
+"end": 314.72
+},
+{
+"text": "zwanzig",
+"start": 314.72,
+"end": 314.92
+},
+{
+"text": "Minuten",
+"start": 315.12,
+"end": 315.52
+},
+{
+"text": "richtig",
+"start": 315.52,
+"end": 316.04
+},
+{
+"text": "mit",
+"start": 316.04,
+"end": 316.36
+},
+{
+"text": "dem",
+"start": 316.36,
+"end": 316.5
+},
+{
+"text": "Problem.",
+"start": 316.5,
+"end": 316.9
+},
+{
+"text": "Erst",
+"start": 317.38,
+"end": 317.58
+},
+{
+"text": "dann",
+"start": 317.58,
+"end": 317.86
+},
+{
+"text": "kommt",
+"start": 317.86,
+"end": 318.1
+},
+{
+"text": "die",
+"start": 318.1,
+"end": 318.26
+},
+{
+"text": "Pause.",
+"start": 318.26,
+"end": 318.54
+},
+{
+"text": "Ohne",
+"start": 319.08,
+"end": 319.36
+},
+{
+"text": "Futter",
+"start": 319.36,
+"end": 319.66
+},
+{
+"text": "kein",
+"start": 320.2,
+"end": 320.42
+},
+{
+"text": "Geistesblitz.",
+"start": 320.42,
+"end": 321.36
+},
+{
+"text": "Hack",
+"start": 321.36,
+"end": 321.65
+},
+{
+"text": "Nummer",
+"start": 321.94,
+"end": 322.22
+},
+{
+"text": "zwei:",
+"start": 322.22,
+"end": 322.64
+},
+{
+"text": "Langweilige",
+"start": 323.06,
+"end": 323.64
+},
+{
+"text": "Pause",
+"start": 323.64,
+"end": 324.06
+},
+{
+"text": "statt",
+"start": 324.06,
+"end": 324.56
+},
+{
+"text": "Handy.",
+"start": 324.56,
+"end": 325.02
+},
+{
+"text": "Wer",
+"start": 325.5,
+"end": 325.58
+},
+{
+"text": "in",
+"start": 325.58,
+"end": 325.7
+},
+{
+"text": "der",
+"start": 325.7,
+"end": 325.8
+},
+{
+"text": "Pause",
+"start": 325.8,
+"end": 326.12
+},
+{
+"text": "scrollt,",
+"start": 326.12,
+"end": 326.88
+},
+{
+"text": "füllt",
+"start": 327.02,
+"end": 327.32
+},
+{
+"text": "den",
+"start": 327.32,
+"end": 327.46
+},
+{
+"text": "Kopf",
+"start": 327.46,
+"end": 327.68
+},
+{
+"text": "sofort",
+"start": 327.68,
+"end": 328.1
+},
+{
+"text": "wieder",
+"start": 328.1,
+"end": 328.32
+},
+{
+"text": "auf.",
+"start": 328.32,
+"end": 328.72
+},
+{
+"text": "Dann",
+"start": 329.04,
+"end": 329.26
+},
+{
+"text": "können",
+"start": 329.26,
+"end": 329.44
+},
+{
+"text": "die",
+"start": 329.44,
+"end": 329.62
+},
+{
+"text": "Gedanken",
+"start": 329.62,
+"end": 329.92
+},
+{
+"text": "nicht",
+"start": 329.92,
+"end": 330.28
+},
+{
+"text": "wandern.",
+"start": 330.28,
+"end": 330.72
+},
+{
+"text": "In",
+"start": 331.12,
+"end": 331.22
+},
+{
+"text": "einer",
+"start": 331.22,
+"end": 331.42
+},
+{
+"text": "Studie",
+"start": 331.42,
+"end": 331.88
+},
+{
+"text": "wurden",
+"start": 331.88,
+"end": 332.12
+},
+{
+"text": "die",
+"start": 332.12,
+"end": 332.34
+},
+{
+"text": "Ideen",
+"start": 332.34,
+"end": 332.74
+},
+{
+"text": "vor",
+"start": 332.74,
+"end": 332.92
+},
+{
+"text": "allem",
+"start": 332.92,
+"end": 333.1
+},
+{
+"text": "dann",
+"start": 333.1,
+"end": 333.28
+},
+{
+"text": "besser,",
+"start": 333.28,
+"end": 333.68
+},
+{
+"text": "wenn",
+"start": 334.14,
+"end": 334.24
+},
+{
+"text": "die",
+"start": 334.24,
+"end": 334.36
+},
+{
+"text": "Pause",
+"start": 334.36,
+"end": 334.7
+},
+{
+"text": "aus",
+"start": 334.7,
+"end": 334.92
+},
+{
+"text": "einer",
+"start": 334.92,
+"end": 335.12
+},
+{
+"text": "einfachen,",
+"start": 335.12,
+"end": 336.08
+},
+{
+"text": "eher",
+"start": 336.08,
+"end": 336.38
+},
+{
+"text": "langweiligen",
+"start": 336.38,
+"end": 337.14
+},
+{
+"text": "Aufgabe",
+"start": 337.14,
+"end": 337.54
+},
+{
+"text": "bestand.",
+"start": 337.54,
+"end": 338.16
+},
+{
+"text": "Hack",
+"start": 338.16,
+"end": 338.46
+},
+{
+"text": "Nummer",
+"start": 338.76,
+"end": 339.0
+},
+{
+"text": "drei:",
+"start": 339.0,
+"end": 339.42
+},
+{
+"text": "Beweg",
+"start": 339.42,
+"end": 339.76
+},
+{
+"text": "dich.",
+"start": 340.1,
+"end": 340.32
+},
+{
+"text": "In",
+"start": 340.74,
+"end": 340.86
+},
+{
+"text": "einer",
+"start": 340.86,
+"end": 341.04
+},
+{
+"text": "Studie",
+"start": 341.04,
+"end": 341.48
+},
+{
+"text": "der",
+"start": 341.48,
+"end": 341.6
+},
+{
+"text": "Stanford",
+"start": 341.6,
+"end": 342.0
+},
+{
+"text": "University",
+"start": 342.0,
+"end": 342.74
+},
+{
+"text": "hatten",
+"start": 342.74,
+"end": 343.46
+},
+{
+"text": "Menschen",
+"start": 343.46,
+"end": 343.82
+},
+{
+"text": "beim",
+"start": 343.82,
+"end": 344.06
+},
+{
+"text": "Gehen",
+"start": 344.06,
+"end": 344.48
+},
+{
+"text": "deutlich",
+"start": 344.48,
+"end": 344.9
+},
+{
+"text": "mehr",
+"start": 344.9,
+"end": 345.3
+},
+{
+"text": "kreative",
+"start": 345.3,
+"end": 345.98
+},
+{
+"text": "Ideen",
+"start": 345.98,
+"end": 346.7
+},
+{
+"text": "als",
+"start": 346.7,
+"end": 347.0
+},
+{
+"text": "im",
+"start": 347.0,
+"end": 347.18
+},
+{
+"text": "Sitzen.",
+"start": 347.18,
+"end": 347.56
+},
+{
+"text": "Hack",
+"start": 347.56,
+"end": 347.84
+},
+{
+"text": "Nummer",
+"start": 348.12,
+"end": 348.38
+},
+{
+"text": "vier:",
+"start": 348.38,
+"end": 348.74
+},
+{
+"text": "der",
+"start": 349.26,
+"end": 349.31
+},
+{
+"text": "Ideen-Fänger.",
+"start": 349.3,
+"end": 350.16
+},
+{
+"text": "Leg",
+"start": 350.16,
+"end": 350.53
+},
+{
+"text": "Zettel",
+"start": 350.9,
+"end": 351.14
+},
+{
+"text": "und",
+"start": 351.14,
+"end": 351.26
+},
+{
+"text": "Stift",
+"start": 351.26,
+"end": 351.54
+},
+{
+"text": "neben",
+"start": 351.54,
+"end": 351.84
+},
+{
+"text": "dein",
+"start": 351.84,
+"end": 352.04
+},
+{
+"text": "Bett,",
+"start": 352.04,
+"end": 352.3
+},
+{
+"text": "nimm",
+"start": 352.76,
+"end": 352.84
+},
+{
+"text": "unterwegs",
+"start": 352.84,
+"end": 353.3
+},
+{
+"text": "eine",
+"start": 353.3,
+"end": 353.62
+},
+{
+"text": "Sprachnotiz",
+"start": 353.62,
+"end": 354.4
+},
+{
+"text": "auf.",
+"start": 354.4,
+"end": 354.66
+},
+{
+"text": "Und",
+"start": 355.06,
+"end": 355.24
+},
+{
+"text": "ja:",
+"start": 355.24,
+"end": 355.48
+},
+{
+"text": "Es",
+"start": 355.48,
+"end": 356.02
+},
+{
+"text": "gibt",
+"start": 356.02,
+"end": 356.2
+},
+{
+"text": "sogar",
+"start": 356.2,
+"end": 356.46
+},
+{
+"text": "wasserfeste",
+"start": 356.46,
+"end": 357.14
+},
+{
+"text": "Notizblöcke",
+"start": 357.14,
+"end": 357.94
+},
+{
+"text": "für",
+"start": 357.94,
+"end": 358.12
+},
+{
+"text": "die",
+"start": 358.12,
+"end": 358.26
+},
+{
+"text": "Dusche.",
+"start": 358.26,
+"end": 358.62
+},
+{
+"text": "Hack",
+"start": 358.62,
+"end": 358.9
+},
+{
+"text": "Nummer",
+"start": 359.18,
+"end": 359.4
+},
+{
+"text": "fünf:",
+"start": 359.4,
+"end": 359.78
+},
+{
+"text": "Schlaf",
+"start": 360.42,
+"end": 360.58
+},
+{
+"text": "drüber.",
+"start": 360.58,
+"end": 361.02
+},
+{
+"text": "In",
+"start": 361.4,
+"end": 361.5
+},
+{
+"text": "einem",
+"start": 361.5,
+"end": 361.7
+},
+{
+"text": "Experiment,",
+"start": 361.7,
+"end": 362.22
+},
+{
+"text": "das",
+"start": 362.6,
+"end": 362.82
+},
+{
+"text": "im",
+"start": 362.82,
+"end": 363.0
+},
+{
+"text": "Fachjournal",
+"start": 363.0,
+"end": 363.54
+},
+{
+"text": "Nature",
+"start": 363.54,
+"end": 363.98
+},
+{
+"text": "erschienen",
+"start": 363.98,
+"end": 364.5
+},
+{
+"text": "ist,",
+"start": 364.5,
+"end": 364.78
+},
+{
+"text": "sollten",
+"start": 365.26,
+"end": 365.48
+},
+{
+"text": "Versuchspersonen",
+"start": 365.48,
+"end": 366.48
+},
+{
+"text": "Zahlenaufgaben",
+"start": 366.48,
+"end": 367.4
+},
+{
+"text": "lösen,",
+"start": 367.4,
+"end": 367.84
+},
+{
+"text": "in",
+"start": 368.28,
+"end": 368.46
+},
+{
+"text": "denen",
+"start": 368.46,
+"end": 368.66
+},
+{
+"text": "eine",
+"start": 368.66,
+"end": 368.96
+},
+{
+"text": "versteckte",
+"start": 368.96,
+"end": 369.48
+},
+{
+"text": "Abkürzung",
+"start": 369.48,
+"end": 370.0
+},
+{
+"text": "steckte.",
+"start": 370.0,
+"end": 370.5
+},
+{
+"text": "Wer",
+"start": 370.84,
+"end": 370.98
+},
+{
+"text": "zwischendurch",
+"start": 370.98,
+"end": 371.48
+},
+{
+"text": "geschlafen",
+"start": 371.48,
+"end": 372.02
+},
+{
+"text": "hatte,",
+"start": 372.02,
+"end": 372.32
+},
+{
+"text": "entdeckte",
+"start": 372.8,
+"end": 373.24
+},
+{
+"text": "die",
+"start": 373.24,
+"end": 373.34
+},
+{
+"text": "Abkürzung",
+"start": 373.34,
+"end": 373.9
+},
+{
+"text": "mehr",
+"start": 373.9,
+"end": 374.16
+},
+{
+"text": "als",
+"start": 374.16,
+"end": 374.36
+},
+{
+"text": "doppelt",
+"start": 374.36,
+"end": 374.8
+},
+{
+"text": "so",
+"start": 374.8,
+"end": 374.98
+},
+{
+"text": "oft",
+"start": 374.98,
+"end": 375.26
+},
+{
+"text": "wie",
+"start": 375.26,
+"end": 375.76
+},
+{
+"text": "die",
+"start": 375.76,
+"end": 375.9
+},
+{
+"text": "Leute,",
+"start": 375.9,
+"end": 376.2
+},
+{
+"text": "die",
+"start": 376.38,
+"end": 376.46
+},
+{
+"text": "die",
+"start": 376.46,
+"end": 376.62
+},
+{
+"text": "gleiche",
+"start": 376.62,
+"end": 377.04
+},
+{
+"text": "Zeit",
+"start": 377.04,
+"end": 377.26
+},
+{
+"text": "wach",
+"start": 377.26,
+"end": 377.61
+},
+{
+"text": "geblieben",
+"start": 377.61,
+"end": 377.785
+},
+{
+"text": "waren.",
+"start": 377.96,
+"end": 378.3
+},
+{
+"text": "Otto",
+"start": 378.604,
+"end": 378.86
+},
+{
+"text": "hat",
+"start": 378.86,
+"end": 379.04
+},
+{
+"text": "es",
+"start": 379.04,
+"end": 379.18
+},
+{
+"text": "ausprobiert.",
+"start": 379.18,
+"end": 379.88
+},
+{
+"text": "Zwanzig",
+"start": 379.88,
+"end": 380.31
+},
+{
+"text": "Minuten",
+"start": 380.74,
+"end": 381.28
+},
+{
+"text": "volle",
+"start": 381.28,
+"end": 381.94
+},
+{
+"text": "Konzentration,",
+"start": 381.94,
+"end": 382.76
+},
+{
+"text": "dann",
+"start": 383.4,
+"end": 383.68
+},
+{
+"text": "eine",
+"start": 383.68,
+"end": 383.98
+},
+{
+"text": "Runde",
+"start": 383.98,
+"end": 384.2
+},
+{
+"text": "um",
+"start": 384.2,
+"end": 384.34
+},
+{
+"text": "den",
+"start": 384.34,
+"end": 384.48
+},
+{
+"text": "Block,",
+"start": 384.48,
+"end": 384.82
+},
+{
+"text": "ohne",
+"start": 384.82,
+"end": 385.48
+},
+{
+"text": "Handy.",
+"start": 385.48,
+"end": 385.98
+},
+{
+"text": "Die",
+"start": 386.38,
+"end": 386.54
+},
+{
+"text": "Idee",
+"start": 386.54,
+"end": 386.88
+},
+{
+"text": "kam",
+"start": 386.88,
+"end": 387.18
+},
+{
+"text": "an",
+"start": 387.18,
+"end": 387.36
+},
+{
+"text": "der",
+"start": 387.36,
+"end": 387.48
+},
+{
+"text": "Ampel.",
+"start": 387.48,
+"end": 387.9
+},
+{
+"text": "Und",
+"start": 388.38,
+"end": 388.43
+},
+{
+"text": "diesmal",
+"start": 388.42,
+"end": 388.94
+},
+{
+"text": "hatte",
+"start": 388.94,
+"end": 389.22
+},
+{
+"text": "er",
+"start": 389.22,
+"end": 389.34
+},
+{
+"text": "sein",
+"start": 389.34,
+"end": 389.5
+},
+{
+"text": "Notizbuch",
+"start": 389.5,
+"end": 390.16
+},
+{
+"text": "dabei.",
+"start": 390.16,
+"end": 390.48
+},
+{
+"text": "Und",
+"start": 391.0,
+"end": 391.08
+},
+{
+"text": "jetzt",
+"start": 391.08,
+"end": 391.34
+},
+{
+"text": "du:",
+"start": 391.34,
+"end": 391.72
+},
+{
+"text": "Denk",
+"start": 392.12,
+"end": 392.32
+},
+{
+"text": "nochmal",
+"start": 392.32,
+"end": 392.58
+},
+{
+"text": "an",
+"start": 392.58,
+"end": 392.92
+},
+{
+"text": "den",
+"start": 392.92,
+"end": 393.04
+},
+{
+"text": "Ziegelstein.",
+"start": 393.04,
+"end": 393.88
+},
+{
+"text": "Fallen",
+"start": 394.36,
+"end": 394.66
+},
+{
+"text": "dir",
+"start": 394.66,
+"end": 394.74
+},
+{
+"text": "jetzt",
+"start": 394.74,
+"end": 395.02
+},
+{
+"text": "mehr",
+"start": 395.02,
+"end": 395.34
+},
+{
+"text": "Ideen",
+"start": 395.34,
+"end": 395.86
+},
+{
+"text": "ein",
+"start": 395.86,
+"end": 396.1
+},
+{
+"text": "als",
+"start": 396.1,
+"end": 396.44
+},
+{
+"text": "am",
+"start": 396.44,
+"end": 396.58
+},
+{
+"text": "Anfang?",
+"start": 396.58,
+"end": 396.9
+},
+{
+"text": "Schreib",
+"start": 397.42,
+"end": 397.74
+},
+{
+"text": "deine",
+"start": 397.74,
+"end": 398.0
+},
+{
+"text": "verrückteste",
+"start": 398.0,
+"end": 398.88
+},
+{
+"text": "in",
+"start": 398.88,
+"end": 399.14
+},
+{
+"text": "die",
+"start": 399.14,
+"end": 399.24
+},
+{
+"text": "Kommentare.",
+"start": 399.24,
+"end": 399.72
+},
+{
+"text": "Und",
+"start": 399.72,
+"end": 400.4
+},
+{
+"text": "verrat",
+"start": 400.4,
+"end": 400.78
+},
+{
+"text": "mir:",
+"start": 400.78,
+"end": 401.04
+},
+{
+"text": "A,",
+"start": 401.04,
+"end": 401.74
+},
+{
+"text": "B",
+"start": 402.08,
+"end": 402.4
+},
+{
+"text": "oder",
+"start": 402.4,
+"end": 402.78
+},
+{
+"text": "C,",
+"start": 402.78,
+"end": 403.2
+},
+{
+"text": "wo",
+"start": 403.7,
+"end": 403.86
+},
+{
+"text": "kommen",
+"start": 403.86,
+"end": 404.14
+},
+{
+"text": "dir",
+"start": 404.14,
+"end": 404.42
+},
+{
+"text": "die",
+"start": 404.42,
+"end": 404.56
+},
+{
+"text": "besten",
+"start": 404.56,
+"end": 404.94
+},
+{
+"text": "Ideen?",
+"start": 404.94,
+"end": 405.5
+},
+{
+"text": "Übrigens:",
+"start": 405.84,
+"end": 406.44
+},
+{
+"text": "Alle",
+"start": 406.9,
+"end": 407.16
+},
+{
+"text": "drei",
+"start": 407.16,
+"end": 407.4
+},
+{
+"text": "Orte",
+"start": 407.4,
+"end": 407.86
+},
+{
+"text": "haben",
+"start": 407.86,
+"end": 408.08
+},
+{
+"text": "eins",
+"start": 408.08,
+"end": 408.42
+},
+{
+"text": "gemeinsam.",
+"start": 408.42,
+"end": 409.12
+},
+{
+"text": "Dein",
+"start": 409.62,
+"end": 409.78
+},
+{
+"text": "Kopf",
+"start": 409.78,
+"end": 410.08
+},
+{
+"text": "darf",
+"start": 410.08,
+"end": 410.7
+},
+{
+"text": "dort",
+"start": 410.7,
+"end": 410.96
+},
+{
+"text": "endlich",
+"start": 410.96,
+"end": 411.44
+},
+{
+"text": "wandern.",
+"start": 411.44,
+"end": 412.06
+},
+{
+"text": "Und",
+"start": 412.5,
+"end": 412.6
+},
+{
+"text": "bei",
+"start": 412.6,
+"end": 412.76
+},
+{
+"text": "C,",
+"start": 412.76,
+"end": 413.06
+},
+{
+"text": "kurz",
+"start": 413.64,
+"end": 413.92
+},
+{
+"text": "vorm",
+"start": 413.92,
+"end": 414.16
+},
+{
+"text": "Einschlafen,",
+"start": 414.16,
+"end": 414.86
+},
+{
+"text": "arbeitet",
+"start": 415.26,
+"end": 415.82
+},
+{
+"text": "er",
+"start": 415.82,
+"end": 416.02
+},
+{
+"text": "sogar",
+"start": 416.02,
+"end": 416.24
+},
+{
+"text": "im",
+"start": 416.24,
+"end": 416.44
+},
+{
+"text": "Schlaf",
+"start": 416.44,
+"end": 416.76
+},
+{
+"text": "noch",
+"start": 416.76,
+"end": 416.98
+},
+{
+"text": "weiter.",
+"start": 416.98,
+"end": 417.36
+},
+{
+"text": "Aber",
+"start": 417.74,
+"end": 417.94
+},
+{
+"text": "warum",
+"start": 417.94,
+"end": 418.28
+},
+{
+"text": "greifst",
+"start": 418.28,
+"end": 418.74
+},
+{
+"text": "du",
+"start": 418.74,
+"end": 418.84
+},
+{
+"text": "in",
+"start": 418.84,
+"end": 418.94
+},
+{
+"text": "jeder",
+"start": 418.94,
+"end": 419.12
+},
+{
+"text": "Pause",
+"start": 419.12,
+"end": 419.56
+},
+{
+"text": "sofort",
+"start": 419.56,
+"end": 419.94
+},
+{
+"text": "zum",
+"start": 419.94,
+"end": 420.26
+},
+{
+"text": "Handy?",
+"start": 420.26,
+"end": 420.56
+},
+{
+"text": "Und",
+"start": 421.04,
+"end": 421.14
+},
+{
+"text": "warum",
+"start": 421.14,
+"end": 421.48
+},
+{
+"text": "bist",
+"start": 421.48,
+"end": 421.7
+},
+{
+"text": "du",
+"start": 421.7,
+"end": 421.86
+},
+{
+"text": "nach",
+"start": 421.86,
+"end": 422.0
+},
+{
+"text": "fünf",
+"start": 422.0,
+"end": 422.22
+},
+{
+"text": "Minuten",
+"start": 422.22,
+"end": 422.54
+},
+{
+"text": "Arbeit",
+"start": 422.54,
+"end": 423.02
+},
+{
+"text": "schon",
+"start": 423.02,
+"end": 423.26
+},
+{
+"text": "wieder",
+"start": 423.26,
+"end": 423.44
+},
+{
+"text": "dran?",
+"start": 423.44,
+"end": 423.8
+},
+{
+"text": "Das",
+"start": 424.26,
+"end": 424.4
+},
+{
+"text": "schauen",
+"start": 424.4,
+"end": 424.62
+},
+{
+"text": "wir",
+"start": 424.62,
+"end": 424.8
+},
+{
+"text": "uns",
+"start": 424.8,
+"end": 424.94
+},
+{
+"text": "nächstes",
+"start": 424.94,
+"end": 425.42
+},
+{
+"text": "Mal",
+"start": 425.42,
+"end": 425.64
+},
+{
+"text": "an.",
+"start": 425.64,
+"end": 425.88
+}
+]

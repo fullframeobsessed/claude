@@ -1,0 +1,55 @@
+<template>
+  <style>
+  #root { position:absolute; inset:0; overflow:hidden; background:#0B0C0E; color:#FFF; font-family:'Inter', sans-serif; }
+  #root .actor, #root .light, #root .lay, #root .t { position:absolute; }
+  #root .lay { inset:0; }
+  #root .t { white-space:nowrap; }
+  #root .stamp { font-weight:700; font-size:30px; letter-spacing:.3em; color:#D9D4C7; }
+  #root .cond { font-family:'Oswald', sans-serif; font-weight:700; text-transform:uppercase; line-height:1; }
+  #root .card { background:#16181D; border:2px solid #3A3F48; border-radius:22px; box-shadow:0 30px 80px rgba(0,0,0,.6); }
+  #root .floor { position:absolute; border-radius:50%; background:radial-gradient(ellipse, rgba(255,240,215,.16) 0%, transparent 70%); }
+</style>
+  <div id="root" data-composition-id="c28" data-width="1920" data-height="1080">
+
+  <div id="c28-cam" class="lay">
+    <div id="c28-hk" class="t" style="left:130px;top:180px;font-size:28px;font-weight:800;letter-spacing:.4em;color:#E8C27A;opacity:0">HACK 3</div><div id="c28-ht" class="t cond" style="left:130px;top:222px;font-size:88px;opacity:0">BEWEG DICH</div>
+    <div id="c28-f0" class="actor" style="left:250px;top:830px;font-size:48px;opacity:0">👣</div><div id="c28-f1" class="actor" style="left:320px;top:785px;font-size:48px;opacity:0">👣</div><div id="c28-f2" class="actor" style="left:250px;top:740px;font-size:48px;opacity:0">👣</div><div id="c28-f3" class="actor" style="left:320px;top:695px;font-size:48px;opacity:0">👣</div><div id="c28-f4" class="actor" style="left:250px;top:650px;font-size:48px;opacity:0">👣</div><div id="c28-f5" class="actor" style="left:320px;top:605px;font-size:48px;opacity:0">👣</div><div id="c28-f6" class="actor" style="left:250px;top:560px;font-size:48px;opacity:0">👣</div><div id="c28-f7" class="actor" style="left:320px;top:515px;font-size:48px;opacity:0">👣</div><div id="c28-f8" class="actor" style="left:250px;top:470px;font-size:48px;opacity:0">👣</div><div id="c28-f9" class="actor" style="left:320px;top:425px;font-size:48px;opacity:0">👣</div><div id="c28-f10" class="actor" style="left:250px;top:380px;font-size:48px;opacity:0">👣</div>
+    <div id="c28-b0" class="actor" style="left:700px;top:620px;width:220px;height:140px;background:#6B7280;border-radius:12px 12px 4px 4px;transform-origin:50% 100%;opacity:0"></div>
+    <div id="c28-b1" class="actor" style="left:1000px;top:370px;width:220px;height:390px;background:#7CFF8A;border-radius:12px 12px 4px 4px;transform-origin:50% 100%;opacity:0"></div>
+    <div class="t" style="left:640px;width:340px;top:770px;text-align:center;font-size:34px;font-weight:900">🪑 SITZEN</div>
+    <div class="t" style="left:940px;width:340px;top:770px;text-align:center;font-size:34px;font-weight:900">🚶 GEHEN</div>
+    <div id="c28-l" class="t" style="left:940px;width:340px;top:300px;text-align:center;font-size:30px;font-weight:900;color:#7CFF8A;opacity:0">DEUTLICH MEHR IDEEN</div>
+    <div id="c28-ft" class="t" style="left:130px;top:880px;font-size:28px;font-weight:600;letter-spacing:.14em;color:#8C8F96;opacity:0">Oppezzo &amp; Schwartz (2014), Stanford University</div>
+  </div>
+  </div>
+  <script>
+  const T = {"beweg": 1.38, "stanford": 3.56, "gehen": 6.02, "sitzen": 9.14, "end": 9.4};
+
+  const tl = gsap.timeline({ paused: true });
+  const face = (p, from, to, t) => {
+    tl.set(`#${p}-face-${from}`, { opacity: 0 }, t); tl.set(`#${p}-face-${to}`, { opacity: 1 }, t);
+    tl.fromTo(`#${p}-head`, { scaleY: 0.9, transformOrigin: "50% 100%" }, { scaleY: 1, duration: 0.4, ease: "back.out(2.5)", immediateRender: false }, t);
+  };
+  const type = (sel, n, t, gap = 0.035) => { for (let i = 0; i < n; i++) tl.fromTo(`${sel}-${i}`, { opacity: 0 }, { opacity: 1, duration: 0.01 }, t + i * gap); };
+  const fadeIn = (sel, t, d = 0.5, extra = {}) => tl.fromTo(sel, { opacity: 0, ...extra.from }, { opacity: 1, duration: d, ease: "power3.out", ...extra.to }, t);
+  const popIn = (sel, t, d = 0.5) => tl.fromTo(sel, { opacity: 0, scale: 0.4 }, { opacity: 1, scale: 1, duration: d, ease: "back.out(1.8)" }, t);
+  const fadeOut = (sel, t, d = 0.35) => tl.to(sel, { opacity: 0, duration: d, ease: "power2.in" }, t);
+  const move = (sel, x, y, t, d = 0.6) => tl.to(sel, { x, y, duration: d, ease: "power3.inOut" }, t);
+  const click = (cid, t) => { tl.fromTo(`#${cid}-cur`, { scale: 1 }, { keyframes: [{ scale: 0.85, duration: 0.07 }, { scale: 1, duration: 0.15 }], immediateRender: false }, t);
+    tl.fromTo(`#${cid}-rip`, { opacity: 1, scale: 0.3 }, { opacity: 0, scale: 1.6, duration: 0.45, ease: "power2.out", immediateRender: false }, t); };
+
+  const slam = (sel, t, s = 2.2) => tl.fromTo(sel, { opacity: 0, scale: s }, { opacity: 1, scale: 1, duration: 0.25, ease: "power4.in" }, t);
+  const shake = (sel, t, a = 10) => tl.fromTo(sel, { x: 0, y: 0 }, { keyframes: [...Array(8)].map((_, i) => ({ x: (i % 2 ? a : -a) * (1 - i / 8), y: (i % 3 ? -a : a) * 0.5 * (1 - i / 8), duration: 0.035 })).concat([{ x: 0, y: 0, duration: 0.04 }]), immediateRender: false }, t);
+
+fadeIn("#c28-hk", 0.1, 0.4); tl.fromTo("#c28-ht", { opacity: 0, x: -60 }, { opacity: 1, x: 0, duration: 0.5, ease: "power4.out" }, 0.25);
+  fadeIn("#c28-cam", 0, 0.3);
+  for (let i = 0; i < 11; i++) tl.fromTo(`#c28-f${i}`, { opacity: 0 }, { opacity: 0.6, duration: 0.15 }, T.beweg + i * 0.18);
+  fadeIn("#c28-ft", T.stanford, 0.3);
+  tl.fromTo("#c28-b1", { opacity: 1, scaleY: 0 }, { opacity: 1, scaleY: 1, duration: 0.7, ease: "back.out(1.5)" }, T.gehen - 0.1);
+  tl.fromTo("#c28-b0", { opacity: 1, scaleY: 0 }, { opacity: 1, scaleY: 1, duration: 0.5, ease: "power3.out" }, T.sitzen - 0.2);
+  popIn("#c28-l", T.gehen + 0.5, 0.35);
+  fadeOut("#c28-cam", T.end - 0.3, 0.3);
+
+  window.__timelines["c28"] = tl;
+  </script>
+</template>

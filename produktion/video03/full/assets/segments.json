@@ -1,0 +1,192 @@
+[
+ {
+  "id": "open",
+  "start": 0.0,
+  "end": 3.0
+ },
+ {
+  "id": "v_hook",
+  "start": 3.0,
+  "end": 13.24
+ },
+ {
+  "id": "v_dusche",
+  "start": 13.24,
+  "end": 22.86
+ },
+ {
+  "id": "v_frage",
+  "start": 22.86,
+  "end": 27.54
+ },
+ {
+  "id": "v_poll",
+  "start": 27.54,
+  "end": 42.622
+ },
+ {
+  "id": "title",
+  "start": 42.622,
+  "end": 45.022
+ },
+ {
+  "id": "kap1",
+  "start": 45.022,
+  "end": 47.222
+ },
+ {
+  "id": "v_experiment",
+  "start": 47.222,
+  "end": 54.997
+ },
+ {
+  "id": "countdown",
+  "start": 54.997,
+  "end": 65.597
+ },
+ {
+  "id": "v_ueblich",
+  "start": 65.597,
+  "end": 76.54
+ },
+ {
+  "id": "v_fix",
+  "start": 76.54,
+  "end": 91.9
+ },
+ {
+  "id": "v_kerze",
+  "start": 91.9,
+  "end": 127.06
+ },
+ {
+  "id": "v_krug",
+  "start": 127.06,
+  "end": 146.439
+ },
+ {
+  "id": "kap2",
+  "start": 146.439,
+  "end": 148.639
+ },
+ {
+  "id": "v_wandern",
+  "start": 148.639,
+  "end": 169.16
+ },
+ {
+  "id": "v_dmn",
+  "start": 169.16,
+  "end": 190.08
+ },
+ {
+  "id": "v_mittel",
+  "start": 190.08,
+  "end": 205.32
+ },
+ {
+  "id": "v_ohnescreen",
+  "start": 205.32,
+  "end": 226.241
+ },
+ {
+  "id": "kap3",
+  "start": 226.241,
+  "end": 228.441
+ },
+ {
+  "id": "v_zauber",
+  "start": 228.441,
+  "end": 232.58
+ },
+ {
+  "id": "v_poincare",
+  "start": 232.58,
+  "end": 246.8
+ },
+ {
+  "id": "v_inkubation",
+  "start": 246.8,
+  "end": 264.06
+ },
+ {
+  "id": "v_wallas",
+  "start": 264.06,
+  "end": 282.9
+ },
+ {
+  "id": "v_ausblenden",
+  "start": 282.9,
+  "end": 292.06
+ },
+ {
+  "id": "v_pause",
+  "start": 292.06,
+  "end": 298.986
+ },
+ {
+  "id": "pausefreeze",
+  "start": 298.986,
+  "end": 300.386
+ },
+ {
+  "id": "kap4",
+  "start": 300.386,
+  "end": 302.586
+ },
+ {
+  "id": "v_gut",
+  "start": 302.586,
+  "end": 309.98
+ },
+ {
+  "id": "v_hack1",
+  "start": 309.98,
+  "end": 321.24
+ },
+ {
+  "id": "v_hack2",
+  "start": 321.24,
+  "end": 338.04
+ },
+ {
+  "id": "v_hack3",
+  "start": 338.04,
+  "end": 347.44
+ },
+ {
+  "id": "v_hack4",
+  "start": 347.44,
+  "end": 358.5
+ },
+ {
+  "id": "v_hack5",
+  "start": 358.5,
+  "end": 378.604
+ },
+ {
+  "id": "v_aufl",
+  "start": 378.604,
+  "end": 390.88
+ },
+ {
+  "id": "v_ziegel2",
+  "start": 390.88,
+  "end": 399.6
+ },
+ {
+  "id": "v_umfrage2",
+  "start": 399.6,
+  "end": 417.62
+ },
+ {
+  "id": "v_bruecke",
+  "start": 417.62,
+  "end": 426.102
+ },
+ {
+  "id": "endcard",
+  "start": 426.102,
+  "end": 434.102
+ }
+]

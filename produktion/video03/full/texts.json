@@ -1,0 +1,42 @@
+{
+  "pieces": {
+    "P1": ["v_hook", "v_dusche", "v_frage", "v_poll"],
+    "P2": ["v_experiment"],
+    "P3": ["v_ueblich", "v_fix", "v_kerze", "v_krug"],
+    "P4": ["v_wandern", "v_dmn", "v_mittel", "v_ohnescreen"],
+    "P5": ["v_zauber", "v_poincare", "v_inkubation", "v_wallas", "v_ausblenden", "v_pause"],
+    "P6": ["v_gut", "v_hack1", "v_hack2", "v_hack3", "v_hack4", "v_hack5"],
+    "P7": ["v_aufl", "v_ziegel2", "v_umfrage2", "v_bruecke"]
+  },
+  "scenes": {
+    "v_hook": "Das ist Otto. Otto sitzt seit zwei Stunden vor einem leeren Dokument. Er braucht eine Idee für seine Präsentation. Nichts. Absolut nichts.",
+    "v_dusche": "Also gibt er auf und geht duschen. Und dann, mitten im Shampoo: die perfekte Idee. Kein Stift. Kein Handy. Nur Schaum.",
+    "v_frage": "Warum kommt die beste Idee genau dann, wenn du gar nicht danach suchst?",
+    "v_poll": "Kurze Frage an dich: Wo kommen dir die besten Ideen? A: unter der Dusche. B: beim Spazierengehen. Oder C: kurz vorm Einschlafen? Merk dir deine Antwort. Am Ende verrate ich dir, was alle drei Orte gemeinsam haben.",
+    "v_experiment": "Erst mal ein kleines Experiment. Du hast zehn Sekunden: Was kann man alles mit einem Ziegelstein machen? Los!",
+    "v_ueblich": "Und? Wahrscheinlich: bauen, werfen, vielleicht Türstopper. Die meisten bleiben bei den naheliegenden Ideen hängen. Genau das passiert Otto am Schreibtisch.",
+    "v_fix": "Wenn du dich verbissen auf ein Problem konzentrierst, läuft dein Denken immer wieder dieselben Wege entlang. Psychologen nennen das Fixierung. Du suchst nicht nach neuen Lösungen, du drehst dich im Kreis um die erste, die dir eingefallen ist.",
+    "v_kerze": "Der Psychologe Karl Duncker hat das schon in den Dreißigerjahren gezeigt. Er gab Menschen eine Kerze, eine Schachtel Reißzwecken und Streichhölzer. Die Aufgabe: Befestige die Kerze so an der Wand, dass kein Wachs auf den Tisch tropft. Die meisten versuchen, die Kerze an die Wand zu nageln oder mit Wachs festzukleben. Die Lösung: Schachtel ausleeren, an die Wand pinnen, Kerze reinstellen. Fertig. Aber weil die Schachtel im Kopf als Behälter für Reißzwecken abgespeichert ist, sieht kaum jemand das kleine Regal darin.",
+    "v_krug": "Und es kommt noch dicker: Wer einmal einen Lösungsweg gelernt hat, benutzt ihn auch dann noch, wenn es einen viel einfacheren gibt. Das hat der Psychologe Abraham Luchins mit simplen Rätseln zum Umfüllen von Wasserkrügen gezeigt. Und je verkrampfter Otto sucht, desto tiefer wird die Spur.",
+    "v_wandern": "Unter der Dusche passiert etwas anderes. Duschen kannst du im Schlaf. Dein Körper ist beschäftigt, dein Kopf ist frei. Und dann fangen deine Gedanken an zu wandern. Das ist übrigens völlig normal: Eine große Studie aus Harvard kam zu dem Ergebnis, dass unsere Gedanken fast die Hälfte der wachen Zeit abschweifen.",
+    "v_dmn": "Hirnforscher kennen ein Netzwerk, das genau dann aktiv wird, wenn wir nichts Bestimmtes tun: das Ruhezustandsnetzwerk, auf Englisch Default Mode Network. Es verknüpft Erinnerungen, Bilder und Gedanken, die sonst nichts miteinander zu tun haben. Genau das ist der Stoff, aus dem neue Ideen sind.",
+    "v_mittel": "Eine Studie aus dem Jahr zweitausendzweiundzwanzig hat gezeigt: Am meisten hilft eine Tätigkeit, die dich nur ein bisschen beschäftigt. Nicht zu langweilig, nicht zu anstrengend. Also genau wie Duschen. Oder Spazierengehen.",
+    "v_ohnescreen": "Und die Dusche hat noch einen Vorteil: Sie ist einer der letzten Orte ohne Bildschirm. Kein Handy, keine Mails, keine Nachrichten. Das warme Wasser entspannt, das gleichmäßige Rauschen schirmt Geräusche ab. Du bist allein mit deinen Gedanken. Und genau das passiert im Alltag sonst kaum noch.",
+    "v_zauber": "Aber Achtung: Die Dusche zaubert keine Ideen aus dem Nichts.",
+    "v_poincare": "Der Mathematiker Henri Poincaré hat beschrieben, wie ihm die Lösung für ein Problem, an dem er wochenlang gesessen hatte, plötzlich einfiel, als er in einen Bus stieg. Ohne die Wochen davor wäre sie nie gekommen.",
+    "v_inkubation": "Psychologen nennen das Inkubation: Erst arbeitest du hart an einem Problem. Dann lässt du los. Und im Hintergrund arbeitet dein Gehirn weiter. Viele Studien zeigen: Eine Pause nach der Anstrengung bringt oft bessere Lösungen, als stur weiterzumachen.",
+    "v_wallas": "Schon neunzehnhundertsechsundzwanzig hat der Psychologe Graham Wallas das in vier Phasen beschrieben: Vorbereitung, Inkubation, Erleuchtung und Überprüfung. Die letzte Phase wird gern vergessen. Denn nicht jede Dusch-Idee ist genial. Manche sehen beim Abtrocknen schon ganz anders aus.",
+    "v_ausblenden": "Und kurz bevor der Geistesblitz kommt, blendet dein Gehirn die Außenwelt für einen Moment ein Stück weit aus, damit die leise Idee durchkommt.",
+    "v_pause": "Pausier mal kurz: Wann hattest du deinen letzten Geistesblitz? Und was hast du in dem Moment gerade gemacht?",
+    "v_gut": "Die gute Nachricht: Du musst nicht dreimal am Tag duschen. Du kannst den Dusch-Effekt gezielt nutzen. Mit fünf Hacks.",
+    "v_hack1": "Hack Nummer eins: Erst füttern, dann loslassen. Beschäftige dich zwanzig Minuten richtig mit dem Problem. Erst dann kommt die Pause. Ohne Futter kein Geistesblitz.",
+    "v_hack2": "Hack Nummer zwei: Langweilige Pause statt Handy. Wer in der Pause scrollt, füllt den Kopf sofort wieder auf. Dann können die Gedanken nicht wandern. In einer Studie wurden die Ideen vor allem dann besser, wenn die Pause aus einer einfachen, eher langweiligen Aufgabe bestand.",
+    "v_hack3": "Hack Nummer drei: Beweg dich. In einer Studie der Stanford University hatten Menschen beim Gehen deutlich mehr kreative Ideen als im Sitzen.",
+    "v_hack4": "Hack Nummer vier: der Ideen-Fänger. Leg Zettel und Stift neben dein Bett, nimm unterwegs eine Sprachnotiz auf. Und ja: Es gibt sogar wasserfeste Notizblöcke für die Dusche.",
+    "v_hack5": "Hack Nummer fünf: Schlaf drüber. In einem Experiment, das im Fachjournal Nature erschienen ist, sollten Versuchspersonen Zahlenaufgaben lösen, in denen eine versteckte Abkürzung steckte. Wer zwischendurch geschlafen hatte, entdeckte die Abkürzung mehr als doppelt so oft wie die Leute, die die gleiche Zeit wach geblieben waren.",
+    "v_aufl": "Otto hat es ausprobiert. Zwanzig Minuten volle Konzentration, dann eine Runde um den Block, ohne Handy. Die Idee kam an der Ampel. Und diesmal hatte er sein Notizbuch dabei.",
+    "v_ziegel2": "Und jetzt du: Denk nochmal an den Ziegelstein. Fallen dir jetzt mehr Ideen ein als am Anfang? Schreib deine verrückteste in die Kommentare.",
+    "v_umfrage2": "Und verrat mir: A, B oder C, wo kommen dir die besten Ideen? Übrigens: Alle drei Orte haben eins gemeinsam. Dein Kopf darf dort endlich wandern. Und bei C, kurz vorm Einschlafen, arbeitet er sogar im Schlaf noch weiter.",
+    "v_bruecke": "Aber warum greifst du in jeder Pause sofort zum Handy? Und warum bist du nach fünf Minuten Arbeit schon wieder dran? Das schauen wir uns nächstes Mal an."
+  }
+}

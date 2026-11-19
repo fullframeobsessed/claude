@@ -1,0 +1,880 @@
+1
+00:00:02,950 --> 00:00:03,890
+Das ist Otto.
+
+2
+00:00:04,010 --> 00:00:06,370
+Otto sitzt seit zwei Stunden vor einem
+
+3
+00:00:06,390 --> 00:00:07,410
+leeren Dokument.
+
+4
+00:00:07,690 --> 00:00:10,330
+Er braucht eine Idee für seine Präsentation.
+
+5
+00:00:10,510 --> 00:00:11,350
+Nichts.
+
+6
+00:00:11,410 --> 00:00:12,890
+Absolut nichts.
+
+7
+00:00:13,310 --> 00:00:15,450
+Also gibt er auf und geht duschen.
+
+8
+00:00:15,550 --> 00:00:16,250
+Und dann,
+
+9
+00:00:16,650 --> 00:00:17,790
+mitten im Shampoo:
+
+10
+00:00:17,950 --> 00:00:19,290
+die perfekte Idee.
+
+11
+00:00:19,450 --> 00:00:20,350
+Kein Stift.
+
+12
+00:00:20,530 --> 00:00:21,410
+Kein Handy.
+
+13
+00:00:21,590 --> 00:00:22,690
+Nur Schaum.
+
+14
+00:00:22,930 --> 00:00:25,530
+Warum kommt die beste Idee genau dann,
+
+15
+00:00:25,770 --> 00:00:27,570
+wenn du gar nicht danach suchst?
+
+16
+00:00:27,610 --> 00:00:28,530
+Kurze Frage an dich:
+
+17
+00:00:28,550 --> 00:00:30,790
+Wo kommen dir die besten Ideen?
+
+18
+00:00:30,810 --> 00:00:30,810
+A:
+
+19
+00:00:30,830 --> 00:00:31,830
+unter der Dusche.
+
+20
+00:00:31,850 --> 00:00:32,090
+B:
+
+21
+00:00:32,110 --> 00:00:33,220
+beim Spazierengehen.
+
+22
+00:00:33,370 --> 00:00:34,270
+Oder C:
+
+23
+00:00:34,290 --> 00:00:36,270
+kurz vorm Einschlafen?
+
+24
+00:00:36,490 --> 00:00:37,810
+Merk dir deine Antwort.
+
+25
+00:00:38,190 --> 00:00:39,750
+Am Ende verrate ich dir,
+
+26
+00:00:40,090 --> 00:00:42,570
+was alle drei Orte gemeinsam haben.
+
+27
+00:00:47,172 --> 00:00:49,490
+Erst mal ein kleines Experiment.
+
+28
+00:00:49,910 --> 00:00:51,570
+Du hast zehn Sekunden:
+
+29
+00:00:51,750 --> 00:00:53,850
+Was kann man alles mit einem Ziegelstein
+
+30
+00:00:54,767 --> 00:00:54,767
+machen?
+
+31
+00:00:54,787 --> 00:01:02,610
+Los!
+
+32
+00:01:05,547 --> 00:01:06,070
+Und?
+
+33
+00:01:06,150 --> 00:01:06,670
+Wahrscheinlich:
+
+34
+00:01:06,690 --> 00:01:07,730
+bauen,
+
+35
+00:01:08,090 --> 00:01:08,810
+werfen,
+
+36
+00:01:08,990 --> 00:01:10,650
+vielleicht Türstopper.
+
+37
+00:01:10,730 --> 00:01:13,110
+Die meisten bleiben bei den naheliegenden Ideen
+
+38
+00:01:13,130 --> 00:01:13,710
+hängen.
+
+39
+00:01:13,990 --> 00:01:16,450
+Genau das passiert Otto am Schreibtisch.
+
+40
+00:01:16,610 --> 00:01:18,050
+Wenn du dich verbissen auf ein Problem
+
+41
+00:01:18,070 --> 00:01:19,370
+konzentrierst,
+
+42
+00:01:19,490 --> 00:01:22,010
+läuft dein Denken immer wieder dieselben Wege
+
+43
+00:01:22,030 --> 00:01:22,390
+entlang.
+
+44
+00:01:22,410 --> 00:01:25,290
+Psychologen nennen das Fixierung.
+
+45
+00:01:25,550 --> 00:01:27,650
+Du suchst nicht nach neuen Lösungen,
+
+46
+00:01:27,810 --> 00:01:29,510
+du drehst dich im Kreis um die
+
+47
+00:01:29,530 --> 00:01:30,250
+erste,
+
+48
+00:01:30,270 --> 00:01:31,650
+die dir eingefallen ist.
+
+49
+00:01:31,970 --> 00:01:34,110
+Der Psychologe Karl Duncker hat das schon
+
+50
+00:01:34,130 --> 00:01:35,160
+in den Dreißigerjahren
+
+51
+00:01:35,250 --> 00:01:35,990
+gezeigt.
+
+52
+00:01:36,390 --> 00:01:38,270
+Er gab Menschen eine Kerze,
+
+53
+00:01:38,450 --> 00:01:41,330
+eine Schachtel Reißzwecken und Streichhölzer.
+
+54
+00:01:41,590 --> 00:01:42,490
+Die Aufgabe:
+
+55
+00:01:42,890 --> 00:01:45,290
+Befestige die Kerze so an der Wand,
+
+56
+00:01:45,390 --> 00:01:47,690
+dass kein Wachs auf den Tisch tropft.
+
+57
+00:01:47,930 --> 00:01:48,930
+Die meisten versuchen,
+
+58
+00:01:48,950 --> 00:01:50,910
+die Kerze an die Wand zu nageln
+
+59
+00:01:50,930 --> 00:01:53,190
+oder mit Wachs festzukleben.
+
+60
+00:01:53,370 --> 00:01:54,190
+Die Lösung:
+
+61
+00:01:54,430 --> 00:01:55,750
+Schachtel ausleeren,
+
+62
+00:01:55,990 --> 00:01:57,150
+an die Wand pinnen,
+
+63
+00:01:57,270 --> 00:01:58,490
+Kerze reinstellen.
+
+64
+00:01:58,790 --> 00:01:59,610
+Fertig.
+
+65
+00:01:59,890 --> 00:02:01,590
+Aber weil die Schachtel im Kopf als
+
+66
+00:02:01,610 --> 00:02:04,350
+Behälter für Reißzwecken abgespeichert ist,
+
+67
+00:02:04,550 --> 00:02:07,110
+sieht kaum jemand das kleine Regal darin.
+
+68
+00:02:07,130 --> 00:02:08,650
+Und es kommt noch dicker:
+
+69
+00:02:08,790 --> 00:02:11,350
+Wer einmal einen Lösungsweg gelernt hat,
+
+70
+00:02:11,430 --> 00:02:12,750
+benutzt ihn auch dann noch,
+
+71
+00:02:12,770 --> 00:02:15,030
+wenn es einen viel einfacheren gibt.
+
+72
+00:02:15,390 --> 00:02:17,630
+Das hat der Psychologe Abraham Luchins
+
+73
+00:02:17,670 --> 00:02:20,860
+mit simplen Rätseln zum Umfüllen von Wasserkrügen
+
+74
+00:02:20,930 --> 00:02:21,610
+gezeigt.
+
+75
+00:02:22,130 --> 00:02:24,470
+Und je verkrampfter Otto sucht,
+
+76
+00:02:24,490 --> 00:02:26,430
+desto tiefer wird die Spur.
+
+77
+00:02:28,589 --> 00:02:31,510
+Unter der Dusche passiert etwas anderes.
+
+78
+00:02:31,790 --> 00:02:33,490
+Duschen kannst du im Schlaf.
+
+79
+00:02:33,750 --> 00:02:35,430
+Dein Körper ist beschäftigt,
+
+80
+00:02:35,470 --> 00:02:37,130
+dein Kopf ist frei.
+
+81
+00:02:37,270 --> 00:02:39,090
+Und dann fangen deine Gedanken an zu
+
+82
+00:02:39,110 --> 00:02:39,830
+wandern.
+
+83
+00:02:39,930 --> 00:02:41,590
+Das ist übrigens völlig normal:
+
+84
+00:02:41,870 --> 00:02:44,010
+Eine große Studie aus Harvard kam zu
+
+85
+00:02:44,030 --> 00:02:44,630
+dem Ergebnis,
+
+86
+00:02:44,650 --> 00:02:47,330
+dass unsere Gedanken fast die Hälfte der
+
+87
+00:02:47,350 --> 00:02:49,050
+wachen Zeit abschweifen.
+
+88
+00:02:49,230 --> 00:02:51,470
+Hirnforscher kennen ein Netzwerk,
+
+89
+00:02:51,550 --> 00:02:53,310
+das genau dann aktiv wird,
+
+90
+00:02:53,330 --> 00:02:55,070
+wenn wir nichts Bestimmtes tun:
+
+91
+00:02:55,290 --> 00:02:56,760
+das Ruhezustandsnetzwerk,
+
+92
+00:02:57,490 --> 00:03:00,530
+auf Englisch Default Mode Network.
+
+93
+00:03:00,710 --> 00:03:02,310
+Es verknüpft Erinnerungen,
+
+94
+00:03:02,490 --> 00:03:03,710
+Bilder und Gedanken,
+
+95
+00:03:03,870 --> 00:03:06,510
+die sonst nichts miteinander zu tun haben.
+
+96
+00:03:06,650 --> 00:03:08,410
+Genau das ist der Stoff,
+
+97
+00:03:08,430 --> 00:03:10,130
+aus dem neue Ideen sind.
+
+98
+00:03:10,150 --> 00:03:12,530
+Eine Studie aus dem Jahr zweitausendzweiundzwanzig
+
+99
+00:03:12,770 --> 00:03:13,970
+hat gezeigt:
+
+100
+00:03:14,410 --> 00:03:16,910
+Am meisten hilft eine Tätigkeit,
+
+101
+00:03:17,090 --> 00:03:19,270
+die dich nur ein bisschen beschäftigt.
+
+102
+00:03:19,330 --> 00:03:20,570
+Nicht zu langweilig,
+
+103
+00:03:20,590 --> 00:03:21,810
+nicht zu anstrengend.
+
+104
+00:03:21,890 --> 00:03:23,030
+Also genau wie Duschen.
+
+105
+00:03:23,050 --> 00:03:24,820
+Oder Spazierengehen.
+
+106
+00:03:25,390 --> 00:03:27,570
+Und die Dusche hat noch einen Vorteil:
+
+107
+00:03:27,670 --> 00:03:29,670
+Sie ist einer der letzten Orte
+
+108
+00:03:29,690 --> 00:03:31,090
+ohne Bildschirm.
+
+109
+00:03:31,210 --> 00:03:32,070
+Kein Handy,
+
+110
+00:03:32,350 --> 00:03:33,270
+keine Mails,
+
+111
+00:03:33,450 --> 00:03:34,590
+keine Nachrichten.
+
+112
+00:03:34,750 --> 00:03:36,030
+Das warme Wasser entspannt,
+
+113
+00:03:36,050 --> 00:03:39,750
+das gleichmäßige Rauschen schirmt Geräusche ab.
+
+114
+00:03:39,850 --> 00:03:41,810
+Du bist allein mit deinen Gedanken.
+
+115
+00:03:42,090 --> 00:03:45,090
+Und genau das passiert im Alltag sonst
+
+116
+00:03:45,110 --> 00:03:46,210
+kaum noch.
+
+117
+00:03:48,391 --> 00:03:49,390
+Aber Achtung:
+
+118
+00:03:49,530 --> 00:03:51,850
+Die Dusche zaubert keine Ideen aus dem
+
+119
+00:03:51,870 --> 00:03:52,450
+Nichts.
+
+120
+00:03:52,650 --> 00:03:55,610
+Der Mathematiker Henri Poincaré hat beschrieben,
+
+121
+00:03:55,930 --> 00:03:57,910
+wie ihm die Lösung für ein Problem,
+
+122
+00:03:57,930 --> 00:03:59,850
+an dem er wochenlang gesessen hatte,
+
+123
+00:04:00,090 --> 00:04:01,670
+plötzlich einfiel,
+
+124
+00:04:01,710 --> 00:04:03,610
+als er in einen Bus stieg.
+
+125
+00:04:03,750 --> 00:04:05,990
+Ohne die Wochen davor wäre sie nie
+
+126
+00:04:06,010 --> 00:04:06,690
+gekommen.
+
+127
+00:04:06,870 --> 00:04:09,390
+Psychologen nennen das Inkubation:
+
+128
+00:04:09,770 --> 00:04:12,210
+Erst arbeitest du hart an einem Problem.
+
+129
+00:04:12,350 --> 00:04:13,590
+Dann lässt du los.
+
+130
+00:04:13,810 --> 00:04:16,310
+Und im Hintergrund arbeitet dein Gehirn weiter.
+
+131
+00:04:16,530 --> 00:04:17,970
+Viele Studien zeigen:
+
+132
+00:04:18,330 --> 00:04:20,610
+Eine Pause nach der Anstrengung bringt oft
+
+133
+00:04:20,630 --> 00:04:21,910
+bessere Lösungen,
+
+134
+00:04:22,050 --> 00:04:24,010
+als stur weiterzumachen.
+
+135
+00:04:24,130 --> 00:04:27,550
+Schon neunzehnhundertsechsundzwanzig hat der Psychologe Graham Wallas
+
+136
+00:04:27,570 --> 00:04:30,010
+das in vier Phasen beschrieben:
+
+137
+00:04:30,150 --> 00:04:30,770
+Vorbereitung,
+
+138
+00:04:30,790 --> 00:04:32,250
+Inkubation,
+
+139
+00:04:32,650 --> 00:04:34,950
+Erleuchtung und Überprüfung.
+
+140
+00:04:34,970 --> 00:04:37,010
+Die letzte Phase wird gern vergessen.
+
+141
+00:04:37,210 --> 00:04:38,660
+Denn nicht jede Dusch-Idee
+
+142
+00:04:38,750 --> 00:04:39,610
+ist genial.
+
+143
+00:04:39,890 --> 00:04:42,050
+Manche sehen beim Abtrocknen schon ganz anders
+
+144
+00:04:42,070 --> 00:04:42,750
+aus.
+
+145
+00:04:42,970 --> 00:04:45,310
+Und kurz bevor der Geistesblitz kommt,
+
+146
+00:04:45,650 --> 00:04:48,170
+blendet dein Gehirn die Außenwelt für einen
+
+147
+00:04:48,190 --> 00:04:49,870
+Moment ein Stück weit aus,
+
+148
+00:04:49,890 --> 00:04:52,110
+damit die leise Idee durchkommt.
+
+149
+00:04:52,130 --> 00:04:53,670
+Pausier mal kurz:
+
+150
+00:04:53,890 --> 00:04:56,490
+Wann hattest du deinen letzten Geistesblitz?
+
+151
+00:04:56,650 --> 00:04:57,770
+Und was hast du in dem Moment
+
+152
+00:04:57,790 --> 00:04:58,910
+gerade gemacht?
+
+153
+00:05:02,536 --> 00:05:03,810
+Die gute Nachricht:
+
+154
+00:05:03,990 --> 00:05:06,270
+Du musst nicht dreimal am Tag duschen.
+
+155
+00:05:06,390 --> 00:05:09,030
+Du kannst den Dusch-Effekt gezielt nutzen.
+
+156
+00:05:09,210 --> 00:05:10,030
+Mit fünf Hacks.
+
+157
+00:05:10,050 --> 00:05:11,450
+Hack Nummer eins:
+
+158
+00:05:11,570 --> 00:05:12,630
+Erst füttern,
+
+159
+00:05:12,810 --> 00:05:13,890
+dann loslassen.
+
+160
+00:05:13,990 --> 00:05:16,430
+Beschäftige dich zwanzig Minuten richtig mit dem
+
+161
+00:05:16,450 --> 00:05:17,150
+Problem.
+
+162
+00:05:17,330 --> 00:05:18,790
+Erst dann kommt die Pause.
+
+163
+00:05:19,030 --> 00:05:21,290
+Ohne Futter kein Geistesblitz.
+
+164
+00:05:21,310 --> 00:05:22,890
+Hack Nummer zwei:
+
+165
+00:05:23,010 --> 00:05:25,270
+Langweilige Pause statt Handy.
+
+166
+00:05:25,450 --> 00:05:26,950
+Wer in der Pause scrollt,
+
+167
+00:05:26,970 --> 00:05:28,970
+füllt den Kopf sofort wieder auf.
+
+168
+00:05:28,990 --> 00:05:30,970
+Dann können die Gedanken nicht wandern.
+
+169
+00:05:31,070 --> 00:05:32,850
+In einer Studie wurden die Ideen vor
+
+170
+00:05:32,870 --> 00:05:33,930
+allem dann besser,
+
+171
+00:05:34,090 --> 00:05:36,010
+wenn die Pause aus einer einfachen,
+
+172
+00:05:36,030 --> 00:05:38,090
+eher langweiligen Aufgabe bestand.
+
+173
+00:05:38,110 --> 00:05:39,350
+Hack Nummer drei:
+
+174
+00:05:39,370 --> 00:05:40,570
+Beweg dich.
+
+175
+00:05:40,690 --> 00:05:43,390
+In einer Studie der Stanford University hatten
+
+176
+00:05:43,410 --> 00:05:46,630
+Menschen beim Gehen deutlich mehr kreative Ideen
+
+177
+00:05:46,650 --> 00:05:47,490
+als im Sitzen.
+
+178
+00:05:47,510 --> 00:05:48,990
+Hack Nummer vier:
+
+179
+00:05:49,210 --> 00:05:50,090
+der Ideen-Fänger.
+
+180
+00:05:50,110 --> 00:05:52,550
+Leg Zettel und Stift neben dein Bett,
+
+181
+00:05:52,710 --> 00:05:54,910
+nimm unterwegs eine Sprachnotiz auf.
+
+182
+00:05:55,010 --> 00:05:55,410
+Und ja:
+
+183
+00:05:55,430 --> 00:05:58,190
+Es gibt sogar wasserfeste Notizblöcke für die
+
+184
+00:05:58,210 --> 00:05:58,550
+Dusche.
+
+185
+00:05:58,570 --> 00:06:00,030
+Hack Nummer fünf:
+
+186
+00:06:00,370 --> 00:06:01,270
+Schlaf drüber.
+
+187
+00:06:01,350 --> 00:06:02,470
+In einem Experiment,
+
+188
+00:06:02,550 --> 00:06:05,030
+das im Fachjournal Nature erschienen ist,
+
+189
+00:06:05,210 --> 00:06:08,090
+sollten Versuchspersonen Zahlenaufgaben lösen,
+
+190
+00:06:08,230 --> 00:06:10,750
+in denen eine versteckte Abkürzung steckte.
+
+191
+00:06:10,790 --> 00:06:12,570
+Wer zwischendurch geschlafen hatte,
+
+192
+00:06:12,750 --> 00:06:14,910
+entdeckte die Abkürzung mehr als doppelt so
+
+193
+00:06:14,930 --> 00:06:16,310
+oft wie die Leute,
+
+194
+00:06:16,330 --> 00:06:18,534
+die die gleiche Zeit wach geblieben waren.
+
+195
+00:06:18,554 --> 00:06:19,810
+Otto hat es ausprobiert.
+
+196
+00:06:19,830 --> 00:06:23,010
+Zwanzig Minuten volle Konzentration,
+
+197
+00:06:23,350 --> 00:06:24,750
+dann eine Runde um den Block,
+
+198
+00:06:24,770 --> 00:06:26,230
+ohne Handy.
+
+199
+00:06:26,330 --> 00:06:28,150
+Die Idee kam an der Ampel.
+
+200
+00:06:28,330 --> 00:06:30,730
+Und diesmal hatte er sein Notizbuch dabei.
+
+201
+00:06:30,950 --> 00:06:31,970
+Und jetzt du:
+
+202
+00:06:32,070 --> 00:06:34,130
+Denk nochmal an den Ziegelstein.
+
+203
+00:06:34,310 --> 00:06:36,370
+Fallen dir jetzt mehr Ideen ein als
+
+204
+00:06:36,390 --> 00:06:37,150
+am Anfang?
+
+205
+00:06:37,370 --> 00:06:39,650
+Schreib deine verrückteste in die Kommentare.
+
+206
+00:06:39,670 --> 00:06:40,970
+Und verrat mir:
+
+207
+00:06:40,990 --> 00:06:41,990
+A,
+
+208
+00:06:42,030 --> 00:06:43,450
+B oder C,
+
+209
+00:06:43,650 --> 00:06:45,750
+wo kommen dir die besten Ideen?
+
+210
+00:06:45,790 --> 00:06:46,690
+Übrigens:
+
+211
+00:06:46,850 --> 00:06:49,370
+Alle drei Orte haben eins gemeinsam.
+
+212
+00:06:49,570 --> 00:06:52,310
+Dein Kopf darf dort endlich wandern.
+
+213
+00:06:52,450 --> 00:06:53,310
+Und bei C,
+
+214
+00:06:53,590 --> 00:06:55,110
+kurz vorm Einschlafen,
+
+215
+00:06:55,210 --> 00:06:57,610
+arbeitet er sogar im Schlaf noch weiter.
+
+216
+00:06:57,690 --> 00:06:59,490
+Aber warum greifst du in jeder Pause
+
+217
+00:06:59,510 --> 00:07:00,810
+sofort zum Handy?
+
+218
+00:07:00,990 --> 00:07:02,470
+Und warum bist du nach fünf Minuten
+
+219
+00:07:02,490 --> 00:07:04,050
+Arbeit schon wieder dran?
+
+220
+00:07:04,210 --> 00:07:06,130
+Das schauen wir uns nächstes Mal an.
+
