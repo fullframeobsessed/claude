@@ -1,0 +1,35 @@
+<template>
+  <style>
+  #root { position:absolute; inset:0; pointer-events:none; overflow:hidden; }
+  #root .mote { position:absolute; left:0; top:0; width:6px; height:6px; border-radius:50%; background:rgba(255,236,205,.9); filter:blur(1.2px); mix-blend-mode:screen; opacity:0; }
+  </style>
+  <div id="root" data-composition-id="frame" data-width="1080" data-height="1920" data-layout-ignore>
+    <div id="fr-m0" class="mote"></div><div id="fr-m1" class="mote"></div><div id="fr-m2" class="mote"></div><div id="fr-m3" class="mote"></div><div id="fr-m4" class="mote"></div><div id="fr-m5" class="mote"></div><div id="fr-m6" class="mote"></div><div id="fr-m7" class="mote"></div><div id="fr-m8" class="mote"></div><div id="fr-m9" class="mote"></div><div id="fr-m10" class="mote"></div><div id="fr-m11" class="mote"></div><div id="fr-m12" class="mote"></div><div id="fr-m13" class="mote"></div><div id="fr-m14" class="mote"></div><div id="fr-m15" class="mote"></div><div id="fr-m16" class="mote"></div><div id="fr-m17" class="mote"></div><div id="fr-m18" class="mote"></div><div id="fr-m19" class="mote"></div><div id="fr-m20" class="mote"></div><div id="fr-m21" class="mote"></div><div id="fr-m22" class="mote"></div><div id="fr-m23" class="mote"></div><div id="fr-m24" class="mote"></div><div id="fr-m25" class="mote"></div><div id="fr-m26" class="mote"></div><div id="fr-m27" class="mote"></div><div id="fr-m28" class="mote"></div><div id="fr-m29" class="mote"></div><div id="fr-m30" class="mote"></div><div id="fr-m31" class="mote"></div><div id="fr-m32" class="mote"></div><div id="fr-m33" class="mote"></div><div id="fr-m34" class="mote"></div><div id="fr-m35" class="mote"></div><div id="fr-m36" class="mote"></div><div id="fr-m37" class="mote"></div><div id="fr-m38" class="mote"></div><div id="fr-m39" class="mote"></div>
+    <div style="position:absolute;inset:0;background:#5a3c14;mix-blend-mode:soft-light;opacity:.3;"></div>
+    <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%, transparent 48%, rgba(0,0,0,.6) 100%);"></div>
+    <div id="fr-flick" style="position:absolute;inset:0;background:#000;opacity:0;"></div>
+    <div id="fr-grain" style="position:absolute;inset:-64px;background-image:url(&quot;data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E&quot;);background-size:256px 256px;opacity:.12;mix-blend-mode:overlay;"></div>
+  </div>
+  <script>
+  const tl = gsap.timeline({ paused: true });
+  const H = (k, i) => { let x = Math.sin(k * 127.1 + i * 311.7) * 43758.5453; return x - Math.floor(x); };
+  const $ = id => document.getElementById(id);
+  const motes = [...Array(40).keys()].map(i => ({ el: $(`fr-m${i}`), x: H(i, 1) * 1080, y: H(i, 2) * 1920, vx: (H(i, 3) - 0.5) * 16, vy: -6 - H(i, 4) * 14,
+      w: 0.4 + H(i, 5) * 0.9, ph: H(i, 6) * 6.28, s: 0.5 + H(i, 7) * 1.3 }));
+  function render(t) {
+    const k = Math.floor(t * 12);
+    $("fr-grain").style.transform = `translate(${-H(k, 1) * 64}px, ${-H(k, 2) * 64}px)`;
+    $("fr-flick").style.opacity = (0.015 + H(k, 3) * 0.05).toFixed(3);
+    for (const m of motes) {
+      const x = ((m.x + m.vx * t + 40 * Math.sin(t * 0.3 + m.ph)) % 1080 + 1080) % 1080;
+      const y = ((m.y + m.vy * t) % 1920 + 1920) % 1920;
+      m.el.style.transform = `translate(${x.toFixed(1)}px, ${y.toFixed(1)}px) scale(${m.s.toFixed(2)})`;
+      m.el.style.opacity = (0.1 + 0.25 * (0.5 + 0.5 * Math.sin(t * m.w + m.ph))).toFixed(3);
+    }
+  }
+  const clock = { t: 0 };
+  tl.to(clock, { t: 88.512, duration: 88.512, ease: "none", onUpdate: () => render(clock.t) }, 0);
+  render(0);
+  window.__timelines["frame"] = tl;
+  </script>
+</template>

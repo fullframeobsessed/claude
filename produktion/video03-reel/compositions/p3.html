@@ -1,0 +1,53 @@
+<template>
+  <style>
+  #root { position:absolute; inset:0; overflow:hidden; color:#FFF; font-family:'Inter', sans-serif; }
+  #root .actor, #root .light, #root .lay, #root .t { position:absolute; }
+  #root .lay { inset:0; }
+  #root .t { white-space:nowrap; }
+  #root .cond { font-family:'Oswald', sans-serif; font-weight:700; text-transform:uppercase; line-height:1; }
+  #root .mono { font-family:'Space Mono', monospace; font-weight:700; line-height:1; }
+  #root .card { background:#16181D; border:2px solid #3A3F48; border-radius:26px; box-shadow:0 30px 80px rgba(0,0,0,.6); }
+  #root .emo { line-height:1; }
+</style>
+  <div id="root" data-composition-id="p3" data-width="1080" data-height="1920">
+<div class="lay" style="transform:translateY(170px)">
+
+  <div id="p3-cam" class="lay">
+    <div id="p3-tag" class="t" style="left:0;width:1080px;top:442px;text-align:center;opacity:0"><span style="display:inline-flex;align-items:center;gap:16px;padding:8px 28px 8px 10px;background:#16181D;border:2px solid #3A3F48;border-radius:44px;font-size:30px;font-weight:800;letter-spacing:.16em;color:#EDE6D6"><span style="width:50px;height:50px;border-radius:50%;background:#E8C27A;color:#111;display:inline-flex;align-items:center;justify-content:center;font-size:28px;letter-spacing:0">3</span>NICHT AUS DEM NICHTS</span></div>
+    <div id="p3-A" class="lay">
+      <div id="p3-hat" class="actor" style="left:400px;top:560px;font-size:260px;line-height:1;opacity:0">🎩</div>
+      <div id="p3-q" class="t cond" style="left:0;width:1080px;top:920px;text-align:center;font-size:64px;color:#FFF;opacity:0;">IDEEN AUS DEM NICHTS?</div>
+      <div id="p3-st" class="t cond" data-layout-allow-overlap style="left:240px;width:600px;top:620px;text-align:center;font-size:170px;color:#FF4B3E;border:12px solid #FF4B3E;border-radius:20px;transform:rotate(-9deg);opacity:0;background:rgba(11,12,14,.55)">NEIN.</div>
+    </div>
+    <div id="p3-B" class="lay"><div id="p3-s0" class="actor card" style="left:190px;top:540px;width:700px;height:120px;display:flex;align-items:center;gap:26px;padding:0 30px;opacity:0"><span style="font-size:64px">📚</span><span class="cond" style="font-size:52px">VORBEREITEN</span><span id="p3-c0" style="margin-left:auto;font-size:52px;color:#5BE37D;opacity:0">✓</span></div><div id="p3-s1" class="actor card" style="left:190px;top:690px;width:700px;height:120px;display:flex;align-items:center;gap:26px;padding:0 30px;opacity:0"><span style="font-size:64px">⏸</span><span class="cond" style="font-size:52px">LOSLASSEN</span><span id="p3-c1" style="margin-left:auto;font-size:52px;color:#5BE37D;opacity:0">✓</span></div><div id="p3-s2" class="actor card" style="left:190px;top:840px;width:700px;height:120px;display:flex;align-items:center;gap:26px;padding:0 30px;opacity:0"><span style="font-size:64px">⚙️</span><span class="cond" style="font-size:52px">GEHIRN ARBEITET WEITER</span><span id="p3-c2" style="margin-left:auto;font-size:52px;color:#5BE37D;opacity:0">✓</span></div></div>
+  </div>
+</div>
+  </div>
+  <script>
+  const T = {"aber": 0.12, "nichts": 2.1, "erst": 2.76, "besch": 4.56, "dann": 5.46, "los": 5.7, "hinter": 6.94, "weiter": 8.54, "end": 8.66};
+
+  const tl = gsap.timeline({ paused: true });
+  const fadeIn = (sel, t, d = 0.3) => tl.fromTo(sel, { opacity: 0 }, { opacity: 1, duration: d, ease: "power2.out" }, t);
+  const fadeOut = (sel, t, d = 0.22) => tl.to(sel, { opacity: 0, duration: d, ease: "power2.in" }, t);
+  const popIn = (sel, t, d = 0.32, s = 0.3) => tl.fromTo(sel, { opacity: 0, scale: s }, { opacity: 1, scale: 1, duration: d, ease: "back.out(2.2)" }, t);
+  const slam = (sel, t, s = 2.4) => tl.fromTo(sel, { opacity: 0, scale: s }, { opacity: 1, scale: 1, duration: 0.22, ease: "power4.in" }, t);
+  const upIn = (sel, t, d = 0.3) => tl.fromTo(sel, { opacity: 0, y: 60 }, { opacity: 1, y: 0, duration: d, ease: "power3.out" }, t);
+  const outUp = (sel, t, d = 0.22) => tl.to(sel, { opacity: 0, y: -50, scale: 0.9, duration: d, ease: "power2.in" }, t);
+  const shake = (sel, t, a = 14) => tl.fromTo(sel, { x: 0, y: 0 }, { keyframes: [...Array(8)].map((_, i) => ({ x: (i % 2 ? a : -a) * (1 - i / 8), y: (i % 3 ? -a : a) * 0.5 * (1 - i / 8), duration: 0.035 })).concat([{ x: 0, y: 0, duration: 0.04 }]), immediateRender: false }, t);
+  const tagIn = (sel, t) => tl.fromTo(sel, { opacity: 0, y: -30, scale: 0.8 }, { opacity: 1, y: 0, scale: 1, duration: 0.35, ease: "back.out(2)" }, t);
+  const face = (p, from, to, t) => { tl.set(`#${p}-face-${from}`, { opacity: 0 }, t); tl.set(`#${p}-face-${to}`, { opacity: 1 }, t); };
+
+
+  tagIn("#p3-tag", T.aber);
+  popIn("#p3-hat", T.aber + 0.1, 0.35);
+  fadeIn("#p3-q", T.aber + 0.4, 0.3);
+  slam("#p3-st", T.nichts, 2.4);
+  shake("#p3-cam", T.nichts + 0.25, 12);
+  outUp("#p3-A", T.erst - 0.2, 0.2);
+  [T.besch, T.los, T.hinter].forEach((t, i) => { tl.fromTo(`#p3-s${i}`, { opacity: 0, x: -80 }, { opacity: 1, x: 0, duration: 0.3, ease: "back.out(2)" }, t - 0.4); popIn(`#p3-c${i}`, t + 0.2, 0.25, 0.4); });
+  tl.to("#p3-s2", { borderColor: "#E8C27A", duration: 0.3 }, T.weiter);
+  tl.to("#p3-cam", { opacity: 0, duration: 0.15 }, T.end - 0.15);
+
+  window.__timelines["p3"] = tl;
+  </script>
+</template>

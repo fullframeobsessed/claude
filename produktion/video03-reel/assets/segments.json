@@ -1,0 +1,67 @@
+[
+ {
+  "id": "open",
+  "start": 0.0,
+  "end": 0.25
+ },
+ {
+  "id": "r_hook",
+  "start": 0.25,
+  "end": 5.88
+ },
+ {
+  "id": "r_promise",
+  "start": 5.88,
+  "end": 9.206
+ },
+ {
+  "id": "go",
+  "start": 9.206,
+  "end": 9.506
+ },
+ {
+  "id": "timer",
+  "start": 9.206,
+  "end": 69.206
+ },
+ {
+  "id": "r_fix",
+  "start": 9.506,
+  "end": 25.56
+ },
+ {
+  "id": "r_auto",
+  "start": 25.56,
+  "end": 43.52
+ },
+ {
+  "id": "r_aber",
+  "start": 43.52,
+  "end": 52.18
+ },
+ {
+  "id": "r_trick",
+  "start": 52.18,
+  "end": 68.936
+ },
+ {
+  "id": "r_zeit",
+  "start": 69.206,
+  "end": 70.34
+ },
+ {
+  "id": "r_challenge",
+  "start": 70.34,
+  "end": 77.28
+ },
+ {
+  "id": "r_folge",
+  "start": 77.28,
+  "end": 85.012
+ },
+ {
+  "id": "endcard",
+  "start": 85.012,
+  "end": 88.512
+ }
+]

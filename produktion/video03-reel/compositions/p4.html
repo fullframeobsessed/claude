@@ -1,0 +1,54 @@
+<template>
+  <style>
+  #root { position:absolute; inset:0; overflow:hidden; color:#FFF; font-family:'Inter', sans-serif; }
+  #root .actor, #root .light, #root .lay, #root .t { position:absolute; }
+  #root .lay { inset:0; }
+  #root .t { white-space:nowrap; }
+  #root .cond { font-family:'Oswald', sans-serif; font-weight:700; text-transform:uppercase; line-height:1; }
+  #root .mono { font-family:'Space Mono', monospace; font-weight:700; line-height:1; }
+  #root .card { background:#16181D; border:2px solid #3A3F48; border-radius:26px; box-shadow:0 30px 80px rgba(0,0,0,.6); }
+  #root .emo { line-height:1; }
+</style>
+  <div id="root" data-composition-id="p4" data-width="1080" data-height="1920">
+<div class="lay" style="transform:translateY(170px)">
+
+  <div id="p4-cam" class="lay">
+    <div id="p4-tag" class="t" style="left:0;width:1080px;top:442px;text-align:center;opacity:0"><span style="display:inline-flex;align-items:center;gap:16px;padding:8px 28px 8px 10px;background:#16181D;border:2px solid #3A3F48;border-radius:44px;font-size:30px;font-weight:800;letter-spacing:.16em;color:#EDE6D6"><span style="width:50px;height:50px;border-radius:50%;background:#E8C27A;color:#111;display:inline-flex;align-items:center;justify-content:center;font-size:28px;letter-spacing:0">4</span>DER TRICK</span></div>
+    <div id="p4-A" class="lay"><div id="p4-h0" class="actor card" style="left:170px;top:515px;width:740px;height:90px;display:flex;align-items:center;gap:22px;padding:0 26px;opacity:0"><span style="width:50px;height:50px;border-radius:50%;background:#E8C27A;color:#111;display:inline-flex;align-items:center;justify-content:center;font-size:30px;font-weight:900">1</span><span style="font-size:44px">⏱️</span><span style="font-size:38px;font-weight:900">20 MIN KONZENTRATION</span></div><div id="p4-h1" class="actor card" style="left:170px;top:617px;width:740px;height:90px;display:flex;align-items:center;gap:22px;padding:0 26px;opacity:0"><span style="width:50px;height:50px;border-radius:50%;background:#E8C27A;color:#111;display:inline-flex;align-items:center;justify-content:center;font-size:30px;font-weight:900">2</span><span style="font-size:44px">📵</span><span style="font-size:38px;font-weight:900">LANGWEILIGE PAUSE</span></div><div id="p4-h2" class="actor card" style="left:170px;top:719px;width:740px;height:90px;display:flex;align-items:center;gap:22px;padding:0 26px;opacity:0"><span style="width:50px;height:50px;border-radius:50%;background:#E8C27A;color:#111;display:inline-flex;align-items:center;justify-content:center;font-size:30px;font-weight:900">3</span><span style="font-size:44px">🚶</span><span style="font-size:38px;font-weight:900">SPAZIEREN GEHEN</span></div><div id="p4-h3" class="actor card" style="left:170px;top:821px;width:740px;height:90px;display:flex;align-items:center;gap:22px;padding:0 26px;opacity:0"><span style="width:50px;height:50px;border-radius:50%;background:#E8C27A;color:#111;display:inline-flex;align-items:center;justify-content:center;font-size:30px;font-weight:900">4</span><span style="font-size:44px">📝</span><span style="font-size:38px;font-weight:900">AUFSCHREIBEN</span></div><div id="p4-h4" class="actor card" style="left:170px;top:923px;width:740px;height:90px;display:flex;align-items:center;gap:22px;padding:0 26px;opacity:0"><span style="width:50px;height:50px;border-radius:50%;background:#E8C27A;color:#111;display:inline-flex;align-items:center;justify-content:center;font-size:30px;font-weight:900">5</span><span style="font-size:44px">🌙</span><span style="font-size:38px;font-weight:900">DRÜBER SCHLAFEN</span></div></div>
+    <div id="p4-B" class="lay">
+      <div id="p4-f" class="t cond" style="left:0;width:1080px;top:560px;text-align:center;font-size:110px;color:#FFF;opacity:0;">ERST FÜTTERN</div>
+      <div id="p4-ar" class="t " style="left:0;width:1080px;top:680px;text-align:center;font-size:90px;color:#8C8F96;opacity:0;">↓</div>
+      <div id="p4-l" class="t cond" style="left:0;width:1080px;top:780px;text-align:center;font-size:110px;color:#E8C27A;opacity:0;">DANN LOSLASSEN</div>
+      <div id="p4-b-g" class="light" style="left:420.0px;top:840.0px;width:240.0px;height:240.0px;opacity:0;background:radial-gradient(circle, rgba(255,220,120,.6) 0%, transparent 70%);"></div><div id="p4-b" class="actor" style="left:480px;top:894px;width:120px;height:138px;opacity:0"><svg viewBox="-100 -110 200 230" width="120" height="138"><g stroke="#111" stroke-width="5"><path d="M-30,30 a60,60 0 1 1 60,0 l0,40 l-60,0 Z" fill="#FFD43B"/><rect x="-32" y="70" width="64" height="26" rx="6" fill="#9AA0A6"/></g></svg></div>
+    </div>
+  </div>
+</div>
+  </div>
+  <script>
+  const T = {"der": 0.12, "zwanzig": 0.84, "pause": 4.3, "geh": 5.72, "auf": 7.84, "schlaf": 10.5, "kurz": 11.8, "fuettern": 12.82, "loslassen": 13.8, "idee": 14.9, "end": 16.756};
+
+  const tl = gsap.timeline({ paused: true });
+  const fadeIn = (sel, t, d = 0.3) => tl.fromTo(sel, { opacity: 0 }, { opacity: 1, duration: d, ease: "power2.out" }, t);
+  const fadeOut = (sel, t, d = 0.22) => tl.to(sel, { opacity: 0, duration: d, ease: "power2.in" }, t);
+  const popIn = (sel, t, d = 0.32, s = 0.3) => tl.fromTo(sel, { opacity: 0, scale: s }, { opacity: 1, scale: 1, duration: d, ease: "back.out(2.2)" }, t);
+  const slam = (sel, t, s = 2.4) => tl.fromTo(sel, { opacity: 0, scale: s }, { opacity: 1, scale: 1, duration: 0.22, ease: "power4.in" }, t);
+  const upIn = (sel, t, d = 0.3) => tl.fromTo(sel, { opacity: 0, y: 60 }, { opacity: 1, y: 0, duration: d, ease: "power3.out" }, t);
+  const outUp = (sel, t, d = 0.22) => tl.to(sel, { opacity: 0, y: -50, scale: 0.9, duration: d, ease: "power2.in" }, t);
+  const shake = (sel, t, a = 14) => tl.fromTo(sel, { x: 0, y: 0 }, { keyframes: [...Array(8)].map((_, i) => ({ x: (i % 2 ? a : -a) * (1 - i / 8), y: (i % 3 ? -a : a) * 0.5 * (1 - i / 8), duration: 0.035 })).concat([{ x: 0, y: 0, duration: 0.04 }]), immediateRender: false }, t);
+  const tagIn = (sel, t) => tl.fromTo(sel, { opacity: 0, y: -30, scale: 0.8 }, { opacity: 1, y: 0, scale: 1, duration: 0.35, ease: "back.out(2)" }, t);
+  const face = (p, from, to, t) => { tl.set(`#${p}-face-${from}`, { opacity: 0 }, t); tl.set(`#${p}-face-${to}`, { opacity: 1 }, t); };
+
+
+  tagIn("#p4-tag", T.der);
+  [T.zwanzig, T.pause, T.geh, T.auf, T.schlaf].forEach((t, i) => tl.fromTo(`#p4-h${i}`, { opacity: 0, x: 120 }, { opacity: 1, x: 0, duration: 0.3, ease: "back.out(2)" }, t - 0.25));
+  outUp("#p4-A", T.kurz - 0.1, 0.25);
+  slam("#p4-f", T.fuettern - 0.3, 1.4);
+  fadeIn("#p4-ar", T.fuettern + 0.3, 0.2);
+  slam("#p4-l", T.loslassen - 0.1, 1.4);
+  tl.fromTo("#p4-b", { opacity: 0, scale: 0.3 }, { opacity: 1, scale: 1, duration: 0.35, ease: "back.out(2.5)" }, T.idee);
+  tl.fromTo("#p4-b-g", { opacity: 0 }, { opacity: 1, duration: 0.3 }, T.idee + 0.1);
+  tl.to("#p4-cam", { opacity: 0, duration: 0.15 }, T.end - 0.15);
+
+  window.__timelines["p4"] = tl;
+  </script>
+</template>

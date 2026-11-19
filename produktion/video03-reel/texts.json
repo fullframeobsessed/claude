@@ -1,0 +1,30 @@
+{
+  "pieces": {
+    "P1": [
+      "r_hook",
+      "r_promise"
+    ],
+    "P2": [
+      "r_fix",
+      "r_auto",
+      "r_aber",
+      "r_trick"
+    ],
+    "P3": [
+      "r_zeit",
+      "r_challenge",
+      "r_folge"
+    ]
+  },
+  "scenes": {
+    "r_hook": "Zwei Stunden am Schreibtisch: nichts. Fünf Minuten unter der Dusche: die perfekte Idee.",
+    "r_promise": "Warum? Das erklär ich dir in einer Minute. Los!",
+    "r_fix": "Erstens: das Brett vorm Kopf. Wenn du dich verbissen auf ein Problem konzentrierst, läuft dein Denken immer dieselben Wege entlang. Psychologen nennen das Fixierung. Du drehst dich im Kreis um die erste Idee, die dir eingefallen ist. Und je verkrampfter du suchst, desto tiefer wird die Spur.",
+    "r_auto": "Zweitens: der Autopilot. Duschen kannst du im Schlaf. Dein Körper ist beschäftigt, dein Kopf ist frei. Die Gedanken fangen an zu wandern, und dein Gehirn verknüpft Dinge, die sonst nichts miteinander zu tun haben. Genau daraus entstehen neue Ideen. Und die Dusche ist einer der letzten Orte ohne Handy.",
+    "r_aber": "Aber: Ideen kommen nicht aus dem Nichts. Erst musst du dich richtig mit dem Problem beschäftigen. Dann loslassen. Im Hintergrund arbeitet dein Gehirn weiter.",
+    "r_trick": "Der Trick: Zwanzig Minuten volle Konzentration. Dann eine langweilige Pause, ohne Handy. Geh spazieren. Halt immer etwas zum Aufschreiben bereit. Und wenn gar nichts geht: Schlaf eine Nacht drüber. Kurz gesagt: erst füttern, dann loslassen. Die Idee kommt dann von allein.",
+    "r_zeit": "Zeit um!",
+    "r_challenge": "Kleine Challenge zum Schluss: Was kann man alles mit einem Ziegelstein machen? Schreib deine verrückteste Idee in die Kommentare.",
+    "r_folge": "Die ganze Folge mit allen fünf Hacks findest du am Sonntagabend auf YouTube. Den Link dazu findest du in der Bio."
+  }
+}
