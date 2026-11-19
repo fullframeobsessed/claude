@@ -538,7 +538,7 @@ put("c28", "endcard", f"""
   <div id="c28-sb" class="actor" style="left:300px;top:420px;width:300px;height:300px;border-radius:50%;border:2px dashed #555;opacity:0"></div>
   <div id="c28-sbt" class="t" style="left:300px;width:300px;top:740px;text-align:center;font-size:28px;font-weight:700;letter-spacing:.3em;opacity:0">ABONNIEREN</div>
   <div id="c28-nv" class="actor" style="left:900px;top:400px;width:720px;height:405px;border:2px dashed #555;opacity:0"></div>
-  <div id="c28-nt" class="t" style="left:900px;top:350px;font-size:28px;font-weight:700;letter-spacing:.4em;color:{AMBER};opacity:0">NÄCHSTE FOLGE</div>""", r"""
+  <div id="c28-nt" class="t" style="left:900px;top:350px;font-size:28px;font-weight:700;letter-spacing:.4em;color:{AMBER};opacity:0">WEITERSCHAUEN</div>""", r"""
   fadeIn("#c28-ch", 0.3, 0.8); fadeIn("#c28-sub", 0.8, 0.6);
   ["#c28-sb", "#c28-sbt", "#c28-nv", "#c28-nt"].forEach((s, i) => fadeIn(s, 1.2 + i * 0.15, 0.6));
 """, {})
