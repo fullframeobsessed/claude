@@ -516,7 +516,7 @@ SFX += [(T["der"], "whoosh", 0.45), (T["deadline"], "pop", 0.35), (T["nach"], "w
 
 # ================================================================ P5 Zeit um! → ganze Folge auf YouTube
 a, e = SEG["r_trick"][1], END
-T = dict(zeit=T1, die=W("Die", 71), ganze=W("ganze"), youtube=W("YouTube."))
+T = dict(zeit=T1, die=W("Die", 70.5), ganze=W("ganze"), sonntag=W("Sonntagabend"), youtube=W("YouTube."), link=W("Link"), bio=W("Bio."))
 scene("p5", a, e, f"""
   <div id="p5-fl" class="actor" style="left:0;top:-400px;width:1080px;height:2700px;background:#FFF;opacity:0"></div>
   <div id="p5-cam" class="lay">
@@ -532,21 +532,30 @@ scene("p5", a, e, f"""
     <div id="p5-yt" class="t" style="left:0;width:1080px;top:960px;text-align:center;opacity:0">
       <span style="display:inline-flex;align-items:center;gap:14px;padding:10px 26px;border-radius:40px;background:#FF0033;font-size:36px;font-weight:900">
         ▶ YouTube · Otto Normalpsyche</span></div>
+    <div id="p5-so" class="actor" style="left:570px;top:570px;padding:10px 22px;border-radius:14px;background:{AMBER};color:#1A1A1A;
+      font-size:36px;font-weight:900;letter-spacing:.04em;transform:rotate(6deg);box-shadow:0 12px 30px rgba(0,0,0,.5);opacity:0">SONNTAGABEND</div>
+    <div id="p5-bio" class="t" style="left:0;width:1080px;top:960px;text-align:center;opacity:0">
+      <span style="display:inline-flex;align-items:center;gap:14px;padding:10px 30px;border-radius:40px;background:#FFF;color:#1A1A1A;font-size:40px;font-weight:900">
+        🔗 LINK IN DER BIO</span></div>
     {otto("p5", 70, 770, 0.36, ("happy",))}
   </div>""", r"""
   tl.fromTo("#p5-fl", { opacity: 0.55 }, { opacity: 0, duration: 0.35, ease: "power2.out", immediateRender: false }, T.zeit);
   slam("#p5-zu", T.zeit, 2.8);
-  shake("#p5-cam", T.zeit + 0.22, 20);
+  shake("#p5-cam", T.zeit + 0.22, 8);
   tl.to("#p5-zu", { y: -260, scale: 0.4, opacity: 0, duration: 0.3, ease: "power3.in" }, T.die - 0.2);
   fadeIn("#p5-k", T.die, 0.3);
   tl.fromTo("#p5-card", { opacity: 0, y: 200, scale: 0.8, rotation: -4 }, { opacity: 1, y: 0, scale: 1, rotation: 0, duration: 0.5, ease: "back.out(1.5)" }, T.die);
   popIn("#p5-play", T.ganze + 0.2, 0.35, 0.3);
   tl.fromTo("#p5-otto", { opacity: 0, y: 200 }, { opacity: 1, y: 0, duration: 0.4, ease: "back.out(1.8)" }, T.ganze + 0.4);
+  tl.fromTo("#p5-so", { opacity: 0, scale: 2.2, rotation: 20 }, { opacity: 1, scale: 1, rotation: 6, duration: 0.3, ease: "back.out(2)" }, T.sonntag);
   popIn("#p5-yt", T.youtube - 0.1, 0.35, 0.5);
+  tl.to("#p5-yt", { opacity: 0, y: 30, duration: 0.2, ease: "power2.in" }, T.link - 0.15);
+  popIn("#p5-bio", T.link, 0.35, 0.5);
+  tl.fromTo("#p5-bio", { scale: 1.12 }, { scale: 1, duration: 0.4, ease: "back.out(3)", immediateRender: false }, T.bio);
   for (let i = 0; i < 4; i++) tl.fromTo("#p5-play", { scale: 1.15 }, { scale: 1, duration: 0.5, ease: "power2.out", immediateRender: false }, T.youtube + 0.5 + i * 0.8);
   tl.fromTo("#p5-card", { y: 0 }, { y: -12, duration: 1.2, ease: "sine.inOut", yoyo: true, repeat: 2, immediateRender: false }, T.youtube + 0.2);
 """, T)
-SFX += [(T["zeit"], "buzzer", 0.8), (T["zeit"] + 0.2, "boom", 0.5), (T["die"], "whoosh", 0.45), (T["ganze"] + 0.2, "pop", 0.4), (T["youtube"] - 0.1, "click", 0.6)]
+SFX += [(T["zeit"], "ding", 0.75), (T["die"], "whoosh", 0.45), (T["ganze"] + 0.2, "pop", 0.4), (T["sonntag"], "pop", 0.45), (T["youtube"] - 0.1, "click", 0.6), (T["link"], "pop", 0.45), (T["bio"], "click", 0.5)]
 
 # ================================================================ Film-Look (Korn, Vignette, Staub, Flackern) – deterministisch
 _noise = ("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence "

@@ -1,5 +1,5 @@
-"""Saubere, rauschfreie Soundeffekte per Synthese (ersetzen die verrauschten KI-Effekte pop/tick/typing).
-Aufruf: python3 synth.py <zielordner>  ->  pop.mp3, tick.mp3, typing.mp3
+"""Saubere, rauschfreie Soundeffekte per Synthese (ersetzen die verrauschten KI-Effekte pop/tick/typing) + Glocke „ding“.
+Aufruf: python3 synth.py <zielordner>  ->  pop.mp3, tick.mp3, typing.mp3, ding.mp3
 """
 import subprocess, sys, numpy as np, soundfile as sf
 
@@ -54,4 +54,14 @@ ev, at = [], 0.0
 while at < 2.9:
     ev.append((at, key())); at += rng.uniform(0.07, 0.17)
 save("typing", place(3.0, ev))
-print("pop, tick, typing neu erzeugt in", out)
+
+
+def bell(f0, d=1.8):
+    t = t_(d)
+    parts = [(1.0, 1.0, 1.2), (2.0, 0.5, 0.8), (2.76, 0.35, 0.5), (5.4, 0.15, 0.25), (8.9, 0.06, 0.12)]
+    y = sum(a * np.exp(-t / dec) * np.sin(2 * np.pi * f0 * r * t) for r, a, dec in parts)
+    return (1 - np.exp(-t / 0.002)) * y
+
+
+save("ding", place(2.2, [(0.0, bell(1318.5)), (0.16, 0.8 * bell(1760.0))]))  # E6 → A6: freundliches „Ding-Ding“
+print("pop, tick, typing, ding neu erzeugt in", out)

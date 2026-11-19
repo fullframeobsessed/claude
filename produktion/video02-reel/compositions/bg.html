@@ -17,7 +17,7 @@
   <div id="bg-l3" class="light" style="left:400px;top:-20px;width:840px;height:840px;opacity:1.0;background:radial-gradient(circle, rgba(255,150,80,.08) 0%, transparent 70%);"></div>
   </div>
   <script>
-  const T = {"end": 77.779};
+  const T = {"end": 79.652};
 
   const tl = gsap.timeline({ paused: true });
   const fadeIn = (sel, t, d = 0.3) => tl.fromTo(sel, { opacity: 0 }, { opacity: 1, duration: d, ease: "power2.out" }, t);
@@ -31,9 +31,9 @@
   const face = (p, from, to, t) => { tl.set(`#${p}-face-${from}`, { opacity: 0 }, t); tl.set(`#${p}-face-${to}`, { opacity: 1 }, t); };
 
 
-  tl.fromTo("#bg-l1", { x: -60, y: 0 }, { x: 60, y: 40, duration: 77.779, ease: "sine.inOut" }, 0);
-  tl.fromTo("#bg-l2", { x: 0, y: 0 }, { x: 180, y: -120, duration: 77.779, ease: "sine.inOut" }, 0);
-  tl.fromTo("#bg-l3", { x: 0, y: 0 }, { x: -200, y: 80, duration: 77.779, ease: "sine.inOut" }, 0);
+  tl.fromTo("#bg-l1", { x: -60, y: 0 }, { x: 60, y: 40, duration: 79.652, ease: "sine.inOut" }, 0);
+  tl.fromTo("#bg-l2", { x: 0, y: 0 }, { x: 180, y: -120, duration: 79.652, ease: "sine.inOut" }, 0);
+  tl.fromTo("#bg-l3", { x: 0, y: 0 }, { x: -200, y: 80, duration: 79.652, ease: "sine.inOut" }, 0);
 
   window.__timelines["bg"] = tl;
   </script>

@@ -26,6 +26,11 @@
     <div id="p5-yt" class="t" style="left:0;width:1080px;top:960px;text-align:center;opacity:0">
       <span style="display:inline-flex;align-items:center;gap:14px;padding:10px 26px;border-radius:40px;background:#FF0033;font-size:36px;font-weight:900">
         ▶ YouTube · Otto Normalpsyche</span></div>
+    <div id="p5-so" class="actor" style="left:570px;top:570px;padding:10px 22px;border-radius:14px;background:#E8C27A;color:#1A1A1A;
+      font-size:36px;font-weight:900;letter-spacing:.04em;transform:rotate(6deg);box-shadow:0 12px 30px rgba(0,0,0,.5);opacity:0">SONNTAGABEND</div>
+    <div id="p5-bio" class="t" style="left:0;width:1080px;top:960px;text-align:center;opacity:0">
+      <span style="display:inline-flex;align-items:center;gap:14px;padding:10px 30px;border-radius:40px;background:#FFF;color:#1A1A1A;font-size:40px;font-weight:900">
+        🔗 LINK IN DER BIO</span></div>
     <div id="p5-otto" class="actor" style="left:70px;top:770px;width:216px;height:274px;opacity:0"><div style="position:absolute;left:0;top:0;width:600px;height:760px;transform:scale(0.36);transform-origin:0 0"><svg viewBox="-300 -200 600 760" width="600" height="760" overflow="visible"><path d="M-45,330 L-52,470" stroke="#1E1E1E" stroke-width="60" fill="none" stroke-linecap="round"/><path d="M-45,330 L-52,470" stroke="#6B7280" stroke-width="48" fill="none" stroke-linecap="round"/><path d="M45,330 L52,470" stroke="#1E1E1E" stroke-width="60" fill="none" stroke-linecap="round"/><path d="M45,330 L52,470" stroke="#6B7280" stroke-width="48" fill="none" stroke-linecap="round"/><g stroke="#1E1E1E" stroke-width="6" fill="#FFF"><path d="M-100,500 Q-100,462 -60,462 Q-28,462 -22,500 Z"/><path d="M100,500 Q100,462 60,462 Q28,462 22,500 Z"/></g><path d="M-100,494 L-22,494 M22,494 L100,494" stroke="#FF7A1A" stroke-width="5"/><path d="M-86,170 Q-132,235 -124,318" stroke="#1E1E1E" stroke-width="54" fill="none" stroke-linecap="round"/><path d="M-86,170 Q-132,235 -124,318" stroke="#FF7A1A" stroke-width="42" fill="none" stroke-linecap="round"/><circle cx="-124" cy="336" r="21" fill="#F6D2B3" stroke="#1E1E1E" stroke-width="6"/><g stroke="#1E1E1E" stroke-width="6">
       <path d="M-92,100 Q0,160 92,100 Q112,150 78,168 L-78,168 Q-112,150 -92,100 Z" fill="#D9600F"/>
       <rect x="-22" y="100" width="44" height="50" fill="#F6D2B3"/>
@@ -46,7 +51,7 @@
 </div>
   </div>
   <script>
-  const T = {"zeit": 0.27, "die": 1.328, "ganze": 1.428, "youtube": 4.048, "end": 7.847};
+  const T = {"zeit": 0.27, "die": 1.088, "ganze": 1.168, "sonntag": 2.728, "youtube": 3.648, "link": 4.548, "bio": 6.128, "end": 9.72};
 
   const tl = gsap.timeline({ paused: true });
   const fadeIn = (sel, t, d = 0.3) => tl.fromTo(sel, { opacity: 0 }, { opacity: 1, duration: d, ease: "power2.out" }, t);
@@ -62,13 +67,17 @@
 
   tl.fromTo("#p5-fl", { opacity: 0.55 }, { opacity: 0, duration: 0.35, ease: "power2.out", immediateRender: false }, T.zeit);
   slam("#p5-zu", T.zeit, 2.8);
-  shake("#p5-cam", T.zeit + 0.22, 20);
+  shake("#p5-cam", T.zeit + 0.22, 8);
   tl.to("#p5-zu", { y: -260, scale: 0.4, opacity: 0, duration: 0.3, ease: "power3.in" }, T.die - 0.2);
   fadeIn("#p5-k", T.die, 0.3);
   tl.fromTo("#p5-card", { opacity: 0, y: 200, scale: 0.8, rotation: -4 }, { opacity: 1, y: 0, scale: 1, rotation: 0, duration: 0.5, ease: "back.out(1.5)" }, T.die);
   popIn("#p5-play", T.ganze + 0.2, 0.35, 0.3);
   tl.fromTo("#p5-otto", { opacity: 0, y: 200 }, { opacity: 1, y: 0, duration: 0.4, ease: "back.out(1.8)" }, T.ganze + 0.4);
+  tl.fromTo("#p5-so", { opacity: 0, scale: 2.2, rotation: 20 }, { opacity: 1, scale: 1, rotation: 6, duration: 0.3, ease: "back.out(2)" }, T.sonntag);
   popIn("#p5-yt", T.youtube - 0.1, 0.35, 0.5);
+  tl.to("#p5-yt", { opacity: 0, y: 30, duration: 0.2, ease: "power2.in" }, T.link - 0.15);
+  popIn("#p5-bio", T.link, 0.35, 0.5);
+  tl.fromTo("#p5-bio", { scale: 1.12 }, { scale: 1, duration: 0.4, ease: "back.out(3)", immediateRender: false }, T.bio);
   for (let i = 0; i < 4; i++) tl.fromTo("#p5-play", { scale: 1.15 }, { scale: 1, duration: 0.5, ease: "power2.out", immediateRender: false }, T.youtube + 0.5 + i * 0.8);
   tl.fromTo("#p5-card", { y: 0 }, { y: -12, duration: 1.2, ease: "sine.inOut", yoyo: true, repeat: 2, immediateRender: false }, T.youtube + 0.2);
 
