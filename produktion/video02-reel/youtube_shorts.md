@@ -26,3 +26,8 @@ Quellen: Parkinson (1955), Yerkes & Dodson (1908), Tice & Baumeister (1997), Ari
 - **Verknüpftes Video** (beim Hochladen in der App unter „Verknüpftes Video“ bzw. in Studio „Zugehöriges Video“): **Video 02** auswählen. Dann erscheint über dem Titel ein klickbarer Link zur ganzen Folge.
 - Zeitpunkt: **Sonntag, sobald Video 02 online ist** (nach 20:00). Das Reel sagt „kommenden Sonntagabend“, das passt am Sonntag selbst noch, und der verknüpfte Link funktioniert erst, wenn Video 02 öffentlich ist.
 - Hinweis: Im Video heißt es „Link in der Bio“. Auf YouTube übernimmt das der verknüpfte Video-Link über dem Titel.
+
+## Tags
+```
+shorts, deadline, unter druck arbeiten, prokrastination, aufschieben, last minute, parkinsonsches gesetz, psychologie, alltagspsychologie, produktivität, motivation, zeitmanagement, psychologie fakten, otto normalpsyche
+```
