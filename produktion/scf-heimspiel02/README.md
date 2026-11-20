@@ -1,6 +1,6 @@
 # SCF Nürnberg: Reel „Frankenderby“ (2. Heimspieltag, 28.11.2026)
 
-Instagram-Reel (1080×1920, 30 fps, ca. 43 s) für das Squash-Bundesliga-Heimspiel **SCF Nürnberg vs. TSC Heuchelhof**,
+Instagram-Reel (1080×1920, 30 fps, ca. 50 s) für das Squash-Bundesliga-Heimspiel **SCF Nürnberg vs. TSC Heuchelhof**,
 Sa 28.11.2026, 13:00 Uhr, Sportpark Nord Nürnberg. Skript und Faktencheck: [`SKRIPT.md`](SKRIPT.md).
 
 **Ergebnis:** `scf_heimspiel02_reel.mp4` (−14 LUFS, Stimme „Arthur“, Musik, Effekte, eingebrannte Untertitel)
@@ -13,9 +13,9 @@ Sa 28.11.2026, 13:00 Uhr, Sportpark Nord Nürnberg. Skript und Faktencheck: [`SK
 | `assets/cut/<name>.png` | Nur der SCF-Spieler mit Schläger (Gegner per SAM entfernt, `tools/sam_cut.py`) |
 | `assets/sticker_<name>.png` | Papier-Ausschnitt-Look mit weißem Schnittrand und Schatten (`tools/sticker.py`) |
 | `assets/logo_scf.png`, `assets/logo_tsc.png` | Runde Logo-Badges |
-| `assets/arthur/voice_take1.mp3` | Sprachaufnahme Arthur (ElevenLabs über Higgsfield) |
+| `assets/arthur/` | Sprachaufnahmen Arthur (ElevenLabs über Higgsfield): Haupttake + Einzelstücke `franken_b`, `derby_d`, `kandra_a`, `ende_a` (Zusammenbau in `voice.py`) |
 | `assets/music.mp3` | Musik (ElevenLabs Music, instrumental, 129 BPM) |
-| `assets/sfx/` | Klick, Plop, Tick, Boom, Glocke, Kamera-Auslöser (synthetisch) |
+| `assets/sfx/` | Klick, Plop, Tick, Boom, Marimba, Kamera-Auslöser (keine Glocke) |
 
 ## Ablauf
 ```bash
@@ -26,4 +26,4 @@ Szenen, Mauszeiger-Weg, Untertitel und Soundeffekte stehen alle in `gen.py` (Pos
 
 ## Hinweise
 - Armin Hameed ist ab Oberschenkel weich ausgeblendet: Auf dem Foto überkreuzen sich seine Beine mit denen des Gegners.
-- Text liegt in der Instagram-Sicherheitszone (y 270–1248 px, x 65–1015 px); darunter nur Spieler/Deko.
+- Text liegt in der Instagram-Sicherheitszone (y 270–1248 px, x 65–1015 px); die Untertitel sitzen auf Wunsch tiefer (y ≈ 1238–1320).

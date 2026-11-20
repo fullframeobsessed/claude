@@ -1,458 +1,542 @@
 [
 {
 "text": "Frankenderby",
-"start": 0.15,
-"end": 0.96,
+"start": 0.13,
+"end": 1.22,
 "scene": "s1_hook"
 },
 {
 "text": "in",
-"start": 0.98,
-"end": 1.18,
+"start": 1.22,
+"end": 1.4,
 "scene": "s1_hook"
 },
 {
 "text": "der",
-"start": 1.18,
-"end": 1.3,
+"start": 1.4,
+"end": 1.58,
 "scene": "s1_hook"
 },
 {
 "text": "Squash-Bundesliga!",
-"start": 1.32,
-"end": 2.76,
+"start": 1.6,
+"end": 3.5,
 "scene": "s1_hook"
 },
 {
 "text": "Der",
-"start": 2.79,
-"end": 2.92,
+"start": 3.49,
+"end": 3.62,
 "scene": "s2_duell"
 },
 {
 "text": "SCF",
-"start": 2.92,
-"end": 3.6,
+"start": 3.62,
+"end": 4.32,
 "scene": "s2_duell"
 },
 {
 "text": "Nürnberg",
-"start": 3.6,
-"end": 4.16,
+"start": 4.32,
+"end": 4.86,
 "scene": "s2_duell"
 },
 {
 "text": "empfängt",
-"start": 4.16,
-"end": 4.66,
+"start": 4.86,
+"end": 5.38,
 "scene": "s2_duell"
 },
 {
 "text": "den",
-"start": 4.66,
-"end": 5.02,
+"start": 5.38,
+"end": 5.74,
 "scene": "s2_duell"
 },
 {
 "text": "TSC",
-"start": 5.02,
-"end": 5.64,
+"start": 5.74,
+"end": 6.4,
 "scene": "s2_duell"
 },
 {
 "text": "Heuchelhof.",
-"start": 5.64,
-"end": 6.58,
+"start": 6.4,
+"end": 7.28,
 "scene": "s2_duell"
 },
 {
 "text": "Das",
-"start": 7.0,
-"end": 7.14,
+"start": 7.84,
+"end": 7.98,
 "scene": "s3_lineup"
 },
 {
 "text": "ist",
-"start": 7.14,
-"end": 7.3,
+"start": 7.98,
+"end": 8.14,
 "scene": "s3_lineup"
 },
 {
 "text": "unser",
-"start": 7.3,
-"end": 7.58,
+"start": 8.14,
+"end": 8.42,
 "scene": "s3_lineup"
 },
 {
 "text": "Team",
-"start": 7.58,
-"end": 7.84,
+"start": 8.42,
+"end": 8.68,
 "scene": "s3_lineup"
 },
 {
 "text": "für",
-"start": 7.84,
-"end": 8.08,
+"start": 8.68,
+"end": 8.9,
 "scene": "s3_lineup"
 },
 {
 "text": "den",
-"start": 8.08,
-"end": 8.22,
+"start": 8.9,
+"end": 9.06,
 "scene": "s3_lineup"
 },
 {
 "text": "zweiten",
-"start": 8.22,
-"end": 8.56,
+"start": 9.06,
+"end": 9.38,
 "scene": "s3_lineup"
 },
 {
 "text": "Heimspieltag:",
-"start": 8.56,
-"end": 9.5,
+"start": 9.38,
+"end": 10.34,
 "scene": "s3_lineup"
 },
 {
 "text": "Johannes",
-"start": 10.13,
-"end": 10.42,
+"start": 11.01,
+"end": 11.28,
 "scene": "s4_thuerauf"
 },
 {
 "text": "Thürauf.",
-"start": 10.42,
-"end": 11.22,
+"start": 11.28,
+"end": 12.22,
 "scene": "s4_thuerauf"
 },
 {
 "text": "Edwin",
-"start": 11.94,
-"end": 12.36,
+"start": 12.97,
+"end": 13.28,
 "scene": "s5_clain"
 },
 {
 "text": "Clain.",
-"start": 12.38,
-"end": 13.72,
+"start": 13.28,
+"end": 13.78,
 "scene": "s5_clain"
 },
 {
 "text": "David",
-"start": 13.79,
-"end": 14.02,
+"start": 14.76,
+"end": 15.08,
 "scene": "s6_kandra"
 },
 {
 "text": "Kandra.",
-"start": 14.04,
-"end": 14.48,
+"start": 15.08,
+"end": 15.72,
 "scene": "s6_kandra"
 },
 {
 "text": "Und",
-"start": 15.24,
-"end": 15.48,
+"start": 16.63,
+"end": 16.76,
 "scene": "s7_hameed"
 },
 {
 "text": "Armin",
-"start": 15.48,
-"end": 16.28,
+"start": 16.76,
+"end": 17.16,
 "scene": "s7_hameed"
 },
 {
 "text": "Hameed.",
-"start": 16.3,
-"end": 17.12,
+"start": 17.16,
+"end": 17.7,
 "scene": "s7_hameed"
 },
 {
 "text": "Heuchelhof",
-"start": 17.18,
-"end": 17.8,
+"start": 18.3,
+"end": 18.92,
 "scene": "s8_gegner"
 },
 {
 "text": "hat",
-"start": 17.8,
-"end": 18.0,
+"start": 18.92,
+"end": 19.12,
 "scene": "s8_gegner"
 },
 {
 "text": "nachgelegt:",
-"start": 18.0,
-"end": 18.68,
+"start": 19.12,
+"end": 19.78,
 "scene": "s8_gegner"
 },
 {
 "text": "Neuzugang",
-"start": 19.14,
-"end": 19.74,
+"start": 20.3,
+"end": 20.9,
 "scene": "s8_gegner"
 },
 {
 "text": "Dimitri",
-"start": 19.74,
-"end": 20.26,
+"start": 20.9,
+"end": 21.42,
 "scene": "s8_gegner"
 },
 {
 "text": "Steinmann",
-"start": 20.26,
-"end": 20.82,
+"start": 21.42,
+"end": 21.98,
 "scene": "s8_gegner"
 },
 {
 "text": "ist",
-"start": 20.82,
-"end": 21.08,
+"start": 21.98,
+"end": 22.24,
 "scene": "s8_gegner"
 },
 {
 "text": "die",
-"start": 21.08,
-"end": 21.22,
+"start": 22.24,
+"end": 22.38,
 "scene": "s8_gegner"
 },
 {
 "text": "Nummer",
-"start": 21.22,
-"end": 21.38,
+"start": 22.38,
+"end": 22.54,
 "scene": "s8_gegner"
 },
 {
 "text": "21",
-"start": 21.38,
-"end": 22.04,
+"start": 22.54,
+"end": 23.26,
 "scene": "s8_gegner"
 },
 {
 "text": "der",
-"start": 22.04,
-"end": 22.36,
+"start": 23.26,
+"end": 23.56,
 "scene": "s8_gegner"
 },
 {
 "text": "Welt.",
-"start": 22.36,
-"end": 22.6,
+"start": 23.56,
+"end": 23.74,
 "scene": "s8_gegner"
 },
 {
 "text": "Das",
-"start": 23.08,
-"end": 23.18,
+"start": 23.74,
+"end": 24.36,
 "scene": "s8_gegner"
 },
 {
 "text": "Ziel:",
-"start": 23.16,
-"end": 23.5,
+"start": 24.36,
+"end": 24.74,
 "scene": "s8_gegner"
 },
 {
 "text": "die",
-"start": 24.02,
-"end": 24.12,
+"start": 25.16,
+"end": 25.3,
 "scene": "s8_gegner"
 },
 {
 "text": "Playoffs.",
-"start": 24.1,
-"end": 24.62,
+"start": 25.3,
+"end": 25.82,
 "scene": "s8_gegner"
 },
 {
 "text": "Aber",
-"start": 25.06,
-"end": 25.22,
+"start": 26.43,
+"end": 26.58,
 "scene": "s9_score"
 },
 {
 "text": "das",
-"start": 25.22,
-"end": 25.38,
+"start": 26.58,
+"end": 26.76,
 "scene": "s9_score"
 },
 {
 "text": "letzte",
-"start": 25.38,
-"end": 25.6,
+"start": 26.76,
+"end": 26.98,
 "scene": "s9_score"
 },
 {
 "text": "Duell",
-"start": 25.6,
-"end": 25.96,
+"start": 26.98,
+"end": 27.34,
 "scene": "s9_score"
 },
 {
 "text": "im",
-"start": 25.96,
-"end": 26.26,
+"start": 27.34,
+"end": 27.64,
 "scene": "s9_score"
 },
 {
 "text": "Sportpark",
-"start": 26.26,
-"end": 26.8,
+"start": 27.64,
+"end": 28.18,
 "scene": "s9_score"
 },
 {
 "text": "Nord?",
-"start": 26.8,
-"end": 27.12,
+"start": 28.18,
+"end": 28.5,
 "scene": "s9_score"
 },
 {
 "text": "4",
-"start": 27.66,
-"end": 27.86,
+"start": 29.16,
+"end": 29.4,
 "scene": "s9_score"
 },
 {
 "text": "zu",
-"start": 27.88,
-"end": 27.98,
+"start": 29.4,
+"end": 29.54,
 "scene": "s9_score"
 },
 {
 "text": "0",
-"start": 27.93,
-"end": 28.2,
+"start": 29.54,
+"end": 29.76,
 "scene": "s9_score"
 },
 {
 "text": "für",
-"start": 28.2,
-"end": 28.46,
+"start": 29.76,
+"end": 29.98,
 "scene": "s9_score"
 },
 {
 "text": "uns.",
-"start": 28.46,
-"end": 28.66,
+"start": 29.98,
+"end": 30.22,
 "scene": "s9_score"
 },
 {
 "text": "Samstag,",
-"start": 29.31,
-"end": 29.82,
+"start": 30.9,
+"end": 31.36,
 "scene": "s10_termin"
 },
 {
 "text": "28.",
-"start": 30.29,
-"end": 30.78,
+"start": 31.88,
+"end": 32.38,
 "scene": "s10_termin"
 },
 {
 "text": "November,",
-"start": 31.2,
-"end": 31.46,
+"start": 32.8,
+"end": 33.08,
 "scene": "s10_termin"
 },
 {
 "text": "13",
-"start": 32.11,
-"end": 32.52,
+"start": 33.67,
+"end": 34.06,
 "scene": "s10_termin"
 },
 {
 "text": "Uhr.",
-"start": 32.52,
-"end": 32.94,
+"start": 34.06,
+"end": 34.5,
 "scene": "s10_termin"
 },
 {
 "text": "Einlass",
-"start": 33.34,
-"end": 33.74,
+"start": 35.0,
+"end": 35.34,
 "scene": "s10_termin"
 },
 {
 "text": "ab",
-"start": 33.74,
-"end": 33.94,
+"start": 35.34,
+"end": 35.56,
 "scene": "s10_termin"
 },
 {
 "text": "12,",
-"start": 33.94,
-"end": 34.28,
+"start": 35.56,
+"end": 35.88,
 "scene": "s10_termin"
 },
 {
 "text": "Eintritt",
-"start": 34.86,
-"end": 35.26,
+"start": 36.48,
+"end": 36.88,
 "scene": "s10_termin"
 },
 {
 "text": "frei.",
-"start": 35.26,
-"end": 35.58,
+"start": 36.88,
+"end": 37.22,
 "scene": "s10_termin"
 },
 {
 "text": "Kommt",
-"start": 36.01,
-"end": 36.3,
+"start": 37.83,
+"end": 38.14,
 "scene": "s11_cta"
 },
 {
 "text": "in",
-"start": 36.3,
-"end": 36.4,
+"start": 38.14,
+"end": 38.24,
 "scene": "s11_cta"
 },
 {
 "text": "den",
-"start": 36.38,
-"end": 36.5,
+"start": 38.24,
+"end": 38.34,
 "scene": "s11_cta"
 },
 {
 "text": "Sportpark",
-"start": 36.5,
-"end": 37.04,
-"scene": "s11_cta"
-},
-{
-"text": "Nord",
-"start": 37.04,
-"end": 37.34,
-"scene": "s11_cta"
-},
-{
-"text": "und",
-"start": 37.34,
-"end": 37.96,
-"scene": "s11_cta"
-},
-{
-"text": "macht",
-"start": 37.96,
-"end": 38.16,
-"scene": "s11_cta"
-},
-{
-"text": "den",
-"start": 38.16,
-"end": 38.32,
-"scene": "s11_cta"
-},
-{
-"text": "Glascourt",
 "start": 38.34,
 "end": 38.92,
 "scene": "s11_cta"
 },
 {
-"text": "laut!",
-"start": 38.94,
-"end": 39.28,
+"text": "Nord,",
+"start": 38.92,
+"end": 39.34,
+"scene": "s11_cta"
+},
+{
+"text": "seid",
+"start": 39.68,
+"end": 39.88,
+"scene": "s11_cta"
+},
+{
+"text": "live",
+"start": 39.88,
+"end": 40.16,
+"scene": "s11_cta"
+},
+{
+"text": "dabei",
+"start": 40.16,
+"end": 40.56,
+"scene": "s11_cta"
+},
+{
+"text": "und",
+"start": 40.56,
+"end": 41.12,
+"scene": "s11_cta"
+},
+{
+"text": "unterstützt",
+"start": 41.12,
+"end": 41.76,
+"scene": "s11_cta"
+},
+{
+"text": "unsere",
+"start": 41.76,
+"end": 42.06,
+"scene": "s11_cta"
+},
+{
+"text": "Spieler",
+"start": 42.06,
+"end": 42.46,
+"scene": "s11_cta"
+},
+{
+"text": "beim",
+"start": 42.46,
+"end": 42.68,
+"scene": "s11_cta"
+},
+{
+"text": "zweiten",
+"start": 42.68,
+"end": 43.06,
+"scene": "s11_cta"
+},
+{
+"text": "Heimspieltag.",
+"start": 43.06,
+"end": 44.04,
+"scene": "s11_cta"
+},
+{
+"text": "Wir",
+"start": 44.44,
+"end": 44.54,
+"scene": "s11_cta"
+},
+{
+"text": "freuen",
+"start": 44.52,
+"end": 44.76,
+"scene": "s11_cta"
+},
+{
+"text": "uns",
+"start": 44.76,
+"end": 45.0,
+"scene": "s11_cta"
+},
+{
+"text": "auf",
+"start": 45.0,
+"end": 45.18,
+"scene": "s11_cta"
+},
+{
+"text": "euch,",
+"start": 45.18,
+"end": 45.48,
+"scene": "s11_cta"
+},
+{
+"text": "euer",
+"start": 45.86,
+"end": 46.1,
+"scene": "s11_cta"
+},
+{
+"text": "Sportpark",
+"start": 46.1,
+"end": 46.64,
+"scene": "s11_cta"
+},
+{
+"text": "Nord,",
+"start": 46.64,
+"end": 46.98,
+"scene": "s11_cta"
+},
+{
+"text": "ciao!",
+"start": 47.4,
+"end": 47.6,
 "scene": "s11_cta"
 }
 ]
