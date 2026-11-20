@@ -1,4 +1,4 @@
-// Einzelne Szene im Browser prüfen: node tools/szene_testen.js <szene> <sekunde>  (braucht gsap.min.js unter /tmp/claude-0/)
+// Einzelne Szene im Browser prüfen: node tools/szene_testen.cjs <szene> <sekunde>  (braucht gsap.min.js unter /tmp/claude-0/)
 const { chromium } = require('playwright');
 const fs = require('fs');
 (async () => {
