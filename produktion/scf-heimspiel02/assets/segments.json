@@ -27,31 +27,31 @@
  {
   "id": "s6_kandra",
   "start": 15.03,
-  "end": 16.9
+  "end": 16.91
  },
  {
-  "id": "s7_hameed",
-  "start": 16.9,
-  "end": 18.57
+  "id": "s7_svec",
+  "start": 16.91,
+  "end": 18.95
  },
  {
   "id": "s8_gegner",
-  "start": 18.57,
-  "end": 26.7
+  "start": 18.95,
+  "end": 27.08
  },
  {
   "id": "s9_score",
-  "start": 26.7,
-  "end": 31.17
+  "start": 27.08,
+  "end": 31.55
  },
  {
   "id": "s10_termin",
-  "start": 31.17,
-  "end": 38.11
+  "start": 31.55,
+  "end": 38.48
  },
  {
   "id": "s11_cta",
-  "start": 38.11,
-  "end": 50.194
+  "start": 38.48,
+  "end": 50.574
  }
 ]

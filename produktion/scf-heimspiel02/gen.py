@@ -77,7 +77,8 @@ def float3d(ids, dur):
     out = []
     for i, el in enumerate(ids):
         h = (sum(map(ord, el)) * 37 + i * 101) % 997 / 997
-        ay, ax, d = 9 + 5 * h, 5 + 3 * (1 - h), 1.9 + 1.4 * h
+        player = bool(re.search(r"-(pl|st|p\d)$", el))
+        ay, ax, d = (2.5 + 1.5 * h, 1.5 + 1 * (1 - h), 2.6 + 1.4 * h) if player else (5 + 3 * h, 3 + 2 * (1 - h), 2.2 + 1.4 * h)
         n = max(1, math.ceil(dur / d) + 1)
         out.append(f'tl.fromTo("#{el}", {{ rotationY: {-ay:.1f}, rotationX: {ax:.1f}, transformPerspective: 900 }}, '
                    f'{{ rotationY: {ay:.1f}, rotationX: {-ax:.1f}, duration: {d:.2f}, ease: "sine.inOut", yoyo: true, repeat: {n}, transformPerspective: 900 }}, 0);')
@@ -121,10 +122,10 @@ scene("bg", 0, END, f"""
   tl.fromTo("#bg-g4", {{ x: 0, y: 0 }}, {{ x: 260, y: -120, duration: {END}, ease: "sine.inOut" }}, 0);
 """, track=0)
 
-def group(pref, base, items, visible=False):
+def group(pref, base, items, visible=False, start=0):
     """Die vier Spieler-Sticker als Gruppe (Reihenfolge = Malreihenfolge, hinten zuerst); base = Fußlinie in px."""
     out = ""
-    for i, (n, x, hh) in enumerate(items):
+    for i, (n, x, hh) in enumerate(items, start):
         w, h = Image.open(f"{HERE}/assets/sticker_{n}.png").size
         out += (f'<div id="{pref}{i}" class="a" style="left:{x}px;top:{base - hh}px;width:{round(w * hh / h)}px;height:{hh}px;transform-origin:50% 100%;'
                 f'{"" if visible else "opacity:0"}"><img src="assets/sticker_{n}.png" style="width:100%;height:100%"></div>')
@@ -148,7 +149,7 @@ scene("s1", a, e, f"""
   <div id="s1-sai" class="a lbl" style="left:90px;top:335px;color:#FFF">Saison 2026/27</div>
   <div id="s1-heim" class="a big" style="left:70px;top:380px;font-size:270px">HEIM</div>
   <div id="s1-spiel" class="a big ol" style="left:96px;top:615px;font-size:270px">SPIEL</div>
-  {group("s1-p", 1250, [("hameed", 640, 440), ("kandra", 540, 470), ("clain", 360, 470), ("thuerauf", 20, 420)], visible=True)}
+  {group("s1-p", 1250, [("kandra", 600, 470), ("svec", 560, 320), ("clain", 360, 470), ("thuerauf", 20, 420)], visible=True)}
   <div id="s1-fl" class="a" style="inset:0;background:#FFF;opacity:0"></div>""", """
   tl.fromTo("#s1-heim", { scale: 1.06, x: -10 }, { scale: 1, x: 0, duration: 0.5, ease: "power3.out" }, 0);
   tl.fromTo("#s1-spiel", { x: 70 }, { x: 0, duration: 0.6, ease: "power3.out" }, 0);
@@ -224,14 +225,16 @@ SFX += [(W("Team") + 0.3, "pop", 0.6)]
 
 # ================================================================ 4–7 Spieler als Papier-Ausschnitte mit Namensstreifen
 PLAYERS = [("s4_thuerauf", "thuerauf", "Johannes", "Thürauf", -12), ("s5_clain", "clain", "Edwin", "Clain", 10),
-           ("s6_kandra", "kandra", "David", "Kandra", -10), ("s7_hameed", "hameed", "Armin", "Hameed", 12)]
+           ("s6_kandra", "kandra", "David", "Kandra", -10), ("s7_svec", "svec", "Martin", "Svec", 12)]
 from PIL import Image  # noqa: E402
 for k, (sid, img, first, last, rot) in enumerate(PLAYERS):
     a, e = SEG[sid]
     w, h = Image.open(f"{HERE}/assets/sticker_{img}.png").size
-    H = 900 if img != "hameed" else 960
+    H = 900
     Wd = round(w * H / h)
-    x0 = 560 - Wd // 2 + (40 if img in ("thuerauf", "hameed") else 0)
+    if Wd > 1000:  # breite Pose (Svec): auf Bildbreite begrenzen
+        Wd = 1000; H = round(h * Wd / w)
+    x0 = max(40, 560 - Wd // 2 + (40 if img == "thuerauf" else 0))
     cid = f"p{k + 1}"
     LFS = 132
     lw = len(last) * LFS * 0.5 + 68
@@ -400,7 +403,7 @@ click(W("frei.") + 0.1, 600, 640)
 
 # ================================================================ 11 Schluss: alle vier + Logos, „Seid live dabei“, Unterstützung, Termin, Schluss
 a, e = SEG["s11_cta"]
-G11 = [("hameed", 625, 520), ("kandra", 520, 540), ("clain", 335, 540), ("thuerauf", 0, 480)]
+G11 = [("kandra", 590, 540), ("svec", 560, 330), ("clain", 335, 540), ("thuerauf", 0, 480)]
 DAB_Y = 900
 HOP = [W("unterstützt") + 0.05 + k * 0.24 for k in range(4)]
 scene("s11", a, e, f"""
@@ -408,7 +411,7 @@ scene("s11", a, e, f"""
   <div id="s11-vs" class="a big c" style="top:345px;font-size:96px;opacity:0">VS.</div>
   <div id="s11-l2" class="a" style="left:685px;top:290px;width:190px;height:190px;border-radius:50%;box-shadow:0 14px 36px rgba(0,0,0,.6);opacity:0"><img src="assets/logo_tsc.png" style="width:100%;height:100%"></div>
   <div id="s11-band" class="a" style="left:-200px;top:700px;width:1480px;height:330px;background:linear-gradient(90deg,#8E0E13,{RED} 50%,#8E0E13);transform:rotate(-7deg);opacity:0"></div>
-  {group("s11-p", 1040, G11)}
+  {group("s11-p", 1040, G11[:1]) + group("s11-p", 1075, G11[1:2], start=1) + group("s11-p", 1040, G11[2:], start=2)}
   <div id="s11-shade" class="a" style="left:0;top:720px;width:1080px;height:440px;background:linear-gradient(180deg,transparent,rgba(10,4,5,.92) 50%);opacity:0"></div>
   <div id="s11-m1" class="a big c" style="top:790px;font-size:120px;opacity:0">SEID LIVE</div>
   <div id="s11-m2" class="a big c" style="top:880px;font-size:190px;color:{RED};opacity:0;text-shadow:0 10px 30px rgba(0,0,0,.6)">DABEI!</div>
@@ -429,7 +432,7 @@ scene("s11", a, e, f"""
   tl.to(["#s11-m1", "#s11-m2"], { opacity: 0, y: -40, duration: 0.22, ease: "power2.in" }, T.hop0 - 0.25);
   tl.to("#s11-shade", { opacity: 0.55, duration: 0.3 }, T.hop0 - 0.2);
   // „unterstützt unsere Spieler“: der Mauszeiger tippt jeden Spieler an, der Spieler hüpft
-  const hop = [T.hop0, T.hop1, T.hop2, T.hop3], order = [3, 2, 1, 0];
+  const hop = [T.hop0, T.hop1, T.hop2, T.hop3], order = [3, 2, 0, 1];
   for (let k = 0; k < 4; k++) tl.fromTo(`#s11-p${order[k]}`, { y: 0 }, { keyframes: [{ y: -46, scaleY: 1.04, duration: 0.14, ease: "power2.out" }, { y: 0, scaleY: 1, duration: 0.2, ease: "bounce.out" }], immediateRender: false }, hop[k] + 0.04);
   tl.fromTo("#s11-hs", { opacity: 0, scale: 0.4, rotation: -8 }, { opacity: 1, scale: 1, rotation: 0, duration: 0.3, ease: "back.out(2.4)" }, T.hst);
   tl.to("#s11-hs", { opacity: 0, y: -40, duration: 0.22, ease: "power2.in" }, T.btn - 0.25);
@@ -449,8 +452,8 @@ scene("s11", a, e, f"""
 """, {"seid": W("seid"), "dabei": W("dabei"), "hop0": HOP[0], "hop1": HOP[1], "hop2": HOP[2], "hop3": HOP[3], "hst": W("zweiten", after=a),
       "btn": W("Wir"), "click": W("euch,", end=True) + 0.05, "adr": W("euer"), "ciao": W("Nord.", after=W("euer"), end=True) + 0.35},
       f3d=["s11-l1", "s11-l2", "s11-vs", "s11-p0", "s11-p1", "s11-p2", "s11-p3", "s11-m1", "s11-m2", "s11-hs", "s11-btn", "s11-adr"])
-# Sticker-Köpfe (ungefähr), in der Reihenfolge Thürauf, Clain, Kandra, Hameed
-HEADS = [(265, 600), (499, 555), (715, 540), (900, 615)]
+# Sticker-Köpfe (ungefähr), in der Reihenfolge Thürauf, Clain, Kandra, Svec
+HEADS = [(265, 600), (499, 555), (790, 545), (800, 770)]
 SFX += [(a + 0.02, "pop", 0.6), (a + 0.3, "shutter", 0.6), (W("dabei"), "pop", 0.8)]
 move(W("Nord,", after=a) + 0.1, 700, 1150, 0.6, "sine.inOut")
 for k, (hx, hy) in enumerate(HEADS):
@@ -530,7 +533,7 @@ open(f"{HERE}/compositions/frame.html", "w").write(f"""<template>
 """)
 
 # ================================================================ Untertitel: 1–3 Wörter, aktives Wort rot hinterlegt (nicht bei den Spielernamen)
-HIDE = {"s4_thuerauf", "s5_clain", "s6_kandra", "s7_hameed"}
+HIDE = {"s4_thuerauf", "s5_clain", "s6_kandra", "s7_svec"}
 SEID = W("seid"); DAB = W("dabei")
 words = [w for w in WORDS if w["scene"] not in HIDE and not (w["scene"] == "s11_cta" and SEID - 0.01 <= w["start"] <= DAB + 0.01)
          and not (w["scene"] == "s9_score" and w["start"] >= W("für", after=W("4")) - 0.01)]

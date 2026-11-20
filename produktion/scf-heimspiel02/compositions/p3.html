@@ -23,7 +23,7 @@
   <div id="p3-fl" class="a" style="inset:0;background:#FFF;opacity:0"></div>
   </div>
   <script>
-  const T = {"inn": 0.05, "click": 0.75, "end": 1.87};
+  const T = {"inn": 0.05, "click": 0.75, "end": 1.88};
 
   const tl = gsap.timeline({ paused: true });
   const fadeIn = (s, t, d = 0.3) => tl.fromTo(s, { opacity: 0 }, { opacity: 1, duration: d, ease: "power2.out" }, t);
@@ -51,11 +51,11 @@
   tl.to(["#p3-pl", "#p3-fn", "#p3-ln", "#p3-tag", "#p3-num", "#p3-ghost"], { x: (1) * -600, opacity: 0, duration: 0.2, ease: "power2.in", stagger: 0.015 }, T.end - 0.22);
   tl.to("#p3-band", { x: (1) * -1700, duration: 0.24, ease: "power2.in" }, T.end - 0.24);
 
-  tl.fromTo("#p3-pl", { rotationY: -13.4, rotationX: 5.3, transformPerspective: 900 }, { rotationY: 13.4, rotationX: -5.3, duration: 3.14, ease: "sine.inOut", yoyo: true, repeat: 2, transformPerspective: 900 }, 0);
-  tl.fromTo("#p3-fn", { rotationY: -12.4, rotationX: 5.9, transformPerspective: 900 }, { rotationY: 12.4, rotationX: -5.9, duration: 2.86, ease: "sine.inOut", yoyo: true, repeat: 2, transformPerspective: 900 }, 0);
-  tl.fromTo("#p3-ln", { rotationY: -9.1, rotationX: 8.0, transformPerspective: 900 }, { rotationY: 9.1, rotationX: -8.0, duration: 1.92, ease: "sine.inOut", yoyo: true, repeat: 2, transformPerspective: 900 }, 0);
-  tl.fromTo("#p3-tag", { rotationY: -12.8, rotationX: 5.7, transformPerspective: 900 }, { rotationY: 12.8, rotationX: -5.7, duration: 2.95, ease: "sine.inOut", yoyo: true, repeat: 2, transformPerspective: 900 }, 0);
-  tl.fromTo("#p3-num", { rotationY: -12.0, rotationX: 6.2, transformPerspective: 900 }, { rotationY: 12.0, rotationX: -6.2, duration: 2.73, ease: "sine.inOut", yoyo: true, repeat: 2, transformPerspective: 900 }, 0);
+  tl.fromTo("#p3-pl", { rotationY: -3.8, rotationX: 1.6, transformPerspective: 900 }, { rotationY: 3.8, rotationX: -1.6, duration: 3.84, ease: "sine.inOut", yoyo: true, repeat: 2, transformPerspective: 900 }, 0);
+  tl.fromTo("#p3-fn", { rotationY: -7.1, rotationX: 3.6, transformPerspective: 900 }, { rotationY: 7.1, rotationX: -3.6, duration: 3.16, ease: "sine.inOut", yoyo: true, repeat: 2, transformPerspective: 900 }, 0);
+  tl.fromTo("#p3-ln", { rotationY: -5.0, rotationX: 5.0, transformPerspective: 900 }, { rotationY: 5.0, rotationX: -5.0, duration: 2.22, ease: "sine.inOut", yoyo: true, repeat: 2, transformPerspective: 900 }, 0);
+  tl.fromTo("#p3-tag", { rotationY: -7.3, rotationX: 3.5, transformPerspective: 900 }, { rotationY: 7.3, rotationX: -3.5, duration: 3.25, ease: "sine.inOut", yoyo: true, repeat: 2, transformPerspective: 900 }, 0);
+  tl.fromTo("#p3-num", { rotationY: -6.8, rotationX: 3.8, transformPerspective: 900 }, { rotationY: 6.8, rotationX: -3.8, duration: 3.03, ease: "sine.inOut", yoyo: true, repeat: 2, transformPerspective: 900 }, 0);
   window.__timelines["p3"] = tl;
   </script>
 </template>

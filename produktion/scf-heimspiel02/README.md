@@ -25,5 +25,5 @@ HF_HUB_DISABLE_XET=1 python3 voice.py   # Sprecherspur kürzen/tempo + Wortzeite
 Szenen, Mauszeiger-Weg, Untertitel und Soundeffekte stehen alle in `gen.py` (Positionen in px, Zeiten an gesprochene Wörter gekoppelt).
 
 ## Hinweise
-- Armin Hameed ist ab Oberschenkel weich ausgeblendet: Auf dem Foto überkreuzen sich seine Beine mit denen des Gegners.
+- Spieler 4 ist Martin Svec (ersetzt Armin Hameed); Hameeds Freistellung liegt noch in `assets/cut/`, wird aber nicht mehr verwendet.
 - Text liegt in der Instagram-Sicherheitszone (y 270–1248 px, x 65–1015 px); die Untertitel sitzen auf Wunsch tiefer (y ≈ 1238–1320).

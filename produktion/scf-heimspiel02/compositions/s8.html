@@ -37,7 +37,7 @@
   <div id="s8-fl" class="a" style="inset:0;background:#FFF;opacity:0"></div>
   </div>
   <script>
-  const T = {"nach": 0.88, "neu": 2.08, "dim": 2.68, "stein": 3.2, "hover": 4.02, "n21": 4.37, "ziel": 6.19, "end": 8.13};
+  const T = {"nach": 0.88, "neu": 2.08, "dim": 2.68, "stein": 3.18, "hover": 4.02, "n21": 4.37, "ziel": 6.17, "end": 8.13};
 
   const tl = gsap.timeline({ paused: true });
   const fadeIn = (s, t, d = 0.3) => tl.fromTo(s, { opacity: 0 }, { opacity: 1, duration: d, ease: "power2.out" }, t);
@@ -76,15 +76,15 @@
   tl.to(["#s8-lbl", "#s8-logo", "#s8-st", "#s8-badge", "#s8-tag", "#s8-fn", "#s8-ln", "#s8-stamp", "#s8-ghost"], { y: -80, opacity: 0, duration: 0.22, ease: "power2.in", stagger: 0.015 }, T.end - 0.3);
   tl.to("#s8-band", { x: -1700, duration: 0.24, ease: "power2.in" }, T.end - 0.26);
 
-  tl.fromTo("#s8-logo", { rotationY: -9.4, rotationX: 7.7, transformPerspective: 900 }, { rotationY: 9.4, rotationX: -7.7, duration: 2.02, ease: "sine.inOut", yoyo: true, repeat: 6, transformPerspective: 900 }, 0);
-  tl.fromTo("#s8-st", { rotationY: -12.5, rotationX: 5.9, transformPerspective: 900 }, { rotationY: 12.5, rotationX: -5.9, duration: 2.87, ease: "sine.inOut", yoyo: true, repeat: 4, transformPerspective: 900 }, 0);
-  tl.fromTo("#s8-badge", { rotationY: -12.7, rotationX: 5.8, transformPerspective: 900 }, { rotationY: 12.7, rotationX: -5.8, duration: 2.93, ease: "sine.inOut", yoyo: true, repeat: 4, transformPerspective: 900 }, 0);
-  tl.fromTo("#s8-tip", { rotationY: -12.4, rotationX: 6.0, transformPerspective: 900 }, { rotationY: 12.4, rotationX: -6.0, duration: 2.85, ease: "sine.inOut", yoyo: true, repeat: 4, transformPerspective: 900 }, 0);
-  tl.fromTo("#s8-tag", { rotationY: -9.7, rotationX: 7.6, transformPerspective: 900 }, { rotationY: 9.7, rotationX: -7.6, duration: 2.11, ease: "sine.inOut", yoyo: true, repeat: 5, transformPerspective: 900 }, 0);
-  tl.fromTo("#s8-fn", { rotationY: -11.0, rotationX: 6.8, transformPerspective: 900 }, { rotationY: 11.0, rotationX: -6.8, duration: 2.45, ease: "sine.inOut", yoyo: true, repeat: 5, transformPerspective: 900 }, 0);
-  tl.fromTo("#s8-ln", { rotationY: -12.6, rotationX: 5.9, transformPerspective: 900 }, { rotationY: 12.6, rotationX: -5.9, duration: 2.90, ease: "sine.inOut", yoyo: true, repeat: 4, transformPerspective: 900 }, 0);
-  tl.fromTo("#s8-stamp", { rotationY: -9.5, rotationX: 7.7, transformPerspective: 900 }, { rotationY: 9.5, rotationX: -7.7, duration: 2.04, ease: "sine.inOut", yoyo: true, repeat: 5, transformPerspective: 900 }, 0);
-  tl.fromTo("#s8-nach", { rotationY: -9.2, rotationX: 7.9, transformPerspective: 900 }, { rotationY: 9.2, rotationX: -7.9, duration: 1.96, ease: "sine.inOut", yoyo: true, repeat: 6, transformPerspective: 900 }, 0);
+  tl.fromTo("#s8-logo", { rotationY: -5.3, rotationX: 4.8, transformPerspective: 900 }, { rotationY: 5.3, rotationX: -4.8, duration: 2.32, ease: "sine.inOut", yoyo: true, repeat: 5, transformPerspective: 900 }, 0);
+  tl.fromTo("#s8-st", { rotationY: -3.5, rotationX: 1.8, transformPerspective: 900 }, { rotationY: 3.5, rotationX: -1.8, duration: 3.57, ease: "sine.inOut", yoyo: true, repeat: 4, transformPerspective: 900 }, 0);
+  tl.fromTo("#s8-badge", { rotationY: -7.2, rotationX: 3.5, transformPerspective: 900 }, { rotationY: 7.2, rotationX: -3.5, duration: 3.23, ease: "sine.inOut", yoyo: true, repeat: 4, transformPerspective: 900 }, 0);
+  tl.fromTo("#s8-tip", { rotationY: -7.0, rotationX: 3.6, transformPerspective: 900 }, { rotationY: 7.0, rotationX: -3.6, duration: 3.15, ease: "sine.inOut", yoyo: true, repeat: 4, transformPerspective: 900 }, 0);
+  tl.fromTo("#s8-tag", { rotationY: -5.4, rotationX: 4.7, transformPerspective: 900 }, { rotationY: 5.4, rotationX: -4.7, duration: 2.41, ease: "sine.inOut", yoyo: true, repeat: 5, transformPerspective: 900 }, 0);
+  tl.fromTo("#s8-fn", { rotationY: -6.2, rotationX: 4.2, transformPerspective: 900 }, { rotationY: 6.2, rotationX: -4.2, duration: 2.75, ease: "sine.inOut", yoyo: true, repeat: 4, transformPerspective: 900 }, 0);
+  tl.fromTo("#s8-ln", { rotationY: -7.1, rotationX: 3.6, transformPerspective: 900 }, { rotationY: 7.1, rotationX: -3.6, duration: 3.20, ease: "sine.inOut", yoyo: true, repeat: 4, transformPerspective: 900 }, 0);
+  tl.fromTo("#s8-stamp", { rotationY: -5.3, rotationX: 4.8, transformPerspective: 900 }, { rotationY: 5.3, rotationX: -4.8, duration: 2.34, ease: "sine.inOut", yoyo: true, repeat: 5, transformPerspective: 900 }, 0);
+  tl.fromTo("#s8-nach", { rotationY: -5.1, rotationX: 4.9, transformPerspective: 900 }, { rotationY: 5.1, rotationX: -4.9, duration: 2.26, ease: "sine.inOut", yoyo: true, repeat: 5, transformPerspective: 900 }, 0);
   window.__timelines["s8"] = tl;
   </script>
 </template>

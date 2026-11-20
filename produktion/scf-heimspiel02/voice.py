@@ -16,7 +16,7 @@ PIECES = [
     (T1, 11.64, 13.05, 0.75),   # Johannes Thürauf.
     (T1, 13.60, 14.84, 0.75),   # Edwin Clain.
     (f"{A}/arthur/kandra_a.mp3", None, None, 0.75),   # David Kandra. (deutsch, neu)
-    (T1, 17.26, 18.58, 0.50),   # Und Armin Hameed.
+    (f"{A}/arthur/svec_b.mp3", None, None, 0.50),      # Und Martin Svec. (gesprochen „Schwetz“)
     (T1, 19.37, 21.22, 0.30),   # Heuchelhof hat nachgelegt:
     (T1, 21.79, 25.76, 0.32),   # Neuzugang Dimitri Steinmann ist die Nummer 21 der Welt.
     (T1, 26.36, 28.72, 0.45),   # Das Ziel: die Playoffs.
@@ -69,8 +69,8 @@ subprocess.run(["rm", "-f", f"{A}/_in.wav"])
 dur = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f"{A}/voice.wav"]))
 
 # ---- Wortzeiten: Whisper, an Skriptwörter angeglichen und an echte Einsätze gerückt
-PROMPT = "Heimspieltag, SCF Nürnberg, TSC Heuchelhof, Johannes Thürauf, Edwin Clain, David Kandra, Armin Hameed, Dimitri Steinmann, Glascourt"
-ALIAS = {"klain": "clain", "daphid": "david", "dafid": "david", "kandre": "kandra", "hamid": "hameed", "glaskurt": "glascourt", "tschau": "ciao"}
+PROMPT = "Heimspieltag, SCF Nürnberg, TSC Heuchelhof, Johannes Thürauf, Edwin Clain, David Kandra, Martin Svec, Dimitri Steinmann, Glascourt"
+ALIAS = {"klain": "clain", "daphid": "david", "dafid": "david", "kandre": "kandra", "schwetz": "svec", "schwez": "svec", "glaskurt": "glascourt", "tschau": "ciao"}
 from faster_whisper import WhisperModel  # noqa: E402
 y16, _ = librosa.load(f"{A}/voice.wav", sr=16000)
 wh = [w for s in WhisperModel("small", device="cpu", compute_type="int8").transcribe(y16, language="de", word_timestamps=True, initial_prompt=PROMPT)[0] for w in s.words]
