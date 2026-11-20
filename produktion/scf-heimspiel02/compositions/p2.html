@@ -12,6 +12,7 @@
                 font-size:44px; padding:14px 26px 12px; background:#1B0B0D; border:3px solid #4A1C1F; border-radius:14px; }
 </style>
   <div id="root" data-composition-id="p2" data-width="1080" data-height="1920">
+<div id="p2-cam" class="a" style="left:0;top:0;width:1080px;height:1920px;transform-origin:540px 820px">
 
   <div id="p2-band" class="a" style="left:-260px;top:520px;width:1600px;height:560px;background:linear-gradient(90deg,#8E0E13,#E3241B 50%,#8E0E13);transform:rotate(10deg)"></div>
   <div id="p2-ghost" class="a big ol" data-layout-ignore style="left:-40px;top:250px;font-size:360px;-webkit-text-stroke:4px rgba(255,255,255,.28)">CLAIN</div>
@@ -21,6 +22,7 @@
   <div id="p2-fn" class="a" style="left:90px;top:980px;opacity:0;transform-origin:20% 50%;"><span class="strip" style="font-size:64px;background:#E3241B;color:#FFF;padding:10px 34px 6px;clip-path:polygon(9px 0.0%, 0px 14.3%, 9px 28.6%, 0px 42.9%, 9px 57.1%, 0px 71.4%, 9px 85.7%, 0px 100.0%, calc(100% - 0px) 100.0%, calc(100% - 9px) 85.7%, calc(100% - 0px) 71.4%, calc(100% - 9px) 57.1%, calc(100% - 0px) 42.9%, calc(100% - 9px) 28.6%, calc(100% - 0px) 14.3%, calc(100% - 9px) 0.0%);transform:rotate(-3deg)">EDWIN</span></div>
   <div id="p2-ln" class="a" style="left:90px;top:1058px;opacity:0;transform-origin:20% 50%;"><span class="strip" style="font-size:132px;background:#FAF8F3;color:#111;padding:8px 34px 2px;clip-path:polygon(9px 0.0%, 0px 14.3%, 9px 28.6%, 0px 42.9%, 9px 57.1%, 0px 71.4%, 9px 85.7%, 0px 100.0%, calc(100% - 0px) 100.0%, calc(100% - 9px) 85.7%, calc(100% - 0px) 71.4%, calc(100% - 9px) 57.1%, calc(100% - 0px) 42.9%, calc(100% - 9px) 28.6%, calc(100% - 0px) 14.3%, calc(100% - 9px) 0.0%);transform:rotate(-2deg)">CLAIN</span></div>
   <div id="p2-fl" class="a" style="inset:0;background:#FFF;opacity:0"></div>
+</div>
   </div>
   <script>
   const T = {"inn": 0.05, "click": 0.75, "end": 1.79};
@@ -56,6 +58,7 @@
   tl.fromTo("#p2-ln", { rotationY: -7.9, rotationX: 3.1, transformPerspective: 900 }, { rotationY: 7.9, rotationX: -3.1, duration: 3.56, ease: "sine.inOut", yoyo: true, repeat: 2, transformPerspective: 900 }, 0);
   tl.fromTo("#p2-tag", { rotationY: -7.1, rotationX: 3.6, transformPerspective: 900 }, { rotationY: 7.1, rotationX: -3.6, duration: 3.20, ease: "sine.inOut", yoyo: true, repeat: 2, transformPerspective: 900 }, 0);
   tl.fromTo("#p2-num", { rotationY: -6.7, rotationX: 3.9, transformPerspective: 900 }, { rotationY: 6.7, rotationX: -3.9, duration: 2.98, ease: "sine.inOut", yoyo: true, repeat: 2, transformPerspective: 900 }, 0);
+  tl.fromTo("#p2-cam", { scale: 1.06 }, { scale: 1.0, duration: 1.790, ease: "sine.out" }, 0.000);
   window.__timelines["p2"] = tl;
   </script>
 </template>

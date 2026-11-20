@@ -12,6 +12,7 @@
                 font-size:44px; padding:14px 26px 12px; background:#1B0B0D; border:3px solid #4A1C1F; border-radius:14px; }
 </style>
   <div id="root" data-composition-id="s3" data-width="1080" data-height="1920">
+<div id="s3-cam" class="a" style="left:0;top:0;width:1080px;height:1920px;transform-origin:540px 820px">
 
   <div id="s3-lbl" class="a lbl c" style="top:385px">Saison 2026/27 · 2. Heimspieltag</div>
   <div id="s3-u" class="a big c" style="top:440px;font-size:200px">UNSER</div>
@@ -20,9 +21,10 @@
        display:flex;align-items:center;justify-content:center;gap:18px;font-weight:900;font-style:italic;font-size:54px;letter-spacing:.02em;
        box-shadow:0 18px 40px rgba(0,0,0,.55)">LINE-UP ANSEHEN <span style="font-style:normal;font-size:40px">▶</span></div>
   <div id="s3-wipe" class="a" style="left:-400px;top:-200px;width:1900px;height:2400px;background:#E3241B;transform:skewX(-14deg) translateX(-2200px)"></div>
+</div>
   </div>
   <script>
-  const T = {"team": 0.68, "click": -6.34, "end": 3.17};
+  const T = {"team": 0.7, "click": 2.76, "end": 3.17};
 
   const tl = gsap.timeline({ paused: true });
   const fadeIn = (s, t, d = 0.3) => tl.fromTo(s, { opacity: 0 }, { opacity: 1, duration: d, ease: "power2.out" }, t);
@@ -48,6 +50,7 @@
   tl.fromTo("#s3-u", { rotationY: -5.5, rotationX: 4.7, transformPerspective: 900 }, { rotationY: 5.5, rotationX: -4.7, duration: 2.44, ease: "sine.inOut", yoyo: true, repeat: 3, transformPerspective: 900 }, 0);
   tl.fromTo("#s3-t", { rotationY: -5.7, rotationX: 4.5, transformPerspective: 900 }, { rotationY: 5.7, rotationX: -4.5, duration: 2.53, ease: "sine.inOut", yoyo: true, repeat: 3, transformPerspective: 900 }, 0);
   tl.fromTo("#s3-btn", { rotationY: -5.2, rotationX: 4.9, transformPerspective: 900 }, { rotationY: 5.2, rotationX: -4.9, duration: 2.28, ease: "sine.inOut", yoyo: true, repeat: 3, transformPerspective: 900 }, 0);
+  tl.fromTo("#s3-cam", { scale: 1.0 }, { scale: 1.06, duration: 3.170, ease: "sine.inOut" }, 0.000);
   window.__timelines["s3"] = tl;
   </script>
 </template>

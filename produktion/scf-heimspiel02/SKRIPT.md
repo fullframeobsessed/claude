@@ -15,7 +15,7 @@
 | 4 | Spieler 1 | Johannes Thürauf. | Blitz, Thürauf als Papier-Ausschnitt fliegt rein, Namensstreifen „JOHANNES THÜRAUF“ |
 | 5 | Spieler 2 | Edwin Clain. | Wisch-Übergang, Clain, Namensstreifen |
 | 6 | Spieler 3 | David Kandra. (deutsch: „Dahfit“) | Kandra, Namensstreifen |
-| 7 | Spieler 4 | Und Martin Svec. (gesprochen „Schwetz“) | Svec, Namensstreifen |
+| 7 | Spieler 4 | Und Martin Svec. (gesprochen „Swetsch“) | Svec, Namensstreifen |
 | 8 | Gegner | Heuchelhof hat nachgelegt: Neuzugang Dimitri Steinmann ist die Nummer einundzwanzig der Welt. Das Ziel: die Playoffs. | Heuchelhof-Logo, „HAT NACHGELEGT“; dann Dimitri Steinmann als Papier-Ausschnitt mit Blitz, Namensstreifen und rundem Badge „WRL 21“ (Mauszeiger klickt), Stempel „ZIEL: PLAYOFFS?“ |
 | 9 | Ansage | Aber das letzte Duell im Sportpark Nord? Vier zu null für uns. | Riesige „4:0“ wird vom Mauszeiger rot eingekreist; „FÜR UNS“ |
 | 10 | Termin | Samstag, achtundzwanzigster November, dreizehn Uhr. Einlass ab zwölf, Eintritt frei. | Rote Datumsleiste „SA 28.11. · 13:00 UHR“, Infozeile „EINLASS 12:00 / EINTRITT FREI / GLASCOURT“, Mauszeiger klickt „Im Kalender speichern“ → Häkchen |
@@ -44,5 +44,12 @@ Stimme Arthur, Musik: treibender Sport-Beat ohne Gesang (ElevenLabs Music), unte
 - Schluss endet mit „… euer Sportpark Nord.“ (kein „ciao“ mehr).
 
 ## Fassung 4
-- Martin Svec ersetzt Armin Hameed (freigestellt, Gegner im Hintergrund entfernt; gesprochen „Und Martin Schwetz“).
+- Martin Svec ersetzt Armin Hameed (freigestellt, Gegner im Hintergrund entfernt; zuerst „Schwetz“, ab Fassung 5 „Swetsch“).
 - 3D-Kippen ruhiger: Spieler ca. 2–4°, übrige Popups ca. 5–8°.
+
+## Fassung 5
+- „Svec“ jetzt „Swetsch“ gesprochen.
+- Svec in den Gruppenbildern (Anfang und Schluss) größer und vorne; die anderen Spieler entsprechend angepasst.
+- Schluss: schwarze Verlaufsmaske vor „SEID LIVE DABEI!“ entfernt, rotes Band unter den Spielern mit weichen Kanten; Schrift dafür mit Kontur.
+- Leichte Zoom-Fahrten in fast allen Szenen (rein/raus, Punch-in bei „4:0“); der Mauszeiger folgt den Zooms.
+- Fehler behoben: Die Line-up-Szene („UNSER TEAM“) war seit Fassung 3 unsichtbar, weil „Heimspieltag“ nun auch im Hook vorkommt.

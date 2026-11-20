@@ -12,6 +12,7 @@
                 font-size:44px; padding:14px 26px 12px; background:#1B0B0D; border:3px solid #4A1C1F; border-radius:14px; }
 </style>
   <div id="root" data-composition-id="s8" data-width="1080" data-height="1920">
+<div id="s8-cam" class="a" style="left:0;top:0;width:1080px;height:1920px;transform-origin:540px 820px">
 
   <div id="s8-band" class="a" style="left:-260px;top:560px;width:1600px;height:520px;background:linear-gradient(90deg,#3A0A0D,#7A1015 50%,#3A0A0D);transform:rotate(-10deg);opacity:0"></div>
   <div id="s8-ghost" class="a big ol" data-layout-ignore style="left:-30px;top:560px;font-size:300px;-webkit-text-stroke:4px rgba(255,255,255,.22);opacity:0">STEINMANN</div>
@@ -35,9 +36,10 @@
     <div style="transform:rotate(-7deg);border:7px solid #E3241B;color:#E3241B;padding:10px 26px 6px;font-weight:900;font-style:italic;font-size:76px;line-height:1;
          background:rgba(11,5,6,.88);white-space:nowrap">ZIEL: PLAYOFFS?</div></div>
   <div id="s8-fl" class="a" style="inset:0;background:#FFF;opacity:0"></div>
+</div>
   </div>
   <script>
-  const T = {"nach": 0.88, "neu": 2.08, "dim": 2.68, "stein": 3.18, "hover": 4.02, "n21": 4.37, "ziel": 6.17, "end": 8.13};
+  const T = {"nach": 0.89, "neu": 2.09, "dim": 2.67, "stein": 3.19, "hover": 4.01, "n21": 4.36, "ziel": 6.16, "end": 8.13};
 
   const tl = gsap.timeline({ paused: true });
   const fadeIn = (s, t, d = 0.3) => tl.fromTo(s, { opacity: 0 }, { opacity: 1, duration: d, ease: "power2.out" }, t);
@@ -85,6 +87,8 @@
   tl.fromTo("#s8-ln", { rotationY: -7.1, rotationX: 3.6, transformPerspective: 900 }, { rotationY: 7.1, rotationX: -3.6, duration: 3.20, ease: "sine.inOut", yoyo: true, repeat: 4, transformPerspective: 900 }, 0);
   tl.fromTo("#s8-stamp", { rotationY: -5.3, rotationX: 4.8, transformPerspective: 900 }, { rotationY: 5.3, rotationX: -4.8, duration: 2.34, ease: "sine.inOut", yoyo: true, repeat: 5, transformPerspective: 900 }, 0);
   tl.fromTo("#s8-nach", { rotationY: -5.1, rotationX: 4.9, transformPerspective: 900 }, { rotationY: 5.1, rotationX: -4.9, duration: 2.26, ease: "sine.inOut", yoyo: true, repeat: 5, transformPerspective: 900 }, 0);
+  tl.fromTo("#s8-cam", { scale: 1.0 }, { scale: 1.04, duration: 2.040, ease: "sine.inOut" }, 0.000);
+  tl.fromTo("#s8-cam", { scale: 1.07 }, { scale: 1.0, duration: 6.090, ease: "sine.out", immediateRender: false }, 2.040);
   window.__timelines["s8"] = tl;
   </script>
 </template>

@@ -26,6 +26,47 @@ def W(word, after=0.0, end=False):
     raise KeyError(word)
 
 
+# Leichte Zoom-Fahrten je Szene (absolute Zeiten): (von, bis, Zoom von, Zoom bis, Ease); Ursprung OX/OY
+ZO = (540, 820)
+def _seg(sid):
+    return SEG[sid]
+ZOOM = {
+    "s2": [(*_seg("s2_duell"), 1.07, 1.0, "sine.out")],
+    "s3": [(*_seg("s3_lineup"), 1.0, 1.06, "sine.inOut")],
+    "p1": [(*_seg("s4_thuerauf"), 1.0, 1.05, "sine.out")],
+    "p2": [(*_seg("s5_clain"), 1.06, 1.0, "sine.out")],
+    "p3": [(*_seg("s6_kandra"), 1.0, 1.05, "sine.out")],
+    "p4": [(*_seg("s7_svec"), 1.06, 1.0, "sine.out")],
+    "s8": [(_seg("s8_gegner")[0], W("Neuzugang") - 0.1, 1.0, 1.04, "sine.inOut"), (W("Neuzugang") - 0.1, _seg("s8_gegner")[1], 1.07, 1.0, "sine.out")],
+    "s9": [(_seg("s9_score")[0], W("4") - 0.05, 1.0, 1.02, "sine.inOut"), (W("4") - 0.05, W("4") + 0.25, 1.02, 1.06, "power3.out"),
+           (W("4") + 0.25, _seg("s9_score")[1], 1.06, 1.02, "sine.inOut")],
+    "s10": [(*_seg("s10_termin"), 1.06, 1.0, "sine.out")],
+    "s11": [(_seg("s11_cta")[0], W("Wir"), 1.0, 1.05, "sine.inOut"), (W("Wir"), _seg("s11_cta")[1], 1.05, 0.98, "sine.inOut")],
+}
+ZORIG = {"s9": (540, 735)}
+
+
+def _ease(name, u):
+    u = min(max(u, 0.0), 1.0)
+    if name == "power3.out":
+        return 1 - (1 - u) ** 3
+    if name == "sine.out":
+        return math.sin(u * math.pi / 2)
+    return 0.5 - 0.5 * math.cos(math.pi * u)
+
+
+def zmap(t, x, y):
+    """Bildpunkt (x, y) einer Szene zur Zeit t → Bildschirmposition unter der Zoom-Fahrt (für den Mauszeiger)."""
+    for cid, segs in ZOOM.items():
+        if segs[0][0] - 1e-6 <= t < segs[-1][1]:
+            for t0, t1, z0, z1, ease in segs:
+                if t0 - 1e-6 <= t <= t1 + 1e-6:
+                    z = z0 + (z1 - z0) * _ease(ease, (t - t0) / max(t1 - t0, 1e-6))
+                    ox, oy = ZORIG.get(cid, ZO)
+                    return ox + (x - ox) * z, oy + (y - oy) * z
+    return x, y
+
+
 FONTS = "".join(
     f"@font-face{{font-family:'BC';src:url('assets/fonts/barlow-condensed-latin-{w}-{s}.woff2') format('woff2');font-weight:{w};font-style:{s};}}"
     for w, s in [(900, "italic"), (800, "italic"), (800, "normal"), (600, "normal"), (400, "normal")])
@@ -88,7 +129,15 @@ def float3d(ids, dur):
 def scene(cid, a, e, html, js, T=None, track=1, f3d=()):
     T = {k: round(v - a, 3) for k, v in (T or {}).items()}
     T["end"] = round(e - a, 3)
+    bad = {k: v for k, v in T.items() if not (-0.5 <= v <= T["end"] + 0.5)}
+    assert not bad, f"{cid}: Zeiten außerhalb der Szene {bad}"
     js = js + "\n  " + float3d(f3d, e - a)
+    if cid in ZOOM:
+        ox, oy = ZORIG.get(cid, ZO)
+        html = f'<div id="{cid}-cam" class="a" style="left:0;top:0;width:1080px;height:1920px;transform-origin:{ox}px {oy}px">\n{html}\n</div>'
+        for k, (t0, t1, z0, z1, ease) in enumerate(ZOOM[cid]):
+            js += (f'\n  tl.fromTo("#{cid}-cam", {{ scale: {z0} }}, {{ scale: {z1}, duration: {t1 - t0:.3f}, ease: "{ease}"'
+                   f'{", immediateRender: false" if k else ""} }}, {max(t0 - a, 0):.3f});')
     src = (f'<template>\n  <style>{CSS}</style>\n  <div id="root" data-composition-id="{cid}" data-width="1080" data-height="1920">\n{html}\n  </div>\n'
            f'  <script>\n  const T = {json.dumps(T)};\n{JS}\n{js}\n  window.__timelines["{cid}"] = tl;\n  </script>\n</template>\n')
     open(f"{HERE}/compositions/{cid}.html", "w", encoding="utf-8").write(src)
@@ -149,7 +198,7 @@ scene("s1", a, e, f"""
   <div id="s1-sai" class="a lbl" style="left:90px;top:335px;color:#FFF">Saison 2026/27</div>
   <div id="s1-heim" class="a big" style="left:70px;top:380px;font-size:270px">HEIM</div>
   <div id="s1-spiel" class="a big ol" style="left:96px;top:615px;font-size:270px">SPIEL</div>
-  {group("s1-p", 1250, [("kandra", 600, 470), ("svec", 560, 320), ("clain", 360, 470), ("thuerauf", 20, 420)], visible=True)}
+  {group("s1-p", 1240, [("kandra", 620, 440), ("svec", 500, 395), ("clain", 330, 440), ("thuerauf", 10, 400)], visible=True)}
   <div id="s1-fl" class="a" style="inset:0;background:#FFF;opacity:0"></div>""", """
   tl.fromTo("#s1-heim", { scale: 1.06, x: -10 }, { scale: 1, x: 0, duration: 0.5, ease: "power3.out" }, 0);
   tl.fromTo("#s1-spiel", { x: 70 }, { x: 0, duration: 0.6, ease: "power3.out" }, 0);
@@ -218,9 +267,9 @@ scene("s3", a, e, f"""
   tap("#s3-btn", T.click, 1.06);
   tl.to("#s3-btn", { backgroundColor: "#E3241B", color: "#FFFFFF", duration: 0.1 }, T.click + 0.05);
   tl.fromTo("#s3-wipe", { x: 0 }, { x: 2400, duration: 0.42, ease: "power2.in", immediateRender: false }, T.end - 0.42);
-""", {"team": W("Team"), "click": W("Heimspieltag:", end=True) + 0.12}, f3d=["s3-u", "s3-t", "s3-btn"])
+""", {"team": W("Team"), "click": W("Heimspieltag:", after=SEG["s3_lineup"][0], end=True) + 0.12}, f3d=["s3-u", "s3-t", "s3-btn"])
 move(W("Team") + 0.4, 742, BTN_Y + 62, 0.6)
-click(W("Heimspieltag:", end=True) + 0.12, 742, BTN_Y + 62)
+click(W("Heimspieltag:", after=SEG["s3_lineup"][0], end=True) + 0.12, 742, BTN_Y + 62)
 SFX += [(W("Team") + 0.3, "pop", 0.6)]
 
 # ================================================================ 4–7 Spieler als Papier-Ausschnitte mit Namensstreifen
@@ -331,8 +380,8 @@ move(W("Ziel:") + 0.45, 640, 450, 0.4)
 a, e = SEG["s9_score"]
 CX, CY = 540, 735
 scene("s9", a, e, f"""
-  <div id="s9-l1" class="a big c" style="top:300px;font-size:104px">LETZTES DUELL</div>
-  <div id="s9-l2" class="a lbl c" style="top:405px;font-size:40px">im Sportpark Nord</div>
+  <div id="s9-l1" class="a big c" style="top:318px;font-size:104px">LETZTES DUELL</div>
+  <div id="s9-l2" class="a lbl c" style="top:420px;font-size:40px">im Sportpark Nord</div>
   <div id="s9-score" class="a big c" style="top:505px;font-size:470px;text-shadow:0 20px 60px rgba(0,0,0,.6)">4:0</div>
   <svg id="s9-ring" class="a" style="left:0;top:0;overflow:visible" width="1080" height="1920" viewBox="0 0 1080 1920">
     <path id="s9-path" d="" fill="none" stroke="{RED}" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -403,18 +452,18 @@ click(W("frei.") + 0.1, 600, 640)
 
 # ================================================================ 11 Schluss: alle vier + Logos, „Seid live dabei“, Unterstützung, Termin, Schluss
 a, e = SEG["s11_cta"]
-G11 = [("kandra", 590, 540), ("svec", 560, 330), ("clain", 335, 540), ("thuerauf", 0, 480)]
+G11 = [("kandra", 600, 500), ("svec", 490, 425), ("clain", 300, 500), ("thuerauf", -10, 450)]
 DAB_Y = 900
 HOP = [W("unterstützt") + 0.05 + k * 0.24 for k in range(4)]
 scene("s11", a, e, f"""
   <div id="s11-l1" class="a" style="left:205px;top:290px;width:190px;height:190px;border-radius:50%;box-shadow:0 14px 36px rgba(0,0,0,.6);opacity:0"><img src="assets/logo_scf.png" style="width:100%;height:100%"></div>
   <div id="s11-vs" class="a big c" style="top:345px;font-size:96px;opacity:0">VS.</div>
   <div id="s11-l2" class="a" style="left:685px;top:290px;width:190px;height:190px;border-radius:50%;box-shadow:0 14px 36px rgba(0,0,0,.6);opacity:0"><img src="assets/logo_tsc.png" style="width:100%;height:100%"></div>
-  <div id="s11-band" class="a" style="left:-200px;top:700px;width:1480px;height:330px;background:linear-gradient(90deg,#8E0E13,{RED} 50%,#8E0E13);transform:rotate(-7deg);opacity:0"></div>
-  {group("s11-p", 1040, G11[:1]) + group("s11-p", 1075, G11[1:2], start=1) + group("s11-p", 1040, G11[2:], start=2)}
-  <div id="s11-shade" class="a" style="left:0;top:720px;width:1080px;height:440px;background:linear-gradient(180deg,transparent,rgba(10,4,5,.92) 50%);opacity:0"></div>
-  <div id="s11-m1" class="a big c" style="top:790px;font-size:120px;opacity:0">SEID LIVE</div>
-  <div id="s11-m2" class="a big c" style="top:880px;font-size:190px;color:{RED};opacity:0;text-shadow:0 10px 30px rgba(0,0,0,.6)">DABEI!</div>
+  <div id="s11-band" class="a" style="left:-200px;top:660px;width:1480px;height:420px;background:linear-gradient(90deg,#8E0E13,{RED} 50%,#8E0E13);transform:rotate(-7deg);opacity:0;
+       -webkit-mask-image:linear-gradient(180deg,transparent 0%,#000 22%,#000 62%,transparent 100%);mask-image:linear-gradient(180deg,transparent 0%,#000 22%,#000 62%,transparent 100%)"></div>
+  {group("s11-p", 1030, G11[:1]) + group("s11-p", 1085, G11[1:2], start=1) + group("s11-p", 1030, G11[2:], start=2)}
+  <div id="s11-m1" class="a big c" style="top:790px;font-size:120px;opacity:0;text-shadow:0 6px 0 #000,0 0 30px rgba(0,0,0,.9),3px 3px 0 #000,-3px -3px 0 #000,3px -3px 0 #000,-3px 3px 0 #000">SEID LIVE</div>
+  <div id="s11-m2" class="a big c" style="top:880px;font-size:190px;color:#FFF;opacity:0;text-shadow:0 8px 0 #000,0 0 34px rgba(0,0,0,.9),4px 4px 0 #000,-4px -4px 0 #000,4px -4px 0 #000,-4px 4px 0 #000">DABEI!</div>
   <div id="s11-hs" class="a" style="left:0;width:1080px;top:905px;text-align:center;opacity:0">{strip("s11-hs-s", 0, 0, "2. HEIMSPIELTAG", 92, PAPER, "#111", -2, (8, 36, 2), "position:relative;display:inline-block", hidden=False)}</div>
   <div id="s11-btn" class="a" style="left:270px;top:{DAB_Y}px;width:540px;height:112px;border-radius:56px;background:#FFF;color:{RED};display:flex;align-items:center;justify-content:center;
        gap:16px;font-weight:900;font-style:italic;font-size:56px;box-shadow:0 18px 40px rgba(0,0,0,.55);opacity:0"><span id="s11-bt">ICH BIN DABEI</span><span id="s11-ck" style="font-style:normal;opacity:0">✓</span></div>
@@ -425,12 +474,10 @@ scene("s11", a, e, f"""
   popIn("#s11-l1", 0.0, 0.4, 0.2); popIn("#s11-vs", 0.15, 0.3, 2); popIn("#s11-l2", 0.22, 0.4, 0.2);
   tl.fromTo("#s11-band", { opacity: 0, scaleX: 0.1 }, { opacity: 1, scaleX: 1, duration: 0.4, ease: "power3.out" }, 0.1);
   for (let i = 0; i < 4; i++) tl.fromTo(`#s11-p${i}`, { opacity: 0, y: 200, rotation: (i % 2 ? 6 : -6) }, { opacity: 1, y: 0, rotation: 0, duration: 0.45, ease: "back.out(1.5)" }, 0.25 + i * 0.12);
-  fadeIn("#s11-shade", T.seid - 0.1, 0.3);
   upIn("#s11-m1", T.seid, 0.3, 50);
   slam("#s11-m2", T.dabei, 2.4);
   shake("#s11-m2", T.dabei + 0.2, 12);
   tl.to(["#s11-m1", "#s11-m2"], { opacity: 0, y: -40, duration: 0.22, ease: "power2.in" }, T.hop0 - 0.25);
-  tl.to("#s11-shade", { opacity: 0.55, duration: 0.3 }, T.hop0 - 0.2);
   // „unterstützt unsere Spieler“: der Mauszeiger tippt jeden Spieler an, der Spieler hüpft
   const hop = [T.hop0, T.hop1, T.hop2, T.hop3], order = [3, 2, 0, 1];
   for (let k = 0; k < 4; k++) tl.fromTo(`#s11-p${order[k]}`, { y: 0 }, { keyframes: [{ y: -46, scaleY: 1.04, duration: 0.14, ease: "power2.out" }, { y: 0, scaleY: 1, duration: 0.2, ease: "bounce.out" }], immediateRender: false }, hop[k] + 0.04);
@@ -453,7 +500,7 @@ scene("s11", a, e, f"""
       "btn": W("Wir"), "click": W("euch,", end=True) + 0.05, "adr": W("euer"), "ciao": W("Nord.", after=W("euer"), end=True) + 0.35},
       f3d=["s11-l1", "s11-l2", "s11-vs", "s11-p0", "s11-p1", "s11-p2", "s11-p3", "s11-m1", "s11-m2", "s11-hs", "s11-btn", "s11-adr"])
 # Sticker-Köpfe (ungefähr), in der Reihenfolge Thürauf, Clain, Kandra, Svec
-HEADS = [(265, 600), (499, 555), (790, 545), (800, 770)]
+HEADS = [(230, 620), (450, 585), (800, 575), (740, 700)]
 SFX += [(a + 0.02, "pop", 0.6), (a + 0.3, "shutter", 0.6), (W("dabei"), "pop", 0.8)]
 move(W("Nord,", after=a) + 0.1, 700, 1150, 0.6, "sine.inOut")
 for k, (hx, hy) in enumerate(HEADS):
@@ -472,7 +519,8 @@ scene("wipe", 0, END, wp, "".join(
     f'tl.fromTo("#wp{i}", {{ x: 0 }}, {{ x: 3200, duration: 0.42, ease: "power2.inOut", immediateRender: false }}, {c - 0.21:.3f});' for i, c in enumerate(cuts)), track=6)
 
 # ================================================================ Mauszeiger (führt durchs Reel)
-ripples = "".join(f'<div id="cr{i}" class="a" style="left:{x - 50}px;top:{y - 50}px;width:100px;height:100px;border-radius:50%;border:6px solid #FFF;opacity:0"></div>'
+CLICKS = [(t, *zmap(t, x, y)) for t, x, y in CLICKS]
+ripples = "".join(f'<div id="cr{i}" class="a" style="left:{x - 50:.0f}px;top:{y - 50:.0f}px;width:100px;height:100px;border-radius:50%;border:6px solid #FFF;opacity:0"></div>'
                   for i, (t, x, y) in enumerate(CLICKS))
 cj = []
 for kind, t, x, y, d, ease in CUR:
@@ -481,12 +529,14 @@ for kind, t, x, y, d, ease in CUR:
     elif kind == "show":
         cj.append(f'tl.to("#cur", {{ opacity: 1, duration: 0.2 }}, {t});')
     elif kind == "move":
-        cj.append(f'tl.to("#cur", {{ x: {x}, y: {y}, duration: {d}, ease: "{ease}" }}, {t:.3f});')
+        x, y = zmap(t + d, x, y)
+        cj.append(f'tl.to("#cur", {{ x: {x:.1f}, y: {y:.1f}, duration: {d}, ease: "{ease}" }}, {t:.3f});')
     elif kind == "wave":
         cj.append(f'tl.fromTo("#cur", {{ rotation: 0 }}, {{ keyframes: [{{ rotation: -22, duration: 0.1 }}, {{ rotation: 18, duration: 0.12 }}, {{ rotation: -16, duration: 0.12 }}, {{ rotation: 12, duration: 0.12 }}, {{ rotation: 0, duration: 0.12 }}], immediateRender: false }}, {t:.3f});')
     elif kind == "path":
         pts_, dur = x, y
         step = dur / (len(pts_) - 1)
+        pts_ = [zmap(t + i * step, px, py) for i, (px, py) in enumerate(pts_)]
         cj.append(f'tl.to("#cur", {{ keyframes: {json.dumps([{"x": round(px, 1), "y": round(py, 1), "duration": round(step, 4)} for px, py in pts_[1:]])}, ease: "none" }}, {t:.3f});')
 for i, (t, x, y) in enumerate(CLICKS):
     cj.append(f'tl.fromTo("#cur-in", {{ scale: 1 }}, {{ keyframes: [{{ scale: 0.78, duration: 0.07 }}, {{ scale: 1, duration: 0.16 }}], immediateRender: false }}, {t - 0.05:.3f});')

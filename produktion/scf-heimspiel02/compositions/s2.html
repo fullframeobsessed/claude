@@ -12,6 +12,7 @@
                 font-size:44px; padding:14px 26px 12px; background:#1B0B0D; border:3px solid #4A1C1F; border-radius:14px; }
 </style>
   <div id="root" data-composition-id="s2" data-width="1080" data-height="1920">
+<div id="s2-cam" class="a" style="left:0;top:0;width:1080px;height:1920px;transform-origin:540px 820px">
 
   <div id="s2-lbl" class="a lbl c" style="top:330px;font-size:38px">Live im Sportpark Nord</div>
   <div id="s2-band" class="a" style="left:-200px;top:690px;width:1480px;height:150px;background:linear-gradient(90deg,transparent,#E3241B 30%,#E3241B 70%,transparent);transform:rotate(-8deg);opacity:0"></div>
@@ -22,6 +23,7 @@
   <div id="s2-n2" class="a big" style="left:625px;top:975px;width:400px;text-align:center;font-size:66px">TSC HEUCHELHOF</div>
   <div id="s2-h1" class="a lbl" style="left:55px;top:1055px;width:400px;text-align:center;font-size:30px;color:#FFF;opacity:.7">Heim</div>
   <div id="s2-h2" class="a lbl" style="left:625px;top:1055px;width:400px;text-align:center;font-size:30px;color:#FFF;opacity:.7">Gast · Würzburg</div>
+</div>
   </div>
   <script>
   const T = {"scf": 0.19, "vs": 1.48, "tsc": 2.26, "c1": 1.09, "end": 4.34};
@@ -59,6 +61,7 @@
   tl.fromTo("#s2-vs", { rotationY: -6.9, rotationX: 3.7, transformPerspective: 900 }, { rotationY: 6.9, rotationX: -3.7, duration: 3.10, ease: "sine.inOut", yoyo: true, repeat: 3, transformPerspective: 900 }, 0);
   tl.fromTo("#s2-n1", { rotationY: -8.0, rotationX: 3.0, transformPerspective: 900 }, { rotationY: 8.0, rotationX: -3.0, duration: 3.60, ease: "sine.inOut", yoyo: true, repeat: 3, transformPerspective: 900 }, 0);
   tl.fromTo("#s2-n2", { rotationY: -5.4, rotationX: 4.7, transformPerspective: 900 }, { rotationY: 5.4, rotationX: -4.7, duration: 2.39, ease: "sine.inOut", yoyo: true, repeat: 3, transformPerspective: 900 }, 0);
+  tl.fromTo("#s2-cam", { scale: 1.07 }, { scale: 1.0, duration: 4.340, ease: "sine.out" }, 0.000);
   window.__timelines["s2"] = tl;
   </script>
 </template>
