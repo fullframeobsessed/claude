@@ -20,7 +20,7 @@
   <div id="bg-g4" class="a" style="left:-280px;top:1040px;width:920px;height:920px;background:radial-gradient(circle, rgba(120,10,14,.30) 0%, transparent 68%);"></div>
   </div>
   <script>
-  const T = {"end": 50.41};
+  const T = {"end": 50.8};
 
   const tl = gsap.timeline({ paused: true });
   const fadeIn = (s, t, d = 0.3) => tl.fromTo(s, { opacity: 0 }, { opacity: 1, duration: d, ease: "power2.out" }, t);
@@ -35,11 +35,12 @@
   const flash = (s, t, a = 0.85) => tl.fromTo(s, { opacity: a }, { opacity: 0, duration: 0.32, ease: "power2.out", immediateRender: false }, t);
 
 
-  tl.fromTo("#bg-g1", { x: -80, y: 0, scale: 1 }, { x: 120, y: 90, scale: 1.15, duration: 50.41, ease: "sine.inOut" }, 0);
-  tl.fromTo("#bg-g2", { x: 0, y: 0 }, { x: -200, y: -160, duration: 50.41, ease: "sine.inOut" }, 0);
-  tl.fromTo("#bg-g3", { x: 0, y: 0, opacity: .6 }, { x: -240, y: 120, opacity: 1, duration: 50.41, ease: "sine.inOut" }, 0);
-  tl.fromTo("#bg-g4", { x: 0, y: 0 }, { x: 260, y: -120, duration: 50.41, ease: "sine.inOut" }, 0);
+  tl.fromTo("#bg-g1", { x: -80, y: 0, scale: 1 }, { x: 120, y: 90, scale: 1.15, duration: 50.8, ease: "sine.inOut" }, 0);
+  tl.fromTo("#bg-g2", { x: 0, y: 0 }, { x: -200, y: -160, duration: 50.8, ease: "sine.inOut" }, 0);
+  tl.fromTo("#bg-g3", { x: 0, y: 0, opacity: .6 }, { x: -240, y: 120, opacity: 1, duration: 50.8, ease: "sine.inOut" }, 0);
+  tl.fromTo("#bg-g4", { x: 0, y: 0 }, { x: 260, y: -120, duration: 50.8, ease: "sine.inOut" }, 0);
 
+  
   window.__timelines["bg"] = tl;
   </script>
 </template>

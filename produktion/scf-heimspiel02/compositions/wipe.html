@@ -15,7 +15,7 @@
 <div id="wp0" class="a" style="left:-300px;top:-200px;width:900px;height:2400px;background:#E3241B;transform:skewX(-14deg) translateX(-1600px)"></div><div id="wp1" class="a" style="left:-300px;top:-200px;width:900px;height:2400px;background:#E3241B;transform:skewX(-14deg) translateX(-1600px)"></div><div id="wp2" class="a" style="left:-300px;top:-200px;width:900px;height:2400px;background:#E3241B;transform:skewX(-14deg) translateX(-1600px)"></div><div id="wp3" class="a" style="left:-300px;top:-200px;width:900px;height:2400px;background:#E3241B;transform:skewX(-14deg) translateX(-1600px)"></div><div id="wp4" class="a" style="left:-300px;top:-200px;width:900px;height:2400px;background:#E3241B;transform:skewX(-14deg) translateX(-1600px)"></div>
   </div>
   <script>
-  const T = {"end": 50.41};
+  const T = {"end": 50.8};
 
   const tl = gsap.timeline({ paused: true });
   const fadeIn = (s, t, d = 0.3) => tl.fromTo(s, { opacity: 0 }, { opacity: 1, duration: d, ease: "power2.out" }, t);
@@ -29,7 +29,8 @@
   const shake = (s, t, a = 16) => tl.fromTo(s, { x: 0, y: 0 }, { keyframes: [...Array(8)].map((_, i) => ({ x: (i % 2 ? a : -a) * (1 - i / 8), y: (i % 3 ? -a : a) * 0.5 * (1 - i / 8), duration: 0.035 })).concat([{ x: 0, y: 0, duration: 0.04 }]), immediateRender: false }, t);
   const flash = (s, t, a = 0.85) => tl.fromTo(s, { opacity: a }, { opacity: 0, duration: 0.32, ease: "power2.out", immediateRender: false }, t);
 
-tl.fromTo("#wp0", { x: 0 }, { x: 3200, duration: 0.42, ease: "power2.inOut", immediateRender: false }, 3.160);tl.fromTo("#wp1", { x: 0 }, { x: 3200, duration: 0.42, ease: "power2.inOut", immediateRender: false }, 17.970);tl.fromTo("#wp2", { x: 0 }, { x: 3200, duration: 0.42, ease: "power2.inOut", immediateRender: false }, 26.100);tl.fromTo("#wp3", { x: 0 }, { x: 3200, duration: 0.42, ease: "power2.inOut", immediateRender: false }, 30.570);tl.fromTo("#wp4", { x: 0 }, { x: 3200, duration: 0.42, ease: "power2.inOut", immediateRender: false }, 37.500);
+tl.fromTo("#wp0", { x: 0 }, { x: 3200, duration: 0.42, ease: "power2.inOut", immediateRender: false }, 3.550);tl.fromTo("#wp1", { x: 0 }, { x: 3200, duration: 0.42, ease: "power2.inOut", immediateRender: false }, 18.360);tl.fromTo("#wp2", { x: 0 }, { x: 3200, duration: 0.42, ease: "power2.inOut", immediateRender: false }, 26.490);tl.fromTo("#wp3", { x: 0 }, { x: 3200, duration: 0.42, ease: "power2.inOut", immediateRender: false }, 30.960);tl.fromTo("#wp4", { x: 0 }, { x: 3200, duration: 0.42, ease: "power2.inOut", immediateRender: false }, 37.900);
+  
   window.__timelines["wipe"] = tl;
   </script>
 </template>

@@ -51,6 +51,11 @@
   tl.to(["#p4-pl", "#p4-fn", "#p4-ln", "#p4-tag", "#p4-num", "#p4-ghost"], { x: (-1) * -600, opacity: 0, duration: 0.2, ease: "power2.in", stagger: 0.015 }, T.end - 0.22);
   tl.to("#p4-band", { x: (-1) * -1700, duration: 0.24, ease: "power2.in" }, T.end - 0.24);
 
+  tl.fromTo("#p4-pl", { rotationY: -13.6, rotationX: 5.2, transformPerspective: 900 }, { rotationY: 13.6, rotationX: -5.2, duration: 3.19, ease: "sine.inOut", yoyo: true, repeat: 2, transformPerspective: 900 }, 0);
+  tl.fromTo("#p4-fn", { rotationY: -12.6, rotationX: 5.8, transformPerspective: 900 }, { rotationY: 12.6, rotationX: -5.8, duration: 2.92, ease: "sine.inOut", yoyo: true, repeat: 2, transformPerspective: 900 }, 0);
+  tl.fromTo("#p4-ln", { rotationY: -9.2, rotationX: 7.9, transformPerspective: 900 }, { rotationY: 9.2, rotationX: -7.9, duration: 1.97, ease: "sine.inOut", yoyo: true, repeat: 2, transformPerspective: 900 }, 0);
+  tl.fromTo("#p4-tag", { rotationY: -12.9, rotationX: 5.6, transformPerspective: 900 }, { rotationY: 12.9, rotationX: -5.6, duration: 3.00, ease: "sine.inOut", yoyo: true, repeat: 2, transformPerspective: 900 }, 0);
+  tl.fromTo("#p4-num", { rotationY: -12.2, rotationX: 6.1, transformPerspective: 900 }, { rotationY: 12.2, rotationX: -6.1, duration: 2.78, ease: "sine.inOut", yoyo: true, repeat: 2, transformPerspective: 900 }, 0);
   window.__timelines["p4"] = tl;
   </script>
 </template>

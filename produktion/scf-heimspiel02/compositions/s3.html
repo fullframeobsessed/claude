@@ -22,7 +22,7 @@
   <div id="s3-wipe" class="a" style="left:-400px;top:-200px;width:1900px;height:2400px;background:#E3241B;transform:skewX(-14deg) translateX(-2200px)"></div>
   </div>
   <script>
-  const T = {"team": 0.7, "click": 2.74, "end": 3.17};
+  const T = {"team": 0.7, "click": -6.34, "end": 3.17};
 
   const tl = gsap.timeline({ paused: true });
   const fadeIn = (s, t, d = 0.3) => tl.fromTo(s, { opacity: 0 }, { opacity: 1, duration: d, ease: "power2.out" }, t);
@@ -45,6 +45,9 @@
   tl.to("#s3-btn", { backgroundColor: "#E3241B", color: "#FFFFFF", duration: 0.1 }, T.click + 0.05);
   tl.fromTo("#s3-wipe", { x: 0 }, { x: 2400, duration: 0.42, ease: "power2.in", immediateRender: false }, T.end - 0.42);
 
+  tl.fromTo("#s3-u", { rotationY: -9.9, rotationX: 7.5, transformPerspective: 900 }, { rotationY: 9.9, rotationX: -7.5, duration: 2.14, ease: "sine.inOut", yoyo: true, repeat: 3, transformPerspective: 900 }, 0);
+  tl.fromTo("#s3-t", { rotationY: -10.2, rotationX: 7.3, transformPerspective: 900 }, { rotationY: 10.2, rotationX: -7.3, duration: 2.23, ease: "sine.inOut", yoyo: true, repeat: 3, transformPerspective: 900 }, 0);
+  tl.fromTo("#s3-btn", { rotationY: -9.3, rotationX: 7.8, transformPerspective: 900 }, { rotationY: 9.3, rotationX: -7.8, duration: 1.98, ease: "sine.inOut", yoyo: true, repeat: 3, transformPerspective: 900 }, 0);
   window.__timelines["s3"] = tl;
   </script>
 </template>

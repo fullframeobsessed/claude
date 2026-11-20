@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image, ImageFilter
 from scipy import ndimage
 B, PAD, MAXH = 14, 60, 1100
-for n in ["thuerauf", "clain", "kandra", "hameed"]:
+for n in ["thuerauf", "clain", "kandra", "hameed", "steinmann"]:
     im = Image.open(f"assets/cut/{n}.png").convert("RGBA")
     if im.height > MAXH:
         im = im.resize((round(im.width * MAXH / im.height), MAXH), Image.LANCZOS)

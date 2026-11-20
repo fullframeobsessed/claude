@@ -72,9 +72,22 @@ def strip(id_, x, y, text, fs, bg, fg, rot=0, pad=(10, 34, 6), extra="", hidden=
             f'clip-path:{TORN};transform:rotate({rot}deg)">{text}</span></div>')
 
 
-def scene(cid, a, e, html, js, T=None, track=1):
+def float3d(ids, dur):
+    """Popups schweben dreidimensional: langsames Kippen um X- und Y-Achse mit Perspektive (deterministisch je Element)."""
+    out = []
+    for i, el in enumerate(ids):
+        h = (sum(map(ord, el)) * 37 + i * 101) % 997 / 997
+        ay, ax, d = 9 + 5 * h, 5 + 3 * (1 - h), 1.9 + 1.4 * h
+        n = max(1, math.ceil(dur / d) + 1)
+        out.append(f'tl.fromTo("#{el}", {{ rotationY: {-ay:.1f}, rotationX: {ax:.1f}, transformPerspective: 900 }}, '
+                   f'{{ rotationY: {ay:.1f}, rotationX: {-ax:.1f}, duration: {d:.2f}, ease: "sine.inOut", yoyo: true, repeat: {n}, transformPerspective: 900 }}, 0);')
+    return "\n  ".join(out)
+
+
+def scene(cid, a, e, html, js, T=None, track=1, f3d=()):
     T = {k: round(v - a, 3) for k, v in (T or {}).items()}
     T["end"] = round(e - a, 3)
+    js = js + "\n  " + float3d(f3d, e - a)
     src = (f'<template>\n  <style>{CSS}</style>\n  <div id="root" data-composition-id="{cid}" data-width="1080" data-height="1920">\n{html}\n  </div>\n'
            f'  <script>\n  const T = {json.dumps(T)};\n{JS}\n{js}\n  window.__timelines["{cid}"] = tl;\n  </script>\n</template>\n')
     open(f"{HERE}/compositions/{cid}.html", "w", encoding="utf-8").write(src)
@@ -146,7 +159,7 @@ scene("s1", a, e, f"""
   flash("#s1-fl", 0.05, 0.25);
   tl.to(["#s1-heim", "#s1-spiel", "#s1-lbl", "#s1-sai", "#s1-p3", "#s1-p2"], { x: -140, opacity: 0, duration: 0.22, ease: "power2.in", stagger: 0.03 }, T.end - 0.26);
   tl.to(["#s1-wedge", "#s1-02", "#s1-fd", "#s1-hst", "#s1-box", "#s1-p1", "#s1-p0"], { x: 160, opacity: 0, duration: 0.22, ease: "power2.in", stagger: 0.02 }, T.end - 0.26);
-""", {"liga": W("Squash-Bundesliga!"), "click": 1.75})
+""", {"liga": W("Squash-Bundesliga!"), "click": 1.75}, f3d=["s1-02", "s1-box", "s1-p0", "s1-p1", "s1-p2", "s1-p3"])
 CUR.append(("set", 0, 980, 1420, 0, ""))
 CUR.append(("show", 0.5, 0, 0, 0, ""))
 move(0.55, 752, 690, 0.9, "power2.out")
@@ -179,7 +192,7 @@ scene("s2", a, e, f"""
   tl.to(["#s2-l1", "#s2-n1", "#s2-h1"], { x: -300, opacity: 0, duration: 0.24, ease: "power2.in" }, T.end - 0.28);
   tl.to(["#s2-l2", "#s2-n2", "#s2-h2"], { x: 300, opacity: 0, duration: 0.24, ease: "power2.in" }, T.end - 0.28);
   tl.to(["#s2-vs", "#s2-band", "#s2-lbl"], { scale: 0.6, opacity: 0, duration: 0.22, ease: "power2.in" }, T.end - 0.26);
-""", {"scf": W("SCF") - 0.05, "vs": W("empfängt"), "tsc": W("TSC") - 0.1, "c1": W("Nürnberg") + 0.15})
+""", {"scf": W("SCF") - 0.05, "vs": W("empfängt"), "tsc": W("TSC") - 0.1, "c1": W("Nürnberg") + 0.15}, f3d=["s2-l1", "s2-l2", "s2-vs", "s2-n1", "s2-n2"])
 SFX += [(W("SCF"), "pop", 0.8), (W("empfängt"), "pop", 0.6), (W("TSC") + 0.32, "pop", 0.8)]
 move(W("SCF") + 0.25, 320, 830, 0.5)
 click(W("Nürnberg") + 0.15, 320, 830)
@@ -204,7 +217,7 @@ scene("s3", a, e, f"""
   tap("#s3-btn", T.click, 1.06);
   tl.to("#s3-btn", { backgroundColor: "#E3241B", color: "#FFFFFF", duration: 0.1 }, T.click + 0.05);
   tl.fromTo("#s3-wipe", { x: 0 }, { x: 2400, duration: 0.42, ease: "power2.in", immediateRender: false }, T.end - 0.42);
-""", {"team": W("Team"), "click": W("Heimspieltag:", end=True) + 0.12})
+""", {"team": W("Team"), "click": W("Heimspieltag:", end=True) + 0.12}, f3d=["s3-u", "s3-t", "s3-btn"])
 move(W("Team") + 0.4, 742, BTN_Y + 62, 0.6)
 click(W("Heimspieltag:", end=True) + 0.12, 742, BTN_Y + 62)
 SFX += [(W("Team") + 0.3, "pop", 0.6)]
@@ -243,57 +256,73 @@ for k, (sid, img, first, last, rot) in enumerate(PLAYERS):
   tap("#CID-ln", T.click, 1.07);
   tl.to(["#CID-pl", "#CID-fn", "#CID-ln", "#CID-tag", "#CID-num", "#CID-ghost"], { x: DIR * -600, opacity: 0, duration: 0.2, ease: "power2.in", stagger: 0.015 }, T.end - 0.22);
   tl.to("#CID-band", { x: DIR * -1700, duration: 0.24, ease: "power2.in" }, T.end - 0.24);
-""".replace("CID", cid).replace("DIR", "(1)" if k % 2 == 0 else "(-1)"), {"inn": a + 0.05, "click": a + 0.75})
+""".replace("CID", cid).replace("DIR", "(1)" if k % 2 == 0 else "(-1)"), {"inn": a + 0.05, "click": a + 0.75},
+          f3d=[f"{cid}-pl", f"{cid}-fn", f"{cid}-ln", f"{cid}-tag", f"{cid}-num"])
     SFX += [(a + 0.06, "shutter", 0.9), (a + 0.3, "pop", 0.45)]
     move(a + 0.25, 90 + lw - 18, 1178, 0.45)
     click(a + 0.75, 90 + lw - 18, 1178)
 
 # ================================================================ 8 Gegner: Heuchelhof, Steinmann (WRL 21), Ziel Playoffs
 a, e = SEG["s8_gegner"]
-CARD_Y = 830
+sw, sh = Image.open(f"{HERE}/assets/sticker_steinmann.png").size
+STW = 860; STH = round(sh * STW / sw)
+BADGE = (865, 470)  # Mittelpunkt WRL-Badge
 scene("s8", a, e, f"""
+  <div id="s8-band" class="a" style="left:-260px;top:560px;width:1600px;height:520px;background:linear-gradient(90deg,#3A0A0D,#7A1015 50%,#3A0A0D);transform:rotate(-10deg);opacity:0"></div>
+  <div id="s8-ghost" class="a big ol" data-layout-ignore style="left:-30px;top:560px;font-size:300px;-webkit-text-stroke:4px rgba(255,255,255,.22);opacity:0">STEINMANN</div>
   <div id="s8-lbl" class="a lbl" style="left:100px;top:290px">Der Gegner</div>
-  <div id="s8-logo" class="a" style="left:96px;top:340px;width:240px;height:240px;border-radius:50%;box-shadow:0 16px 40px rgba(0,0,0,.6)"><img src="assets/logo_tsc.png" style="width:100%;height:100%"></div>
+  <div id="s8-logo" class="a" style="left:96px;top:340px;width:240px;height:240px;border-radius:50%;box-shadow:0 16px 40px rgba(0,0,0,.6);transform-origin:0 0"><img src="assets/logo_tsc.png" style="width:100%;height:100%"></div>
   <div id="s8-t1" class="a big" style="left:370px;top:365px;font-size:110px">TSC</div>
   <div id="s8-t2" class="a big" style="left:370px;top:465px;font-size:110px">HEUCHELHOF</div>
   <div id="s8-sub" class="a" style="left:100px;top:612px;font-size:32px;font-weight:600;letter-spacing:.12em;color:#FFF;opacity:0">TABELLENDRITTER DER VORSAISON · WÜRZBURG</div>
   <div id="s8-nach" class="a" style="left:100px;top:675px;opacity:0">{strip("s8-nach-s", 0, 0, "HAT NACHGELEGT", 56, RED, "#FFF", -2, hidden=False)}</div>
-  <div id="s8-card" class="a" style="left:150px;top:{CARD_Y}px;width:780px;height:260px;background:#170708;border:3px solid #4A1C1F;border-left:14px solid {RED};border-radius:18px;
-       box-shadow:0 26px 60px rgba(0,0,0,.6);opacity:0">
-    <div class="a lbl" style="left:40px;top:30px;font-size:30px;color:#FFF;opacity:.7">WRL</div>
-    <div id="s8-num" class="a big" style="left:34px;top:66px;font-size:190px;color:{RED}">21</div>
-    <div class="a" style="left:300px;top:30px;font-size:28px;font-weight:800;letter-spacing:.16em;padding:6px 14px;background:{RED};color:#FFF">NEUZUGANG</div>
-    <div class="a big" style="left:300px;top:88px;font-size:66px">DIMITRI</div>
-    <div class="a big" style="left:300px;top:148px;font-size:96px">STEINMANN</div>
-  </div>
-  <div id="s8-tip" class="a" style="left:610px;top:{CARD_Y - 86}px;padding:12px 20px;background:#FFF;color:#111;border-radius:12px;font-size:32px;font-weight:800;
+  <div id="s8-st" class="a" style="left:110px;top:{1200 - STH}px;width:{STW}px;height:{STH}px;transform-origin:50% 100%;opacity:0"><img src="assets/sticker_steinmann.png" style="width:100%;height:100%"></div>
+  <div id="s8-badge" class="a" style="left:{BADGE[0] - 105}px;top:{BADGE[1] - 105}px;width:210px;height:210px;border-radius:50%;background:{RED};border:7px solid #FFF;
+       box-shadow:0 18px 40px rgba(0,0,0,.6);opacity:0">
+    <div class="a c" style="left:0;width:196px;top:30px;font-size:30px;font-weight:800;letter-spacing:.2em;text-align:center">WRL</div>
+    <div id="s8-num" class="a big" style="left:0;width:196px;top:62px;font-size:120px;text-align:center">21</div></div>
+  <div id="s8-tip" class="a" style="left:470px;top:{BADGE[1] - 30}px;padding:12px 20px;background:#FFF;color:#111;border-radius:12px;font-size:32px;font-weight:800;
        letter-spacing:.04em;white-space:nowrap;opacity:0;box-shadow:0 10px 24px rgba(0,0,0,.5)">NR. 21 DER WELT</div>
-  <div id="s8-stamp" class="a" style="left:100px;top:668px;transform-origin:50% 50%;opacity:0">
+  <div id="s8-tag" class="a" style="left:96px;top:955px;font-size:30px;font-weight:800;letter-spacing:.2em;padding:6px 14px;background:#111;color:#FFF;opacity:0">NEUZUGANG · TSC HEUCHELHOF</div>
+  {strip("s8-fn", 90, 1005, "DIMITRI", 64, RED, "#FFF", -3)}
+  {strip("s8-ln", 90, 1083, "STEINMANN", 116, PAPER, "#111", -2, (8, 34, 2))}
+  <div id="s8-stamp" class="a" style="left:300px;top:370px;transform-origin:50% 50%;opacity:0">
     <div style="transform:rotate(-7deg);border:7px solid {RED};color:{RED};padding:10px 26px 6px;font-weight:900;font-style:italic;font-size:76px;line-height:1;
-         background:rgba(11,5,6,.85);white-space:nowrap">ZIEL: PLAYOFFS?</div></div>""", """
+         background:rgba(11,5,6,.88);white-space:nowrap">ZIEL: PLAYOFFS?</div></div>
+  <div id="s8-fl" class="a" style="inset:0;background:#FFF;opacity:0"></div>""", """
   fadeIn("#s8-lbl", 0.0, 0.25);
   popIn("#s8-logo", 0.05, 0.42, 0.2);
   leftIn("#s8-t1", 0.12); leftIn("#s8-t2", 0.2);
   fadeIn("#s8-sub", 0.45, 0.4);
   leftIn("#s8-nach", T.nach, 0.34, -160, 0);
-  tl.fromTo("#s8-card", { opacity: 0, y: 120, rotation: 3 }, { opacity: 1, y: 0, rotation: 0, duration: 0.45, ease: "back.out(1.5)" }, T.neu);
-  tl.to("#s8-card", { y: -14, scale: 1.03, boxShadow: "0 40px 80px rgba(0,0,0,.75)", borderColor: "#E3241B", duration: 0.25, ease: "power2.out" }, T.hover);
-  popIn("#s8-tip", T.hover + 0.2, 0.3, 0.5);
-  tl.fromTo("#s8-num", { scale: 1 }, { keyframes: [{ scale: 1.25, duration: 0.12 }, { scale: 1, duration: 0.3 }], immediateRender: false }, T.n21);
+  // Neuzugang: Titel weg, Logo klein in die Ecke, Steinmann als Papier-Ausschnitt mit Blitz
+  tl.to(["#s8-t1", "#s8-t2", "#s8-sub", "#s8-nach"], { opacity: 0, x: -80, duration: 0.2, ease: "power2.in", stagger: 0.03 }, T.neu - 0.15);
+  tl.to("#s8-logo", { scale: 0.5, duration: 0.3, ease: "power3.inOut" }, T.neu - 0.1);
+  tl.fromTo("#s8-band", { opacity: 1, x: 1700 }, { opacity: 1, x: 0, duration: 0.28, ease: "power3.out" }, T.neu);
+  tl.fromTo("#s8-ghost", { x: 160, opacity: 0 }, { x: -200, opacity: 1, duration: T.end - T.neu, ease: "none" }, T.neu);
+  tl.fromTo("#s8-st", { opacity: 0, y: 160, scale: 0.86, rotation: 5 }, { opacity: 1, y: 0, scale: 1, rotation: 0, duration: 0.42, ease: "back.out(1.5)" }, T.neu + 0.05);
+  flash("#s8-fl", T.neu + 0.07, 0.8);
+  fadeIn("#s8-tag", T.neu + 0.2, 0.2);
+  leftIn("#s8-fn", T.dim, 0.34);
+  leftIn("#s8-ln", T.stein, 0.38, -220);
+  popIn("#s8-badge", T.stein + 0.25, 0.4, 0.2);
+  popIn("#s8-tip", T.hover, 0.3, 0.5);
+  tl.fromTo("#s8-num", { scale: 1 }, { keyframes: [{ scale: 1.3, duration: 0.12 }, { scale: 1, duration: 0.3 }], immediateRender: false }, T.n21);
   tl.to("#s8-tip", { opacity: 0, duration: 0.2 }, T.ziel - 0.3);
-  tl.to("#s8-card", { y: 0, scale: 1, duration: 0.25 }, T.ziel - 0.3);
-  tl.to("#s8-nach", { opacity: 0, x: -60, duration: 0.15 }, T.ziel - 0.05);
   tl.fromTo("#s8-stamp", { opacity: 0, scale: 2.4, rotation: -10 }, { opacity: 1, scale: 1, rotation: 0, duration: 0.22, ease: "power4.in" }, T.ziel + 0.1);
-  shake("#s8-card", T.ziel + 0.32, 8);
-  tl.to(["#s8-lbl", "#s8-logo", "#s8-t1", "#s8-t2", "#s8-sub", "#s8-nach", "#s8-card", "#s8-stamp"], { y: -80, opacity: 0, duration: 0.22, ease: "power2.in", stagger: 0.02 }, T.end - 0.3);
-""", {"nach": W("nachgelegt:") - 0.05, "neu": W("Neuzugang") - 0.05, "hover": W("Steinmann") + 0.1, "n21": W("21"), "ziel": W("Ziel:")})
+  shake("#s8-st", T.ziel + 0.32, 8);
+  tl.to(["#s8-lbl", "#s8-logo", "#s8-st", "#s8-badge", "#s8-tag", "#s8-fn", "#s8-ln", "#s8-stamp", "#s8-ghost"], { y: -80, opacity: 0, duration: 0.22, ease: "power2.in", stagger: 0.015 }, T.end - 0.3);
+  tl.to("#s8-band", { x: -1700, duration: 0.24, ease: "power2.in" }, T.end - 0.26);
+""", {"nach": W("nachgelegt:") - 0.05, "neu": W("Neuzugang") - 0.05, "dim": W("Dimitri") - 0.05, "stein": W("Steinmann") - 0.05,
+      "hover": W("21") - 0.35, "n21": W("21"), "ziel": W("Ziel:")},
+      f3d=["s8-logo", "s8-st", "s8-badge", "s8-tip", "s8-tag", "s8-fn", "s8-ln", "s8-stamp", "s8-nach"])
 num_t = W("21")
-SFX += [(a + 0.05, "pop", 0.6), (W("nachgelegt:"), "pop", 0.5), (W("Neuzugang"), "pop", 0.6), (W("Ziel:") + 0.3, "boom", 0.35)]
-move(W("Neuzugang") + 0.3, 760, CARD_Y + 190, 0.55)
-move(W("Steinmann") + 0.05, 700, CARD_Y + 150, 0.4, "sine.inOut")
-move(num_t - 0.1, 260, CARD_Y + 190, 0.45)
-click(num_t, 260, CARD_Y + 190)
-move(W("Ziel:") + 0.45, 520, 790, 0.4)
+SFX += [(a + 0.05, "pop", 0.6), (W("nachgelegt:"), "pop", 0.5), (W("Neuzugang"), "shutter", 0.9), (W("Steinmann") + 0.2, "pop", 0.5),
+        (W("Ziel:") + 0.3, "boom", 0.35)]
+move(W("Neuzugang") + 0.4, 700, 1010, 0.5)
+move(W("Steinmann") + 0.25, BADGE[0] - 20, BADGE[1] + 40, 0.45)
+click(num_t, BADGE[0] - 20, BADGE[1] + 40)
+move(W("Ziel:") + 0.45, 640, 450, 0.4)
 
 # ================================================================ 9 Ansage: 4:0
 a, e = SEG["s9_score"]
@@ -317,7 +346,7 @@ scene("s9", a, e, f"""
   tl.to(p, { strokeDashoffset: 0, duration: T.ringd, ease: "power1.inOut" }, T.ring);
   tl.fromTo("#s9-fu", { opacity: 0, scale: 0.4, rotation: -8 }, { opacity: 1, scale: 1, rotation: 0, duration: 0.3, ease: "back.out(2.4)" }, T.fu);
   tl.to(["#s9-l1", "#s9-l2", "#s9-score", "#s9-ring", "#s9-fu"], { scale: 0.7, opacity: 0, duration: 0.22, ease: "power2.in", stagger: 0.02 }, T.end - 0.28);
-""".replace("RING", "RINGD"), {"four": W("4") - 0.05, "ring": W("4") + 0.35, "fu": W("für", after=W("4")) - 0.05})
+""".replace("RING", "RINGD"), {"four": W("4") - 0.05, "ring": W("4") + 0.35, "fu": W("für", after=W("4")) - 0.05}, f3d=["s9-l1", "s9-score", "s9-fu"])
 # Handgezeichneter Kreis, dem der Mauszeiger folgt (gleiche Punkte für Pfad und Zeiger)
 pts = []
 R0, R1, ROT = (380, 250), (400, 270), math.radians(-6)
@@ -362,7 +391,7 @@ scene("s10", a, e, f"""
   popIn("#s10-ok", T.click + 0.1, 0.4, 0.2);
   tl.to(["#s10-lbl", "#s10-cal", "#s10-ok", "#s10-time", "#s10-c1", "#s10-c2"], { y: -90, opacity: 0, duration: 0.22, ease: "power2.in", stagger: 0.02 }, T.end - 0.3);
 """, {"sa": W("Samstag,"), "d": W("28."), "m": W("November,"), "t": W("13") - 0.05, "c1": W("Einlass"), "c2": W("Eintritt"),
-      "click": W("frei.") + 0.1})
+      "click": W("frei.") + 0.1}, f3d=["s10-cal", "s10-ok", "s10-c1", "s10-c2"])
 SFX += [(W("Samstag,"), "pop", 0.6), (W("28."), "pop", 0.6), (W("13"), "pop", 0.6), (W("Einlass"), "pop", 0.5), (W("Eintritt"), "pop", 0.5),
         (W("frei.") + 0.2, "marimba", 0.35)]
 move(W("13") + 0.2, 640, 700, 0.6)
@@ -418,7 +447,8 @@ scene("s11", a, e, f"""
   for (let i = 0; i < 4; i++) tl.fromTo(`#s11-p${i}`, { y: 0, rotation: 0 }, { keyframes: [{ y: -30, rotation: (i % 2 ? 4 : -4), duration: 0.16 }, { y: 0, rotation: 0, duration: 0.3, ease: "bounce.out" }], immediateRender: false }, T.ciao + i * 0.06);
   tap("#s11-l1", T.ciao + 0.1, 1.1); tap("#s11-l2", T.ciao + 0.2, 1.1);
 """, {"seid": W("seid"), "dabei": W("dabei"), "hop0": HOP[0], "hop1": HOP[1], "hop2": HOP[2], "hop3": HOP[3], "hst": W("zweiten", after=a),
-      "btn": W("Wir"), "click": W("euch,", end=True) + 0.05, "adr": W("euer"), "ciao": W("ciao!")})
+      "btn": W("Wir"), "click": W("euch,", end=True) + 0.05, "adr": W("euer"), "ciao": W("ciao!")},
+      f3d=["s11-l1", "s11-l2", "s11-vs", "s11-p0", "s11-p1", "s11-p2", "s11-p3", "s11-m1", "s11-m2", "s11-hs", "s11-btn", "s11-adr"])
 # Sticker-Köpfe (ungefähr), in der Reihenfolge Thürauf, Clain, Kandra, Hameed
 HEADS = [(265, 600), (499, 555), (715, 540), (900, 615)]
 SFX += [(a + 0.02, "pop", 0.6), (a + 0.3, "shutter", 0.6), (W("dabei"), "pop", 0.8)]
@@ -426,8 +456,7 @@ move(W("Nord,", after=a) + 0.1, 700, 1150, 0.6, "sine.inOut")
 for k, (hx, hy) in enumerate(HEADS):
     move(HOP[k] - 0.2, min(hx, 900), hy, 0.2, "power2.out")
     click(HOP[k], min(hx, 900), hy, snd=False)
-    SFX.append((HOP[k] + 0.04, "tick", 0.5))
-SFX += [(W("zweiten", after=a), "pop", 0.5), (W("Wir"), "pop", 0.5), (W("euch,", end=True) + 0.05, "marimba", 0.35)]
+SFX += [(W("zweiten", after=a), "pop", 0.5), (W("Wir"), "pop", 0.5)]
 move(W("Wir") + 0.15, 610, DAB_Y + 70, 0.5)
 click(W("euch,", end=True) + 0.05, 610, DAB_Y + 70, snd=True)
 move(W("euer") + 0.2, 720, 1180, 0.5, "sine.inOut")
@@ -526,7 +555,7 @@ for gi, g in enumerate(groups):
             cjs.append(f'tl.set("#w{wi}", {{ backgroundColor: "rgba(0,0,0,0)" }}, {max(g[g.index(w) + 1]["start"], ga + 0.01):.3f});')
         wi += 1
     ch.append(f'<div id="k{gi}" class="clip cap" data-start="{ga:.3f}" data-duration="{gb - ga:.3f}">{"".join(spans)}</div>')
-    cjs.append(f'tl.fromTo("#k{gi}", {{ opacity: 0, scale: 0.8 }}, {{ opacity: 1, scale: 1, duration: {min(0.12, (gb - ga) / 3):.3f}, ease: "back.out(2.5)" }}, {ga:.3f});'
+    cjs.append(f'tl.fromTo("#k{gi}", {{ opacity: 0, scale: 0.8, rotationX: -70, transformPerspective: 700 }}, {{ opacity: 1, scale: 1, rotationX: 0, duration: {min(0.16, (gb - ga) / 3):.3f}, ease: "back.out(2.2)" }}, {ga:.3f});'
                f'tl.to("#k{gi}", {{ opacity: 0, duration: {min(0.06, (gb - ga) / 4):.3f} }}, {gb - min(0.06, (gb - ga) / 4):.3f});')
 open(f"{HERE}/compositions/captions.html", "w", encoding="utf-8").write(f"""<template>
   <style>{FONTS}

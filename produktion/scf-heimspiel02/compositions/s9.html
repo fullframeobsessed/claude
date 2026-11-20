@@ -22,7 +22,7 @@
   <div id="s9-fl" class="a" style="inset:0;background:#E3241B;opacity:0"></div>
   </div>
   <script>
-  const T = {"four": 2.8, "ring": 3.2, "fu": 3.4, "end": 4.47};
+  const T = {"four": 2.8, "ring": 3.2, "fu": 3.41, "end": 4.47};
 
   const tl = gsap.timeline({ paused: true });
   const fadeIn = (s, t, d = 0.3) => tl.fromTo(s, { opacity: 0 }, { opacity: 1, duration: d, ease: "power2.out" }, t);
@@ -49,6 +49,9 @@
   tl.fromTo("#s9-fu", { opacity: 0, scale: 0.4, rotation: -8 }, { opacity: 1, scale: 1, rotation: 0, duration: 0.3, ease: "back.out(2.4)" }, T.fu);
   tl.to(["#s9-l1", "#s9-l2", "#s9-score", "#s9-ring", "#s9-fu"], { scale: 0.7, opacity: 0, duration: 0.22, ease: "power2.in", stagger: 0.02 }, T.end - 0.28);
 
+  tl.fromTo("#s9-l1", { rotationY: -13.4, rotationX: 5.4, transformPerspective: 900 }, { rotationY: 13.4, rotationX: -5.4, duration: 3.13, ease: "sine.inOut", yoyo: true, repeat: 3, transformPerspective: 900 }, 0);
+  tl.fromTo("#s9-score", { rotationY: -10.0, rotationX: 7.4, transformPerspective: 900 }, { rotationY: 10.0, rotationX: -7.4, duration: 2.17, ease: "sine.inOut", yoyo: true, repeat: 4, transformPerspective: 900 }, 0);
+  tl.fromTo("#s9-fu", { rotationY: -10.9, rotationX: 6.9, transformPerspective: 900 }, { rotationY: 10.9, rotationX: -6.9, duration: 2.44, ease: "sine.inOut", yoyo: true, repeat: 3, transformPerspective: 900 }, 0);
   window.__timelines["s9"] = tl;
   </script>
 </template>

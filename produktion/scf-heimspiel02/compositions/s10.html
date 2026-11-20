@@ -27,7 +27,7 @@
   <div id="s10-c2" class="a" style="left:560px;top:1038px;opacity:0"><span class="chip" style="background:#FFF;color:#E3241B;border-color:#FFF">Eintritt frei</span></div>
   </div>
   <script>
-  const T = {"sa": 0.12, "d": 1.1, "m": 2.02, "t": 2.84, "c1": 4.22, "c2": 5.7, "click": 6.2, "end": 6.93};
+  const T = {"sa": 0.12, "d": 1.1, "m": 2.01, "t": 2.88, "c1": 4.17, "c2": 5.7, "click": 6.21, "end": 6.94};
 
   const tl = gsap.timeline({ paused: true });
   const fadeIn = (s, t, d = 0.3) => tl.fromTo(s, { opacity: 0 }, { opacity: 1, duration: d, ease: "power2.out" }, t);
@@ -52,6 +52,10 @@
   popIn("#s10-ok", T.click + 0.1, 0.4, 0.2);
   tl.to(["#s10-lbl", "#s10-cal", "#s10-ok", "#s10-time", "#s10-c1", "#s10-c2"], { y: -90, opacity: 0, duration: 0.22, ease: "power2.in", stagger: 0.02 }, T.end - 0.3);
 
+  tl.fromTo("#s10-cal", { rotationY: -13.1, rotationX: 5.5, transformPerspective: 900 }, { rotationY: 13.1, rotationX: -5.5, duration: 3.05, ease: "sine.inOut", yoyo: true, repeat: 4, transformPerspective: 900 }, 0);
+  tl.fromTo("#s10-ok", { rotationY: -12.6, rotationX: 5.8, transformPerspective: 900 }, { rotationY: 12.6, rotationX: -5.8, duration: 2.92, ease: "sine.inOut", yoyo: true, repeat: 4, transformPerspective: 900 }, 0);
+  tl.fromTo("#s10-c1", { rotationY: -10.2, rotationX: 7.3, transformPerspective: 900 }, { rotationY: 10.2, rotationX: -7.3, duration: 2.23, ease: "sine.inOut", yoyo: true, repeat: 5, transformPerspective: 900 }, 0);
+  tl.fromTo("#s10-c2", { rotationY: -10.9, rotationX: 6.9, transformPerspective: 900 }, { rotationY: 10.9, rotationX: -6.9, duration: 2.42, ease: "sine.inOut", yoyo: true, repeat: 4, transformPerspective: 900 }, 0);
   window.__timelines["s10"] = tl;
   </script>
 </template>

@@ -24,7 +24,7 @@
   <div id="s2-h2" class="a lbl" style="left:625px;top:1055px;width:400px;text-align:center;font-size:30px;color:#FFF;opacity:.7">Gast · Würzburg</div>
   </div>
   <script>
-  const T = {"scf": 0.2, "vs": 1.49, "tsc": 2.27, "c1": 1.1, "end": 4.35};
+  const T = {"scf": 0.19, "vs": 1.48, "tsc": 2.26, "c1": 1.09, "end": 4.34};
 
   const tl = gsap.timeline({ paused: true });
   const fadeIn = (s, t, d = 0.3) => tl.fromTo(s, { opacity: 0 }, { opacity: 1, duration: d, ease: "power2.out" }, t);
@@ -54,6 +54,11 @@
   tl.to(["#s2-l2", "#s2-n2", "#s2-h2"], { x: 300, opacity: 0, duration: 0.24, ease: "power2.in" }, T.end - 0.28);
   tl.to(["#s2-vs", "#s2-band", "#s2-lbl"], { scale: 0.6, opacity: 0, duration: 0.22, ease: "power2.in" }, T.end - 0.26);
 
+  tl.fromTo("#s2-l1", { rotationY: -12.1, rotationX: 6.1, transformPerspective: 900 }, { rotationY: 12.1, rotationX: -6.1, duration: 2.77, ease: "sine.inOut", yoyo: true, repeat: 3, transformPerspective: 900 }, 0);
+  tl.fromTo("#s2-l2", { rotationY: -12.8, rotationX: 5.7, transformPerspective: 900 }, { rotationY: 12.8, rotationX: -5.7, duration: 2.96, ease: "sine.inOut", yoyo: true, repeat: 3, transformPerspective: 900 }, 0);
+  tl.fromTo("#s2-vs", { rotationY: -12.2, rotationX: 6.1, transformPerspective: 900 }, { rotationY: 12.2, rotationX: -6.1, duration: 2.80, ease: "sine.inOut", yoyo: true, repeat: 3, transformPerspective: 900 }, 0);
+  tl.fromTo("#s2-n1", { rotationY: -14.0, rotationX: 5.0, transformPerspective: 900 }, { rotationY: 14.0, rotationX: -5.0, duration: 3.30, ease: "sine.inOut", yoyo: true, repeat: 3, transformPerspective: 900 }, 0);
+  tl.fromTo("#s2-n2", { rotationY: -9.7, rotationX: 7.6, transformPerspective: 900 }, { rotationY: 9.7, rotationX: -7.6, duration: 2.09, ease: "sine.inOut", yoyo: true, repeat: 4, transformPerspective: 900 }, 0);
   window.__timelines["s2"] = tl;
   </script>
 </template>

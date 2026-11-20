@@ -18,6 +18,10 @@ OPP = {
             ([(700,940)],[(560,920)],None)],
 }
 FADE = {"hameed": (880, 1000)}
+OPP["steinmann"] = [([(820, 150), (800, 70)], [(650, 250), (740, 260)], None), ([(850, 290), (880, 250)], [(760, 300), (700, 420)], None),
+                    ([(770, 380), (772, 340)], [(700, 450), (760, 300), (765, 480), (790, 520), (820, 545)], None),
+                    ([(870, 420), (863, 495)], [(800, 520), (885, 568), (840, 552)], None),
+                    ([(745, 530)], [(800, 540), (790, 505)], None), ([(940, 140)], [(700, 200)], None)]
 ADD = {"hameed": [([(95,470),(60,200)],[],[30,70,180,500])]}
 s = new_session("sam")
 
@@ -29,7 +33,7 @@ def seg(im, pos, neg, box):
     return np.array(remove(im, session=s, sam_prompt=pr, only_mask=True).convert("L").resize(im.size)) > 127
 
 
-for name in sys.argv[1:] or ["thuerauf", "clain", "hameed", "kandra"]:
+for name in sys.argv[1:] or ["thuerauf", "clain", "hameed", "kandra", "steinmann"]:
     im = Image.open(f"{A}/src/{name}.jpg").convert("RGB")
     raw = np.array(Image.open(f"{A}/cut/{name}_raw.png").convert("RGBA")).astype(np.float32)
     alpha = raw[..., 3] / 255

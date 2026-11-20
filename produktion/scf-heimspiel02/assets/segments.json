@@ -2,56 +2,56 @@
  {
   "id": "s1_hook",
   "start": 0.0,
-  "end": 3.37
+  "end": 3.76
  },
  {
   "id": "s2_duell",
-  "start": 3.37,
-  "end": 7.72
+  "start": 3.76,
+  "end": 8.1
  },
  {
   "id": "s3_lineup",
-  "start": 7.72,
-  "end": 10.89
+  "start": 8.1,
+  "end": 11.27
  },
  {
   "id": "s4_thuerauf",
-  "start": 10.89,
-  "end": 12.85
+  "start": 11.27,
+  "end": 13.24
  },
  {
   "id": "s5_clain",
-  "start": 12.85,
-  "end": 14.64
+  "start": 13.24,
+  "end": 15.03
  },
  {
   "id": "s6_kandra",
-  "start": 14.64,
-  "end": 16.51
+  "start": 15.03,
+  "end": 16.9
  },
  {
   "id": "s7_hameed",
-  "start": 16.51,
-  "end": 18.18
+  "start": 16.9,
+  "end": 18.57
  },
  {
   "id": "s8_gegner",
-  "start": 18.18,
-  "end": 26.31
+  "start": 18.57,
+  "end": 26.7
  },
  {
   "id": "s9_score",
-  "start": 26.31,
-  "end": 30.78
+  "start": 26.7,
+  "end": 31.17
  },
  {
   "id": "s10_termin",
-  "start": 30.78,
-  "end": 37.71
+  "start": 31.17,
+  "end": 38.11
  },
  {
   "id": "s11_cta",
-  "start": 37.71,
-  "end": 50.41
+  "start": 38.11,
+  "end": 50.8
  }
 ]

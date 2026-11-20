@@ -1,5 +1,5 @@
 """Sprecherspur aus Arthur-Stücken zusammensetzen, Pausen kürzen, Tempo, Studio-Kette; Wortzeiten per Whisper.
-Stücke: Hook „Franken“ + „Derby …“ (einzeln gesprochen, nahtlos verbunden), Haupttake, „David Kandra“ (neu, deutsch), neuer Schluss.
+Stücke: Hook „Der zweite Heimspieltag …“, Haupttake, „David Kandra“ (neu, deutsch), neuer Schluss.
 Ausgabe: assets/voice.wav, assets/words.json, assets/segments.json · Aufruf: HF_HUB_DISABLE_XET=1 python3 voice.py"""
 import difflib, json, re, subprocess
 import numpy as np, librosa, soundfile as sf
@@ -10,8 +10,7 @@ TX = json.load(open("texts.json"))
 T1 = f"{A}/arthur/voice_take1.mp3"
 # (Datei, von, bis) in Sekunden der Quelle (None = ganze Datei, Ränder werden gekappt), danach Pause in s (vor Tempo)
 PIECES = [
-    (f"{A}/arthur/franken_b.mp3", None, None, -0.02),   # „Franken“ … direkt (leicht überlappend) weiter mit „Derby“
-    (f"{A}/arthur/derby_d.mp3", None, None, 0.40),      # „Derby in der Squash-Bundesliga!“
+    (f"{A}/arthur/hook_b.mp3", None, None, 0.40),       # „Der zweite Heimspieltag in der Squash-Bundesliga!“
     (T1, 3.25, 7.60, 0.38),     # Der SCF Nürnberg empfängt den TSC Heuchelhof.
     (T1, 8.22, 11.12, 0.55),    # Das ist unser Team für den zweiten Heimspieltag:
     (T1, 11.64, 13.05, 0.75),   # Johannes Thürauf.
@@ -70,7 +69,7 @@ subprocess.run(["rm", "-f", f"{A}/_in.wav"])
 dur = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f"{A}/voice.wav"]))
 
 # ---- Wortzeiten: Whisper, an Skriptwörter angeglichen und an echte Einsätze gerückt
-PROMPT = "Frankenderby, SCF Nürnberg, TSC Heuchelhof, Johannes Thürauf, Edwin Clain, David Kandra, Armin Hameed, Dimitri Steinmann, Glascourt, ciao"
+PROMPT = "Heimspieltag, SCF Nürnberg, TSC Heuchelhof, Johannes Thürauf, Edwin Clain, David Kandra, Armin Hameed, Dimitri Steinmann, Glascourt, ciao"
 ALIAS = {"klain": "clain", "daphid": "david", "dafid": "david", "kandre": "kandra", "hamid": "hameed", "glaskurt": "glascourt", "tschau": "ciao"}
 from faster_whisper import WhisperModel  # noqa: E402
 y16, _ = librosa.load(f"{A}/voice.wav", sr=16000)
