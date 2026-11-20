@@ -25,7 +25,7 @@ PIECES = [
     (T1, 34.78, 38.99, 0.30),   # Samstag, 28. November, 13 Uhr.
     (T1, 39.68, 41.11, 0.26),   # Einlass ab zwölf,
     (T1, 41.37, 42.45, 0.45),   # Eintritt frei.
-    (f"{A}/arthur/ende_a.mp3", None, None, 0.0),       # Kommt in den Sportpark Nord, … ciao!
+    (f"{A}/arthur/ende_a.mp3", 0.0, 11.0, 0.0),        # Kommt in den Sportpark Nord, … euer Sportpark Nord. (ohne „ciao“)
 ]
 
 
@@ -69,7 +69,7 @@ subprocess.run(["rm", "-f", f"{A}/_in.wav"])
 dur = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f"{A}/voice.wav"]))
 
 # ---- Wortzeiten: Whisper, an Skriptwörter angeglichen und an echte Einsätze gerückt
-PROMPT = "Heimspieltag, SCF Nürnberg, TSC Heuchelhof, Johannes Thürauf, Edwin Clain, David Kandra, Armin Hameed, Dimitri Steinmann, Glascourt, ciao"
+PROMPT = "Heimspieltag, SCF Nürnberg, TSC Heuchelhof, Johannes Thürauf, Edwin Clain, David Kandra, Armin Hameed, Dimitri Steinmann, Glascourt"
 ALIAS = {"klain": "clain", "daphid": "david", "dafid": "david", "kandre": "kandra", "hamid": "hameed", "glaskurt": "glascourt", "tschau": "ciao"}
 from faster_whisper import WhisperModel  # noqa: E402
 y16, _ = librosa.load(f"{A}/voice.wav", sr=16000)

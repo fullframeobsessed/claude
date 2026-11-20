@@ -9,7 +9,7 @@
   const H = (k, i) => { let x = Math.sin(k * 127.1 + i * 311.7) * 43758.5453; return x - Math.floor(x); };
   const g = document.getElementById("fr-grain");
   const clock = { t: 0 };
-  tl.to(clock, { t: 50.8, duration: 50.8, ease: "none", onUpdate: () => { const k = Math.floor(clock.t * 12); g.style.transform = `translate(${-H(k, 1) * 64}px, ${-H(k, 2) * 64}px)`; } }, 0);
+  tl.to(clock, { t: 50.194, duration: 50.194, ease: "none", onUpdate: () => { const k = Math.floor(clock.t * 12); g.style.transform = `translate(${-H(k, 1) * 64}px, ${-H(k, 2) * 64}px)`; } }, 0);
   window.__timelines["frame"] = tl;
   </script>
 </template>

@@ -19,7 +19,7 @@
 | 8 | Gegner | Heuchelhof hat nachgelegt: Neuzugang Dimitri Steinmann ist die Nummer einundzwanzig der Welt. Das Ziel: die Playoffs. | Heuchelhof-Logo, „HAT NACHGELEGT“; dann Dimitri Steinmann als Papier-Ausschnitt mit Blitz, Namensstreifen und rundem Badge „WRL 21“ (Mauszeiger klickt), Stempel „ZIEL: PLAYOFFS?“ |
 | 9 | Ansage | Aber das letzte Duell im Sportpark Nord? Vier zu null für uns. | Riesige „4:0“ wird vom Mauszeiger rot eingekreist; „FÜR UNS“ |
 | 10 | Termin | Samstag, achtundzwanzigster November, dreizehn Uhr. Einlass ab zwölf, Eintritt frei. | Rote Datumsleiste „SA 28.11. · 13:00 UHR“, Infozeile „EINLASS 12:00 / EINTRITT FREI / GLASCOURT“, Mauszeiger klickt „Im Kalender speichern“ → Häkchen |
-| 11 | Schluss | Kommt in den Sportpark Nord, seid live dabei und unterstützt unsere Spieler beim zweiten Heimspieltag. Wir freuen uns auf euch, euer Sportpark Nord, ciao! | Alle vier Spieler + beide Logos; „SEID LIVE DABEI!“; Mauszeiger tippt jeden Spieler an (Hüpfer); Streifen „2. HEIMSPIELTAG“; Button „ICH BIN DABEI ✓“ mit Konfetti, Datumsleiste, Adresse; bei „ciao“ winken Spieler und Mauszeiger |
+| 11 | Schluss | Kommt in den Sportpark Nord, seid live dabei und unterstützt unsere Spieler beim zweiten Heimspieltag. Wir freuen uns auf euch, euer Sportpark Nord. | Alle vier Spieler + beide Logos; „SEID LIVE DABEI!“; Mauszeiger tippt jeden Spieler an (Hüpfer); Streifen „2. HEIMSPIELTAG“; Button „ICH BIN DABEI ✓“ mit Konfetti, Datumsleiste, Adresse; zum Abschluss winken Spieler und Mauszeiger |
 
 ## Gegencheck mit dem Flyer
 - Datum: Sa 28.11.2026 (Wochentag geprüft: Samstag) ✓ · Spielbeginn 13:00 ✓ · Einlass 12:00 ✓ · Eintritt frei ✓ · Glascourt ✓
@@ -34,10 +34,11 @@ Stimme Arthur, Musik: treibender Sport-Beat ohne Gesang (ElevenLabs Music), unte
 ## Aufnahme (Fassung 2)
 - „Frankenderby“: „Franken“ und „Derby“ (Lautschrift „Därrbi“) einzeln gesprochen und nahtlos zu einem Wort verbunden.
 - „David Kandra“ neu aufgenommen (Lautschrift „Dahfit Kandra“); vorher englisch und durch einen Schnitt abgehackt.
-- Neuer Schluss als eigene Aufnahme; „ciao“ als „tschau“ gesprochen.
+- Neuer Schluss als eigene Aufnahme.
 
 ## Fassung 3
 - Hook gesprochen: „Der zweite Heimspieltag in der Squash-Bundesliga!“ (statt „Frankenderby …“).
 - „David Kandra“: deutsche Aufnahme aus Fassung 2 bleibt (Vokalmessung: offenes „a“ wie „Dah-“; die alte englische Aufnahme hatte „Däj-“).
 - Dimitri Steinmann freigestellt (Gegner im Hintergrund per SAM entfernt) und in Szene 8 eingebaut.
 - Tick-Geräusche bei den Spieler-Hüpfern ab 0:41 entfernt; alle Popups kippen leicht dreidimensional, Untertitel klappen in 3D ein.
+- Schluss endet mit „… euer Sportpark Nord.“ (kein „ciao“ mehr).

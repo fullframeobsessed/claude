@@ -122,18 +122,18 @@
 {
 "text": "Heimspieltag:",
 "start": 9.76,
-"end": 10.72,
+"end": 10.74,
 "scene": "s3_lineup"
 },
 {
 "text": "Johannes",
 "start": 11.39,
-"end": 11.66,
+"end": 11.64,
 "scene": "s4_thuerauf"
 },
 {
 "text": "Thürauf.",
-"start": 11.66,
+"start": 11.64,
 "end": 12.62,
 "scene": "s4_thuerauf"
 },
@@ -152,12 +152,12 @@
 {
 "text": "David",
 "start": 15.15,
-"end": 15.46,
+"end": 15.48,
 "scene": "s6_kandra"
 },
 {
 "text": "Kandra.",
-"start": 15.46,
+"start": 15.48,
 "end": 16.12,
 "scene": "s6_kandra"
 },
@@ -176,25 +176,25 @@
 {
 "text": "Hameed.",
 "start": 17.56,
-"end": 18.1,
+"end": 18.08,
 "scene": "s7_hameed"
 },
 {
 "text": "Heuchelhof",
 "start": 18.69,
-"end": 19.3,
+"end": 19.28,
 "scene": "s8_gegner"
 },
 {
 "text": "hat",
-"start": 19.3,
+"start": 19.28,
 "end": 19.5,
 "scene": "s8_gegner"
 },
 {
 "text": "nachgelegt:",
 "start": 19.5,
-"end": 20.18,
+"end": 20.16,
 "scene": "s8_gegner"
 },
 {
@@ -254,18 +254,18 @@
 {
 "text": "Das",
 "start": 24.14,
-"end": 24.74,
+"end": 24.76,
 "scene": "s8_gegner"
 },
 {
 "text": "Ziel:",
-"start": 24.74,
+"start": 24.76,
 "end": 25.14,
 "scene": "s8_gegner"
 },
 {
 "text": "die",
-"start": 25.58,
+"start": 25.55,
 "end": 25.7,
 "scene": "s8_gegner"
 },
@@ -367,13 +367,13 @@
 },
 {
 "text": "13",
-"start": 34.1,
-"end": 34.44,
+"start": 34.08,
+"end": 34.46,
 "scene": "s10_termin"
 },
 {
 "text": "Uhr.",
-"start": 34.44,
+"start": 34.46,
 "end": 34.88,
 "scene": "s10_termin"
 },
@@ -434,12 +434,12 @@
 {
 "text": "Nord,",
 "start": 39.3,
-"end": 39.7,
+"end": 39.72,
 "scene": "s11_cta"
 },
 {
 "text": "seid",
-"start": 40.1,
+"start": 40.08,
 "end": 40.28,
 "scene": "s11_cta"
 },
@@ -464,12 +464,12 @@
 {
 "text": "unterstützt",
 "start": 41.52,
-"end": 42.16,
+"end": 42.14,
 "scene": "s11_cta"
 },
 {
 "text": "unsere",
-"start": 42.16,
+"start": 42.14,
 "end": 42.46,
 "scene": "s11_cta"
 },
@@ -524,31 +524,25 @@
 {
 "text": "euch,",
 "start": 45.58,
-"end": 45.86,
+"end": 45.88,
 "scene": "s11_cta"
 },
 {
 "text": "euer",
-"start": 46.28,
-"end": 46.48,
+"start": 46.24,
+"end": 46.5,
 "scene": "s11_cta"
 },
 {
 "text": "Sportpark",
-"start": 46.48,
+"start": 46.5,
 "end": 47.04,
 "scene": "s11_cta"
 },
 {
-"text": "Nord,",
+"text": "Nord.",
 "start": 47.04,
 "end": 47.4,
-"scene": "s11_cta"
-},
-{
-"text": "ciao!",
-"start": 47.79,
-"end": 47.98,
 "scene": "s11_cta"
 }
 ]

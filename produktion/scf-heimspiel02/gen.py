@@ -398,7 +398,7 @@ move(W("13") + 0.2, 640, 700, 0.6)
 move(W("Einlass") + 0.1, 600, 640, 0.5, "sine.inOut")
 click(W("frei.") + 0.1, 600, 640)
 
-# ================================================================ 11 Schluss: alle vier + Logos, „Seid live dabei“, Unterstützung, Termin, „ciao“
+# ================================================================ 11 Schluss: alle vier + Logos, „Seid live dabei“, Unterstützung, Termin, Schluss
 a, e = SEG["s11_cta"]
 G11 = [("hameed", 625, 520), ("kandra", 520, 540), ("clain", 335, 540), ("thuerauf", 0, 480)]
 DAB_Y = 900
@@ -443,11 +443,11 @@ scene("s11", a, e, f"""
     const ang = (i / 18) * Math.PI * 2 + 0.3, r = 220 + (i % 4) * 60;
     tl.fromTo(`#s11-cf${i}`, { opacity: 1, x: 0, y: 0, rotation: 0 }, { opacity: 0, x: Math.cos(ang) * r, y: Math.sin(ang) * r * 0.7 + 60, rotation: 200 + i * 40, duration: 0.9, ease: "power2.out", immediateRender: false }, T.click + 0.05);
   }
-  // „ciao“: alle winken kurz mit einem Hüpfer
+  // Schluss: alle winken kurz mit einem Hüpfer
   for (let i = 0; i < 4; i++) tl.fromTo(`#s11-p${i}`, { y: 0, rotation: 0 }, { keyframes: [{ y: -30, rotation: (i % 2 ? 4 : -4), duration: 0.16 }, { y: 0, rotation: 0, duration: 0.3, ease: "bounce.out" }], immediateRender: false }, T.ciao + i * 0.06);
   tap("#s11-l1", T.ciao + 0.1, 1.1); tap("#s11-l2", T.ciao + 0.2, 1.1);
 """, {"seid": W("seid"), "dabei": W("dabei"), "hop0": HOP[0], "hop1": HOP[1], "hop2": HOP[2], "hop3": HOP[3], "hst": W("zweiten", after=a),
-      "btn": W("Wir"), "click": W("euch,", end=True) + 0.05, "adr": W("euer"), "ciao": W("ciao!")},
+      "btn": W("Wir"), "click": W("euch,", end=True) + 0.05, "adr": W("euer"), "ciao": W("Nord.", after=W("euer"), end=True) + 0.35},
       f3d=["s11-l1", "s11-l2", "s11-vs", "s11-p0", "s11-p1", "s11-p2", "s11-p3", "s11-m1", "s11-m2", "s11-hs", "s11-btn", "s11-adr"])
 # Sticker-Köpfe (ungefähr), in der Reihenfolge Thürauf, Clain, Kandra, Hameed
 HEADS = [(265, 600), (499, 555), (715, 540), (900, 615)]
@@ -460,7 +460,7 @@ SFX += [(W("zweiten", after=a), "pop", 0.5), (W("Wir"), "pop", 0.5)]
 move(W("Wir") + 0.15, 610, DAB_Y + 70, 0.5)
 click(W("euch,", end=True) + 0.05, 610, DAB_Y + 70, snd=True)
 move(W("euer") + 0.2, 720, 1180, 0.5, "sine.inOut")
-CUR.append(("wave", W("ciao!"), 0, 0, 0, ""))
+CUR.append(("wave", W("Nord.", after=W("euer"), end=True) + 0.35, 0, 0, 0, ""))
 
 # ================================================================ Übergänge: kurzer roter Schrägwisch an Szenengrenzen
 cuts = [SEG["s2_duell"][0], SEG["s8_gegner"][0], SEG["s9_score"][0], SEG["s10_termin"][0], SEG["s11_cta"][0]]
