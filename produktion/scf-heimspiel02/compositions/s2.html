@@ -1,0 +1,59 @@
+<template>
+  <style>@font-face{font-family:'BC';src:url('assets/fonts/barlow-condensed-latin-900-italic.woff2') format('woff2');font-weight:900;font-style:italic;}@font-face{font-family:'BC';src:url('assets/fonts/barlow-condensed-latin-800-italic.woff2') format('woff2');font-weight:800;font-style:italic;}@font-face{font-family:'BC';src:url('assets/fonts/barlow-condensed-latin-800-normal.woff2') format('woff2');font-weight:800;font-style:normal;}@font-face{font-family:'BC';src:url('assets/fonts/barlow-condensed-latin-600-normal.woff2') format('woff2');font-weight:600;font-style:normal;}@font-face{font-family:'BC';src:url('assets/fonts/barlow-condensed-latin-400-normal.woff2') format('woff2');font-weight:400;font-style:normal;}
+  #root { position:absolute; inset:0; overflow:hidden; color:#FFF; font-family:'BC', sans-serif; }
+  #root .a { position:absolute; }
+  #root .big { font-weight:900; font-style:italic; text-transform:uppercase; line-height:.86; white-space:nowrap; }
+  #root .lbl { font-weight:600; letter-spacing:.24em; text-transform:uppercase; color:#E3241B; font-size:34px; white-space:nowrap; line-height:1; }
+  #root .ol { color:transparent; -webkit-text-stroke:5px #FFF; }
+  #root .c { left:0; width:1080px; text-align:center; }
+  #root .strip { display:inline-block; font-weight:900; font-style:italic; text-transform:uppercase; white-space:nowrap; line-height:1;
+                 box-shadow:0 14px 30px rgba(0,0,0,.45); }
+  #root .chip { display:inline-block; font-weight:800; font-style:italic; text-transform:uppercase; white-space:nowrap; line-height:1;
+                font-size:44px; padding:14px 26px 12px; background:#1B0B0D; border:3px solid #4A1C1F; border-radius:14px; }
+</style>
+  <div id="root" data-composition-id="s2" data-width="1080" data-height="1920">
+
+  <div id="s2-lbl" class="a lbl c" style="top:330px;font-size:38px">Live im Sportpark Nord</div>
+  <div id="s2-band" class="a" style="left:-200px;top:690px;width:1480px;height:150px;background:linear-gradient(90deg,transparent,#E3241B 30%,#E3241B 70%,transparent);transform:rotate(-8deg);opacity:0"></div>
+  <div id="s2-l1" class="a" style="left:95px;top:600px;width:320px;height:320px;border-radius:50%;box-shadow:0 20px 60px rgba(0,0,0,.7)"><img src="assets/logo_scf.png" style="width:100%;height:100%"></div>
+  <div id="s2-l2" class="a" style="left:665px;top:600px;width:320px;height:320px;border-radius:50%;box-shadow:0 20px 60px rgba(0,0,0,.7)"><img src="assets/logo_tsc.png" style="width:100%;height:100%"></div>
+  <div id="s2-vs" class="a big c" style="top:690px;font-size:170px;color:#FFF;text-shadow:0 8px 30px rgba(0,0,0,.8)">VS.</div>
+  <div id="s2-n1" class="a big" style="left:55px;top:975px;width:400px;text-align:center;font-size:66px">SCF NÜRNBERG</div>
+  <div id="s2-n2" class="a big" style="left:625px;top:975px;width:400px;text-align:center;font-size:66px">TSC HEUCHELHOF</div>
+  <div id="s2-h1" class="a lbl" style="left:55px;top:1055px;width:400px;text-align:center;font-size:30px;color:#FFF;opacity:.7">Heim</div>
+  <div id="s2-h2" class="a lbl" style="left:625px;top:1055px;width:400px;text-align:center;font-size:30px;color:#FFF;opacity:.7">Gast · Würzburg</div>
+  </div>
+  <script>
+  const T = {"scf": 0.2, "vs": 1.49, "tsc": 2.25, "c1": 1.08, "end": 4.21};
+
+  const tl = gsap.timeline({ paused: true });
+  const fadeIn = (s, t, d = 0.3) => tl.fromTo(s, { opacity: 0 }, { opacity: 1, duration: d, ease: "power2.out" }, t);
+  const fadeOut = (s, t, d = 0.22) => tl.to(s, { opacity: 0, duration: d, ease: "power2.in" }, t);
+  const popIn = (s, t, d = 0.34, sc = 0.3) => tl.fromTo(s, { opacity: 0, scale: sc }, { opacity: 1, scale: 1, duration: d, ease: "back.out(2.2)" }, t);
+  const slam = (s, t, sc = 2.2) => tl.fromTo(s, { opacity: 0, scale: sc }, { opacity: 1, scale: 1, duration: 0.2, ease: "power4.in" }, t);
+  const upIn = (s, t, d = 0.32, dy = 70) => tl.fromTo(s, { opacity: 0, y: dy }, { opacity: 1, y: 0, duration: d, ease: "power3.out" }, t);
+  const leftIn = (s, t, d = 0.34, dx = -160, r = 0) => tl.fromTo(s, { opacity: 0, x: dx, rotation: r - 6 }, { opacity: 1, x: 0, rotation: r, duration: d, ease: "back.out(1.6)" }, t);
+  const outUp = (s, t, d = 0.2) => tl.to(s, { opacity: 0, y: -60, duration: d, ease: "power2.in" }, t);
+  const tap = (s, t, k = 1.08) => tl.fromTo(s, { scale: 1 }, { keyframes: [{ scale: 0.94, duration: 0.07 }, { scale: k, duration: 0.12 }, { scale: 1, duration: 0.18 }], ease: "power2.out", immediateRender: false }, t);
+  const shake = (s, t, a = 16) => tl.fromTo(s, { x: 0, y: 0 }, { keyframes: [...Array(8)].map((_, i) => ({ x: (i % 2 ? a : -a) * (1 - i / 8), y: (i % 3 ? -a : a) * 0.5 * (1 - i / 8), duration: 0.035 })).concat([{ x: 0, y: 0, duration: 0.04 }]), immediateRender: false }, t);
+  const flash = (s, t, a = 0.85) => tl.fromTo(s, { opacity: a }, { opacity: 0, duration: 0.32, ease: "power2.out", immediateRender: false }, t);
+
+
+  fadeIn("#s2-lbl", 0.0, 0.3);
+  tl.fromTo("#s2-l1", { opacity: 0, x: -420, rotation: -140 }, { opacity: 1, x: 0, rotation: 0, duration: 0.5, ease: "back.out(1.4)" }, T.scf);
+  upIn("#s2-n1", T.scf + 0.25); fadeIn("#s2-h1", T.scf + 0.4);
+  tl.fromTo("#s2-band", { opacity: 0, scaleX: 0.2 }, { opacity: 0.9, scaleX: 1, duration: 0.35, ease: "power3.out" }, T.vs - 0.05);
+  slam("#s2-vs", T.vs, 2.6);
+  tl.fromTo("#s2-l2", { opacity: 0, x: 420, rotation: 140 }, { opacity: 1, x: 0, rotation: 0, duration: 0.5, ease: "back.out(1.4)" }, T.tsc);
+  upIn("#s2-n2", T.tsc + 0.25); fadeIn("#s2-h2", T.tsc + 0.4);
+  tl.fromTo("#s2-l1", { x: 0 }, { keyframes: [{ x: 24, duration: 0.08 }, { x: 0, duration: 0.25 }], immediateRender: false }, T.tsc + 0.42);
+  tl.fromTo("#s2-l2", { x: 0 }, { keyframes: [{ x: -24, duration: 0.08 }, { x: 0, duration: 0.25 }], immediateRender: false }, T.tsc + 0.42);
+  shake("#s2-vs", T.tsc + 0.42, 10);
+  tap("#s2-l1", T.c1, 1.07);
+  tl.to(["#s2-l1", "#s2-n1", "#s2-h1"], { x: -300, opacity: 0, duration: 0.24, ease: "power2.in" }, T.end - 0.28);
+  tl.to(["#s2-l2", "#s2-n2", "#s2-h2"], { x: 300, opacity: 0, duration: 0.24, ease: "power2.in" }, T.end - 0.28);
+  tl.to(["#s2-vs", "#s2-band", "#s2-lbl"], { scale: 0.6, opacity: 0, duration: 0.22, ease: "power2.in" }, T.end - 0.26);
+
+  window.__timelines["s2"] = tl;
+  </script>
+</template>

@@ -1,0 +1,54 @@
+<template>
+  <style>@font-face{font-family:'BC';src:url('assets/fonts/barlow-condensed-latin-900-italic.woff2') format('woff2');font-weight:900;font-style:italic;}@font-face{font-family:'BC';src:url('assets/fonts/barlow-condensed-latin-800-italic.woff2') format('woff2');font-weight:800;font-style:italic;}@font-face{font-family:'BC';src:url('assets/fonts/barlow-condensed-latin-800-normal.woff2') format('woff2');font-weight:800;font-style:normal;}@font-face{font-family:'BC';src:url('assets/fonts/barlow-condensed-latin-600-normal.woff2') format('woff2');font-weight:600;font-style:normal;}@font-face{font-family:'BC';src:url('assets/fonts/barlow-condensed-latin-400-normal.woff2') format('woff2');font-weight:400;font-style:normal;}
+  #root { position:absolute; inset:0; overflow:hidden; color:#FFF; font-family:'BC', sans-serif; }
+  #root .a { position:absolute; }
+  #root .big { font-weight:900; font-style:italic; text-transform:uppercase; line-height:.86; white-space:nowrap; }
+  #root .lbl { font-weight:600; letter-spacing:.24em; text-transform:uppercase; color:#E3241B; font-size:34px; white-space:nowrap; line-height:1; }
+  #root .ol { color:transparent; -webkit-text-stroke:5px #FFF; }
+  #root .c { left:0; width:1080px; text-align:center; }
+  #root .strip { display:inline-block; font-weight:900; font-style:italic; text-transform:uppercase; white-space:nowrap; line-height:1;
+                 box-shadow:0 14px 30px rgba(0,0,0,.45); }
+  #root .chip { display:inline-block; font-weight:800; font-style:italic; text-transform:uppercase; white-space:nowrap; line-height:1;
+                font-size:44px; padding:14px 26px 12px; background:#1B0B0D; border:3px solid #4A1C1F; border-radius:14px; }
+</style>
+  <div id="root" data-composition-id="s9" data-width="1080" data-height="1920">
+
+  <div id="s9-l1" class="a big c" style="top:300px;font-size:104px">LETZTES DUELL</div>
+  <div id="s9-l2" class="a lbl c" style="top:405px;font-size:40px">im Sportpark Nord</div>
+  <div id="s9-score" class="a big c" style="top:505px;font-size:470px;text-shadow:0 20px 60px rgba(0,0,0,.6)">4:0</div>
+  <svg id="s9-ring" class="a" style="left:0;top:0;overflow:visible" width="1080" height="1920" viewBox="0 0 1080 1920">
+    <path id="s9-path" d="" fill="none" stroke="#E3241B" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  <div id="s9-fu" class="a" style="left:0;width:1080px;top:975px;opacity:0;text-align:center"><div id="s9-fu-s" class="a" style="left:0px;top:0px;transform-origin:20% 50%;position:relative;display:inline-block"><span class="strip" style="font-size:110px;background:#E3241B;color:#FFF;padding:8px 40px 2px;clip-path:polygon(9px 0.0%, 0px 14.3%, 9px 28.6%, 0px 42.9%, 9px 57.1%, 0px 71.4%, 9px 85.7%, 0px 100.0%, calc(100% - 0px) 100.0%, calc(100% - 9px) 85.7%, calc(100% - 0px) 71.4%, calc(100% - 9px) 57.1%, calc(100% - 0px) 42.9%, calc(100% - 9px) 28.6%, calc(100% - 0px) 14.3%, calc(100% - 9px) 0.0%);transform:rotate(-3deg)">FÜR UNS.</span></div></div>
+  <div id="s9-fl" class="a" style="inset:0;background:#E3241B;opacity:0"></div>
+  </div>
+  <script>
+  const T = {"four": 2.67, "ring": 3.07, "fu": 3.21, "end": 4.25};
+
+  const tl = gsap.timeline({ paused: true });
+  const fadeIn = (s, t, d = 0.3) => tl.fromTo(s, { opacity: 0 }, { opacity: 1, duration: d, ease: "power2.out" }, t);
+  const fadeOut = (s, t, d = 0.22) => tl.to(s, { opacity: 0, duration: d, ease: "power2.in" }, t);
+  const popIn = (s, t, d = 0.34, sc = 0.3) => tl.fromTo(s, { opacity: 0, scale: sc }, { opacity: 1, scale: 1, duration: d, ease: "back.out(2.2)" }, t);
+  const slam = (s, t, sc = 2.2) => tl.fromTo(s, { opacity: 0, scale: sc }, { opacity: 1, scale: 1, duration: 0.2, ease: "power4.in" }, t);
+  const upIn = (s, t, d = 0.32, dy = 70) => tl.fromTo(s, { opacity: 0, y: dy }, { opacity: 1, y: 0, duration: d, ease: "power3.out" }, t);
+  const leftIn = (s, t, d = 0.34, dx = -160, r = 0) => tl.fromTo(s, { opacity: 0, x: dx, rotation: r - 6 }, { opacity: 1, x: 0, rotation: r, duration: d, ease: "back.out(1.6)" }, t);
+  const outUp = (s, t, d = 0.2) => tl.to(s, { opacity: 0, y: -60, duration: d, ease: "power2.in" }, t);
+  const tap = (s, t, k = 1.08) => tl.fromTo(s, { scale: 1 }, { keyframes: [{ scale: 0.94, duration: 0.07 }, { scale: k, duration: 0.12 }, { scale: 1, duration: 0.18 }], ease: "power2.out", immediateRender: false }, t);
+  const shake = (s, t, a = 16) => tl.fromTo(s, { x: 0, y: 0 }, { keyframes: [...Array(8)].map((_, i) => ({ x: (i % 2 ? a : -a) * (1 - i / 8), y: (i % 3 ? -a : a) * 0.5 * (1 - i / 8), duration: 0.035 })).concat([{ x: 0, y: 0, duration: 0.04 }]), immediateRender: false }, t);
+  const flash = (s, t, a = 0.85) => tl.fromTo(s, { opacity: a }, { opacity: 0, duration: 0.32, ease: "power2.out", immediateRender: false }, t);
+
+
+  fadeIn("#s9-l1", 0.0, 0.3); fadeIn("#s9-l2", 0.2, 0.3);
+  tl.set("#s9-score", { opacity: 0 }, 0);
+  slam("#s9-score", T.four, 2.8);
+  flash("#s9-fl", T.four + 0.2, 0.55);
+  shake("#s9-score", T.four + 0.2, 22);
+  const p = document.getElementById("s9-path"); p.setAttribute("d", "M398.4,510.8 L451.1,496.1 L505.9,486.4 L561.5,482.1 L616.7,483.2 L670.5,489.7 L721.5,501.6 L768.8,518.4 L811.3,540.0 L848.0,565.9 L878.2,595.5 L901.2,628.2 L916.5,663.3 L923.8,700.0 L922.8,737.7 L913.6,775.4 L896.4,812.3 L871.4,847.7 L839.4,880.8 L800.8,910.8 L756.5,937.2 L707.5,959.3 L654.8,976.6 L599.5,988.8 L542.8,995.6 L485.9,996.8 L430.1,992.4 L376.5,982.4 L326.3,967.0 L280.6,946.6 L240.3,921.6 L206.4,892.5 L179.6,860.0 L160.5,824.6 L149.5,787.2 L146.8,748.5 L152.6,709.4 L166.7,670.8 L188.9,633.4 L218.6,598.1 L255.3,565.7 L298.2,536.7 L346.4,512.0 L398.8,491.9 L454.4,477.1 L511.9,467.7 L570.2,464.1 L627.9,466.3 L683.8,474.2");
+  const L = p.getTotalLength();
+  tl.set(p, { strokeDasharray: L, strokeDashoffset: L }, 0);
+  tl.to(p, { strokeDashoffset: 0, duration: 0.75, ease: "power1.inOut" }, T.ring);
+  tl.fromTo("#s9-fu", { opacity: 0, scale: 0.4, rotation: -8 }, { opacity: 1, scale: 1, rotation: 0, duration: 0.3, ease: "back.out(2.4)" }, T.fu);
+  tl.to(["#s9-l1", "#s9-l2", "#s9-score", "#s9-ring", "#s9-fu"], { scale: 0.7, opacity: 0, duration: 0.22, ease: "power2.in", stagger: 0.02 }, T.end - 0.28);
+
+  window.__timelines["s9"] = tl;
+  </script>
+</template>

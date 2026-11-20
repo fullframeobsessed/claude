@@ -1,0 +1,70 @@
+<template>
+  <style>@font-face{font-family:'BC';src:url('assets/fonts/barlow-condensed-latin-900-italic.woff2') format('woff2');font-weight:900;font-style:italic;}@font-face{font-family:'BC';src:url('assets/fonts/barlow-condensed-latin-800-italic.woff2') format('woff2');font-weight:800;font-style:italic;}@font-face{font-family:'BC';src:url('assets/fonts/barlow-condensed-latin-800-normal.woff2') format('woff2');font-weight:800;font-style:normal;}@font-face{font-family:'BC';src:url('assets/fonts/barlow-condensed-latin-600-normal.woff2') format('woff2');font-weight:600;font-style:normal;}@font-face{font-family:'BC';src:url('assets/fonts/barlow-condensed-latin-400-normal.woff2') format('woff2');font-weight:400;font-style:normal;}
+  #root { position:absolute; inset:0; overflow:hidden; color:#FFF; font-family:'BC', sans-serif; }
+  #root .a { position:absolute; }
+  #root .big { font-weight:900; font-style:italic; text-transform:uppercase; line-height:.86; white-space:nowrap; }
+  #root .lbl { font-weight:600; letter-spacing:.24em; text-transform:uppercase; color:#E3241B; font-size:34px; white-space:nowrap; line-height:1; }
+  #root .ol { color:transparent; -webkit-text-stroke:5px #FFF; }
+  #root .c { left:0; width:1080px; text-align:center; }
+  #root .strip { display:inline-block; font-weight:900; font-style:italic; text-transform:uppercase; white-space:nowrap; line-height:1;
+                 box-shadow:0 14px 30px rgba(0,0,0,.45); }
+  #root .chip { display:inline-block; font-weight:800; font-style:italic; text-transform:uppercase; white-space:nowrap; line-height:1;
+                font-size:44px; padding:14px 26px 12px; background:#1B0B0D; border:3px solid #4A1C1F; border-radius:14px; }
+</style>
+  <div id="root" data-composition-id="s8" data-width="1080" data-height="1920">
+
+  <div id="s8-lbl" class="a lbl" style="left:100px;top:290px">Der Gegner</div>
+  <div id="s8-logo" class="a" style="left:96px;top:340px;width:240px;height:240px;border-radius:50%;box-shadow:0 16px 40px rgba(0,0,0,.6)"><img src="assets/logo_tsc.png" style="width:100%;height:100%"></div>
+  <div id="s8-t1" class="a big" style="left:370px;top:365px;font-size:110px">TSC</div>
+  <div id="s8-t2" class="a big" style="left:370px;top:465px;font-size:110px">HEUCHELHOF</div>
+  <div id="s8-sub" class="a" style="left:100px;top:612px;font-size:32px;font-weight:600;letter-spacing:.12em;color:#FFF;opacity:0">TABELLENDRITTER DER VORSAISON · WÜRZBURG</div>
+  <div id="s8-nach" class="a" style="left:100px;top:675px;opacity:0"><div id="s8-nach-s" class="a" style="left:0px;top:0px;transform-origin:20% 50%;"><span class="strip" style="font-size:56px;background:#E3241B;color:#FFF;padding:10px 34px 6px;clip-path:polygon(9px 0.0%, 0px 14.3%, 9px 28.6%, 0px 42.9%, 9px 57.1%, 0px 71.4%, 9px 85.7%, 0px 100.0%, calc(100% - 0px) 100.0%, calc(100% - 9px) 85.7%, calc(100% - 0px) 71.4%, calc(100% - 9px) 57.1%, calc(100% - 0px) 42.9%, calc(100% - 9px) 28.6%, calc(100% - 0px) 14.3%, calc(100% - 9px) 0.0%);transform:rotate(-2deg)">HAT NACHGELEGT</span></div></div>
+  <div id="s8-card" class="a" style="left:150px;top:830px;width:780px;height:260px;background:#170708;border:3px solid #4A1C1F;border-left:14px solid #E3241B;border-radius:18px;
+       box-shadow:0 26px 60px rgba(0,0,0,.6);opacity:0">
+    <div class="a lbl" style="left:40px;top:30px;font-size:30px;color:#FFF;opacity:.7">WRL</div>
+    <div id="s8-num" class="a big" style="left:34px;top:66px;font-size:190px;color:#E3241B">21</div>
+    <div class="a" style="left:300px;top:30px;font-size:28px;font-weight:800;letter-spacing:.16em;padding:6px 14px;background:#E3241B;color:#FFF">NEUZUGANG</div>
+    <div class="a big" style="left:300px;top:88px;font-size:66px">DIMITRI</div>
+    <div class="a big" style="left:300px;top:148px;font-size:96px">STEINMANN</div>
+  </div>
+  <div id="s8-tip" class="a" style="left:610px;top:744px;padding:12px 20px;background:#FFF;color:#111;border-radius:12px;font-size:32px;font-weight:800;
+       letter-spacing:.04em;white-space:nowrap;opacity:0;box-shadow:0 10px 24px rgba(0,0,0,.5)">NR. 21 DER WELT</div>
+  <div id="s8-stamp" class="a" style="left:100px;top:668px;transform-origin:50% 50%;opacity:0">
+    <div style="transform:rotate(-7deg);border:7px solid #E3241B;color:#E3241B;padding:10px 26px 6px;font-weight:900;font-style:italic;font-size:76px;line-height:1;
+         background:rgba(11,5,6,.85);white-space:nowrap">ZIEL: PLAYOFFS?</div></div>
+  </div>
+  <script>
+  const T = {"nach": 0.89, "neu": 2.03, "hover": 3.3, "n21": 4.32, "ziel": 6.1, "end": 7.88};
+
+  const tl = gsap.timeline({ paused: true });
+  const fadeIn = (s, t, d = 0.3) => tl.fromTo(s, { opacity: 0 }, { opacity: 1, duration: d, ease: "power2.out" }, t);
+  const fadeOut = (s, t, d = 0.22) => tl.to(s, { opacity: 0, duration: d, ease: "power2.in" }, t);
+  const popIn = (s, t, d = 0.34, sc = 0.3) => tl.fromTo(s, { opacity: 0, scale: sc }, { opacity: 1, scale: 1, duration: d, ease: "back.out(2.2)" }, t);
+  const slam = (s, t, sc = 2.2) => tl.fromTo(s, { opacity: 0, scale: sc }, { opacity: 1, scale: 1, duration: 0.2, ease: "power4.in" }, t);
+  const upIn = (s, t, d = 0.32, dy = 70) => tl.fromTo(s, { opacity: 0, y: dy }, { opacity: 1, y: 0, duration: d, ease: "power3.out" }, t);
+  const leftIn = (s, t, d = 0.34, dx = -160, r = 0) => tl.fromTo(s, { opacity: 0, x: dx, rotation: r - 6 }, { opacity: 1, x: 0, rotation: r, duration: d, ease: "back.out(1.6)" }, t);
+  const outUp = (s, t, d = 0.2) => tl.to(s, { opacity: 0, y: -60, duration: d, ease: "power2.in" }, t);
+  const tap = (s, t, k = 1.08) => tl.fromTo(s, { scale: 1 }, { keyframes: [{ scale: 0.94, duration: 0.07 }, { scale: k, duration: 0.12 }, { scale: 1, duration: 0.18 }], ease: "power2.out", immediateRender: false }, t);
+  const shake = (s, t, a = 16) => tl.fromTo(s, { x: 0, y: 0 }, { keyframes: [...Array(8)].map((_, i) => ({ x: (i % 2 ? a : -a) * (1 - i / 8), y: (i % 3 ? -a : a) * 0.5 * (1 - i / 8), duration: 0.035 })).concat([{ x: 0, y: 0, duration: 0.04 }]), immediateRender: false }, t);
+  const flash = (s, t, a = 0.85) => tl.fromTo(s, { opacity: a }, { opacity: 0, duration: 0.32, ease: "power2.out", immediateRender: false }, t);
+
+
+  fadeIn("#s8-lbl", 0.0, 0.25);
+  popIn("#s8-logo", 0.05, 0.42, 0.2);
+  leftIn("#s8-t1", 0.12); leftIn("#s8-t2", 0.2);
+  fadeIn("#s8-sub", 0.45, 0.4);
+  leftIn("#s8-nach", T.nach, 0.34, -160, 0);
+  tl.fromTo("#s8-card", { opacity: 0, y: 120, rotation: 3 }, { opacity: 1, y: 0, rotation: 0, duration: 0.45, ease: "back.out(1.5)" }, T.neu);
+  tl.to("#s8-card", { y: -14, scale: 1.03, boxShadow: "0 40px 80px rgba(0,0,0,.75)", borderColor: "#E3241B", duration: 0.25, ease: "power2.out" }, T.hover);
+  popIn("#s8-tip", T.hover + 0.2, 0.3, 0.5);
+  tl.fromTo("#s8-num", { scale: 1 }, { keyframes: [{ scale: 1.25, duration: 0.12 }, { scale: 1, duration: 0.3 }], immediateRender: false }, T.n21);
+  tl.to("#s8-tip", { opacity: 0, duration: 0.2 }, T.ziel - 0.3);
+  tl.to("#s8-card", { y: 0, scale: 1, duration: 0.25 }, T.ziel - 0.3);
+  tl.to("#s8-nach", { opacity: 0, x: -60, duration: 0.15 }, T.ziel - 0.05);
+  tl.fromTo("#s8-stamp", { opacity: 0, scale: 2.4, rotation: -10 }, { opacity: 1, scale: 1, rotation: 0, duration: 0.22, ease: "power4.in" }, T.ziel + 0.1);
+  shake("#s8-card", T.ziel + 0.32, 8);
+  tl.to(["#s8-lbl", "#s8-logo", "#s8-t1", "#s8-t2", "#s8-sub", "#s8-nach", "#s8-card", "#s8-stamp"], { y: -80, opacity: 0, duration: 0.22, ease: "power2.in", stagger: 0.02 }, T.end - 0.3);
+
+  window.__timelines["s8"] = tl;
+  </script>
+</template>

@@ -1,0 +1,35 @@
+<template>
+  <style>@font-face{font-family:'BC';src:url('assets/fonts/barlow-condensed-latin-900-italic.woff2') format('woff2');font-weight:900;font-style:italic;}@font-face{font-family:'BC';src:url('assets/fonts/barlow-condensed-latin-800-italic.woff2') format('woff2');font-weight:800;font-style:italic;}@font-face{font-family:'BC';src:url('assets/fonts/barlow-condensed-latin-800-normal.woff2') format('woff2');font-weight:800;font-style:normal;}@font-face{font-family:'BC';src:url('assets/fonts/barlow-condensed-latin-600-normal.woff2') format('woff2');font-weight:600;font-style:normal;}@font-face{font-family:'BC';src:url('assets/fonts/barlow-condensed-latin-400-normal.woff2') format('woff2');font-weight:400;font-style:normal;}
+  #root { position:absolute; inset:0; overflow:hidden; color:#FFF; font-family:'BC', sans-serif; }
+  #root .a { position:absolute; }
+  #root .big { font-weight:900; font-style:italic; text-transform:uppercase; line-height:.86; white-space:nowrap; }
+  #root .lbl { font-weight:600; letter-spacing:.24em; text-transform:uppercase; color:#E3241B; font-size:34px; white-space:nowrap; line-height:1; }
+  #root .ol { color:transparent; -webkit-text-stroke:5px #FFF; }
+  #root .c { left:0; width:1080px; text-align:center; }
+  #root .strip { display:inline-block; font-weight:900; font-style:italic; text-transform:uppercase; white-space:nowrap; line-height:1;
+                 box-shadow:0 14px 30px rgba(0,0,0,.45); }
+  #root .chip { display:inline-block; font-weight:800; font-style:italic; text-transform:uppercase; white-space:nowrap; line-height:1;
+                font-size:44px; padding:14px 26px 12px; background:#1B0B0D; border:3px solid #4A1C1F; border-radius:14px; }
+</style>
+  <div id="root" data-composition-id="wipe" data-width="1080" data-height="1920">
+<div id="wp0" class="a" style="left:-300px;top:-200px;width:900px;height:2400px;background:#E3241B;transform:skewX(-14deg) translateX(-1600px)"></div><div id="wp1" class="a" style="left:-300px;top:-200px;width:900px;height:2400px;background:#E3241B;transform:skewX(-14deg) translateX(-1600px)"></div><div id="wp2" class="a" style="left:-300px;top:-200px;width:900px;height:2400px;background:#E3241B;transform:skewX(-14deg) translateX(-1600px)"></div><div id="wp3" class="a" style="left:-300px;top:-200px;width:900px;height:2400px;background:#E3241B;transform:skewX(-14deg) translateX(-1600px)"></div><div id="wp4" class="a" style="left:-300px;top:-200px;width:900px;height:2400px;background:#E3241B;transform:skewX(-14deg) translateX(-1600px)"></div>
+  </div>
+  <script>
+  const T = {"end": 43.089};
+
+  const tl = gsap.timeline({ paused: true });
+  const fadeIn = (s, t, d = 0.3) => tl.fromTo(s, { opacity: 0 }, { opacity: 1, duration: d, ease: "power2.out" }, t);
+  const fadeOut = (s, t, d = 0.22) => tl.to(s, { opacity: 0, duration: d, ease: "power2.in" }, t);
+  const popIn = (s, t, d = 0.34, sc = 0.3) => tl.fromTo(s, { opacity: 0, scale: sc }, { opacity: 1, scale: 1, duration: d, ease: "back.out(2.2)" }, t);
+  const slam = (s, t, sc = 2.2) => tl.fromTo(s, { opacity: 0, scale: sc }, { opacity: 1, scale: 1, duration: 0.2, ease: "power4.in" }, t);
+  const upIn = (s, t, d = 0.32, dy = 70) => tl.fromTo(s, { opacity: 0, y: dy }, { opacity: 1, y: 0, duration: d, ease: "power3.out" }, t);
+  const leftIn = (s, t, d = 0.34, dx = -160, r = 0) => tl.fromTo(s, { opacity: 0, x: dx, rotation: r - 6 }, { opacity: 1, x: 0, rotation: r, duration: d, ease: "back.out(1.6)" }, t);
+  const outUp = (s, t, d = 0.2) => tl.to(s, { opacity: 0, y: -60, duration: d, ease: "power2.in" }, t);
+  const tap = (s, t, k = 1.08) => tl.fromTo(s, { scale: 1 }, { keyframes: [{ scale: 0.94, duration: 0.07 }, { scale: k, duration: 0.12 }, { scale: 1, duration: 0.18 }], ease: "power2.out", immediateRender: false }, t);
+  const shake = (s, t, a = 16) => tl.fromTo(s, { x: 0, y: 0 }, { keyframes: [...Array(8)].map((_, i) => ({ x: (i % 2 ? a : -a) * (1 - i / 8), y: (i % 3 ? -a : a) * 0.5 * (1 - i / 8), duration: 0.035 })).concat([{ x: 0, y: 0, duration: 0.04 }]), immediateRender: false }, t);
+  const flash = (s, t, a = 0.85) => tl.fromTo(s, { opacity: a }, { opacity: 0, duration: 0.32, ease: "power2.out", immediateRender: false }, t);
+
+tl.fromTo("#wp0", { x: 0 }, { x: 3200, duration: 0.42, ease: "power2.inOut", immediateRender: false }, 2.460);tl.fromTo("#wp1", { x: 0 }, { x: 3200, duration: 0.42, ease: "power2.inOut", immediateRender: false }, 16.850);tl.fromTo("#wp2", { x: 0 }, { x: 3200, duration: 0.42, ease: "power2.inOut", immediateRender: false }, 24.730);tl.fromTo("#wp3", { x: 0 }, { x: 3200, duration: 0.42, ease: "power2.inOut", immediateRender: false }, 28.980);tl.fromTo("#wp4", { x: 0 }, { x: 3200, duration: 0.42, ease: "power2.inOut", immediateRender: false }, 35.680);
+  window.__timelines["wipe"] = tl;
+  </script>
+</template>

@@ -59,3 +59,14 @@ produktion/video03-reel/assets/mix.wav
 produktion/video03-reel/assets/musik_bett.wav
 produktion/video03-reel/assets/sfx_spur.wav
 produktion/video03-reel/assets/voice_raw.wav
+produktion/scf-heimspiel02/renders/
+produktion/scf-heimspiel02/.hyperframes/
+produktion/scf-heimspiel02/video_stumm.mp4
+produktion/scf-heimspiel02/*.log
+produktion/scf-heimspiel02/assets/_*.wav
+produktion/scf-heimspiel02/assets/mix.wav
+produktion/scf-heimspiel02/assets/musik_bett.wav
+produktion/scf-heimspiel02/assets/sfx_spur.wav
+produktion/scf-heimspiel02/assets/cut/*_sam.png
+produktion/scf-heimspiel02/assets/cut/*_opp.png
+produktion/scf-heimspiel02/assets/cut/*_add.png

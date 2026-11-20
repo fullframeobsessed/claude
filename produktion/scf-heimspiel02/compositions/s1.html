@@ -1,0 +1,57 @@
+<template>
+  <style>@font-face{font-family:'BC';src:url('assets/fonts/barlow-condensed-latin-900-italic.woff2') format('woff2');font-weight:900;font-style:italic;}@font-face{font-family:'BC';src:url('assets/fonts/barlow-condensed-latin-800-italic.woff2') format('woff2');font-weight:800;font-style:italic;}@font-face{font-family:'BC';src:url('assets/fonts/barlow-condensed-latin-800-normal.woff2') format('woff2');font-weight:800;font-style:normal;}@font-face{font-family:'BC';src:url('assets/fonts/barlow-condensed-latin-600-normal.woff2') format('woff2');font-weight:600;font-style:normal;}@font-face{font-family:'BC';src:url('assets/fonts/barlow-condensed-latin-400-normal.woff2') format('woff2');font-weight:400;font-style:normal;}
+  #root { position:absolute; inset:0; overflow:hidden; color:#FFF; font-family:'BC', sans-serif; }
+  #root .a { position:absolute; }
+  #root .big { font-weight:900; font-style:italic; text-transform:uppercase; line-height:.86; white-space:nowrap; }
+  #root .lbl { font-weight:600; letter-spacing:.24em; text-transform:uppercase; color:#E3241B; font-size:34px; white-space:nowrap; line-height:1; }
+  #root .ol { color:transparent; -webkit-text-stroke:5px #FFF; }
+  #root .c { left:0; width:1080px; text-align:center; }
+  #root .strip { display:inline-block; font-weight:900; font-style:italic; text-transform:uppercase; white-space:nowrap; line-height:1;
+                 box-shadow:0 14px 30px rgba(0,0,0,.45); }
+  #root .chip { display:inline-block; font-weight:800; font-style:italic; text-transform:uppercase; white-space:nowrap; line-height:1;
+                font-size:44px; padding:14px 26px 12px; background:#1B0B0D; border:3px solid #4A1C1F; border-radius:14px; }
+</style>
+  <div id="root" data-composition-id="s1" data-width="1080" data-height="1920">
+
+  <div id="s1-wedge" class="a" style="left:520px;top:0;width:560px;height:760px;background:#E3241B;clip-path:polygon(34% 0,100% 0,100% 100%,0 100%);"></div>
+  <div id="s1-02" class="a big" style="left:670px;top:318px;font-size:230px;width:330px;text-align:right">02</div>
+  <div id="s1-fd" class="a big" style="left:530px;top:540px;width:470px;text-align:right;font-size:58px;font-weight:800;letter-spacing:.06em">FRANKENDERBY</div>
+  <div id="s1-hst" class="a" style="left:530px;top:606px;width:470px;text-align:right;font-size:30px;font-weight:600;letter-spacing:.2em">2. HEIMSPIELTAG</div>
+  <div id="s1-box" class="a" style="left:650px;top:660px"><span style="display:inline-block;width:62px;height:46px;margin-right:10px;border:3px solid #FFF;transform:skewX(-12deg);font-size:28px;line-height:42px;text-align:center;font-weight:800;font-style:italic;color:#FFF;opacity:.75">01</span><span style="display:inline-block;width:62px;height:46px;margin-right:10px;border:3px solid #FFF;transform:skewX(-12deg);font-size:28px;line-height:42px;text-align:center;font-weight:800;font-style:italic;background:#FFF;color:#E3241B">02</span><span style="display:inline-block;width:62px;height:46px;margin-right:10px;border:3px solid #FFF;transform:skewX(-12deg);font-size:28px;line-height:42px;text-align:center;font-weight:800;font-style:italic;color:#FFF;opacity:.75">03</span><span style="display:inline-block;width:62px;height:46px;margin-right:10px;border:3px solid #FFF;transform:skewX(-12deg);font-size:28px;line-height:42px;text-align:center;font-weight:800;font-style:italic;color:#FFF;opacity:.75">04</span><span style="display:inline-block;width:62px;height:46px;margin-right:10px;border:3px solid #FFF;transform:skewX(-12deg);font-size:28px;line-height:42px;text-align:center;font-weight:800;font-style:italic;color:#FFF;opacity:.75">05</span></div>
+  <div id="s1-lbl" class="a lbl" style="left:90px;top:290px">Squash Bundesliga</div>
+  <div id="s1-sai" class="a lbl" style="left:90px;top:335px;color:#FFF">Saison 2026/27</div>
+  <div id="s1-heim" class="a big" style="left:70px;top:420px;font-size:280px">HEIM</div>
+  <div id="s1-spiel" class="a big ol" style="left:96px;top:670px;font-size:280px">SPIEL</div>
+  <div id="s1-pl" class="a" style="left:500px;top:735px;width:500px;height:694px"><img src="assets/sticker_kandra.png" style="width:100%;height:100%"></div>
+  <div id="s1-live" class="a lbl" style="left:90px;top:1010px;font-size:36px">Live im Sportpark Nord</div>
+  <div id="s1-fl" class="a" style="inset:0;background:#FFF;opacity:0"></div>
+  </div>
+  <script>
+  const T = {"liga": 1.32, "click": 1.75, "end": 2.67};
+
+  const tl = gsap.timeline({ paused: true });
+  const fadeIn = (s, t, d = 0.3) => tl.fromTo(s, { opacity: 0 }, { opacity: 1, duration: d, ease: "power2.out" }, t);
+  const fadeOut = (s, t, d = 0.22) => tl.to(s, { opacity: 0, duration: d, ease: "power2.in" }, t);
+  const popIn = (s, t, d = 0.34, sc = 0.3) => tl.fromTo(s, { opacity: 0, scale: sc }, { opacity: 1, scale: 1, duration: d, ease: "back.out(2.2)" }, t);
+  const slam = (s, t, sc = 2.2) => tl.fromTo(s, { opacity: 0, scale: sc }, { opacity: 1, scale: 1, duration: 0.2, ease: "power4.in" }, t);
+  const upIn = (s, t, d = 0.32, dy = 70) => tl.fromTo(s, { opacity: 0, y: dy }, { opacity: 1, y: 0, duration: d, ease: "power3.out" }, t);
+  const leftIn = (s, t, d = 0.34, dx = -160, r = 0) => tl.fromTo(s, { opacity: 0, x: dx, rotation: r - 6 }, { opacity: 1, x: 0, rotation: r, duration: d, ease: "back.out(1.6)" }, t);
+  const outUp = (s, t, d = 0.2) => tl.to(s, { opacity: 0, y: -60, duration: d, ease: "power2.in" }, t);
+  const tap = (s, t, k = 1.08) => tl.fromTo(s, { scale: 1 }, { keyframes: [{ scale: 0.94, duration: 0.07 }, { scale: k, duration: 0.12 }, { scale: 1, duration: 0.18 }], ease: "power2.out", immediateRender: false }, t);
+  const shake = (s, t, a = 16) => tl.fromTo(s, { x: 0, y: 0 }, { keyframes: [...Array(8)].map((_, i) => ({ x: (i % 2 ? a : -a) * (1 - i / 8), y: (i % 3 ? -a : a) * 0.5 * (1 - i / 8), duration: 0.035 })).concat([{ x: 0, y: 0, duration: 0.04 }]), immediateRender: false }, t);
+  const flash = (s, t, a = 0.85) => tl.fromTo(s, { opacity: a }, { opacity: 0, duration: 0.32, ease: "power2.out", immediateRender: false }, t);
+
+
+  tl.fromTo("#s1-heim", { scale: 1.06, x: -10 }, { scale: 1, x: 0, duration: 0.5, ease: "power3.out" }, 0);
+  tl.fromTo("#s1-spiel", { x: 70 }, { x: 0, duration: 0.6, ease: "power3.out" }, 0);
+  tl.fromTo("#s1-pl", { y: 30, scale: 0.98 }, { y: 0, scale: 1.03, duration: T.end, ease: "sine.out" }, 0);
+  tl.fromTo("#s1-wedge", { x: 30 }, { x: 0, duration: 0.5, ease: "power3.out" }, 0);
+  fadeIn("#s1-live", T.liga, 0.3);
+  tap("#s1-box", T.click, 1.12);
+  flash("#s1-fl", 0.05, 0.25);
+  tl.to(["#s1-heim", "#s1-spiel", "#s1-lbl", "#s1-sai", "#s1-live"], { x: -140, opacity: 0, duration: 0.22, ease: "power2.in", stagger: 0.03 }, T.end - 0.26);
+  tl.to(["#s1-wedge", "#s1-02", "#s1-fd", "#s1-hst", "#s1-box", "#s1-pl"], { x: 160, opacity: 0, duration: 0.22, ease: "power2.in", stagger: 0.02 }, T.end - 0.26);
+
+  window.__timelines["s1"] = tl;
+  </script>
+</template>
