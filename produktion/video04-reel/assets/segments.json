@@ -1,0 +1,67 @@
+[
+ {
+  "id": "open",
+  "start": 0.0,
+  "end": 0.25
+ },
+ {
+  "id": "r_hook",
+  "start": 0.25,
+  "end": 4.84
+ },
+ {
+  "id": "r_promise",
+  "start": 4.84,
+  "end": 8.031
+ },
+ {
+  "id": "go",
+  "start": 8.031,
+  "end": 8.331
+ },
+ {
+  "id": "timer",
+  "start": 8.031,
+  "end": 68.031
+ },
+ {
+  "id": "r_griff",
+  "start": 8.331,
+  "end": 28.58
+ },
+ {
+  "id": "r_automat",
+  "start": 28.58,
+  "end": 42.72
+ },
+ {
+  "id": "r_flucht",
+  "start": 42.72,
+  "end": 55.44
+ },
+ {
+  "id": "r_trick",
+  "start": 55.44,
+  "end": 67.761
+ },
+ {
+  "id": "r_zeit",
+  "start": 68.031,
+  "end": 68.66
+ },
+ {
+  "id": "r_check",
+  "start": 68.66,
+  "end": 75.5
+ },
+ {
+  "id": "r_folge",
+  "start": 75.5,
+  "end": 82.812
+ },
+ {
+  "id": "endcard",
+  "start": 82.812,
+  "end": 86.312
+ }
+]

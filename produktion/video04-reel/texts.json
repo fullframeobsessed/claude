@@ -1,0 +1,30 @@
+{
+  "pieces": {
+    "P1": [
+      "r_hook",
+      "r_promise"
+    ],
+    "P2": [
+      "r_griff",
+      "r_automat",
+      "r_flucht",
+      "r_trick"
+    ],
+    "P3": [
+      "r_zeit",
+      "r_check",
+      "r_folge"
+    ]
+  },
+  "scenes": {
+    "r_hook": "Kein Anruf. Keine Nachricht. Und trotzdem hast du dein Handy schon wieder in der Hand?",
+    "r_promise": "Warum? Das erklär ich dir in einer Minute. Los!",
+    "r_griff": "Erstens: der Griff, den du nicht merkst. Am Bildschirm bleiben wir im Schnitt nur noch rund siebenundvierzig Sekunden bei einer Sache. Und ungefähr die Hälfte der Unterbrechungen machen wir selbst. Der Griff zum Handy ist längst eine Gewohnheit: kurz langweilig, Griff, irgendwas Neues. Tausendmal wiederholt, und die Hand greift von allein. So automatisch wie Zähneputzen.",
+    "r_automat": "Zweitens: der Spielautomat. Manchmal wartet eine Nachricht, manchmal ein Like, meistens gar nichts. Aber du weißt es nie vorher. Genau diese Unberechenbarkeit hält dich bei der Stange. Ein Spielautomat, der in deiner Hosentasche wohnt.",
+    "r_flucht": "Drittens: die Flucht. Du greifst nicht mitten im Flow zum Handy, sondern genau dann, wenn die Aufgabe unangenehm wird. Das Handy ist der schnellste Notausgang. Und danach hängt ein Teil deiner Aufmerksamkeit noch am Handy.",
+    "r_trick": "Der Trick: Gegen einen Reflex hilft keine Willenskraft. Leg dein Handy in einen anderen Raum. Schalte Benachrichtigungen aus. Und wenn der Drang kommt: Zähl bis zehn und frag dich, was du gerade vermeiden willst.",
+    "r_zeit": "Zeit um!",
+    "r_check": "Kleiner Check zum Schluss: Wie oft hast du dein Handy heute entsperrt? Schau in deine Bildschirmzeit und schreib die Zahl in die Kommentare.",
+    "r_folge": "Die ganze Folge mit allen fünf Hacks findest du morgen Abend auf YouTube. Den Link dazu findest du in der Bio."
+  }
+}
