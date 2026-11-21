@@ -68,3 +68,12 @@ produktion/video04/full/assets/mix.wav
 produktion/video04/full/assets/musik_bett.wav
 produktion/video04/full/assets/sfx_spur.wav
 produktion/video04/full/assets/voice_raw.wav
+produktion/video04-reel/renders/
+produktion/video04-reel/.hyperframes/
+produktion/video04-reel/video_stumm.mp4
+produktion/video04-reel/*.log
+produktion/video04-reel/assets/_*.wav
+produktion/video04-reel/assets/mix.wav
+produktion/video04-reel/assets/musik_bett.wav
+produktion/video04-reel/assets/sfx_spur.wav
+produktion/video04-reel/assets/voice_raw.wav
