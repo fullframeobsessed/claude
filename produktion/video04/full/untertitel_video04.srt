@@ -1,0 +1,864 @@
+1
+00:00:02,950 --> 00:00:04,250
+Das ist Otto.
+
+2
+00:00:04,390 --> 00:00:06,150
+Otto hat sich fest vorgenommen:
+
+3
+00:00:06,490 --> 00:00:09,610
+Heute arbeite ich eine Stunde am Stück.
+
+4
+00:00:09,770 --> 00:00:10,090
+Handy?
+
+5
+00:00:10,110 --> 00:00:11,470
+Liegt daneben.
+
+6
+00:00:11,610 --> 00:00:12,330
+Kein Problem.
+
+7
+00:00:12,530 --> 00:00:14,190
+Er öffnet die Datei.
+
+8
+00:00:14,330 --> 00:00:15,630
+Schreibt einen Satz.
+
+9
+00:00:15,730 --> 00:00:16,690
+Löscht ihn wieder.
+
+10
+00:00:16,870 --> 00:00:17,530
+Und dann,
+
+11
+00:00:17,810 --> 00:00:19,790
+ohne dass er es überhaupt merkt,
+
+12
+00:00:19,810 --> 00:00:21,430
+hat er sein Handy in der Hand.
+
+13
+00:00:21,490 --> 00:00:22,550
+Kein Anruf.
+
+14
+00:00:22,670 --> 00:00:23,710
+Keine Nachricht.
+
+15
+00:00:23,810 --> 00:00:24,650
+Einfach so.
+
+16
+00:00:24,970 --> 00:00:26,700
+Vier Minuten und siebenunddreißig
+
+17
+00:00:26,770 --> 00:00:27,890
+Sekunden.
+
+18
+00:00:27,910 --> 00:00:28,770
+Neuer Rekord.
+
+19
+00:00:28,790 --> 00:00:30,510
+Und das Schlimmste:
+
+20
+00:00:30,650 --> 00:00:32,810
+Danach weiß er nicht einmal mehr,
+
+21
+00:00:32,970 --> 00:00:35,130
+was er eigentlich nachschauen wollte.
+
+22
+00:00:35,310 --> 00:00:37,330
+Warum greifen wir zum Handy,
+
+23
+00:00:37,610 --> 00:00:39,530
+obwohl gar nichts passiert ist?
+
+24
+00:00:39,650 --> 00:00:42,050
+Und warum ist es so verdammt schwer,
+
+25
+00:00:42,370 --> 00:00:43,990
+es einfach liegen zu lassen?
+
+26
+00:00:44,230 --> 00:00:45,890
+Kurze Schätzfrage an dich:
+
+27
+00:00:46,170 --> 00:00:48,190
+Wie oft hast du dein Handy heute
+
+28
+00:00:48,210 --> 00:00:49,410
+schon entsperrt?
+
+29
+00:00:49,530 --> 00:00:49,690
+A:
+
+30
+00:00:49,710 --> 00:00:51,670
+weniger als zwanzig Mal.
+
+31
+00:00:51,690 --> 00:00:52,940
+B:
+
+32
+00:00:52,960 --> 00:00:55,010
+zwanzig bis fünfzig Mal.
+
+33
+00:00:55,130 --> 00:00:56,390
+Oder C:
+
+34
+00:00:57,010 --> 00:00:58,450
+mehr als fünfzig Mal?
+
+35
+00:00:58,710 --> 00:01:00,110
+Merk dir deinen Tipp.
+
+36
+00:01:00,270 --> 00:01:01,570
+Gleich zeige ich dir,
+
+37
+00:01:01,670 --> 00:01:03,370
+wie du es nachprüfen kannst.
+
+38
+00:01:08,288 --> 00:01:11,630
+Die Informatikerin Gloria Mark erforscht seit über
+
+39
+00:01:11,650 --> 00:01:12,850
+zwanzig Jahren,
+
+40
+00:01:13,030 --> 00:01:14,730
+wie lange wir uns am Bildschirm auf
+
+41
+00:01:14,750 --> 00:01:16,290
+eine Sache konzentrieren.
+
+42
+00:01:16,330 --> 00:01:17,540
+Anfang der zweitausender
+
+43
+00:01:17,630 --> 00:01:19,550
+Jahre waren es im Schnitt noch etwa
+
+44
+00:01:19,570 --> 00:01:20,990
+zweieinhalb Minuten.
+
+45
+00:01:21,290 --> 00:01:22,590
+In ihren neueren Messungen:
+
+46
+00:01:22,610 --> 00:01:25,550
+rund siebenundvierzig Sekunden.
+
+47
+00:01:25,610 --> 00:01:27,230
+Und jetzt kommt das Verrückte:
+
+48
+00:01:27,330 --> 00:01:29,750
+Ein großer Teil dieser Unterbrechungen kommt gar
+
+49
+00:01:29,770 --> 00:01:30,850
+nicht von außen.
+
+50
+00:01:31,350 --> 00:01:33,510
+In einer ihrer Studien unterbrachen sich die
+
+51
+00:01:33,530 --> 00:01:36,010
+Menschen ungefähr genauso oft selbst,
+
+52
+00:01:36,050 --> 00:01:38,530
+wie sie von anderen unterbrochen wurden.
+
+53
+00:01:38,690 --> 00:01:39,950
+Niemand ruft an.
+
+54
+00:01:40,190 --> 00:01:41,750
+Wir rufen uns selbst ab.
+
+55
+00:01:41,870 --> 00:01:44,450
+Psychologen nennen so etwas eine Gewohnheit.
+
+56
+00:01:44,910 --> 00:01:47,730
+Und Gewohnheiten funktionieren wie eine Schleife:
+
+57
+00:01:47,890 --> 00:01:49,110
+Ein Auslöser,
+
+58
+00:01:49,150 --> 00:01:51,590
+zum Beispiel ein kurzer Moment Langeweile.
+
+59
+00:01:52,050 --> 00:01:53,210
+Eine Handlung:
+
+60
+00:01:53,350 --> 00:01:54,390
+der Griff zum Handy.
+
+61
+00:01:54,410 --> 00:01:56,370
+Und eine Belohnung:
+
+62
+00:01:56,810 --> 00:01:58,150
+irgendwas Neues.
+
+63
+00:01:58,290 --> 00:01:58,970
+Jedes Mal,
+
+64
+00:01:58,990 --> 00:02:00,810
+wenn dort etwas Spannendes wartet,
+
+65
+00:02:01,090 --> 00:02:03,030
+wird die Schleife ein Stück stärker.
+
+66
+00:02:03,190 --> 00:02:05,330
+Wiederhol das ein paar tausend Mal,
+
+67
+00:02:05,590 --> 00:02:07,110
+und dein Gehirn braucht dich gar nicht
+
+68
+00:02:07,130 --> 00:02:08,050
+mehr zu fragen.
+
+69
+00:02:08,610 --> 00:02:10,470
+Die Hand greift von allein.
+
+70
+00:02:10,530 --> 00:02:13,550
+So automatisch wie Zähneputzen.
+
+71
+00:02:15,127 --> 00:02:17,890
+Aber warum ausgerechnet das Handy?
+
+72
+00:02:17,910 --> 00:02:20,670
+Der Psychologe Skinner hat schon vor Jahrzehnten
+
+73
+00:02:20,690 --> 00:02:21,470
+gezeigt:
+
+74
+00:02:21,930 --> 00:02:24,390
+Tauben picken am ausdauerndsten,
+
+75
+00:02:24,570 --> 00:02:25,450
+wenn sie nicht wissen,
+
+76
+00:02:25,470 --> 00:02:27,170
+wann das nächste Futter kommt.
+
+77
+00:02:27,350 --> 00:02:28,770
+Mal nach zwei Versuchen,
+
+78
+00:02:29,070 --> 00:02:30,310
+mal nach zwanzig.
+
+79
+00:02:30,510 --> 00:02:33,410
+Genau diese Unberechenbarkeit hält sie bei der
+
+80
+00:02:33,430 --> 00:02:33,750
+Stange.
+
+81
+00:02:33,770 --> 00:02:35,930
+Dein Handy funktioniert genauso.
+
+82
+00:02:36,310 --> 00:02:38,470
+Manchmal wartet eine Nachricht.
+
+83
+00:02:38,610 --> 00:02:39,930
+Manchmal ein Like.
+
+84
+00:02:40,010 --> 00:02:40,670
+Meistens:
+
+85
+00:02:40,690 --> 00:02:41,950
+gar nichts.
+
+86
+00:02:42,090 --> 00:02:44,090
+Aber du weißt es eben nie vorher.
+
+87
+00:02:44,250 --> 00:02:45,750
+Also schaust du nach.
+
+88
+00:02:45,890 --> 00:02:46,410
+Und nochmal.
+
+89
+00:02:46,430 --> 00:02:47,910
+Und nochmal.
+
+90
+00:02:48,030 --> 00:02:49,830
+Wie an einem Spielautomaten,
+
+91
+00:02:50,010 --> 00:02:52,630
+nur dass dieser in deiner Hosentasche wohnt.
+
+92
+00:02:52,650 --> 00:02:55,190
+Und viele Apps sind genau so gebaut:
+
+93
+00:02:55,490 --> 00:02:57,150
+Der Feed hört nie auf,
+
+94
+00:02:57,290 --> 00:02:59,670
+und das Runterziehen zum Aktualisieren
+
+95
+00:02:59,810 --> 00:03:01,490
+fühlt sich an wie der Hebel am
+
+96
+00:03:01,510 --> 00:03:02,410
+Automaten.
+
+97
+00:03:02,550 --> 00:03:03,190
+Dazu kommt:
+
+98
+00:03:03,210 --> 00:03:06,790
+Dein Belohnungssystem reagiert nicht erst auf die
+
+99
+00:03:06,810 --> 00:03:07,890
+Belohnung selbst,
+
+100
+00:03:08,210 --> 00:03:10,010
+sondern schon auf die Erwartung.
+
+101
+00:03:10,130 --> 00:03:12,930
+Das Kribbeln beim Entsperren ist oft der
+
+102
+00:03:12,950 --> 00:03:14,070
+eigentliche Kick,
+
+103
+00:03:14,210 --> 00:03:15,090
+nicht das,
+
+104
+00:03:15,110 --> 00:03:16,350
+was du dann siehst.
+
+105
+00:03:18,460 --> 00:03:20,590
+Erinnerst du dich an die erste Folge?
+
+106
+00:03:20,830 --> 00:03:22,810
+Aufschieben ist kein Zeitproblem,
+
+107
+00:03:23,150 --> 00:03:24,770
+sondern ein Gefühlsproblem.
+
+108
+00:03:24,990 --> 00:03:26,830
+Genau das passiert hier auch.
+
+109
+00:03:27,070 --> 00:03:27,570
+Schau mal,
+
+110
+00:03:27,590 --> 00:03:29,290
+wann Otto zum Handy greift:
+
+111
+00:03:29,450 --> 00:03:30,930
+nicht mitten im Flow.
+
+112
+00:03:31,070 --> 00:03:32,470
+Sondern genau in dem Moment,
+
+113
+00:03:32,490 --> 00:03:34,730
+in dem es unangenehm wird.
+
+114
+00:03:34,890 --> 00:03:36,630
+Der erste Satz will nicht kommen.
+
+115
+00:03:36,810 --> 00:03:38,810
+Die Aufgabe fühlt sich zäh an.
+
+116
+00:03:38,830 --> 00:03:41,830
+Und das Handy ist der schnellste Notausgang,
+
+117
+00:03:41,850 --> 00:03:42,610
+den es gibt.
+
+118
+00:03:42,810 --> 00:03:43,290
+Das Problem:
+
+119
+00:03:43,310 --> 00:03:47,070
+Dieser kurze Ausflug kostet mehr als die
+
+120
+00:03:47,090 --> 00:03:48,090
+paar Sekunden.
+
+121
+00:03:48,230 --> 00:03:50,470
+Die Forscherin Sophie Leroy hat gezeigt,
+
+122
+00:03:50,930 --> 00:03:52,790
+dass nach einem Wechsel ein Teil deiner
+
+123
+00:03:52,810 --> 00:03:56,150
+Aufmerksamkeit an der vorherigen Sache hängen bleibt.
+
+124
+00:03:56,310 --> 00:03:58,530
+Sie nennt das Aufmerksamkeitsrest.
+
+125
+00:03:58,550 --> 00:04:00,690
+Du bist zurück bei der Arbeit,
+
+126
+00:04:00,710 --> 00:04:02,250
+aber ein Stück von dir scrollt
+
+127
+00:04:02,270 --> 00:04:02,750
+noch.
+
+128
+00:04:02,870 --> 00:04:04,870
+In ihren Versuchen schnitten Menschen mit diesem
+
+129
+00:04:04,890 --> 00:04:08,010
+Rest bei der nächsten Aufgabe schlechter ab.
+
+130
+00:04:08,090 --> 00:04:09,490
+Und manchmal reicht schon,
+
+131
+00:04:09,790 --> 00:04:11,450
+dass das Handy nur da liegt.
+
+132
+00:04:11,550 --> 00:04:15,470
+In einem vielbeachteten Experiment schnitten Studierende schlechter
+
+133
+00:04:15,490 --> 00:04:16,950
+in Denkaufgaben ab,
+
+134
+00:04:16,970 --> 00:04:18,910
+wenn ihr Handy auf dem Tisch lag,
+
+135
+00:04:19,090 --> 00:04:20,530
+als wenn es in einem anderen Raum
+
+136
+00:04:20,550 --> 00:04:21,130
+war.
+
+137
+00:04:21,210 --> 00:04:22,170
+Selbst ausgeschaltet.
+
+138
+00:04:22,190 --> 00:04:25,210
+Folgestudien fanden den Effekt nicht immer gleich
+
+139
+00:04:25,230 --> 00:04:25,910
+stark.
+
+140
+00:04:26,090 --> 00:04:28,070
+Aber der Gedanke dahinter ist simpel:
+
+141
+00:04:28,190 --> 00:04:29,350
+Was du siehst,
+
+142
+00:04:29,530 --> 00:04:30,450
+zieht an dir.
+
+143
+00:04:30,610 --> 00:04:32,450
+Pausier mal kurz und mach den Check:
+
+144
+00:04:32,610 --> 00:04:34,330
+Schau in deine Bildschirmzeit,
+
+145
+00:04:34,610 --> 00:04:36,010
+wie oft du dein Handy heute schon
+
+146
+00:04:36,030 --> 00:04:36,790
+entsperrt hast.
+
+147
+00:04:36,810 --> 00:04:38,570
+Lag dein Tipp richtig?
+
+148
+00:04:42,444 --> 00:04:43,490
+Die gute Nachricht:
+
+149
+00:04:43,510 --> 00:04:47,230
+Gegen einen Reflex hilft keine Willenskraft.
+
+150
+00:04:47,410 --> 00:04:48,730
+Aber ein paar einfache Tricks.
+
+151
+00:04:48,750 --> 00:04:50,050
+Hack Nummer eins:
+
+152
+00:04:50,070 --> 00:04:51,470
+Aus den Augen.
+
+153
+00:04:51,670 --> 00:04:52,890
+Nicht umdrehen,
+
+154
+00:04:53,110 --> 00:04:54,690
+nicht lautlos stellen,
+
+155
+00:04:54,930 --> 00:04:57,290
+sondern in einen anderen Raum legen.
+
+156
+00:04:57,450 --> 00:04:58,770
+Was du nicht siehst,
+
+157
+00:04:58,810 --> 00:04:59,870
+kann dich nicht rufen.
+
+158
+00:04:59,890 --> 00:05:01,550
+Hack Nummer zwei:
+
+159
+00:05:01,710 --> 00:05:03,170
+Benachrichtigungen aus.
+
+160
+00:05:03,410 --> 00:05:06,250
+In einem Experiment berichteten Menschen in einer
+
+161
+00:05:06,270 --> 00:05:09,670
+Woche mit allen Benachrichtigungen deutlich häufiger von
+
+162
+00:05:09,690 --> 00:05:12,690
+Unaufmerksamkeit als in einer Woche ohne.
+
+163
+00:05:12,830 --> 00:05:13,770
+Lass nur durch,
+
+164
+00:05:13,790 --> 00:05:15,650
+was wirklich wichtig ist.
+
+165
+00:05:15,950 --> 00:05:17,890
+Und schau lieber zweimal pro Stunde bewusst
+
+166
+00:05:17,910 --> 00:05:18,790
+nach,
+
+167
+00:05:18,930 --> 00:05:20,310
+statt ständig nebenbei.
+
+168
+00:05:20,330 --> 00:05:21,770
+Hack Nummer drei:
+
+169
+00:05:21,930 --> 00:05:23,190
+Bau Reibung ein.
+
+170
+00:05:23,430 --> 00:05:24,410
+Schieb die Apps,
+
+171
+00:05:24,490 --> 00:05:25,610
+die dich am meisten ziehen,
+
+172
+00:05:25,630 --> 00:05:28,630
+vom Startbildschirm in einen Ordner.
+
+173
+00:05:28,790 --> 00:05:29,790
+Melde dich ab.
+
+174
+00:05:29,890 --> 00:05:33,150
+Jeder zusätzliche Handgriff unterbricht den Autopiloten.
+
+175
+00:05:33,170 --> 00:05:34,650
+Hack Nummer vier:
+
+176
+00:05:34,850 --> 00:05:36,050
+die Zehn-Sekunden-Regel.
+
+177
+00:05:36,590 --> 00:05:37,810
+Wenn der Drang kommt,
+
+178
+00:05:38,230 --> 00:05:40,630
+zähl langsam bis zehn und frag dich:
+
+179
+00:05:40,770 --> 00:05:42,510
+Was will ich gerade vermeiden?
+
+180
+00:05:42,630 --> 00:05:44,230
+Oft verschwindet der Griff,
+
+181
+00:05:44,370 --> 00:05:46,010
+sobald du ihn bemerkst.
+
+182
+00:05:46,090 --> 00:05:46,930
+Und wenn nicht:
+
+183
+00:05:46,990 --> 00:05:49,050
+Handyzeit gibt es erst nach dem nächsten
+
+184
+00:05:49,070 --> 00:05:51,330
+Mini-Countdown aus Folge zwei.
+
+185
+00:05:51,350 --> 00:05:52,870
+Hack Nummer fünf:
+
+186
+00:05:53,030 --> 00:05:54,610
+Halte Langeweile aus.
+
+187
+00:05:54,830 --> 00:05:56,310
+Wie wir in der letzten Folge gesehen
+
+188
+00:05:56,330 --> 00:05:57,070
+haben:
+
+189
+00:05:57,390 --> 00:06:00,310
+Genau in den langweiligen Momenten kommen die
+
+190
+00:06:00,330 --> 00:06:01,590
+besten Ideen.
+
+191
+00:06:01,610 --> 00:06:03,610
+Wer jede Lücke mit dem Handy füllt,
+
+192
+00:06:03,890 --> 00:06:05,810
+nimmt sich die Dusch-Momente weg.
+
+193
+00:06:05,830 --> 00:06:07,410
+Otto hat es ausprobiert.
+
+194
+00:06:07,570 --> 00:06:08,730
+Handy in die Küche.
+
+195
+00:06:08,830 --> 00:06:10,850
+Die ersten zehn Minuten griff seine Hand
+
+196
+00:06:10,870 --> 00:06:12,390
+immer wieder ins Leere.
+
+197
+00:06:12,410 --> 00:06:12,670
+Dann:
+
+198
+00:06:12,690 --> 00:06:14,470
+eine Stunde am Stück.
+
+199
+00:06:14,610 --> 00:06:15,490
+Die Präsentation?
+
+200
+00:06:15,510 --> 00:06:17,010
+Fast fertig.
+
+201
+00:06:17,310 --> 00:06:18,430
+Und das Beste:
+
+202
+00:06:18,750 --> 00:06:20,910
+Er hatte danach nicht das Gefühl,
+
+203
+00:06:20,930 --> 00:06:22,790
+irgendetwas verpasst zu haben.
+
+204
+00:06:22,970 --> 00:06:23,650
+Und du?
+
+205
+00:06:23,990 --> 00:06:25,450
+Wie oft hast du dein Handy heute
+
+206
+00:06:25,470 --> 00:06:26,410
+entsperrt:
+
+207
+00:06:26,570 --> 00:06:27,050
+A,
+
+208
+00:06:27,170 --> 00:06:28,730
+B oder C?
+
+209
+00:06:29,050 --> 00:06:30,070
+Schreib's in die Kommentare.
+
+210
+00:06:30,090 --> 00:06:31,550
+Und sei ehrlich,
+
+211
+00:06:31,810 --> 00:06:33,130
+Otto hat auch C.
+
+212
+00:06:33,250 --> 00:06:34,930
+Aber warum liegst du abends mit dem
+
+213
+00:06:34,950 --> 00:06:35,910
+Handy im Bett,
+
+214
+00:06:36,030 --> 00:06:37,580
+obwohl du eigentlich todmüde
+
+215
+00:06:37,690 --> 00:06:38,210
+bist?
+
+216
+00:06:40,713 --> 00:06:43,570
+Das schauen wir uns nächstes Mal an.
+

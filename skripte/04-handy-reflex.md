@@ -44,7 +44,7 @@ Schwarz. Ein Handy-Display leuchtet auf: **0 neue Nachrichten**. Eine Hand greif
 ## KAPITEL 2: Der Spielautomat in deiner Tasche
 > Aber warum ausgerechnet das Handy?
 >
-> Der Psychologe B. F. Skinner hat schon vor Jahrzehnten gezeigt: Tauben picken am ausdauerndsten, wenn sie nicht wissen, wann das nächste Futter kommt. Mal nach zwei Versuchen, mal nach zwanzig. Genau diese Unberechenbarkeit hält sie bei der Stange.
+> Der Psychologe Skinner hat schon vor Jahrzehnten gezeigt: Tauben picken am ausdauerndsten, wenn sie nicht wissen, wann das nächste Futter kommt. Mal nach zwei Versuchen, mal nach zwanzig. Genau diese Unberechenbarkeit hält sie bei der Stange.
 >
 > Dein Handy funktioniert genauso. Manchmal wartet eine Nachricht. Manchmal ein Like. Meistens: gar nichts. Aber du weißt es eben nie vorher. Also schaust du nach. Und nochmal. Und nochmal. Wie an einem Spielautomaten, nur dass dieser in deiner Hosentasche wohnt. Und viele Apps sind genau so gebaut: Der Feed hört nie auf, und das Runterziehen zum Aktualisieren fühlt sich an wie der Hebel am Automaten.
 >

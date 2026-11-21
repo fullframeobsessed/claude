@@ -1,0 +1,68 @@
+{
+  "pieces": {
+    "P1": [
+      "v_hook",
+      "v_otto",
+      "v_frage",
+      "v_poll"
+    ],
+    "P2": [
+      "v_mark",
+      "v_selbst",
+      "v_schleife"
+    ],
+    "P3": [
+      "v_warum",
+      "v_skinner",
+      "v_automat",
+      "v_erwartung"
+    ],
+    "P4": [
+      "v_folge1",
+      "v_notausgang",
+      "v_rest",
+      "v_brain",
+      "v_pause"
+    ],
+    "P5": [
+      "v_gut",
+      "v_hack1",
+      "v_hack2",
+      "v_hack3",
+      "v_hack4",
+      "v_hack5"
+    ],
+    "P6": [
+      "v_aufl",
+      "v_umfrage2",
+      "v_bruecke"
+    ]
+  },
+  "scenes": {
+    "v_hook": "Das ist Otto. Otto hat sich fest vorgenommen: Heute arbeite ich eine Stunde am Stück. Handy? Liegt daneben. Kein Problem.",
+    "v_otto": "Er öffnet die Datei. Schreibt einen Satz. Löscht ihn wieder. Und dann, ohne dass er es überhaupt merkt, hat er sein Handy in der Hand. Kein Anruf. Keine Nachricht. Einfach so. Vier Minuten und siebenunddreißig Sekunden. Neuer Rekord. Und das Schlimmste: Danach weiß er nicht einmal mehr, was er eigentlich nachschauen wollte.",
+    "v_frage": "Warum greifen wir zum Handy, obwohl gar nichts passiert ist? Und warum ist es so verdammt schwer, es einfach liegen zu lassen?",
+    "v_poll": "Kurze Schätzfrage an dich: Wie oft hast du dein Handy heute schon entsperrt? A: weniger als zwanzig Mal. B: zwanzig bis fünfzig Mal. Oder C: mehr als fünfzig Mal? Merk dir deinen Tipp. Gleich zeige ich dir, wie du es nachprüfen kannst.",
+    "v_mark": "Die Informatikerin Gloria Mark erforscht seit über zwanzig Jahren, wie lange wir uns am Bildschirm auf eine Sache konzentrieren. Anfang der zweitausender Jahre waren es im Schnitt noch etwa zweieinhalb Minuten. In ihren neueren Messungen: rund siebenundvierzig Sekunden.",
+    "v_selbst": "Und jetzt kommt das Verrückte: Ein großer Teil dieser Unterbrechungen kommt gar nicht von außen. In einer ihrer Studien unterbrachen sich die Menschen ungefähr genauso oft selbst, wie sie von anderen unterbrochen wurden. Niemand ruft an. Wir rufen uns selbst ab.",
+    "v_schleife": "Psychologen nennen so etwas eine Gewohnheit. Und Gewohnheiten funktionieren wie eine Schleife: Ein Auslöser, zum Beispiel ein kurzer Moment Langeweile. Eine Handlung: der Griff zum Handy. Und eine Belohnung: irgendwas Neues. Jedes Mal, wenn dort etwas Spannendes wartet, wird die Schleife ein Stück stärker. Wiederhol das ein paar tausend Mal, und dein Gehirn braucht dich gar nicht mehr zu fragen. Die Hand greift von allein. So automatisch wie Zähneputzen.",
+    "v_warum": "Aber warum ausgerechnet das Handy?",
+    "v_skinner": "Der Psychologe Skinner hat schon vor Jahrzehnten gezeigt: Tauben picken am ausdauerndsten, wenn sie nicht wissen, wann das nächste Futter kommt. Mal nach zwei Versuchen, mal nach zwanzig. Genau diese Unberechenbarkeit hält sie bei der Stange.",
+    "v_automat": "Dein Handy funktioniert genauso. Manchmal wartet eine Nachricht. Manchmal ein Like. Meistens: gar nichts. Aber du weißt es eben nie vorher. Also schaust du nach. Und nochmal. Und nochmal. Wie an einem Spielautomaten, nur dass dieser in deiner Hosentasche wohnt. Und viele Apps sind genau so gebaut: Der Feed hört nie auf, und das Runterziehen zum Aktualisieren fühlt sich an wie der Hebel am Automaten.",
+    "v_erwartung": "Dazu kommt: Dein Belohnungssystem reagiert nicht erst auf die Belohnung selbst, sondern schon auf die Erwartung. Das Kribbeln beim Entsperren ist oft der eigentliche Kick, nicht das, was du dann siehst.",
+    "v_folge1": "Erinnerst du dich an die erste Folge? Aufschieben ist kein Zeitproblem, sondern ein Gefühlsproblem. Genau das passiert hier auch.",
+    "v_notausgang": "Schau mal, wann Otto zum Handy greift: nicht mitten im Flow. Sondern genau in dem Moment, in dem es unangenehm wird. Der erste Satz will nicht kommen. Die Aufgabe fühlt sich zäh an. Und das Handy ist der schnellste Notausgang, den es gibt.",
+    "v_rest": "Das Problem: Dieser kurze Ausflug kostet mehr als die paar Sekunden. Die Forscherin Sophie Leroy hat gezeigt, dass nach einem Wechsel ein Teil deiner Aufmerksamkeit an der vorherigen Sache hängen bleibt. Sie nennt das Aufmerksamkeitsrest. Du bist zurück bei der Arbeit, aber ein Stück von dir scrollt noch. In ihren Versuchen schnitten Menschen mit diesem Rest bei der nächsten Aufgabe schlechter ab.",
+    "v_brain": "Und manchmal reicht schon, dass das Handy nur da liegt. In einem vielbeachteten Experiment schnitten Studierende schlechter in Denkaufgaben ab, wenn ihr Handy auf dem Tisch lag, als wenn es in einem anderen Raum war. Selbst ausgeschaltet. Folgestudien fanden den Effekt nicht immer gleich stark. Aber der Gedanke dahinter ist simpel: Was du siehst, zieht an dir.",
+    "v_pause": "Pausier mal kurz und mach den Check: Schau in deine Bildschirmzeit, wie oft du dein Handy heute schon entsperrt hast. Lag dein Tipp richtig?",
+    "v_gut": "Die gute Nachricht: Gegen einen Reflex hilft keine Willenskraft. Aber ein paar einfache Tricks.",
+    "v_hack1": "Hack Nummer eins: Aus den Augen. Nicht umdrehen, nicht lautlos stellen, sondern in einen anderen Raum legen. Was du nicht siehst, kann dich nicht rufen.",
+    "v_hack2": "Hack Nummer zwei: Benachrichtigungen aus. In einem Experiment berichteten Menschen in einer Woche mit allen Benachrichtigungen deutlich häufiger von Unaufmerksamkeit als in einer Woche ohne. Lass nur durch, was wirklich wichtig ist. Und schau lieber zweimal pro Stunde bewusst nach, statt ständig nebenbei.",
+    "v_hack3": "Hack Nummer drei: Bau Reibung ein. Schieb die Apps, die dich am meisten ziehen, vom Startbildschirm in einen Ordner. Melde dich ab. Jeder zusätzliche Handgriff unterbricht den Autopiloten.",
+    "v_hack4": "Hack Nummer vier: die Zehn-Sekunden-Regel. Wenn der Drang kommt, zähl langsam bis zehn und frag dich: Was will ich gerade vermeiden? Oft verschwindet der Griff, sobald du ihn bemerkst. Und wenn nicht: Handyzeit gibt es erst nach dem nächsten Mini-Countdown aus Folge zwei.",
+    "v_hack5": "Hack Nummer fünf: Halte Langeweile aus. Wie wir in der letzten Folge gesehen haben: Genau in den langweiligen Momenten kommen die besten Ideen. Wer jede Lücke mit dem Handy füllt, nimmt sich die Dusch-Momente weg.",
+    "v_aufl": "Otto hat es ausprobiert. Handy in die Küche. Die ersten zehn Minuten griff seine Hand immer wieder ins Leere. Dann: eine Stunde am Stück. Die Präsentation? Fast fertig. Und das Beste: Er hatte danach nicht das Gefühl, irgendetwas verpasst zu haben.",
+    "v_umfrage2": "Und du? Wie oft hast du dein Handy heute entsperrt: A, B oder C? Schreib's in die Kommentare. Und sei ehrlich, Otto hat auch C.",
+    "v_bruecke": "Aber warum liegst du abends mit dem Handy im Bett, obwohl du eigentlich todmüde bist? Das schauen wir uns nächstes Mal an."
+  }
+}

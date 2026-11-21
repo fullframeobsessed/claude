@@ -1,0 +1,56 @@
+<template>
+  <style>
+  #root { position:absolute; inset:0; overflow:hidden; background:#0B0C0E; color:#FFF; font-family:'Inter', sans-serif; }
+  #root .actor, #root .light, #root .lay, #root .t { position:absolute; }
+  #root .lay { inset:0; }
+  #root .t { white-space:nowrap; }
+  #root .stamp { font-weight:700; font-size:30px; letter-spacing:.3em; color:#D9D4C7; }
+  #root .cond { font-family:'Oswald', sans-serif; font-weight:700; text-transform:uppercase; line-height:1; }
+  #root .card { background:#16181D; border:2px solid #3A3F48; border-radius:22px; box-shadow:0 30px 80px rgba(0,0,0,.6); }
+  #root .floor { position:absolute; border-radius:50%; background:radial-gradient(ellipse, rgba(255,240,215,.16) 0%, transparent 70%); }
+</style>
+  <div id="root" data-composition-id="c13" data-width="1920" data-height="1080">
+
+  <div id="c13-cam" class="lay">
+    <div id="c13-hk" class="t" style="left:130px;top:180px;font-size:28px;font-weight:800;letter-spacing:.4em;color:#E8C27A;opacity:0">BELOHNUNGSSYSTEM</div><div id="c13-ht" class="t cond" style="left:130px;top:222px;font-size:88px;opacity:0">DIE VORFREUDE IST DER KICK</div>
+    <svg class="actor" style="left:0;top:0" width="1920" height="1080" viewBox="0 0 1920 1080">
+      <path d="M280,860 L1600,860" stroke="#5A606B" stroke-width="4"/>
+      <path id="c13-cv" d="M300,820 L520,800 L700,700 L820,420 L900,320 L980,420 L1080,640 L1300,760 L1560,790" fill="none" stroke="#E8C27A" stroke-width="8" stroke-linejoin="round" stroke-dasharray="2200" stroke-dashoffset="2200"/></svg>
+    <div class="t" style="left:280px;top:875px;font-size:28px;font-weight:800;letter-spacing:.14em;color:#8C8F96">VORHER</div>
+    <div class="t" style="left:820px;top:875px;font-size:28px;font-weight:800;letter-spacing:.14em;color:#8C8F96">🔓 ENTSPERREN</div>
+    <div class="t" style="left:1320px;top:875px;font-size:28px;font-weight:800;letter-spacing:.14em;color:#8C8F96">INHALT</div>
+    <div id="c13-p" class="t cond" style="left:960px;top:300px;font-size:56px;color:#E8C27A;opacity:0">← VORFREUDE</div>
+    <div id="c13-i" class="t cond" style="left:1280px;top:650px;font-size:48px;color:#8C8F96;opacity:0">„… ach, nichts Neues.“</div>
+    <div id="c13-ft" class="t" style="left:1380px;top:200px;font-size:28px;font-weight:600;letter-spacing:.14em;color:#8C8F96;opacity:0">Schultz (2016) · vereinfacht</div>
+  </div>
+  </div>
+  <script>
+  const T = {"belohnung": 1.42, "erwartung": 6.76, "kribbeln": 7.82, "kick": 11.16, "siehst": 13.16, "end": 13.83};
+
+  const tl = gsap.timeline({ paused: true });
+  const face = (p, from, to, t) => {
+    tl.set(`#${p}-face-${from}`, { opacity: 0 }, t); tl.set(`#${p}-face-${to}`, { opacity: 1 }, t);
+    tl.fromTo(`#${p}-head`, { scaleY: 0.9, transformOrigin: "50% 100%" }, { scaleY: 1, duration: 0.4, ease: "back.out(2.5)", immediateRender: false }, t);
+  };
+  const type = (sel, n, t, gap = 0.035) => { for (let i = 0; i < n; i++) tl.fromTo(`${sel}-${i}`, { opacity: 0 }, { opacity: 1, duration: 0.01 }, t + i * gap); };
+  const fadeIn = (sel, t, d = 0.5, extra = {}) => tl.fromTo(sel, { opacity: 0, ...extra.from }, { opacity: 1, duration: d, ease: "power3.out", ...extra.to }, t);
+  const popIn = (sel, t, d = 0.5) => tl.fromTo(sel, { opacity: 0, scale: 0.4 }, { opacity: 1, scale: 1, duration: d, ease: "back.out(1.8)" }, t);
+  const fadeOut = (sel, t, d = 0.35) => tl.to(sel, { opacity: 0, duration: d, ease: "power2.in" }, t);
+  const move = (sel, x, y, t, d = 0.6) => tl.to(sel, { x, y, duration: d, ease: "power3.inOut" }, t);
+  const click = (cid, t) => { tl.fromTo(`#${cid}-cur`, { scale: 1 }, { keyframes: [{ scale: 0.85, duration: 0.07 }, { scale: 1, duration: 0.15 }], immediateRender: false }, t);
+    tl.fromTo(`#${cid}-rip`, { opacity: 1, scale: 0.3 }, { opacity: 0, scale: 1.6, duration: 0.45, ease: "power2.out", immediateRender: false }, t); };
+
+  const slam = (sel, t, s = 2.2) => tl.fromTo(sel, { opacity: 0, scale: s }, { opacity: 1, scale: 1, duration: 0.25, ease: "power4.in" }, t);
+  const shake = (sel, t, a = 10) => tl.fromTo(sel, { x: 0, y: 0 }, { keyframes: [...Array(8)].map((_, i) => ({ x: (i % 2 ? a : -a) * (1 - i / 8), y: (i % 3 ? -a : a) * 0.5 * (1 - i / 8), duration: 0.035 })).concat([{ x: 0, y: 0, duration: 0.04 }]), immediateRender: false }, t);
+
+fadeIn("#c13-hk", 0.1, 0.4); tl.fromTo("#c13-ht", { opacity: 0, x: -60 }, { opacity: 1, x: 0, duration: 0.5, ease: "power4.out" }, 0.25);
+  fadeIn("#c13-cam", 0, 0.3);
+  tl.to("#c13-cv", { attr: { "stroke-dashoffset": 0 }, duration: 2.6, ease: "power1.inOut" }, T.erwartung - 1.2);
+  popIn("#c13-p", T.kribbeln, 0.35);
+  fadeIn("#c13-i", T.siehst - 1.4, 0.3);
+  fadeIn("#c13-ft", T.belohnung, 0.3);
+  fadeOut("#c13-cam", T.end - 0.3, 0.3);
+
+  window.__timelines["c13"] = tl;
+  </script>
+</template>

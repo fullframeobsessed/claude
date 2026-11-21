@@ -1,0 +1,62 @@
+<template>
+  <style>
+  #root { position:absolute; inset:0; overflow:hidden; background:#0B0C0E; color:#FFF; font-family:'Inter', sans-serif; }
+  #root .actor, #root .light, #root .lay, #root .t { position:absolute; }
+  #root .lay { inset:0; }
+  #root .t { white-space:nowrap; }
+  #root .stamp { font-weight:700; font-size:30px; letter-spacing:.3em; color:#D9D4C7; }
+  #root .cond { font-family:'Oswald', sans-serif; font-weight:700; text-transform:uppercase; line-height:1; }
+  #root .card { background:#16181D; border:2px solid #3A3F48; border-radius:22px; box-shadow:0 30px 80px rgba(0,0,0,.6); }
+  #root .floor { position:absolute; border-radius:50%; background:radial-gradient(ellipse, rgba(255,240,215,.16) 0%, transparent 70%); }
+</style>
+  <div id="root" data-composition-id="c11" data-width="1920" data-height="1080">
+
+  <div id="c11-cam" class="lay">
+    <div id="c11-w" class="t cond" style="left:0;right:0;top:420px;text-align:center;font-size:130px;opacity:0">WARUM <span style="color:#E8C27A">DAS HANDY?</span></div>
+    <div id="c11-B" class="lay" style="opacity:0">
+      <div id="c11-hk" class="t" style="left:130px;top:180px;font-size:28px;font-weight:800;letter-spacing:.4em;color:#E8C27A;opacity:0">SKINNER</div><div id="c11-ht" class="t cond" style="left:130px;top:222px;font-size:88px;opacity:0">DIE TAUBEN-BOX</div>
+      <div class="actor" style="left:520px;top:340px;width:880px;height:520px;border:4px solid #4A4E57;border-radius:20px;background:rgba(255,255,255,.02)"></div>
+      <div id="c11-btn" class="actor" style="left:1180px;top:520px;width:90px;height:90px;border-radius:50%;background:#E2483D;box-shadow:0 0 30px rgba(255,75,62,.6)"></div>
+      <div id="c11-pg" class="actor" style="left:900px;top:520px;font-size:200px;line-height:1;transform-origin:70% 90%">🐦</div>
+      <div id="c11-f" class="actor" style="left:1180px;top:700px;font-size:80px;opacity:0">🌽</div>
+      <div id="c11-cnt" class="t" style="left:560px;top:380px;font-family:'Space Mono';font-weight:700;font-size:48px;color:#E8C27A;opacity:0">PICKS BIS FUTTER: <span id="c11-n">2</span></div>
+      <div id="c11-u" class="t cond" style="left:0;right:0;top:870px;text-align:center;font-size:52px;color:#E8C27A;opacity:0">UNBERECHENBAR = AUSDAUERND</div>
+    </div>
+    <div id="c11-ft" class="t" style="left:130px;top:880px;font-size:28px;font-weight:600;letter-spacing:.14em;color:#8C8F96;opacity:0">Ferster &amp; Skinner (1957)</div>
+  </div>
+  </div>
+  <script>
+  const T = {"warum": 0.263, "skinner": 3.963, "tauben": 6.803, "wann": 10.343, "zwei": 12.583, "zwanzig": 14.383, "unber": 16.103, "end": 18.523};
+
+  const tl = gsap.timeline({ paused: true });
+  const face = (p, from, to, t) => {
+    tl.set(`#${p}-face-${from}`, { opacity: 0 }, t); tl.set(`#${p}-face-${to}`, { opacity: 1 }, t);
+    tl.fromTo(`#${p}-head`, { scaleY: 0.9, transformOrigin: "50% 100%" }, { scaleY: 1, duration: 0.4, ease: "back.out(2.5)", immediateRender: false }, t);
+  };
+  const type = (sel, n, t, gap = 0.035) => { for (let i = 0; i < n; i++) tl.fromTo(`${sel}-${i}`, { opacity: 0 }, { opacity: 1, duration: 0.01 }, t + i * gap); };
+  const fadeIn = (sel, t, d = 0.5, extra = {}) => tl.fromTo(sel, { opacity: 0, ...extra.from }, { opacity: 1, duration: d, ease: "power3.out", ...extra.to }, t);
+  const popIn = (sel, t, d = 0.5) => tl.fromTo(sel, { opacity: 0, scale: 0.4 }, { opacity: 1, scale: 1, duration: d, ease: "back.out(1.8)" }, t);
+  const fadeOut = (sel, t, d = 0.35) => tl.to(sel, { opacity: 0, duration: d, ease: "power2.in" }, t);
+  const move = (sel, x, y, t, d = 0.6) => tl.to(sel, { x, y, duration: d, ease: "power3.inOut" }, t);
+  const click = (cid, t) => { tl.fromTo(`#${cid}-cur`, { scale: 1 }, { keyframes: [{ scale: 0.85, duration: 0.07 }, { scale: 1, duration: 0.15 }], immediateRender: false }, t);
+    tl.fromTo(`#${cid}-rip`, { opacity: 1, scale: 0.3 }, { opacity: 0, scale: 1.6, duration: 0.45, ease: "power2.out", immediateRender: false }, t); };
+
+  const slam = (sel, t, s = 2.2) => tl.fromTo(sel, { opacity: 0, scale: s }, { opacity: 1, scale: 1, duration: 0.25, ease: "power4.in" }, t);
+  const shake = (sel, t, a = 10) => tl.fromTo(sel, { x: 0, y: 0 }, { keyframes: [...Array(8)].map((_, i) => ({ x: (i % 2 ? a : -a) * (1 - i / 8), y: (i % 3 ? -a : a) * 0.5 * (1 - i / 8), duration: 0.035 })).concat([{ x: 0, y: 0, duration: 0.04 }]), immediateRender: false }, t);
+
+
+  tl.fromTo("#c11-w", { opacity: 0, scale: 1.3 }, { opacity: 1, scale: 1, duration: 0.4, ease: "power3.out" }, 0.05);
+  tl.to("#c11-w", { opacity: 0, y: -40, duration: 0.25 }, T.skinner - 0.5);
+  fadeIn("#c11-B", T.skinner - 0.3, 0.3);
+  fadeIn("#c11-hk", T.skinner - 0.2, 0.4); tl.fromTo("#c11-ht", { opacity: 0, x: -60 }, { opacity: 1, x: 0, duration: 0.5, ease: "power4.out" }, T.skinner);
+  fadeIn("#c11-ft", T.skinner, 0.3);
+  for (let i = 0; i < 14; i++) tl.fromTo("#c11-pg", { rotation: 0 }, { keyframes: [{ rotation: 18, duration: 0.12 }, { rotation: 0, duration: 0.18 }], immediateRender: false }, T.tauben + i * 0.42);
+  fadeIn("#c11-cnt", T.wann, 0.3);
+  tl.set("#c11-n", { textContent: "2" }, T.zwei); tl.set("#c11-n", { textContent: "20" }, T.zwanzig); tl.set("#c11-n", { textContent: "5" }, T.zwanzig + 1.2);
+  [T.zwei + 0.3, T.zwanzig + 0.3].forEach(t => tl.fromTo("#c11-f", { opacity: 0, y: -40 }, { keyframes: [{ opacity: 1, y: 0, duration: 0.25 }, { opacity: 0, duration: 0.3, delay: 0.5 }], immediateRender: false }, t));
+  fadeIn("#c11-u", T.unber, 0.4);
+  fadeOut("#c11-cam", T.end - 0.3, 0.3);
+
+  window.__timelines["c11"] = tl;
+  </script>
+</template>

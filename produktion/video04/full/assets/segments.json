@@ -1,0 +1,167 @@
+[
+ {
+  "id": "open",
+  "start": 0.0,
+  "end": 3.0
+ },
+ {
+  "id": "v_hook",
+  "start": 3.0,
+  "end": 12.46
+ },
+ {
+  "id": "v_otto",
+  "start": 12.46,
+  "end": 35.24
+ },
+ {
+  "id": "v_frage",
+  "start": 35.24,
+  "end": 44.16
+ },
+ {
+  "id": "v_poll",
+  "start": 44.16,
+  "end": 63.738
+ },
+ {
+  "id": "title",
+  "start": 63.738,
+  "end": 66.138
+ },
+ {
+  "id": "kap1",
+  "start": 66.138,
+  "end": 68.338
+ },
+ {
+  "id": "v_mark",
+  "start": 68.338,
+  "end": 85.54
+ },
+ {
+  "id": "v_selbst",
+  "start": 85.54,
+  "end": 101.8
+ },
+ {
+  "id": "v_schleife",
+  "start": 101.8,
+  "end": 132.977
+ },
+ {
+  "id": "kap2",
+  "start": 132.977,
+  "end": 135.177
+ },
+ {
+  "id": "v_warum",
+  "start": 135.177,
+  "end": 137.84
+ },
+ {
+  "id": "v_skinner",
+  "start": 137.84,
+  "end": 153.7
+ },
+ {
+  "id": "v_automat",
+  "start": 153.7,
+  "end": 182.48
+ },
+ {
+  "id": "v_erwartung",
+  "start": 182.48,
+  "end": 196.31
+ },
+ {
+  "id": "kap3",
+  "start": 196.31,
+  "end": 198.51
+ },
+ {
+  "id": "v_folge1",
+  "start": 198.51,
+  "end": 207.0
+ },
+ {
+  "id": "v_notausgang",
+  "start": 207.0,
+  "end": 222.74
+ },
+ {
+  "id": "v_rest",
+  "start": 222.74,
+  "end": 248.02
+ },
+ {
+  "id": "v_brain",
+  "start": 248.02,
+  "end": 270.54
+ },
+ {
+  "id": "v_pause",
+  "start": 270.54,
+  "end": 278.894
+ },
+ {
+  "id": "pausefreeze",
+  "start": 278.894,
+  "end": 280.294
+ },
+ {
+  "id": "kap4",
+  "start": 280.294,
+  "end": 282.494
+ },
+ {
+  "id": "v_gut",
+  "start": 282.494,
+  "end": 288.68
+ },
+ {
+  "id": "v_hack1",
+  "start": 288.68,
+  "end": 299.82
+ },
+ {
+  "id": "v_hack2",
+  "start": 299.82,
+  "end": 320.26
+ },
+ {
+  "id": "v_hack3",
+  "start": 320.26,
+  "end": 333.1
+ },
+ {
+  "id": "v_hack4",
+  "start": 333.1,
+  "end": 351.28
+ },
+ {
+  "id": "v_hack5",
+  "start": 351.28,
+  "end": 365.86
+ },
+ {
+  "id": "v_aufl",
+  "start": 365.86,
+  "end": 382.9
+ },
+ {
+  "id": "v_umfrage2",
+  "start": 382.9,
+  "end": 393.18
+ },
+ {
+  "id": "v_bruecke",
+  "start": 393.18,
+  "end": 400.943
+ },
+ {
+  "id": "endcard",
+  "start": 400.943,
+  "end": 408.943
+ }
+]
