@@ -109,4 +109,15 @@ project("a_wieder", f"""
     <span style="display:inline-block;padding:14px 34px;border-radius:50px;background:#16181D;border:3px solid {AMBER};color:#FFF;font-size:46px;font-weight:900;letter-spacing:.06em">⏱ IN 60 SEKUNDEN ERKLÄRT</span></div>
   {stopwatch(70, 880, 56, "4:37", RED)}
   {film(True)}""")
+
+project("b_orange", f"""
+  <div style="position:absolute;inset:0;background:#FF7A1A;"></div>
+  {light(540, 1220, 600, "rgba(255,236,200,.55)")}
+  {otto(OX, OY, OS, ("excuse",), pose="bent", held=PHONE)}
+  {magnet(OX + 36 * OS, OY + 225 * OS, "#FFFFFF")}
+  <div class="cond" style="position:absolute;left:0;width:1080px;text-align:center;top:300px;font-size:200px;color:#FFF;-webkit-text-stroke:8px #1E1E1E;text-shadow:0 12px 0 #1E1E1E;">SCHON<br>WIEDER?!</div>
+  <div style="position:absolute;left:0;width:1080px;top:730px;text-align:center">
+    <span style="display:inline-block;padding:14px 34px;border-radius:50px;background:#1E1E1E;color:#FFF;font-size:46px;font-weight:900;letter-spacing:.06em">⏱ IN 60 SEKUNDEN ERKLÄRT</span></div>
+  {stopwatch(70, 880, 56, "4:37", RED, "#1E1E1E")}
+  {film(False)}""")
 print("ok")
