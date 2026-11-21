@@ -44,7 +44,7 @@ In dieser Folge erfährst du:
 Teil 1: Warum du alles aufschiebst (und es NICHTS mit Faulheit zu tun hat): [LINK ZU VIDEO 1]
 Teil 2: Warum du kurz vor der Deadline plötzlich ein Genie bist: [LINK ZU VIDEO 2]
 
-🔔 Otto Normalpsyche – Alltagspsychologie, die sich anfühlt wie dein eigener Kopf. Jede Woche sonntags eine neue Folge.
+🔔 Otto Normalpsyche – Alltagspsychologie, die sich anfühlt wie dein eigener Kopf. Neue Folgen montags, mittwochs und samstags.
 
 📚 QUELLEN
 – Luchins, A. S. (1942). Mechanization in problem solving: The effect of Einstellung. Psychological Monographs, 54(6).
